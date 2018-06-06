@@ -12,7 +12,7 @@
 - go to Compositing view
 - tick `Use Nodes`, tick `Backdrop` and `Auto render`?
 - add `File Output` node, use `OpenEXR` file format
-- [select the desired camera](https://blender.stackexchange.com/a/3503/26684) (third icon > `Scene`) and render the animation
+- [select the desired camera](https://blender.stackexchange.com/questions/3502/how-can-i-make-a-camera-the-active-one/3503#3503) (third icon > `Scene`) and render the animation
 
 ### Add noise to a trajectory
 - [Simulate POV Walking Camera](https://blender.stackexchange.com/questions/92600/simulate-pov-walking-camera/92604#92604)
