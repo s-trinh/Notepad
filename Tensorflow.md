@@ -1,5 +1,6 @@
 ### Tensorflow
 - [Ubuntu install guide](https://www.tensorflow.org/install/install_linux)
+- [Tensorflow object detection dependencies](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/installation.md)
 - Tensorflow virtualenv: `source ~/tensorflow/bin/activate      # bash, sh, ksh, or zsh`
 - [Update Tensorflow](https://stackoverflow.com/questions/42574476/update-tensorflow/47342614#47342614):
 ```
@@ -31,6 +32,7 @@ You should consider upgrading via the 'pip install --upgrade pip' command.
   - `source ~/tensorflow/bin/activate # bash, sh, ksh, or zsh`
 - `cd research`
 - `export PYTHONPATH=$PYTHONPATH:`pwd`:`pwd`/slim`
+- at some point [cocoapi](https://github.com/cocodataset/cocoapi) will be needed, see [also](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/installation.md)
 - Tool: [LabelImg](https://github.com/tzutalin/labelImg)
   - `git clone https://github.com/tzutalin/labelImg.git`
   - *copy-paste from the tutorial without knowing what was needed for me*
