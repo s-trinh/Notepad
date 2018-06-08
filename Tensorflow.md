@@ -16,6 +16,8 @@ You are using pip version 10.0.0b2, however version 10.0.1 is available.
 You should consider upgrading via the 'pip install --upgrade pip' command.
 ```
 - Quit: `(tensorflow)$ deactivate`
+- [“TensorBoard - Visualize your learning.”](https://jhui.github.io/2017/03/12/TensorBoard-visualize-your-learning/)
+- `http://localhost:6006`
 
 ### Object detection training with Tensorflow with ssd_mobilenet_v1_coco
 - references:
