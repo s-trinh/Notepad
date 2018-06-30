@@ -19,5 +19,17 @@
 - [http://laid.delanover.com/](http://laid.delanover.com/)
 - [What should I do when my neural network doesn't learn?](https://stats.stackexchange.com/questions/352036/what-should-i-do-when-my-neural-network-doesnt-learn)
 
+## Deep learning (object detection)
+- [Understanding SSD MultiBox — Real-Time Object Detection In Deep Learning](https://towardsdatascience.com/understanding-ssd-multibox-real-time-object-detection-in-deep-learning-495ef744fab)
+- [MobileNet version 2](http://machinethink.net/blog/mobilenet-v2/)
+- [TensorFlow Object Detection API: basics of detection (1/2)](https://becominghuman.ai/tensorflow-object-detection-api-basics-of-detection-7b134d689c75)
+- [TensorFlow Object Detection API: basics of detection (2/2)](https://becominghuman.ai/tensorflow-object-detection-api-basics-of-detection-2-2-28b348495eec)
+- [Faster R-CNN: Down the rabbit hole of modern object detection](https://tryolabs.com/blog/2018/01/18/faster-r-cnn-down-the-rabbit-hole-of-modern-object-detection/)
+- [Deep Learning for Object Detection: A Comprehensive Review](https://www.kdnuggets.com/2017/10/deep-learning-object-detection-comprehensive-review.html)
+- [Understanding Feature Pyramid Networks for object detection (FPN)](https://medium.com/@jonathan_hui/understanding-feature-pyramid-networks-for-object-detection-fpn-45b227b9106c)
+- [Object detection: speed and accuracy comparison (Faster R-CNN, R-FCN, SSD, FPN, RetinaNet and YOLOv3)](https://medium.com/@jonathan_hui/object-detection-speed-and-accuracy-comparison-faster-r-cnn-r-fcn-ssd-and-yolo-5425656ae359)
+- [Object Detection (Part 1)](https://www.saagie.com/fr/blog/object-detection-part1)
+- [Object Detection (Part 2)](https://www.saagie.com/fr/blog/object-detection-part2)
+
 ## Books
 - [Fundamentals of Computer Graphics - Peter Shirley](http://khosach.info/store/msresource/it/book/Fundamentals%20of%20Computer%20Graphics%20--%20Peter%20Shirley.pdf)
