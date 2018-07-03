@@ -33,6 +33,7 @@
 - [Design choices, lessons learned and trends for object detections?](https://medium.com/@jonathan_hui/design-choices-lessons-learned-and-trends-for-object-detections-4f48b59ec5ff)
 - [Object Detection (Part 1)](https://www.saagie.com/fr/blog/object-detection-part1)
 - [Object Detection (Part 2)](https://www.saagie.com/fr/blog/object-detection-part2)
+- [Focus : MobileNet-SSD, pour identifier les objets avec une caméra de smartphone !](http://penseeartificielle.fr/mobilenet-ssd-identifier-objets-camera-smartphone/)
 
 ## Books
 - [Fundamentals of Computer Graphics - Peter Shirley](http://khosach.info/store/msresource/it/book/Fundamentals%20of%20Computer%20Graphics%20--%20Peter%20Shirley.pdf)
