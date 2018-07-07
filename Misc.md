@@ -34,6 +34,16 @@
 - [Object Detection (Part 1)](https://www.saagie.com/fr/blog/object-detection-part1)
 - [Object Detection (Part 2)](https://www.saagie.com/fr/blog/object-detection-part2)
 - [Focus : MobileNet-SSD, pour identifier les objets avec une caméra de smartphone !](http://penseeartificielle.fr/mobilenet-ssd-identifier-objets-camera-smartphone/)
+- [Why GEMM is at the heart of deep learning](https://petewarden.com/2015/04/20/why-gemm-is-at-the-heart-of-deep-learning/)
+- [Optimizing Mobile Deep Learning on ARM GPU with TVM ](https://tvm.ai/2018/01/16/opt-mali-gpu.html)
+- [Optimize Deep Learning GPU Operators with TVM: A Depthwise Convolution Example](https://tvm.ai/2017/08/22/Optimize-Deep-Learning-GPU-Operators-with-TVM-A-Depthwise-Convolution-Example.html)
+- [Google’s MobileNets on the iPhone](http://machinethink.net/blog/googles-mobile-net-architecture-on-iphone/)
+- [How fast is my model?](http://machinethink.net/blog/how-fast-is-my-model/)
+- [One-shot object detection](http://machinethink.net/blog/object-detection/)
+- [A List of Chip/IP for Deep Learning](https://medium.com/@shan.tang.g/a-list-of-chip-ip-for-deep-learning-48d05f1759ae)
+- [FPGAs and AI processors: DNN and CNN for all](https://meanderful.blogspot.com/2017/06/fpgas-and-ai-processors-dnn-and-cnn-for.html)
+- [AI/ML/DL ICs and IPs](https://github.com/basicmi/Deep-Learning-Processor-List)
+- [Neural Network Accelerator Inference](https://nicsefc.ee.tsinghua.edu.cn/projects/neural-network-accelerator/)
 
 ## Books
 - [Fundamentals of Computer Graphics - Peter Shirley](http://khosach.info/store/msresource/it/book/Fundamentals%20of%20Computer%20Graphics%20--%20Peter%20Shirley.pdf)
