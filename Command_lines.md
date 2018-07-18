@@ -12,3 +12,6 @@ ffmpeg -i left.avi -i right.avi -filter_complex hstack -c:v ffv1 output.avi
 `for i in *.png ; do convert "$i" "/home/user/dir/${i%.*}.jpg" ; done`
 - [replace filename using pattern](https://stackoverflow.com/questions/6840332/rename-multiple-files-by-replacing-a-particular-pattern-in-the-filenames-using-a/6840404#6840404):
 `for f in *.jpg; do mv "$f" "$(echo "$f" | sed s/old_name_/new_name_/)"; done`
+
+## Git
+- [Git commit message with text editor](https://stackoverflow.com/questions/5064563/add-line-break-to-git-commit-m-from-the-command-line/27358418#27358418): `git commit -e`
