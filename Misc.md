@@ -47,3 +47,6 @@
 
 ## Books
 - [Fundamentals of Computer Graphics - Peter Shirley](http://khosach.info/store/msresource/it/book/Fundamentals%20of%20Computer%20Graphics%20--%20Peter%20Shirley.pdf)
+- [Representing Attitude: Euler Angles, Unit Quaternions, and Rotation Vectors](https://www.astro.rug.nl/software/kapteyn/_downloads/attitude.pdf)
+- [Adaptive Control (2nd Edition)](https://www.amazon.com/Adaptive-Control-Karl-Johan-Astrom/dp/0201558661)
+- [Materials](http://campus.fi.uba.ar/mod/folder/view.php?id=5496) (Adaptive_Control_Second_Edition.pdf, Model_Predictive_Control.pdf, Prentice_Hall_-_Computer_Controlled_Systems_3rd_Edition.pdf)
