@@ -50,6 +50,7 @@ git clone https://github.com/ros-perception/image_transport_plugins.git
 git clone https://github.com/ros-perception/vision_opencv.git
 git clone https://github.com/ros-drivers/openni2_camera.git
 git clone https://github.com/ros-drivers/rgbd_launch.git
+git clone https://github.com/ros-visualization/rqt_image_view.git
 ```
   - build everything with the desired OpenCV build: `catkin_make VERBOSE=1 -j4 -DCMAKE_BUILD_TYPE=RelWithDebInfo --cmake-args -DVISP_DIR=visp_buid -DOpenCV_DIR=opencv_build/install/share/OpenCV 2>&1 | tee log_build_without_ROS_OpenCV.txt`
 
