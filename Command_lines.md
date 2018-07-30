@@ -1,3 +1,20 @@
+## Terminal
+- [How do I show apt-get package management history via command line?](https://askubuntu.com/questions/21657/how-do-i-show-apt-get-package-management-history-via-command-line#21658): `less /var/log/apt/history.log`
+- [How to undo apt-get autoremove](https://askubuntu.com/questions/738984/how-to-undo-apt-get-autoremove#738986):
+```
+echo '#!/bin/bash' > restore
+echo sudo apt-get install `grep Remove /var/log/apt/history.log | tail -1 | sed -e 's|Remove: ||g' -e 's|([^)]*)||g' -e 's|:[^ ]* ||g' -e 's|,||g'` >> restore
+chmod +x restore 
+./restore
+```
+
+
+
+
+
+
+---
+
 ## FFmpeg
 - [convert a sequence of images to a video](https://trac.ffmpeg.org/wiki/Slideshow):
 `ffmpet -framerate 30 -i color_image_%04d.jpg -c:v libx264 -preset slow -crf 24 -an -pix_fmt yuv420p out.mp4`
