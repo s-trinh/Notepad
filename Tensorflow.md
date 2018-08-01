@@ -35,7 +35,19 @@ You should consider upgrading via the 'pip install --upgrade pip' command.
   - `source ~/tensorflow/bin/activate # bash, sh, ksh, or zsh`
 - `cd research`
 - `export PYTHONPATH=$PYTHONPATH:`pwd`:`pwd`/slim`
-- at some point [cocoapi](https://github.com/cocodataset/cocoapi) will be needed, see [also](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/installation.md)
+- at some point [cocoapi](https://github.com/cocodataset/cocoapi) will be needed, see [also](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/installation.md#coco-api-installation):
+  - `git clone https://github.com/cocodataset/cocoapi.git`
+  - `cd cocoapi/PythonAPI`
+  - `make`
+  - `cp -r pycocotools <path_to_tensorflow>/models/research/`
+- Protobuf Compilation, follow the [instructions](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/installation.md#protobuf-compilation) (issue is `from object_detection.protos import input_reader_pb2` `ImportError: cannot import name input_reader_pb2`):
+  - `# From tensorflow/models/research/`
+  - `protoc object_detection/protos/*.proto --python_out=.`
+- [Manual protobuf-compiler installation and usage](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/installation.md#manual-protobuf-compiler-installation-and-usage) if issue with previous section:
+  - `# From tensorflow/models/research/`
+  - `wget -O protobuf.zip https://github.com/google/protobuf/releases/download/v3.0.0/protoc-3.0.0-linux-x86_64.zip`
+  - `unzip protobuf.zip`
+  - `./bin/protoc object_detection/protos/*.proto --python_out=.`
 - Tool: [LabelImg](https://github.com/tzutalin/labelImg)
   - `git clone https://github.com/tzutalin/labelImg.git`
   - *copy-paste from the tutorial without knowing what was needed for me*
