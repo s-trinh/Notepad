@@ -190,3 +190,26 @@ python export_inference_graph.py \
 - [TensorFlow Object Detection API](https://github.com/opencv/opencv/wiki/TensorFlow-Object-Detection-API)
 - OpenCV compatibility: `run_tf_text_graph_ssd.sh`
 - test: `python test.py --config ssd_mobilenet_v1_coco_class_name.pbtxt --input`
+
+### Object detectection new API:
+- [Running Locally](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/running_locally.md)
+- issue with non up-to-date tensorflow models: [TF object detection API detection model retraining: “object_detection.protos.SsdFeatureExtractor” has no field named “batch_norm_trainable”](https://stackoverflow.com/questions/49880939/tf-object-detection-api-detection-model-retraining-object-detection-protos-ssd#49883742)
+
+### CUDA / cuDNN
+- [CUDA GPUs](https://developer.nvidia.com/cuda-gpus)
+- [https://developer.nvidia.com/cuda-downloads](https://developer.nvidia.com/cuda-downloads)
+- `sudo sh cuda_9.2.148_396.37_linux.run`, follow the instructions to install the graphics drivers, ...
+- [https://developer.nvidia.com/rdp/cudnn-download](https://developer.nvidia.com/rdp/cudnn-download)
+- [How can I install CuDNN on Ubuntu 16.04?](https://askubuntu.com/a/767270/707605)
+  - `cd folder/extracted/contents`
+  - `sudo cp include/cudnn.h /usr/local/cuda/include`
+  - `sudo cp lib64/libcudnn* /usr/local/cuda/lib64`
+  - `sudo chmod a+r /usr/local/cuda/lib64/libcudnn*`
+- follow instructions in [NVIDIA CUDA Installation Guide for Linux](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/) to setup correctly the environment variables, ...
+- to update the display drivers:
+  - uninstall the ones from the distribution?
+  - reboot in text mode to avoid X server loading?
+  - to be tested on a fresh install
+  - [Ubuntu 16.04 problem with cuda 9.1 + 390.30 driver!](https://devtalk.nvidia.com/default/topic/1030130/ubuntu-16-04-problem-with-cuda-9-1-390-30-driver-/)
+  - [How to disable X server when installing CUDA8.0?](https://devtalk.nvidia.com/default/topic/1018078/cuda-setup-and-installation/how-to-disable-x-server-when-installing-cuda8-0-/)
+- [How to get the cuda version?](https://stackoverflow.com/questions/9727688/how-to-get-the-cuda-version#9730706): `nvcc --version`
