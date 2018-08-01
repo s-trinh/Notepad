@@ -152,7 +152,7 @@ eval_input_reader: {
   num_readers: 1
 }
 ```
-  - negative hard miner ([Object detection : hard negatives.](https://github.com/tensorflow/models/issues/2544), [Add purely negative images gets error when using object detection API to create tf records?](https://github.com/tensorflow/models/issues/3578), [Best strategy to reduce false positives: Google's new Object Detection API on Satellite Imagery](https://stackoverflow.com/questions/45666499/best-strategy-to-reduce-false-positives-googles-new-object-detection-api-on-sa/45684700#45684700))?:
+  - negative hard miner ([Object detection : hard negatives.](https://github.com/tensorflow/models/issues/2544), [Add purely negative images gets error when using object detection API to create tf records?](https://github.com/tensorflow/models/issues/3578), [PR to fix read XML annotations for hard negative images](https://github.com/tensorflow/models/pull/3744), [Best strategy to reduce false positives: Google's new Object Detection API on Satellite Imagery](https://stackoverflow.com/questions/45666499/best-strategy-to-reduce-false-positives-googles-new-object-detection-api-on-sa/45684700#45684700))?:
 ```
 hard_example_miner {
   num_hard_examples: 3000
