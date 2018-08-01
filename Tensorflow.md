@@ -44,6 +44,16 @@ You should consider upgrading via the 'pip install --upgrade pip' command.
   - `make qt5py3`
   - *copy-paste from the tutorial without knowing what was needed for me*
   - *Python3 was needed for me:* `python3 labelImg.py`
+  - weird issue with (after some ROS OpenCV uninstall, `sudo apt-get autoremove`, ...):
+  - `~/src/labelImg$ python3 labelImg.py`
+  - `Traceback (most recent call last):`
+  - `File "labelImg.py", line 29, in <module>`
+  - `import resources`
+  - `File "/home/strinh/src/labelImg/resources.py", line 9, in <module>`
+  - `from PyQt5 import QtCore`
+  - `ImportError: /home/strinh/.local/lib/python3.5/site-packages/PyQt5/QtCore.so: undefined symbol: PySlice_AdjustIndices`
+  - solved by downgrading PyQt5 version with ([see also](https://bugs.launchpad.net/rapid/+bug/1784236)): `pip3 install PyQt5==5.9.1`
+  - now I have... `PyQt5`, `PyQt5-5.9.1.dist-info`, `PyQt5-5.11.2.dist-info`, `PyQt5_sip-4.19.12.dist-info` in `~/.local/lib/python3.5/site-packages`
 - __Setup label directories:__ minimal structure should be:
   - `VOC2012`
     - `Annotations`
