@@ -191,9 +191,16 @@ python export_inference_graph.py \
 - OpenCV compatibility: `run_tf_text_graph_ssd.sh`
 - test: `python test.py --config ssd_mobilenet_v1_coco_class_name.pbtxt --input`
 
+### Run simultaneously train and eval on GPU
+- [GPU memory error with train.py and eval.py running together #1854](https://github.com/tensorflow/models/issues/1854):
+  - in `trainer.py`
+  - add `session_config.gpu_options.per_process_gpu_memory_fraction = 0.8` after `session_config = tf.ConfigProto(allow_soft_placement=True, log_device_placement=False)`
+- [How to train and evaluate simultaneously in Object Detection API ?](https://stackoverflow.com/questions/49033008/how-to-train-and-evaluate-simultaneously-in-object-detection-api#49380874): create another `virtualenv` with CPU Tensorflow
+
 ### Object detectection new API:
 - [Running Locally](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/running_locally.md)
 - issue with non up-to-date tensorflow models: [TF object detection API detection model retraining: “object_detection.protos.SsdFeatureExtractor” has no field named “batch_norm_trainable”](https://stackoverflow.com/questions/49880939/tf-object-detection-api-detection-model-retraining-object-detection-protos-ssd#49883742)
+- old API is in [legacy](https://github.com/tensorflow/models/tree/master/research/object_detection/legacy)
 
 ### CUDA / cuDNN
 - [CUDA GPUs](https://developer.nvidia.com/cuda-gpus)
