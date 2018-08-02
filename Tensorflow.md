@@ -31,6 +31,7 @@ You should consider upgrading via the 'pip install --upgrade pip' command.
 [Part4](https://medium.com/@WuStangDan/step-by-step-tensorflow-object-detection-api-tutorial-part-4-training-the-model-68a9e5d5a333),
 [Part5](https://medium.com/@WuStangDan/step-by-step-tensorflow-object-detection-api-tutorial-part-5-saving-and-deploying-a-model-8d51f56dbcf1)
   - [Train Tensorflow Object Detection on own dataset](https://stackoverflow.com/questions/44973184/train-tensorflow-object-detection-on-own-dataset/44973203#44973203)
+  - [TensorFlow Object Detection API tutorial](https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/) (unofficial tutorial from Lyudmil Vladimirov?)
 - [install Tensorflow on Ubuntu](https://www.tensorflow.org/install/install_linux):
   - `source ~/tensorflow/bin/activate # bash, sh, ksh, or zsh`
 - `cd research`
