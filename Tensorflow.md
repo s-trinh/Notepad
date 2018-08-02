@@ -40,6 +40,7 @@ You should consider upgrading via the 'pip install --upgrade pip' command.
   - `cd cocoapi/PythonAPI`
   - `make`
   - `cp -r pycocotools <path_to_tensorflow>/models/research/`
+  - add path to `cocoapi/PythonAPI` in `PYTHONPATH`?
 - Protobuf Compilation, follow the [instructions](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/installation.md#protobuf-compilation) (issue is `from object_detection.protos import input_reader_pb2` `ImportError: cannot import name input_reader_pb2`):
   - `# From tensorflow/models/research/`
   - `protoc object_detection/protos/*.proto --python_out=.`
