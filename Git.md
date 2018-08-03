@@ -13,3 +13,4 @@ git checkout -b remote_name_for_example/local_branch_name remote_name/remote_bra
 git branch -a
 git merge remotes/remotename/branchname
 ```
+- Restart CI: `git commit --amend --no-edit && git push -f`
