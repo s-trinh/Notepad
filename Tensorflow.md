@@ -209,7 +209,8 @@ python export_inference_graph.py \
 - [https://developer.nvidia.com/cuda-downloads](https://developer.nvidia.com/cuda-downloads)
 - `sudo sh cuda_9.2.148_396.37_linux.run`, follow the instructions to install the graphics drivers, ...
 - [https://developer.nvidia.com/rdp/cudnn-download](https://developer.nvidia.com/rdp/cudnn-download)
-- [How can I install CuDNN on Ubuntu 16.04?](https://askubuntu.com/a/767270/707605)
+- [How can I install CUDA on Ubuntu 16.04?](https://askubuntu.com/questions/799184/how-can-i-install-cuda-on-ubuntu-16-04/799185#799185)
+- [How can I install CuDNN on Ubuntu 16.04?](https://askubuntu.com/questions/767269/how-can-i-install-cudnn-on-ubuntu-16-04/767270#767270)
   - `cd folder/extracted/contents`
   - `sudo cp include/cudnn.h /usr/local/cuda/include`
   - `sudo cp lib64/libcudnn* /usr/local/cuda/lib64`
