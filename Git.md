@@ -14,3 +14,13 @@ git branch -a
 git merge remotes/remotename/branchname
 ```
 - Restart CI: `git commit --amend --no-edit && git push -f`
+- [Git Workflow: Without a server](https://stackoverflow.com/questions/5947064/git-workflow-without-a-server/5947423#5947423), [How to add a local repo and treat it as a remote repo](https://stackoverflow.com/questions/10603671/how-to-add-a-local-repo-and-treat-it-as-a-remote-repo/34507038#34507038):
+```
+git init --bare ~/repos/myproject.git
+cd /path/to/existing/repo
+git init
+git remote add origin ~/repos/myproject.git
+git push origin master
+git remote add upstream https://github.com/profile/repository.git
+git push upstream master
+```
