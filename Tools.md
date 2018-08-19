@@ -13,3 +13,10 @@
 - [Synaptic](https://packages.ubuntu.com/search?keywords=synaptic)
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [vokoscreen](http://linuxecke.volkoh.de/vokoscreen/vokoscreen.html)
+
+### Links
+- [https://itsfoss.com/best-ubuntu-apps/](https://itsfoss.com/best-ubuntu-apps/)
+
+### Misc
+- [Remember The Milk](https://www.rememberthemilk.com/)
+- [Simplenote](https://simplenote.com/)
