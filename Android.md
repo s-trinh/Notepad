@@ -29,3 +29,4 @@
 - Android SDK + ViSP Android demos:
   - Copy lib into `app/src/main/jniLibs/` + hardware architecture type (`x86`, `x86_64`, `arm64-v8a`, ...)
   - [instructions](https://github.com/lagadic/visp/pull/404#issuecomment-411296491)
+- [How to install Android Studio on Ubuntu?](https://askubuntu.com/questions/634082/how-to-install-android-studio-on-ubuntu)
