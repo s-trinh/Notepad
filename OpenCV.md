@@ -19,7 +19,7 @@ ffmpeg -version
 ```
 - Install [Intel MKL](https://software.intel.com/en-us/mkl)
 - Configure environment variables: `source /opt/intel/compilers_and_libraries/linux/bin/compilervars.sh intel64`
-- Install [OpenVINO](https://software.seek.intel.com/openvino-toolkit)
+- Install [OpenVINO](https://software.seek.intel.com/openvino-toolkit): [https://software.intel.com/en-us/articles/OpenVINO-Install-Linux](https://software.intel.com/en-us/articles/OpenVINO-Install-Linux)
 - Configure environment variables: `source /opt/intel/computer_vision_sdk/bin/setupvars.sh`
 - Build OpenCV from source with Intel Inference Engine:
 ```
