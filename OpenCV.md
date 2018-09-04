@@ -16,6 +16,9 @@ sudo add-apt-repository ppa:jonathonf/ffmpeg-3
 sudo apt-get update
 sudo apt-get install ffmpeg libav-tools x264 x265
 ffmpeg -version
+sudo apt-get install python2.7-dev python3.5-dev
+sudo apt-get install python-pip
+sudo pip install numpy scipy
 ```
 - Install [Intel MKL](https://software.intel.com/en-us/mkl)
 - Configure environment variables: `source /opt/intel/compilers_and_libraries/linux/bin/compilervars.sh intel64`
