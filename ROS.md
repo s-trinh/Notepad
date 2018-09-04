@@ -56,3 +56,8 @@ git clone https://github.com/ros-visualization/rqt_image_view.git
 
 ## ROS
 - locate a package: `rospack find rviz`
+
+## QtCreator setup
+- Rename `~/catkin_ws/src/CMakeLists.txt` to `~/catkin_ws/src/CMakeLists.txt.symlink`
+- Copy the content of the file (`/opt/ros/kinetic/share/catkin/cmake/toplevel.cmake`) pointed in `~/catkin_ws/src/CMakeLists.txt.symlink` into a new `~/catkin_ws/src/CMakeLists.txt`
+- In a bash terminal with `source devel/setup.bash` set, launch QtCreator `~/Qt/Tools/QtCreator/bin/qtcreator &`
