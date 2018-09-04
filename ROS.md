@@ -246,6 +246,16 @@ Suppression de ros-kinetic-image-geometry (1.12.8-0xenial-20180809-185452-0800) 
 Suppression de ros-kinetic-opencv3 (3.3.1-5xenial-20180809-134307-0800) ...
 Traitement des actions différées (« triggers ») pour libc-bin (2.23-0ubuntu10) ...
 ```
+- install the needed dependencies, something like:
+```
+git clone https://github.com/ros-perception/image_pipeline.git
+git clone https://github.com/ros-perception/image_transport_plugins.git
+git clone https://github.com/ros-perception/vision_opencv.git
+git clone https://github.com/ros-drivers/openni2_camera.git
+git clone https://github.com/ros-drivers/rgbd_launch.git
+git clone https://github.com/ros-visualization/rqt_image_view.git
+```
+- build everything with the desired OpenCV build: `catkin_make VERBOSE=1 -j4 -DCMAKE_BUILD_TYPE=RelWithDebInfo --cmake-args -DVISP_DIR=visp_buid -DOpenCV_DIR=opencv_build/install/share/OpenCV 2>&1 | tee log_build_without_ROS_OpenCV.txt`
 - `rospack list`
 ```
 $ rospack list
@@ -449,18 +459,7 @@ visualization_msgs /opt/ros/kinetic/share/visualization_msgs
 webkit_dependency /opt/ros/kinetic/share/webkit_dependency
 xacro /opt/ros/kinetic/share/xacro
 xmlrpcpp /opt/ros/kinetic/share/xmlrpcpp
-
 ```
-- install the needed dependencies, something like:
-```
-git clone https://github.com/ros-perception/image_pipeline.git
-git clone https://github.com/ros-perception/image_transport_plugins.git
-git clone https://github.com/ros-perception/vision_opencv.git
-git clone https://github.com/ros-drivers/openni2_camera.git
-git clone https://github.com/ros-drivers/rgbd_launch.git
-git clone https://github.com/ros-visualization/rqt_image_view.git
-```
-- build everything with the desired OpenCV build: `catkin_make VERBOSE=1 -j4 -DCMAKE_BUILD_TYPE=RelWithDebInfo --cmake-args -DVISP_DIR=visp_buid -DOpenCV_DIR=opencv_build/install/share/OpenCV 2>&1 | tee log_build_without_ROS_OpenCV.txt`
 
 ## ROS
 - locate a package: `rospack find rviz`
