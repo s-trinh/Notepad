@@ -46,7 +46,366 @@
   - [Give priority to custom build OpenCV #149](https://github.com/ros-perception/image_pipeline/issues/149)
   
 ## Use custom OpenCV version (remove ros-kinetic-opencv3)
+- Version of `ros-kinetic-opencv3`
+```
+General configuration for OpenCV 3.3.1-dev =====================================
+  Version control:               unknown
+
+  Extra modules:
+    Location (extra):            /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/opencv_contrib
+    Version control (extra):     unknown
+
+  Platform:
+    Timestamp:                   2018-08-09T21:49:19Z
+    Host:                        Linux 4.4.0-1060-aws x86_64
+    CMake:                       3.5.1
+    CMake generator:             Unix Makefiles
+    CMake build tool:            /usr/bin/make
+    Configuration:               Release
+
+  CPU/HW features:
+    Baseline:                    SSE SSE2 SSE3
+      requested:                 SSE3
+    Dispatched code generation:  SSE4_1 SSE4_2 FP16 AVX AVX2
+      requested:                 SSE4_1 SSE4_2 AVX FP16 AVX2
+      SSE4_1 (3 files):          + SSSE3 SSE4_1
+      SSE4_2 (1 files):          + SSSE3 SSE4_1 POPCNT SSE4_2
+      FP16 (1 files):            + SSSE3 SSE4_1 POPCNT SSE4_2 FP16 AVX
+      AVX (5 files):             + SSSE3 SSE4_1 POPCNT SSE4_2 AVX
+      AVX2 (9 files):            + SSSE3 SSE4_1 POPCNT SSE4_2 FP16 FMA3 AVX AVX2
+
+  C/C++:
+    Built as dynamic libs?:      YES
+    C++ Compiler:                /usr/lib/ccache/x86_64-linux-gnu-g++  (ver 5.4.0)
+    C++ flags (Release):         -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=2    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -O3 -DNDEBUG  -DNDEBUG
+    C++ flags (Debug):           -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=2    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -g  -DDEBUG -D_DEBUG
+    C Compiler:                  /usr/lib/ccache/x86_64-linux-gnu-gcc
+    C flags (Release):           -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -O3 -DNDEBUG  -DNDEBUG
+    C flags (Debug):             -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -g  -DDEBUG -D_DEBUG
+    Linker flags (Release):
+    Linker flags (Debug):
+    ccache:                      YES
+    Precompiled headers:         NO
+    Extra dependencies:          dl m pthread rt
+    3rdparty dependencies:
+
+  OpenCV modules:
+    To be built:                 aruco bgsegm bioinspired calib3d ccalib core cvv datasets dnn dpm face features2d flann fuzzy hdf highgui img_hash imgcodecs imgproc line_descriptor ml objdetect optflow phase_unwrapping photo plot python2 python_bindings_generator reg rgbd saliency shape stereo stitching structured_light superres surface_matching text tracking video videoio videostab viz xfeatures2d ximgproc xobjdetect xphoto
+    Disabled:                    js world
+    Disabled by dependency:      -
+    Unavailable:                 cnn_3dobj cudaarithm cudabgsegm cudacodec cudafeatures2d cudafilters cudaimgproc cudalegacy cudaobjdetect cudaoptflow cudastereo cudawarping cudev dnn_modern freetype java matlab ovis python3 sfm ts
+    Applications:                apps
+    Documentation:               NO
+    Non-free algorithms:         NO
+
+  GUI: 
+    QT:                          YES (ver 5.5.1)
+      QT OpenGL support:         NO
+    GTK+:                        NO
+    VTK support:                 YES (ver 6.2.0)
+
+  Media I/O: 
+    ZLib:                        /usr/lib/x86_64-linux-gnu/libz.so (ver 1.2.8)
+    JPEG:                        /usr/lib/x86_64-linux-gnu/libjpeg.so (ver )
+    WEBP:                        /usr/lib/x86_64-linux-gnu/libwebp.so (ver encoder: 0x0202)
+    PNG:                         /usr/lib/x86_64-linux-gnu/libpng.so (ver 1.2.54)
+    TIFF:                        /usr/lib/x86_64-linux-gnu/libtiff.so (ver 42 / 4.0.6)
+    JPEG 2000:                   /usr/lib/x86_64-linux-gnu/libjasper.so (ver 1.900.1)
+    OpenEXR:                     build (ver 1.7.1)
+
+  Video I/O:
+    DC1394:                      NO
+    FFMPEG:                      YES
+      avcodec:                   YES (ver 56.60.100)
+      avformat:                  YES (ver 56.40.101)
+      avutil:                    YES (ver 54.31.100)
+      swscale:                   YES (ver 3.1.101)
+      avresample:                NO
+    GStreamer:                   NO
+    libv4l/libv4l2:              NO
+    v4l/v4l2:                    linux/videodev2.h
+    gPhoto2:                     NO
+
+  Parallel framework:            pthreads
+
+  Trace:                         YES (with Intel ITT)
+
+  Other third-party libraries:
+    Intel IPP:                   2017.0.3 [2017.0.3]
+           at:                   /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/obj-x86_64-linux-gnu/3rdparty/ippicv/ippicv_lnx
+    Intel IPP IW:                sources (2017.0.3)
+              at:                /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/obj-x86_64-linux-gnu/3rdparty/ippicv/ippiw_lnx
+    Lapack:                      NO
+    Eigen:                       YES (ver 3.2.92)
+    Custom HAL:                  NO
+
+  NVIDIA CUDA:                   NO
+
+  OpenCL:                        YES (no extra features)
+    Include path:                /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/3rdparty/include/opencl/1.2
+    Link libraries:              Dynamic load
+
+  Python 2:
+    Interpreter:                 /usr/bin/python2.7 (ver 2.7.12)
+    Libraries:                   /usr/lib/x86_64-linux-gnu/libpython2.7.so (ver 2.7.12)
+    numpy:                       /usr/lib/python2.7/dist-packages/numpy/core/include (ver 1.11.0)
+    packages path:               lib/python2.7/dist-packages
+
+  Python (for build):            /usr/bin/python2.7
+
+  Java:
+    ant:                         NO
+    JNI:                         NO
+    Java wrappers:               NO
+    Java tests:                  NO
+
+  Matlab:                        NO
+
+  Install to:                    /opt/ros/kinetic
+-----------------------------------------------------------------
+```
 - remove ROS OpenCV using the package manager, lots of packages depend on OpenCV, especially `ros-perception`, `ros-visualization`, `ros-simulation`? Be careful to note the dependencies that will be removed.
+- `rospack depends opencv3`
+```
+$ rospack depends opencv3 
+catkin
+```
+- `rospack depends-on opencv3`
+```
+$ rospack depends-on opencv3 
+compressed_depth_image_transport
+image_rotate
+image_publisher
+depth_image_proc
+image_proc
+image_geometry
+image_view
+camera_calibration
+pointgrey_camera_driver
+compressed_image_transport
+gazebo_plugins
+rqt_image_view
+theora_image_transport
+cv_bridge
+stereo_image_proc
+```
+- `rospack list`
+```
+$ rospack list
+actionlib /opt/ros/kinetic/share/actionlib
+actionlib_msgs /opt/ros/kinetic/share/actionlib_msgs
+actionlib_tutorials /opt/ros/kinetic/share/actionlib_tutorials
+angles /opt/ros/kinetic/share/angles
+bond /opt/ros/kinetic/share/bond
+bondcpp /opt/ros/kinetic/share/bondcpp
+bondpy /opt/ros/kinetic/share/bondpy
+camera_calibration /opt/ros/kinetic/share/camera_calibration
+camera_calibration_parsers /opt/ros/kinetic/share/camera_calibration_parsers
+camera_info_manager /opt/ros/kinetic/share/camera_info_manager
+catkin /opt/ros/kinetic/share/catkin
+class_loader /opt/ros/kinetic/share/class_loader
+cmake_modules /opt/ros/kinetic/share/cmake_modules
+collada_parser /opt/ros/kinetic/share/collada_parser
+collada_urdf /opt/ros/kinetic/share/collada_urdf
+compressed_depth_image_transport /opt/ros/kinetic/share/compressed_depth_image_transport
+compressed_image_transport /opt/ros/kinetic/share/compressed_image_transport
+control_msgs /opt/ros/kinetic/share/control_msgs
+control_toolbox /opt/ros/kinetic/share/control_toolbox
+controller_interface /opt/ros/kinetic/share/controller_interface
+controller_manager /opt/ros/kinetic/share/controller_manager
+controller_manager_msgs /opt/ros/kinetic/share/controller_manager_msgs
+cpp_common /opt/ros/kinetic/share/cpp_common
+cv_bridge /opt/ros/kinetic/share/cv_bridge
+depth_image_proc /opt/ros/kinetic/share/depth_image_proc
+diagnostic_aggregator /opt/ros/kinetic/share/diagnostic_aggregator
+diagnostic_analysis /opt/ros/kinetic/share/diagnostic_analysis
+diagnostic_common_diagnostics /opt/ros/kinetic/share/diagnostic_common_diagnostics
+diagnostic_msgs /opt/ros/kinetic/share/diagnostic_msgs
+diagnostic_updater /opt/ros/kinetic/share/diagnostic_updater
+diff_drive_controller /opt/ros/kinetic/share/diff_drive_controller
+dynamic_reconfigure /opt/ros/kinetic/share/dynamic_reconfigure
+eigen_conversions /opt/ros/kinetic/share/eigen_conversions
+eigen_stl_containers /opt/ros/kinetic/share/eigen_stl_containers
+filters /opt/ros/kinetic/share/filters
+forward_command_controller /opt/ros/kinetic/share/forward_command_controller
+gazebo_msgs /opt/ros/kinetic/share/gazebo_msgs
+gazebo_plugins /opt/ros/kinetic/share/gazebo_plugins
+gazebo_ros /opt/ros/kinetic/share/gazebo_ros
+gazebo_ros_control /opt/ros/kinetic/share/gazebo_ros_control
+gencpp /opt/ros/kinetic/share/gencpp
+geneus /opt/ros/kinetic/share/geneus
+genlisp /opt/ros/kinetic/share/genlisp
+genmsg /opt/ros/kinetic/share/genmsg
+gennodejs /opt/ros/kinetic/share/gennodejs
+genpy /opt/ros/kinetic/share/genpy
+geometric_shapes /opt/ros/kinetic/share/geometric_shapes
+geometry_msgs /opt/ros/kinetic/share/geometry_msgs
+gl_dependency /opt/ros/kinetic/share/gl_dependency
+hardware_interface /opt/ros/kinetic/share/hardware_interface
+image_exposure_msgs /opt/ros/kinetic/share/image_exposure_msgs
+image_geometry /opt/ros/kinetic/share/image_geometry
+image_proc /opt/ros/kinetic/share/image_proc
+image_publisher /opt/ros/kinetic/share/image_publisher
+image_rotate /opt/ros/kinetic/share/image_rotate
+image_transport /opt/ros/kinetic/share/image_transport
+image_view /opt/ros/kinetic/share/image_view
+interactive_marker_tutorials /opt/ros/kinetic/share/interactive_marker_tutorials
+interactive_markers /opt/ros/kinetic/share/interactive_markers
+joint_limits_interface /opt/ros/kinetic/share/joint_limits_interface
+joint_state_controller /opt/ros/kinetic/share/joint_state_controller
+joint_state_publisher /opt/ros/kinetic/share/joint_state_publisher
+kdl_conversions /opt/ros/kinetic/share/kdl_conversions
+kdl_parser /opt/ros/kinetic/share/kdl_parser
+laser_assembler /opt/ros/kinetic/share/laser_assembler
+laser_filters /opt/ros/kinetic/share/laser_filters
+laser_geometry /opt/ros/kinetic/share/laser_geometry
+librviz_tutorial /opt/ros/kinetic/share/librviz_tutorial
+map_msgs /opt/ros/kinetic/share/map_msgs
+media_export /opt/ros/kinetic/share/media_export
+message_filters /opt/ros/kinetic/share/message_filters
+message_generation /opt/ros/kinetic/share/message_generation
+message_runtime /opt/ros/kinetic/share/message_runtime
+mk /opt/ros/kinetic/share/mk
+nav_msgs /opt/ros/kinetic/share/nav_msgs
+nodelet /opt/ros/kinetic/share/nodelet
+nodelet_topic_tools /opt/ros/kinetic/share/nodelet_topic_tools
+nodelet_tutorial_math /opt/ros/kinetic/share/nodelet_tutorial_math
+octomap /opt/ros/kinetic/share/octomap
+opencv3 /opt/ros/kinetic/share/opencv3
+orocos_kdl /opt/ros/kinetic/share/orocos_kdl
+pcl_conversions /opt/ros/kinetic/share/pcl_conversions
+pcl_msgs /opt/ros/kinetic/share/pcl_msgs
+pcl_ros /opt/ros/kinetic/share/pcl_ros
+pluginlib /opt/ros/kinetic/share/pluginlib
+pluginlib_tutorials /opt/ros/kinetic/share/pluginlib_tutorials
+pointgrey_camera_driver /opt/ros/kinetic/share/pointgrey_camera_driver
+polled_camera /opt/ros/kinetic/share/polled_camera
+position_controllers /opt/ros/kinetic/share/position_controllers
+python_orocos_kdl /opt/ros/kinetic/share/python_orocos_kdl
+python_qt_binding /opt/ros/kinetic/share/python_qt_binding
+qt_dotgraph /opt/ros/kinetic/share/qt_dotgraph
+qt_gui /opt/ros/kinetic/share/qt_gui
+qt_gui_cpp /opt/ros/kinetic/share/qt_gui_cpp
+qt_gui_py_common /opt/ros/kinetic/share/qt_gui_py_common
+qwt_dependency /opt/ros/kinetic/share/qwt_dependency
+random_numbers /opt/ros/kinetic/share/random_numbers
+realtime_tools /opt/ros/kinetic/share/realtime_tools
+resource_retriever /opt/ros/kinetic/share/resource_retriever
+robot_state_publisher /opt/ros/kinetic/share/robot_state_publisher
+rosbag /opt/ros/kinetic/share/rosbag
+rosbag_migration_rule /opt/ros/kinetic/share/rosbag_migration_rule
+rosbag_storage /opt/ros/kinetic/share/rosbag_storage
+rosbash /opt/ros/kinetic/share/rosbash
+rosboost_cfg /opt/ros/kinetic/share/rosboost_cfg
+rosbuild /opt/ros/kinetic/share/rosbuild
+rosclean /opt/ros/kinetic/share/rosclean
+rosconsole /opt/ros/kinetic/share/rosconsole
+rosconsole_bridge /opt/ros/kinetic/share/rosconsole_bridge
+roscpp /opt/ros/kinetic/share/roscpp
+roscpp_serialization /opt/ros/kinetic/share/roscpp_serialization
+roscpp_traits /opt/ros/kinetic/share/roscpp_traits
+roscpp_tutorials /opt/ros/kinetic/share/roscpp_tutorials
+roscreate /opt/ros/kinetic/share/roscreate
+rosgraph /opt/ros/kinetic/share/rosgraph
+rosgraph_msgs /opt/ros/kinetic/share/rosgraph_msgs
+roslang /opt/ros/kinetic/share/roslang
+roslaunch /opt/ros/kinetic/share/roslaunch
+roslib /opt/ros/kinetic/share/roslib
+roslint /opt/ros/kinetic/share/roslint
+roslisp /opt/ros/kinetic/share/roslisp
+roslz4 /opt/ros/kinetic/share/roslz4
+rosmake /opt/ros/kinetic/share/rosmake
+rosmaster /opt/ros/kinetic/share/rosmaster
+rosmsg /opt/ros/kinetic/share/rosmsg
+rosnode /opt/ros/kinetic/share/rosnode
+rosout /opt/ros/kinetic/share/rosout
+rospack /opt/ros/kinetic/share/rospack
+rosparam /opt/ros/kinetic/share/rosparam
+rospy /opt/ros/kinetic/share/rospy
+rospy_tutorials /opt/ros/kinetic/share/rospy_tutorials
+rosservice /opt/ros/kinetic/share/rosservice
+rostest /opt/ros/kinetic/share/rostest
+rostime /opt/ros/kinetic/share/rostime
+rostopic /opt/ros/kinetic/share/rostopic
+rosunit /opt/ros/kinetic/share/rosunit
+roswtf /opt/ros/kinetic/share/roswtf
+rqt_action /opt/ros/kinetic/share/rqt_action
+rqt_bag /opt/ros/kinetic/share/rqt_bag
+rqt_bag_plugins /opt/ros/kinetic/share/rqt_bag_plugins
+rqt_console /opt/ros/kinetic/share/rqt_console
+rqt_dep /opt/ros/kinetic/share/rqt_dep
+rqt_graph /opt/ros/kinetic/share/rqt_graph
+rqt_gui /opt/ros/kinetic/share/rqt_gui
+rqt_gui_cpp /opt/ros/kinetic/share/rqt_gui_cpp
+rqt_gui_py /opt/ros/kinetic/share/rqt_gui_py
+rqt_image_view /opt/ros/kinetic/share/rqt_image_view
+rqt_launch /opt/ros/kinetic/share/rqt_launch
+rqt_logger_level /opt/ros/kinetic/share/rqt_logger_level
+rqt_moveit /opt/ros/kinetic/share/rqt_moveit
+rqt_msg /opt/ros/kinetic/share/rqt_msg
+rqt_nav_view /opt/ros/kinetic/share/rqt_nav_view
+rqt_plot /opt/ros/kinetic/share/rqt_plot
+rqt_pose_view /opt/ros/kinetic/share/rqt_pose_view
+rqt_publisher /opt/ros/kinetic/share/rqt_publisher
+rqt_py_common /opt/ros/kinetic/share/rqt_py_common
+rqt_py_console /opt/ros/kinetic/share/rqt_py_console
+rqt_reconfigure /opt/ros/kinetic/share/rqt_reconfigure
+rqt_robot_dashboard /opt/ros/kinetic/share/rqt_robot_dashboard
+rqt_robot_monitor /opt/ros/kinetic/share/rqt_robot_monitor
+rqt_robot_steering /opt/ros/kinetic/share/rqt_robot_steering
+rqt_runtime_monitor /opt/ros/kinetic/share/rqt_runtime_monitor
+rqt_rviz /opt/ros/kinetic/share/rqt_rviz
+rqt_service_caller /opt/ros/kinetic/share/rqt_service_caller
+rqt_shell /opt/ros/kinetic/share/rqt_shell
+rqt_srv /opt/ros/kinetic/share/rqt_srv
+rqt_tf_tree /opt/ros/kinetic/share/rqt_tf_tree
+rqt_top /opt/ros/kinetic/share/rqt_top
+rqt_topic /opt/ros/kinetic/share/rqt_topic
+rqt_web /opt/ros/kinetic/share/rqt_web
+rviz /opt/ros/kinetic/share/rviz
+rviz_plugin_tutorials /opt/ros/kinetic/share/rviz_plugin_tutorials
+rviz_python_tutorial /opt/ros/kinetic/share/rviz_python_tutorial
+self_test /opt/ros/kinetic/share/self_test
+sensor_msgs /opt/ros/kinetic/share/sensor_msgs
+shape_msgs /opt/ros/kinetic/share/shape_msgs
+smach /opt/ros/kinetic/share/smach
+smach_msgs /opt/ros/kinetic/share/smach_msgs
+smach_ros /opt/ros/kinetic/share/smach_ros
+smclib /opt/ros/kinetic/share/smclib
+stage /opt/ros/kinetic/share/stage
+stage_ros /opt/ros/kinetic/share/stage_ros
+statistics_msgs /opt/ros/kinetic/share/statistics_msgs
+std_msgs /opt/ros/kinetic/share/std_msgs
+std_srvs /opt/ros/kinetic/share/std_srvs
+stereo_image_proc /opt/ros/kinetic/share/stereo_image_proc
+stereo_msgs /opt/ros/kinetic/share/stereo_msgs
+tf /opt/ros/kinetic/share/tf
+tf2 /opt/ros/kinetic/share/tf2
+tf2_eigen /opt/ros/kinetic/share/tf2_eigen
+tf2_geometry_msgs /opt/ros/kinetic/share/tf2_geometry_msgs
+tf2_kdl /opt/ros/kinetic/share/tf2_kdl
+tf2_msgs /opt/ros/kinetic/share/tf2_msgs
+tf2_py /opt/ros/kinetic/share/tf2_py
+tf2_ros /opt/ros/kinetic/share/tf2_ros
+tf_conversions /opt/ros/kinetic/share/tf_conversions
+theora_image_transport /opt/ros/kinetic/share/theora_image_transport
+topic_tools /opt/ros/kinetic/share/topic_tools
+trajectory_msgs /opt/ros/kinetic/share/trajectory_msgs
+transmission_interface /opt/ros/kinetic/share/transmission_interface
+turtle_actionlib /opt/ros/kinetic/share/turtle_actionlib
+turtle_tf /opt/ros/kinetic/share/turtle_tf
+turtle_tf2 /opt/ros/kinetic/share/turtle_tf2
+turtlesim /opt/ros/kinetic/share/turtlesim
+urdf /opt/ros/kinetic/share/urdf
+urdf_parser_plugin /opt/ros/kinetic/share/urdf_parser_plugin
+urdf_tutorial /opt/ros/kinetic/share/urdf_tutorial
+visualization_marker_tutorials /opt/ros/kinetic/share/visualization_marker_tutorials
+visualization_msgs /opt/ros/kinetic/share/visualization_msgs
+webkit_dependency /opt/ros/kinetic/share/webkit_dependency
+wfov_camera_msgs /opt/ros/kinetic/share/wfov_camera_msgs
+xacro /opt/ros/kinetic/share/xacro
+xmlrpcpp /opt/ros/kinetic/share/xmlrpcpp
+```
 - `apt-cache rdepends ros-kinetic-opencv3`:
 ```
 $ apt-cache rdepends ros-kinetic-opencv3
