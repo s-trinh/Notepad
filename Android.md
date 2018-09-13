@@ -30,3 +30,23 @@
   - Copy lib into `app/src/main/jniLibs/` + hardware architecture type (`x86`, `x86_64`, `arm64-v8a`, ...)
   - [instructions](https://github.com/lagadic/visp/pull/404#issuecomment-411296491)
 - [How to install Android Studio on Ubuntu?](https://askubuntu.com/questions/634082/how-to-install-android-studio-on-ubuntu)
+- [Run Android Studio after installation (and other programs)](https://askubuntu.com/questions/639260/run-android-studio-after-installation-and-other-programs/816922#816922):
+```
+cd /opt/android-studio/bin
+# or
+cd /usr/local/android-studio/bin/
+./studio.sh
+```
+- Add Android Studio application launcher:
+```
+cd /usr/share/applications
+gksu gedit
+[Desktop Entry]
+Name=Android Studio
+Comment=Android Studio
+Exec=/opt/android-studio/bin/studio.sh
+Icon=/opt/android-studio/bin/studio.png
+Terminal=false
+Type=Application
+Categories=Development
+```
