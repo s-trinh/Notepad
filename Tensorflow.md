@@ -223,3 +223,6 @@ python export_inference_graph.py \
   - [Ubuntu 16.04 problem with cuda 9.1 + 390.30 driver!](https://devtalk.nvidia.com/default/topic/1030130/ubuntu-16-04-problem-with-cuda-9-1-390-30-driver-/)
   - [How to disable X server when installing CUDA8.0?](https://devtalk.nvidia.com/default/topic/1018078/cuda-setup-and-installation/how-to-disable-x-server-when-installing-cuda8-0-/)
 - [How to get the cuda version?](https://stackoverflow.com/questions/9727688/how-to-get-the-cuda-version#9730706): `nvcc --version`
+
+### C++ TensorFlow
+- [Building TensorFlow 1.3.0 as a standalone project (Raspberry pi 3 included)](https://tuatini.me/building-tensorflow-as-a-standalone-project/)
