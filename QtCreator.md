@@ -26,3 +26,22 @@
 > > Qt-creator at qt-project.org
 > > http://lists.qt-project.org/mailman/listinfo/qt-creator
 - [Keyboard Shortcuts](https://doc.qt.io/qtcreator/creator-keyboard-shortcuts.html)
+
+## Install
+- [Qt Offline Installers](https://www1.qt.io/offline-installers/)
+- [How to add programs to the Unity Launcher or Ubuntu Dock?](https://askubuntu.com/questions/224004/how-to-add-programs-to-the-unity-launcher-or-ubuntu-dock/224021#224021):
+```
+~/.local/share/applications
+/usr/share/applications
+
+[Desktop Entry]
+Type=Application
+Exec=/local/user/Qt5.11.2/Tools/QtCreator/bin/qtcreator
+Name=Qt Creator (Community)
+GenericName=The IDE of choice for Qt development.
+Icon=QtProject-qtcreator
+StartupWMClass=qtcreator
+Terminal=false
+Categories=Development;IDE;Qt;
+MimeType=text/x-c++src;text/x-c++hdr;text/x-xsrc;application/x-designer;application/vnd.qt.qmakeprofile;application/vnd.qt.xml.resource;text/x-qml;text/x-qt.qml;text/x-qt.qbs;
+```
