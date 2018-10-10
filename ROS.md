@@ -827,3 +827,23 @@ xmlrpcpp /opt/ros/kinetic/share/xmlrpcpp
 - Rename `~/catkin_ws/src/CMakeLists.txt` to `~/catkin_ws/src/CMakeLists.txt.symlink`
 - Copy the content of the file (`/opt/ros/kinetic/share/catkin/cmake/toplevel.cmake`) pointed in `~/catkin_ws/src/CMakeLists.txt.symlink` into a new `~/catkin_ws/src/CMakeLists.txt`
 - In a bash terminal with `source devel/setup.bash` set, launch QtCreator `~/Qt/Tools/QtCreator/bin/qtcreator &`
+
+## Misc
+- message generation issue with `Float64`:
+```
+CMake Error at /home/user/catkin_ws/build/project/cmake/project-genmsg.cmake:3 (message):
+  Could not find messages which
+  '/home/user/catkin_ws/src/project/msg/Float64ArrayStamped.msg' depends
+  on.  Did you forget to specify generate_messages(DEPENDENCIES ...)?
+
+  Cannot locate message [Float64] in package [project] with paths
+  [['/home/user/catkin_ws/src/project/msg']]
+Call Stack (most recent call first):
+  /opt/ros/kinetic/share/genmsg/cmake/genmsg-extras.cmake:307 (include)
+  mascot_ros/CMakeLists.txt:29 (generate_messages)
+```
+- just declare in `Float64ArrayStamped.msg` `Float64` as `std_msgs/Float64`
+- some info about message delays, ...:
+  - [Image subscriber lag (despite queue = 1)](https://answers.ros.org/question/220502/image-subscriber-lag-despite-queue-1/?answer=220505#post-id-220505)
+  - [How to force the subscriber to read the latest message in a topic?](https://answers.ros.org/question/278405/how-to-force-the-subscriber-to-read-the-latest-message-in-a-topic/?answer=278554#post-id-278554)
+  - [ROS publish/subscribe queues](https://answers.ros.org/question/277613/ros-publishsubscribe-queues/)
