@@ -229,3 +229,7 @@ python export_inference_graph.py \
 
 ### Misc
 - `watch -n 1 nvidia-smi`
+- [Training and serving a realtime mobile object detector in 30 minutes with Cloud TPUs](https://medium.com/tensorflow/training-and-serving-a-realtime-mobile-object-detector-in-30-minutes-with-cloud-tpus-b78971cf1193)
+- [Accelerated Training and Inference with the Tensorflow Object Detection API](https://ai.googleblog.com/2018/07/accelerated-training-and-inference-with.html)
+- [Supercharge your Computer Vision models with the TensorFlow Object Detection API](https://ai.googleblog.com/2017/06/supercharge-your-computer-vision-models.html)
+- [http://cocodataset.org/#detection-leaderboard](http://cocodataset.org/#detection-leaderboard)
