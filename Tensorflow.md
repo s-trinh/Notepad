@@ -233,4 +233,5 @@ python export_inference_graph.py \
 - [Accelerated Training and Inference with the Tensorflow Object Detection API](https://ai.googleblog.com/2018/07/accelerated-training-and-inference-with.html)
 - [Supercharge your Computer Vision models with the TensorFlow Object Detection API](https://ai.googleblog.com/2017/06/supercharge-your-computer-vision-models.html)
 - [http://cocodataset.org/#detection-leaderboard](http://cocodataset.org/#detection-leaderboard)
-- [[SSD] Small object detection](https://github.com/tensorflow/models/issues/3196)
+- [[SSD] Small object detection #3196](https://github.com/tensorflow/models/issues/3196)
+- [API ObjectDetection size of input images issues #1876](https://github.com/tensorflow/models/issues/1876)
