@@ -847,3 +847,35 @@ Call Stack (most recent call first):
   - [Image subscriber lag (despite queue = 1)](https://answers.ros.org/question/220502/image-subscriber-lag-despite-queue-1/?answer=220505#post-id-220505)
   - [How to force the subscriber to read the latest message in a topic?](https://answers.ros.org/question/278405/how-to-force-the-subscriber-to-read-the-latest-message-in-a-topic/?answer=278554#post-id-278554)
   - [ROS publish/subscribe queues](https://answers.ros.org/question/277613/ros-publishsubscribe-queues/)
+- rosrun with parameters from command line:
+  - [http://wiki.ros.org/Remapping%20Arguments](http://wiki.ros.org/Remapping%20Arguments):
+  > You can assign private parameters for a node directly from the command-line using a single underscore _ as a prefix. For example,
+  >
+  > `rosrun rospy_tutorials talker _param:=1.0`
+  - [http://wiki.ros.org/Parameter%20Server#Private_Parameters](http://wiki.ros.org/Parameter%20Server#Private_Parameters):
+  > The ROS naming convention refers to ~name as a private name. These private names primarily are for parameters specific to a single Node. The ~ prefix prepends the Node's name to use it as a semi-private namespace -- they are still accessible from other parts of the system, but they are generally protected from accidental name collisions.
+  >
+  > You can use remapping arguments to specify node parameters on the command line by changing the tilde ~ to an underscore _, e.g.:
+  >
+  > `rosrun rospy_tutorials talker _param:=1.0`
+  - example code:
+  ```
+  #include <ros/ros.h>
+
+  int main(int argc, char *argv[]) {
+    ros::init(argc, argv, "rosrun_parameters_cmd_line_node");
+    ros::NodeHandle nh("~");
+
+    double param_dbl = nh.param("param_dbl", 10.0);
+    std::cout << "param_dbl: " << param_dbl << std::endl;
+
+    int param_int = 50;
+    nh.getParam("param_int", param_int);
+    std::cout << "param_int: " << param_int << std::endl;
+
+    bool param_bool = nh.param("param_bool", true);
+    std::cout << "param_bool: " << param_bool << std::endl;
+
+    return 0;
+  }
+  ```
