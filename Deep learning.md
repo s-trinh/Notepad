@@ -7,6 +7,7 @@
 
 ## Deep learning (object detection)
 - [Understanding SSD MultiBox — Real-Time Object Detection In Deep Learning](https://towardsdatascience.com/understanding-ssd-multibox-real-time-object-detection-in-deep-learning-495ef744fab)
+- [Understand Single Shot MultiBox Detector (SSD) and Implement It in Pytorch](https://medium.com/@smallfishbigsea/understand-ssd-and-implement-your-own-caa3232cd6ad)
 - [MobileNet version 2](http://machinethink.net/blog/mobilenet-v2/)
 - [TensorFlow Object Detection API: basics of detection (1/2)](https://becominghuman.ai/tensorflow-object-detection-api-basics-of-detection-7b134d689c75)
 - [TensorFlow Object Detection API: basics of detection (2/2)](https://becominghuman.ai/tensorflow-object-detection-api-basics-of-detection-2-2-28b348495eec)
