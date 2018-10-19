@@ -226,3 +226,6 @@ python export_inference_graph.py \
 
 ### C++ TensorFlow
 - [Building TensorFlow 1.3.0 as a standalone project (Raspberry pi 3 included)](https://tuatini.me/building-tensorflow-as-a-standalone-project/)
+
+### Misc
+- `watch -n 1 nvidia-smi`
