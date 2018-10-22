@@ -235,3 +235,5 @@ python export_inference_graph.py \
 - [http://cocodataset.org/#detection-leaderboard](http://cocodataset.org/#detection-leaderboard)
 - [[SSD] Small object detection #3196](https://github.com/tensorflow/models/issues/3196)
 - [API ObjectDetection size of input images issues #1876](https://github.com/tensorflow/models/issues/1876)
+- [A Comprehensive guide to Fine-tuning Deep Learning Models in Keras (Part I)](https://flyyufelix.github.io/2016/10/03/fine-tuning-in-keras-part1.html)
+- [A Comprehensive guide to Fine-tuning Deep Learning Models in Keras (Part II)](https://flyyufelix.github.io/2016/10/08/fine-tuning-in-keras-part2.html)
