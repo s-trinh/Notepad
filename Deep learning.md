@@ -14,6 +14,8 @@
 - [TensorFlow Object Detection API: basics of detection (2/2)](https://becominghuman.ai/tensorflow-object-detection-api-basics-of-detection-2-2-28b348495eec)
 - [Faster R-CNN: Down the rabbit hole of modern object detection](https://tryolabs.com/blog/2018/01/18/faster-r-cnn-down-the-rabbit-hole-of-modern-object-detection/)
 - [Deep Learning for Object Detection: A Comprehensive Review](https://www.kdnuggets.com/2017/10/deep-learning-object-detection-comprehensive-review.html)
+- [A Comprehensive guide to Fine-tuning Deep Learning Models in Keras (Part I)](https://flyyufelix.github.io/2016/10/03/fine-tuning-in-keras-part1.html)
+- [A Comprehensive guide to Fine-tuning Deep Learning Models in Keras (Part II)](https://flyyufelix.github.io/2016/10/08/fine-tuning-in-keras-part2.html)
 - [Understanding Feature Pyramid Networks for object detection (FPN)](https://medium.com/@jonathan_hui/understanding-feature-pyramid-networks-for-object-detection-fpn-45b227b9106c)
 - [Object detection: speed and accuracy comparison (Faster R-CNN, R-FCN, SSD, FPN, RetinaNet and YOLOv3)](https://medium.com/@jonathan_hui/object-detection-speed-and-accuracy-comparison-faster-r-cnn-r-fcn-ssd-and-yolo-5425656ae359)
 - [What do we learn from region based object detectors (Faster R-CNN, R-FCN, FPN)?](https://medium.com/@jonathan_hui/what-do-we-learn-from-region-based-object-detectors-faster-r-cnn-r-fcn-fpn-7e354377a7c9)
