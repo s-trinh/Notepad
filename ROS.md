@@ -876,6 +876,9 @@ Call Stack (most recent call first):
     bool param_bool = nh.param("param_bool", true);
     std::cout << "param_bool: " << param_bool << std::endl;
 
+    std::string param_str = nh.param<std::string>("param_str", "default string");
+    std::cout << "param_str: " << param_str << std::endl;
+
     return 0;
   }
   ```
