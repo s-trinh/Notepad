@@ -237,3 +237,18 @@ python export_inference_graph.py \
 - [API ObjectDetection size of input images issues #1876](https://github.com/tensorflow/models/issues/1876)
 - [A Comprehensive guide to Fine-tuning Deep Learning Models in Keras (Part I)](https://flyyufelix.github.io/2016/10/03/fine-tuning-in-keras-part1.html)
 - [A Comprehensive guide to Fine-tuning Deep Learning Models in Keras (Part II)](https://flyyufelix.github.io/2016/10/08/fine-tuning-in-keras-part2.html)
+- [How to tell if tensorflow is using gpu acceleration from inside python shell?](https://stackoverflow.com/questions/38009682/how-to-tell-if-tensorflow-is-using-gpu-acceleration-from-inside-python-shell/43703735#43703735), [Using GPUs](https://www.tensorflow.org/guide/using_gpu), [Using a GPU](https://learningtensorflow.com/lesson10/):
+```
+sess = tf.Session(config=tf.ConfigProto(log_device_placement=True))
+# or
+import tensorflow as tf
+with tf.device('/gpu:0'):
+    a = tf.constant([1.0, 2.0, 3.0, 4.0, 5.0, 6.0], shape=[2, 3], name='a')
+    b = tf.constant([1.0, 2.0, 3.0, 4.0, 5.0, 6.0], shape=[3, 2], name='b')
+    c = tf.matmul(a, b)
+
+with tf.Session() as sess:
+    print (sess.run(c))
+```
+- [Slow inference speed of object detection models and a hack as solution #3270](https://github.com/tensorflow/models/issues/3270)
+- [Learn Split Model](https://github.com/naisy/realtime_object_detection/blob/master/About_Split-Model.md)
