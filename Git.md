@@ -24,3 +24,10 @@ git push origin master
 git remote add upstream https://github.com/profile/repository.git
 git push upstream master
 ```
+- [Undo a Git merge that hasn't been pushed yet](https://stackoverflow.com/questions/2389361/undo-a-git-merge-that-hasnt-been-pushed-yet):
+```
+git reflog
+git reset --hard commit_sha
+# or
+git reset --hard origin/master
+```
