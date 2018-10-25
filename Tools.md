@@ -20,3 +20,12 @@
 ### Misc
 - [Remember The Milk](https://www.rememberthemilk.com/)
 - [Simplenote](https://simplenote.com/)
+
+### Install
+- [Geany on Ubuntu](https://tecadmin.net/install-geany-ide-ubuntu/):
+```
+$ sudo add-apt-repository ppa:geany-dev/ppa
+$ sudo apt-get update
+$ sudo apt-get install geany geany-plugins
+```
+- [Geany, highlight word](https://plugins.geany.org/automark.html): select `automark` plugin
