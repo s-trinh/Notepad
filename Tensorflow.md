@@ -1,5 +1,25 @@
 ### Tensorflow
-- [Ubuntu install guide](https://www.tensorflow.org/install/install_linux)
+- [Ubuntu install guide](https://www.tensorflow.org/install/install_linux):
+```
+# For Python 2.7
+# Check if your Python environment is already configured:
+python --version
+pip --version
+virtualenv --version
+# If not:
+sudo apt update
+sudo apt install python-dev python-pip
+sudo pip install -U virtualenv  # system-wide install
+# Create a virtualenv
+virtualenv --system-site-packages -p python2.7 ~/tensorflow/tensorflow_venv
+source ~/tensorflow/tensorflow_venv/bin/activate  # sh, bash, ksh, or zsh
+# Optional:
+pip install --upgrade pip
+# With GPU
+pip install --upgrade tensorflow-gpu
+# For a specific version
+pip install --upgrade tensorflow-gpu==1.10
+```
 - [Tensorflow object detection dependencies](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/installation.md)
 - Tensorflow virtualenv: `source ~/tensorflow/bin/activate      # bash, sh, ksh, or zsh`
 - [Update Tensorflow](https://stackoverflow.com/questions/42574476/update-tensorflow/47342614#47342614):
