@@ -272,3 +272,4 @@ with tf.Session() as sess:
 ```
 - [Slow inference speed of object detection models and a hack as solution #3270](https://github.com/tensorflow/models/issues/3270)
 - [Learn Split Model](https://github.com/naisy/realtime_object_detection/blob/master/About_Split-Model.md)
+- [Learning to use Tensorflow Object Detection API](https://www.kaggle.com/c/rsna-pneumonia-detection-challenge/discussion/68581)
