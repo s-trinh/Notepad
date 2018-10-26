@@ -54,6 +54,7 @@ You should consider upgrading via the 'pip install --upgrade pip' command.
   - [TensorFlow Object Detection API tutorial](https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/) (unofficial tutorial from Lyudmil Vladimirov?)
 - [install Tensorflow on Ubuntu](https://www.tensorflow.org/install/install_linux):
   - `source ~/tensorflow/bin/activate # bash, sh, ksh, or zsh`
+- [TensorFlow Object Detection API installation](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/installation.md)  
 - `cd research`
 - `export PYTHONPATH=$PYTHONPATH:`pwd`:`pwd`/slim`
 - at some point [cocoapi](https://github.com/cocodataset/cocoapi) will be needed, see [also](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/installation.md#coco-api-installation):
