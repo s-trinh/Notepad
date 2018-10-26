@@ -5,6 +5,10 @@
 - [Tradeoff batch size vs. number of iterations to train a neural network](https://stats.stackexchange.com/questions/164876/tradeoff-batch-size-vs-number-of-iterations-to-train-a-neural-network)
 - [Don't Decay the Learning Rate, Increase the Batch Size](https://openreview.net/forum?id=B1Yy1BxCZ)
 
+## Course
+- [Deep Learning book](http://www.deeplearningbook.org/)
+- [Deep Natural Language Processing, University of Oxford, 2017](https://github.com/oxford-cs-deepnlp-2017/lectures)
+
 ## Deep learning (object detection)
 - [Understanding SSD MultiBox — Real-Time Object Detection In Deep Learning](https://towardsdatascience.com/understanding-ssd-multibox-real-time-object-detection-in-deep-learning-495ef744fab)
 - [Understand Single Shot MultiBox Detector (SSD) and Implement It in Pytorch](https://medium.com/@smallfishbigsea/understand-ssd-and-implement-your-own-caa3232cd6ad)
