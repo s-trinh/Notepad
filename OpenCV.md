@@ -1,5 +1,12 @@
 ## Build
 - With Intel MKL on Ubuntu 16.04: `ccmake ../opencv -DOPENCV_EXTRA_MODULES_PATH=../opencv_contrib/modules -DMKL_ROOT_DIR=/opt/intel/compilers_and_libraries/linux/mkl`
+- With OpenCV 4 and MinGW on AppVeyor and image is `Visual Studio 2017`, see also [issue #12642](https://github.com/opencv/opencv/issues/12642) and [issue #12831](https://github.com/opencv/opencv/issues/12831):
+```
+set PATH=%PATH:C:\Program Files\Git\usr\bin;=%
+set PATH=C:\mingw-w64\x86_64-7.3.0-posix-seh-rt_v5-rev0\mingw64\bin;%PATH%
+cmake -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release -DBUILD_PERF_TESTS=OFF -DBUILD_TESTS=OFF -DBUILD_opencv_gapi=OFF -DWITH_MSMF=OFF -DENABLE_PRECOMPILED_HEADERS=OFF -DWITH_CUDA=OFF -DWITH_IPP=OFF -DWITH_OPENCL=OFF ..\opencv
+cmake --build . --config Release --target install -- -j2
+```
 
 ## OpenCV with Intel Inference Engine
 - Fresh Ubuntu 16.04 install: (see [https://tecadmin.net/install-ffmpeg-on-linux/](https://tecadmin.net/install-ffmpeg-on-linux/) to install latest FFmpeg on Ubuntu 16.04)
@@ -28,7 +35,7 @@ sudo pip install numpy scipy
 ```
 source /opt/intel/compilers_and_libraries/linux/bin/compilervars.sh intel64
 source /opt/intel/computer_vision_sdk/bin/setupvars.sh
-ccmake ../opencv -DWITH_INF_ENGINE=ON -DINTEL_CVSDK_DIR="/opt/intel/computer_vision_sdk/deployment_tools/" -DIE_PLUGINS_PATH="/opt/intel/computer_vision_sdk/deployment_tools/inference_engine/lib/ubuntu_16.04/intel64/" -DENABLE_CXX11=ON
+ccmake ../opencv -DWITH_INF_ENGINE=ON -DENABLE_CXX11=ON
 ```
 - Export OpenCV: `export OpenCV_DIR=/home/opencv-build/install/share/OpenCV`
 - Test OpenVINO demo apps:
