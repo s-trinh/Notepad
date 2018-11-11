@@ -43,3 +43,9 @@ ccmake ../opencv -DWITH_INF_ENGINE=ON -DENABLE_CXX11=ON
 cd /opt/intel/computer_vision_sdk/deployment_tools/demo
 ./demo_security_barrier_camera.sh
 ```
+
+## Run performance tests
+- Set `OPENCV_TEST_DATA_PATH` to `<opencv_extra>/testdata`
+- List tests: `python <opencv>/modules/ts/misc/run.py <opencv-build> -t <opencv module> --gtest_list_tests`
+- Run perf test: `python <opencv>/modules/ts/misc/run.py <opencv-build> -w ./logs -t <opencv_module> --gtest_filter=*perf_test_name*`
+- Compare perf results: `python <opencv>/modules/ts/misc/summary.py opencv_module*.xml -o markdown`
