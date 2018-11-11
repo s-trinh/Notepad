@@ -1,10 +1,35 @@
 ## Books
 - [A Mathematical Introduction to Robotic Manipulation](http://www.cds.caltech.edu/~murray/mlswiki/index.php?title=Main_Page)
 - [A Mathematical Introduction to Robotic Manipulation](http://www.cds.caltech.edu/~murray/books/MLS/pdf/mls94-complete.pdf)
+- [Handbook of Robotics](https://www.springer.com/us/book/9783540303015) ($309.00)
+- [Introduction to Robotics: Analysis, Control, Applications, 2nd Edition](https://www.wiley.com/en-us/Introduction+to+Robotics%3A+Analysis%2C+Control%2C+Applications%2C+2nd+Edition-p-9780470604465) ($161.95)
 
 ## Courses
 - [CSCI-498/598: Robot Planning and Manipulation (Colorado School of Mines](http://www.neil.dantam.name/rpm/)
 - [Mechanics of Manipulation 16-741 (Matthew Mason, CMU)](https://www.cs.cmu.edu/afs/cs/academic/class/16741-s07/www/)
+- [8803 - Mobile Manipulation 2008](https://www.cc.gatech.edu/~hic/8803-Mobile-08/Welcome.html):
+  - [Index of /~hic/8803-Mobile-08/slides](https://www.cc.gatech.edu/~hic/8803-Mobile-08/slides/)
+  - [Handbook of Robotics - Chapter 1: Kinematics](https://www.cc.gatech.edu/~hic/8803-Mobile-08/slides/1_draft.pdf)
+  - [https://www.cc.gatech.edu/~hic/8803-Mobile-08/slides/8803-lec1-ho.pdf](https://www.cc.gatech.edu/~hic/8803-Mobile-08/slides/8803-lec1-ho.pdf)
+  - [https://www.cc.gatech.edu/~hic/8803-Mobile-08/slides/8803-lec5-ho.pdf](https://www.cc.gatech.edu/~hic/8803-Mobile-08/slides/8803-lec5-ho.pdf)
+  - [https://www.cc.gatech.edu/~hic/8803-Mobile-08/slides/8803-loc-ho.pdf](https://www.cc.gatech.edu/~hic/8803-Mobile-08/slides/8803-loc-ho.pdf)
+  - [https://www.cc.gatech.edu/~hic/8803-Mobile-08/slides/8803-vh-ho.pdf](https://www.cc.gatech.edu/~hic/8803-Mobile-08/slides/8803-vh-ho.pdf)
+  - [https://www.cc.gatech.edu/~hic/8803-Mobile-08/slides/8803-vservo-ho.pdf](https://www.cc.gatech.edu/~hic/8803-Mobile-08/slides/8803-vservo-ho.pdf)
+  - [8803 - Mobile Manipulation: Control](https://www.cc.gatech.edu/~hic/8803-Mobile-08/slides/MM08-Control.pdf)
+  - [8803 - Mobile Manipulation: Force Control](https://www.cc.gatech.edu/~hic/8803-Mobile-08/slides/MM08-ForceControl.pdf)
+  - [8803 - Mobile Manipulation: Kinematics](https://www.cc.gatech.edu/~hic/8803-Mobile-08/slides/MM08-Kinematics-I.pdf)
+  - [8803 - Mobile Manipulation: Kinematics II](https://www.cc.gatech.edu/~hic/8803-Mobile-08/slides/MM08-Kinematics-II.pdf)
+  - [Simultaneous Localisation and Mapping (SLAM): Part I The Essential Algorithms](https://www.cc.gatech.edu/~hic/8803-Mobile-08/slides/slamtute1.pdf)
+  - [Simultaneous Localisation and Mapping (SLAM): Part II State of the Art](https://www.cc.gatech.edu/~hic/8803-Mobile-08/slides/slamtute2.pdf)
+- [The open online robotics education resource](https://robotacademy.net.au/)
+- [Robotics Kinematics and Dynamics/Description of Position and Orientation](https://en.wikibooks.org/wiki/Robotics_Kinematics_and_Dynamics/Description_of_Position_and_Orientation)
+- [Introduction Robotics - dr Dragan Kostić - WTB Dynamics and Control - September - October 2009](http://www.es.ele.tue.nl/education/5HC99/wiki/images/d/de/Introduction_Robotics_lecture2.pdf)
+- [2017 Lecture Slides and Assignments for Robotics and Intelligent Systems - MAE 345, Fall 2017 - Robert F. Stengel - Princeton University - School of Engineering and Applied Science - Department of Mechanical and Aerospace Engineering](https://www.princeton.edu/~stengel/MAE345Lectures.html)
+  - [Mobile Robots, Position, and Orientation - Robert Stengel - Robotics and Intelligent Systems MAE 345, Princeton University, 2017](https://www.princeton.edu/~stengel/MAE345Lecture2.pdf)
+- [TEC 234 Robotic Systems Integration - Introduction to Robotics](http://my.ilstu.edu/~kldevin/Introduction_to_robotics2/)
+  - [Introduction to Robotics - Chapter 10](http://my.ilstu.edu/~kldevin/TEC234_Introduction_to_Robotics.pdf)
+- [Robotics - CSE P 590 - Spring 2014](https://homes.cs.washington.edu/~todorov/courses/cseP590/)
+  - [Robotics 1 - Position and orientation of rigid bodies - Prof. Alessandro De Luca](https://homes.cs.washington.edu/~todorov/courses/cseP590/05_Kinematics.pdf)
 
 ## Rotation interpolation and smoothing
 - [Interpolation schemes for rigid body motions, Milos Zefran and Vijay Kumar](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.25.1776&rep=rep1&type=pdf)
