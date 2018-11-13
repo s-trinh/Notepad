@@ -14,6 +14,7 @@
 - [Line Detection by Hough transformation - 09gr820 - April 20, 2009](http://web.ipac.caltech.edu/staff/fmasci/home/astro_refs/HoughTrans_lines_09.pdf)
 - [Hough Transform - Professor William Hoff](https://inside.mines.edu/~whoff/courses/EENG512/lectures/13-Hough.pdf)
 - [Understanding Hough Transform With Python](https://alyssaq.github.io/2014/understanding-hough-transform/)
+- [Circle Detection Using Hough Transforms - Documentation - COMS30121 - Image Processing and Computer Vision](https://www.borovicka.org/files/research/bristol/hough-report.pdf)
 
 ## Deep learning
 - [http://laid.delanover.com/](http://laid.delanover.com/)
