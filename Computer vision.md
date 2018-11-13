@@ -1,0 +1,11 @@
+## Courses
+- [SIMG-782 Introduction to Digital Image Processing](https://www.cis.rit.edu/class/simg782/) (Rochester Institute of Technology)
+  - [https://www.cis.rit.edu/class/simg782/schedule.html](https://www.cis.rit.edu/class/simg782/schedule.html)
+  - [https://www.cis.rit.edu/class/simg782/lectures/](https://www.cis.rit.edu/class/simg782/lectures/)
+- [CSE455: Computer Vision](https://courses.cs.washington.edu/courses/cse455/) (Washington)
+  - [Computer Vision - CSE 455, Winter 2009](https://courses.cs.washington.edu/courses/cse455/09wi/)
+  - [https://courses.cs.washington.edu/courses/cse455/09wi/calendar.htm](https://courses.cs.washington.edu/courses/cse455/09wi/calendar.htm)
+  - [https://courses.cs.washington.edu/courses/cse455/09wi/Lects/](https://courses.cs.washington.edu/courses/cse455/09wi/Lects/)
+- [CS6670 - Computer Vision](https://www.cs.cornell.edu/courses/cs6670/2018fa/) (Cornell)
+  - [https://www.cs.cornell.edu/courses/cs6670/2011sp/](https://www.cs.cornell.edu/courses/cs6670/2011sp/)
+  - [https://www.cs.cornell.edu/courses/cs6670/2011sp/lectures/lectures.html](https://www.cs.cornell.edu/courses/cs6670/2011sp/lectures/lectures.html)
