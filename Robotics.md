@@ -51,3 +51,6 @@
 - [Quaternion Computation](http://www.neil.dantam.name/note/dantam-quaternion.pdf)
 - [Notes on Quaternions, Simo Särkkä](https://users.aalto.fi/~ssarkka/pub/quat.pdf)
 - [Lecture 7. Representing Rotation, Matthew T. Mason](https://www.cs.cmu.edu/afs/cs/academic/class/16741-s07/www/lectures/lecture7.pdf)
+
+## Articles
+- [Vision for Robotics, Danica Kragic and Markus Vincze](https://pdfs.semanticscholar.org/1594/1d6904c641e9225bb00648d0664026d17247.pdf)
