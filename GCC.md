@@ -19,3 +19,39 @@ String dump of section '.GCC.command.line':
   [    21]  -O2
   [    25]  -frecord-gcc-switches
 ```
+
+### GCC 8 in Ubuntu 16.04
+- [How to install latest gcc on Ubuntu LTS (12.04, 14.04, 16.04)](https://gist.github.com/application2000/73fd6f4bf1be6600a2cf9f56315a2d91#gistcomment-1813119):
+```
+sudo apt-get update -y && 
+sudo apt-get install build-essential software-properties-common -y && 
+sudo add-apt-repository ppa:ubuntu-toolchain-r/test -y && 
+sudo apt-get update -y && 
+sudo apt-get install gcc-8 g++-8 -y && 
+sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-8 60 --slave /usr/bin/g++ g++ /usr/bin/g++-8 && 
+sudo update-alternatives --config gcc
+```
+- [How to install gcc-7 or clang 4.0?](https://askubuntu.com/questions/859256/how-to-install-gcc-7-or-clang-4-0/887791#887791)
+- [Install gcc-8 only on Ubuntu 18.04?](https://askubuntu.com/questions/1028601/install-gcc-8-only-on-ubuntu-18-04/1028656#1028656):
+```
+sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-7 700 --slave /usr/bin/g++ g++ /usr/bin/g++-7
+sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-8 800 --slave /usr/bin/g++ g++ /usr/bin/g++-8
+#
+sudo update-alternatives --config
+There are 2 choices for the alternative gcc (providing /usr/bin/gcc).
+
+  Selection    Path            Priority   Status
+------------------------------------------------------------
+* 0            /usr/bin/gcc-8   800       auto mode
+  1            /usr/bin/gcc-7   700       manual mode
+  2            /usr/bin/gcc-8   800       manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: 
+```
+- GCC 8:
+```
+sudo add-apt-repository ppa:ubuntu-toolchain-r/test
+sudo apt-get update
+sudo apt-get install gcc-8 g++-8
+gcc-8 --version
+```
