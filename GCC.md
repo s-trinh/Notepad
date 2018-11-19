@@ -37,7 +37,7 @@ sudo update-alternatives --config gcc
 sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-7 700 --slave /usr/bin/g++ g++ /usr/bin/g++-7
 sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-8 800 --slave /usr/bin/g++ g++ /usr/bin/g++-8
 #
-sudo update-alternatives --config
+sudo update-alternatives --config gcc
 There are 2 choices for the alternative gcc (providing /usr/bin/gcc).
 
   Selection    Path            Priority   Status
