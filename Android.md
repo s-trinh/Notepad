@@ -40,6 +40,7 @@ cd /usr/local/android-studio/bin/
 - Add Android Studio application launcher:
 ```
 cd /usr/share/applications
+# or in ~/.local/share/applications?
 gksu gedit
 [Desktop Entry]
 Name=Android Studio
@@ -49,4 +50,25 @@ Icon=/opt/android-studio/bin/studio.png
 Terminal=false
 Type=Application
 Categories=Development
+```
+- Remove Android + Android studio:
+```
+delete ~/.android
+delete ~/.AndroidStudio3.1
+delete /usr/share/applications/android-studio.desktop or ~/.local/share/applications/androidstudio.desktop
+delete ~/Android
+delete /usr/local/android-studio
+```
+- `more ~/.local/share/applications/androidstudio.desktop`:
+```
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Android Studio
+Exec="/opt/android-studio/bin/studio.sh" %f
+Icon=/opt/android-studio/bin/studio.png
+Categories=Development;IDE;
+Terminal=false
+StartupNotify=true
+StartupWMClass=android-studio
 ```
