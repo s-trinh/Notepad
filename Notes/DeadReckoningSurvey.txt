@@ -1,0 +1,68 @@
+																	
+<<Dead Reckoning(自律航法)>>
+
+http://www.varesano.net/blog/fabio/simple-gravity-compensation-9-dom-imus
+Simple gravity compensation for 9 DOM IMUs
+# compensate the accelerometer readings from gravity. 
+# @param q the quaternion representing the orientation of a 9DOM MARG sensor array
+# @param acc the readings coming from an accelerometer expressed in g
+#
+# @return a 3d vector representing dinamic acceleration expressed in g
+def gravity_compensate(q, acc):
+  g = [0.0, 0.0, 0.0]
+  
+  # get expected direction of gravity
+  g[0] = 2 * (q[1] * q[3] - q[0] * q[2])
+  g[1] = 2 * (q[0] * q[1] + q[2] * q[3])
+  g[2] = q[0] * q[0] - q[1] * q[1] - q[2] * q[2] + q[3] * q[3]
+  
+  # compensate accelerometer readings with the expected direction of gravity
+  return [acc[0] - g[0], acc[1] - g[1], acc[2] - g[2]]
+
+
+http://files.microstrain.com/tech-notes/orientation-conversion-formulas.pdf
+Orientation Quantity Conversion Formulas 	7-30-2003 
+
+
+
+
+svn checkout http://picquadcontroller.googlecode.com/svn/trunk/ picquadcontroller-read-only
+
+
+
+http://www.starlino.com/imu_guide.html
+A Guide To using IMU (Accelerometer and Gyroscope Devices) in Embedded Applications.
+
+
+
+http://www.laurentkneip.de/research.html
+Robust and efficient camera egomotion estimation
+
+
+http://www.cse.iitd.ernet.in/~cs5080224/CSL838-final-report.pdf
+Activity Recognition using Sun SPOT
+
+
+http://code.google.com/hosting/search?q=dead+reckoning&projectsearch=Search+projects
+
+http://code.google.com/p/deadreckoning/
+Dead Reckoning using Inertial Navigation without Gyro
+
+http://ercim-news.ercim.eu/en76/special/rapid-prototyping-of-sensor-based-applications-with-sunspots
+Rapid Prototyping of Sensor-Based Applications with SunSPOTs 
+
+
+from Okuno San
+http://usi3.com/index.php?title=Position_estimation_by_using_acceleration_sensor
+加速度センサーを元に端末の位置を推定する
+
+
+
+＜精度・確度＞
+
+http://www.chrobotics.com/library/accel-position-velocity
+Using Accelerometers to Estimate Position and Velocity
+"In summary, it is possible to use the accelerometers to estimate velocity and position, but the accuracy will be very poor so that in most cases, the estimates are not useful."
+
+
+
