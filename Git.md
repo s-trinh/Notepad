@@ -31,3 +31,9 @@ git reset --hard commit_sha
 # or
 git reset --hard origin/master
 ```
+- [Git clone recursive over https](https://stackoverflow.com/questions/11410017/git-submodule-update-over-https/11410074#11410074):
+```
+Edit your `.gitmodule` file
+git submodule sync # to reflect the change to your .git/config file
+git submodule update
+```
