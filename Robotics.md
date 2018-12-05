@@ -1,8 +1,14 @@
 ## Books
-- [A Mathematical Introduction to Robotic Manipulation](http://www.cds.caltech.edu/~murray/mlswiki/index.php?title=Main_Page)
+- [A Mathematical Introduction to Robotic Manipulation (Richard M. Murray, Zexiang Li and S. Shankar Sastry)](http://www.cds.caltech.edu/~murray/mlswiki/index.php?title=Main_Page)
 - [A Mathematical Introduction to Robotic Manipulation](http://www.cds.caltech.edu/~murray/books/MLS/pdf/mls94-complete.pdf)
-- [Handbook of Robotics](https://www.springer.com/us/book/9783540303015) ($309.00)
-- [Introduction to Robotics: Analysis, Control, Applications, 2nd Edition](https://www.wiley.com/en-us/Introduction+to+Robotics%3A+Analysis%2C+Control%2C+Applications%2C+2nd+Edition-p-9780470604465) ($161.95)
+- [Handbook of Robotics (Editors: Siciliano, Bruno, Khatib, Oussama (Eds.))](https://www.springer.com/us/book/9783319325507) ($309.00 / $399.99)
+- [Introduction to Robotics: Analysis, Control, Applications, 2nd Edition (Saeed B. Niku)](https://www.wiley.com/en-us/Introduction+to+Robotics%3A+Analysis%2C+Control%2C+Applications%2C+2nd+Edition-p-9780470604465) ($161.95)
+- [Robotics - Modelling, Planning and Control (Siciliano, B., Sciavicco, L., Villani, L., Oriolo, G.)](https://www.springer.com/us/book/9781846286414) ($79.99 / $119.99)
+- [Robotics, Vision and Control - Fundamental Algorithms In MATLAB® Second, Completely Revised, Extended And Updated Edition (Corke, Peter)](https://www.springer.com/us/book/9783319544120) ($59.99 / $79.99)
+- [Robot Force Control (Siciliano, Bruno, Villani, Luigi)](https://www.researchgate.net/profile/Khalil_Mokhtari/post/I_need_any_good_publication_book_or_resources_about_my_master_thesis/attachment/59d6234979197b80779819e8/AS%3A306570599043072%401450103534222/download/Robot_Force_Control.pdf)
+- [Modeling, Identification and Control of Robots (W Khalil and E Dombre)](https://www.sciencedirect.com/book/9781903996669/modeling-identification-and-control-of-robots) ($84.75 / $138.60)
+- [Dynamics of Parallel Robots - From Rigid Bodies to Flexible Elements (Briot, Sébastien, Khalil, Wisama)](https://www.springer.com/fr/book/9783319197876) ($86.86 / $147.69)
+- [Les robots parallèles (Jean-Pierre Merlet)](https://www.eyrolles.com/Sciences/Livre/les-robots-paralleles-9782866015992/) (70.00€)
 
 ## Courses
 - [CSCI-498/598: Robot Planning and Manipulation (Colorado School of Mines](http://www.neil.dantam.name/rpm/)
@@ -30,6 +36,7 @@
   - [Introduction to Robotics - Chapter 10](http://my.ilstu.edu/~kldevin/TEC234_Introduction_to_Robotics.pdf)
 - [Robotics - CSE P 590 - Spring 2014](https://homes.cs.washington.edu/~todorov/courses/cseP590/)
   - [Robotics 1 - Position and orientation of rigid bodies - Prof. Alessandro De Luca](https://homes.cs.washington.edu/~todorov/courses/cseP590/05_Kinematics.pdf)
+- [Cours de Robotique (GDR Robotique)](http://www.gdr-robotique.org/cours_de_robotique/)
 
 ## Rotation interpolation and smoothing
 - [Interpolation schemes for rigid body motions, Milos Zefran and Vijay Kumar](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.25.1776&rep=rep1&type=pdf)
