@@ -35,5 +35,6 @@ git reset --hard origin/master
 ```
 Edit your `.gitmodule` file
 git submodule sync # to reflect the change to your .git/config file
-git submodule update
+git submodule update --recursive
+git submodule update --init --recursive # first time you checkout a repo you need to use --init first
 ```
