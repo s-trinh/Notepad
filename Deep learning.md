@@ -51,10 +51,13 @@
 - [Google’s MobileNets on the iPhone](http://machinethink.net/blog/googles-mobile-net-architecture-on-iphone/)
 - [How fast is my model?](http://machinethink.net/blog/how-fast-is-my-model/)
 - [One-shot object detection](http://machinethink.net/blog/object-detection/)
+
+## Deep learning accelerators
 - [A List of Chip/IP for Deep Learning](https://medium.com/@shan.tang.g/a-list-of-chip-ip-for-deep-learning-48d05f1759ae)
 - [FPGAs and AI processors: DNN and CNN for all](https://meanderful.blogspot.com/2017/06/fpgas-and-ai-processors-dnn-and-cnn-for.html)
 - [AI/ML/DL ICs and IPs](https://github.com/basicmi/Deep-Learning-Processor-List)
 - [Neural Network Accelerator Inference](https://nicsefc.ee.tsinghua.edu.cn/projects/neural-network-accelerator/)
+- [The AI revolution has spawned a new chips arms race](https://arstechnica.com/gadgets/2018/07/the-ai-revolution-has-spawned-a-new-chips-arms-race)
 
 ## Transfer learning
 - [Transfer Learning (CS231n)](https://cs231n.github.io/transfer-learning/)
