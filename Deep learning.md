@@ -7,6 +7,9 @@
 - [A listing of my articles in deep learning & reinforcement learning (Jonathan Hui)](https://medium.com/@jonathan_hui/index-page-for-my-articles-in-deep-learning-19821810a14)
 - [Convolution arithmetic tutorial](http://deeplearning.net/software/theano_versions/dev/tutorial/conv_arithmetic.html)
 - [Convolution arithmetic](https://github.com/vdumoulin/conv_arithmetic)
+- [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/)
+- [Conv Nets: A Modular Perspective](http://colah.github.io/posts/2014-07-Conv-Nets-Modular/)
+- [Neural Networks, Manifolds, and Topology](http://colah.github.io/posts/2014-03-NN-Manifolds-Topology/)
 
 ## Course
 - [Deep Learning book](http://www.deeplearningbook.org/)
@@ -72,3 +75,4 @@
 - [Mask R-CNN - Train on Shapes Dataset](https://github.com/matterport/Mask_RCNN/blob/master/samples/shapes/train_shapes.ipynb)
 - [5th place solution (based only on Mask-RCNN)](https://www.kaggle.com/c/data-science-bowl-2018/discussion/56326)
 - [Train & Test Image Mosaic](https://www.kaggle.com/bonlime/train-test-image-mosaic)
+- [Must Know Tips/Tricks in Deep Neural Networks (by Xiu-Shen Wei)](http://lamda.nju.edu.cn/weixs/project/CNNTricks/CNNTricks.html)
