@@ -10,6 +10,12 @@
 - [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/)
 - [Conv Nets: A Modular Perspective](http://colah.github.io/posts/2014-07-Conv-Nets-Modular/)
 - [Neural Networks, Manifolds, and Topology](http://colah.github.io/posts/2014-03-NN-Manifolds-Topology/)
+- [Intro to optimization in deep learning: Gradient Descent](https://blog.paperspace.com/intro-to-optimization-in-deep-learning-gradient-descent/)
+- [Intro to optimization in deep learning: Vanishing gradients and choosing the right activation function](https://blog.paperspace.com/vanishing-gradients-activation-function/)
+- [Intro to optimization in deep learning: Busting the myth about batch normalization](https://blog.paperspace.com/busting-the-myths-about-batch-normalization/)
+- [Intro to optimization in deep learning: Momentum, RMSProp and Adam](https://medium.com/paperspace/intro-to-optimization-in-deep-learning-momentum-rmsprop-and-adam-8335f15fdee2)
+- [Understanding Learning Rates and How It Improves Performance in Deep Learning](https://towardsdatascience.com/understanding-learning-rates-and-how-it-improves-performance-in-deep-learning-d0d4059c1c10)
+- [Realtime Interactive Visualization of Convolutional Neural Networks in Unity](https://vimeo.com/274236414)
 
 ## Course
 - [Deep Learning book](http://www.deeplearningbook.org/)
@@ -54,6 +60,11 @@
 - [Google’s MobileNets on the iPhone](http://machinethink.net/blog/googles-mobile-net-architecture-on-iphone/)
 - [How fast is my model?](http://machinethink.net/blog/how-fast-is-my-model/)
 - [One-shot object detection](http://machinethink.net/blog/object-detection/)
+- [How to implement a YOLO (v3) object detector from scratch in PyTorch: Part 1](https://blog.paperspace.com/how-to-implement-a-yolo-object-detector-in-pytorch/)
+- [How to implement a YOLO (v3) object detector from scratch in PyTorch: Part 2](https://blog.paperspace.com/how-to-implement-a-yolo-v3-object-detector-from-scratch-in-pytorch-part-2/)
+- [How to implement a YOLO (v3) object detector from scratch in PyTorch: Part 3](https://blog.paperspace.com/how-to-implement-a-yolo-v3-object-detector-from-scratch-in-pytorch-part-3/)
+- [How to implement a YOLO (v3) object detector from scratch in PyTorch: Part 4](https://blog.paperspace.com/how-to-implement-a-yolo-v3-object-detector-from-scratch-in-pytorch-part-4/)
+- [How to implement a YOLO (v3) object detector from scratch in PyTorch: Part 5](https://blog.paperspace.com/how-to-implement-a-yolo-v3-object-detector-from-scratch-in-pytorch-part-5/)
 
 ## Deep learning accelerators
 - [A List of Chip/IP for Deep Learning](https://medium.com/@shan.tang.g/a-list-of-chip-ip-for-deep-learning-48d05f1759ae)
@@ -61,6 +72,9 @@
 - [AI/ML/DL ICs and IPs](https://github.com/basicmi/Deep-Learning-Processor-List)
 - [Neural Network Accelerator Inference](https://nicsefc.ee.tsinghua.edu.cn/projects/neural-network-accelerator/)
 - [The AI revolution has spawned a new chips arms race](https://arstechnica.com/gadgets/2018/07/the-ai-revolution-has-spawned-a-new-chips-arms-race)
+- [Hands-on with the Google TPUv2](https://medium.com/paperspace/hands-on-with-the-google-tpuv2-9feb0c5ea952)
+- [How AI is decommoditizing the chip industry](https://venturebeat.com/2018/08/16/how-ai-is-decommoditizing-the-chip-industry/)
+- [AI performance, not stories - 15,000 images/sec on ResNet-50. Production-ready.](https://habana.ai/)
 
 ## Transfer learning
 - [Transfer Learning (CS231n)](https://cs231n.github.io/transfer-learning/)
