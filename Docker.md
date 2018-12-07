@@ -12,6 +12,9 @@
 docker rmi  <IMAGE ID>
 docker rm  <CONTAINER ID> # Remove docker container
 ```
+- `docker cp <local_file> container_id:docker_path`
+- `docker pull repository/image_name`
+- `docker exec -it contained_id bash`
 
 ### Misc
 - [In Docker, what's the difference between a container and an image?](https://stackoverflow.com/questions/21498832/in-docker-whats-the-difference-between-a-container-and-an-image/23667302#23667302):
