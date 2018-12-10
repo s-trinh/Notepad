@@ -3,6 +3,7 @@
 - [A Mathematical Introduction to Robotic Manipulation](http://www.cds.caltech.edu/~murray/books/MLS/pdf/mls94-complete.pdf)
 - [Handbook of Robotics (Editors: Siciliano, Bruno, Khatib, Oussama (Eds.))](https://www.springer.com/us/book/9783319325507) ($309.00 / $399.99)
 - [Introduction to Robotics: Analysis, Control, Applications, 2nd Edition (Saeed B. Niku)](https://www.wiley.com/en-us/Introduction+to+Robotics%3A+Analysis%2C+Control%2C+Applications%2C+2nd+Edition-p-9780470604465) ($161.95)
+- [Introduction to Robotics - Mechanics and Control - Third Edition, John J. Craig](http://www.mech.sharif.ir/c/document_library/get_file?uuid=5a4bb247-1430-4e46-942c-d692dead831f&groupId=14040)
 - [Robotics - Modelling, Planning and Control (Siciliano, B., Sciavicco, L., Villani, L., Oriolo, G.)](https://www.springer.com/us/book/9781846286414) ($79.99 / $119.99)
 - [Robotics, Vision and Control - Fundamental Algorithms In MATLAB® Second, Completely Revised, Extended And Updated Edition (Corke, Peter)](https://www.springer.com/us/book/9783319544120) ($59.99 / $79.99)
 - [Robot Force Control (Siciliano, Bruno, Villani, Luigi)](https://www.researchgate.net/profile/Khalil_Mokhtari/post/I_need_any_good_publication_book_or_resources_about_my_master_thesis/attachment/59d6234979197b80779819e8/AS%3A306570599043072%401450103534222/download/Robot_Force_Control.pdf)
