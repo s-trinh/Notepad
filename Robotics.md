@@ -12,6 +12,7 @@
 - [Les robots parallèles (Jean-Pierre Merlet)](https://www.eyrolles.com/Sciences/Livre/les-robots-paralleles-9782866015992/) (70.00€)
 
 ## Courses
+- [AutoRob - Introduction to Autonomous Robotics - Michigan EECS 398 / Robot Kinematics and Dynamics - Michigan ME 567   EECS 567   ROB 510 / Fall 2018](http://autorob.org/)
 - [CSCI-498/598: Robot Planning and Manipulation (Colorado School of Mines](http://www.neil.dantam.name/rpm/)
 - [Mechanics of Manipulation 16-741 (Matthew Mason, CMU)](https://www.cs.cmu.edu/afs/cs/academic/class/16741-s07/www/)
 - [8803 - Mobile Manipulation 2008](https://www.cc.gatech.edu/~hic/8803-Mobile-08/Welcome.html):
