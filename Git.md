@@ -38,4 +38,9 @@ git submodule sync # to reflect the change to your .git/config file
 git submodule update --recursive
 git submodule update --init --recursive # first time you checkout a repo you need to use --init first
 ```
-- [How do you remove an invalid remote branch reference from Git?](https://stackoverflow.com/questions/1072171/how-do-you-remove-an-invalid-remote-branch-reference-from-git/8255687#8255687) (when origin url has been changed, for a manual fork + upstream for example): `git fetch -p`
+- [How do you remove an invalid remote branch reference from Git?](https://stackoverflow.com/questions/1072171/how-do-you-remove-an-invalid-remote-branch-reference-from-git/8255687#8255687) (for example: origin url has been changed, for a manual fork + upstream, to update a remote fork repo from a local repo cloned from upstream): `git fetch -p`
+- [Git push branch from one remote to another?](https://stackoverflow.com/questions/7818927/git-push-branch-from-one-remote-to-another/21133502#21133502) (for example: origin url has been changed, for a manual fork + upstream, to update a remote fork repo from a local repo cloned from upstream):
+```
+git push origin 'refs/remotes/upstream/*:refs/heads/*'
+git push origin 'refs/tags/*:refs/tags/*'
+```
