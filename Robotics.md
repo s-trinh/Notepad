@@ -10,6 +10,9 @@
 - [Modeling, Identification and Control of Robots (W Khalil and E Dombre)](https://www.sciencedirect.com/book/9781903996669/modeling-identification-and-control-of-robots) ($84.75 / $138.60)
 - [Dynamics of Parallel Robots - From Rigid Bodies to Flexible Elements (Briot, Sébastien, Khalil, Wisama)](https://www.springer.com/fr/book/9783319197876) ($86.86 / $147.69)
 - [Les robots parallèles (Jean-Pierre Merlet)](https://www.eyrolles.com/Sciences/Livre/les-robots-paralleles-9782866015992/) (70.00€)
+- [Robot Modeling and Control, Mark W. Spong, Seth Hutchinson, and M. Vidyasagar, Wiley, 2005 ](http://bcs.wiley.com/he-bcs/Books?action=index&itemId=0471649902&bcsId=2888)
+- [Modern Robotics: Mechanics, Planning, and Control, Kevin M. Lynch, Frank C. Park, Cambridge University Press, 2017 ](http://hades.mech.northwestern.edu/index.php/Modern_Robotics) (£ 59.99) ([preprint](http://hades.mech.northwestern.edu/images/7/7f/MR.pdf))
+- [Principles of Robot Motion, Howie Choset, Kevin M. Lynch, Seth Hutchinson, George A. Kantor, Wolfram Burgard, Lydia E. Kavraki, and Sebastian Thrun, MIT Press, 2005 ](http://mitpress.mit.edu/books/principles-robot-motion) ($85.00)
 
 ## Courses
 - [AutoRob - Introduction to Autonomous Robotics - Michigan EECS 398 / Robot Kinematics and Dynamics - Michigan ME 567   EECS 567   ROB 510 / Fall 2018](http://autorob.org/)
