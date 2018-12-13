@@ -13,6 +13,7 @@
 - [Robot Modeling and Control, Mark W. Spong, Seth Hutchinson, and M. Vidyasagar, Wiley, 2005 ](http://bcs.wiley.com/he-bcs/Books?action=index&itemId=0471649902&bcsId=2888)
 - [Modern Robotics: Mechanics, Planning, and Control, Kevin M. Lynch, Frank C. Park, Cambridge University Press, 2017 ](http://hades.mech.northwestern.edu/index.php/Modern_Robotics) (£ 59.99) ([preprint](http://hades.mech.northwestern.edu/images/7/7f/MR.pdf))
 - [Principles of Robot Motion, Howie Choset, Kevin M. Lynch, Seth Hutchinson, George A. Kantor, Wolfram Burgard, Lydia E. Kavraki, and Sebastian Thrun, MIT Press, 2005 ](http://mitpress.mit.edu/books/principles-robot-motion) ($85.00)
+- [Robot Manipulator Control - Theory and Practice](http://www.robot.bmstu.ru/files/books/Robot%20Manipulator%20Control%20Theory%20and%20Practice%20-%20Frank%20L.Lewis.pdf) ([#2](http://www.uta.edu/utari/acs/FL%20books/Robot_Manipulator_Control_Theory_and_Practice_-_Frank_L.Lewis-%20small.pdf))
 
 ## Courses
 - [AutoRob - Introduction to Autonomous Robotics - Michigan EECS 398 / Robot Kinematics and Dynamics - Michigan ME 567   EECS 567   ROB 510 / Fall 2018](http://autorob.org/)
@@ -42,6 +43,15 @@
 - [Robotics - CSE P 590 - Spring 2014](https://homes.cs.washington.edu/~todorov/courses/cseP590/)
   - [Robotics 1 - Position and orientation of rigid bodies - Prof. Alessandro De Luca](https://homes.cs.washington.edu/~todorov/courses/cseP590/05_Kinematics.pdf)
 - [Cours de Robotique (GDR Robotique)](http://www.gdr-robotique.org/cours_de_robotique/)
+- [Systems and Controls Course Sequence, The University of Texas Arlington](http://www.uta.edu/utari/acs/controls/controlcrse.htm):
+  - [EE 5307 - LINEAR SYSTEMS ENGINEERING](http://www.uta.edu/utari/acs/ee5307/ee5307home.htm)
+  - [EE4343 - Control System Design Project](http://www.uta.edu/utari/acs/ee4343/)
+  - [EE 5321- Optimal Control Systems](http://www.uta.edu/utari/acs/ee5321/ee5321home.htm)
+  - [EE 5322- Intelligent Control Systems](http://www.uta.edu/utari/acs/ee5322/ee5322home.htm)
+  - [EE 5323 – Nonlinear Control Systems](http://www.uta.edu/utari/acs/ee5323/ee5323home.htm)
+  - [EE 5325/4315- Robotics](http://www.uta.edu/utari/acs/jmireles/Robotics/ee5325home.htm)
+  - [EE 5327 – System Identification and Estimation](http://www.uta.edu/utari/acs/ee5327/ee5327home.htm)
+  - [EE 5329 – Distributed Decision & Control](http://www.uta.edu/utari/acs/ee5329/ee5329home.htm)
 
 ## Rotation interpolation and smoothing
 - [Interpolation schemes for rigid body motions, Milos Zefran and Vijay Kumar](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.25.1776&rep=rep1&type=pdf)
