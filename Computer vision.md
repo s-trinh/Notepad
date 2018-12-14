@@ -11,6 +11,17 @@
   - [https://www.cs.cornell.edu/courses/cs6670/2011sp/lectures/lectures.html](https://www.cs.cornell.edu/courses/cs6670/2011sp/lectures/lectures.html)
 - [UNIK4690 - Vår 2016 ](https://www.uio.no/studier/emner/matnat/its/UNIK4690/v16/forelesninger/)
 - [https://www.cs.utah.edu/~srikumar/teaching.htm](https://www.cs.utah.edu/~srikumar/teaching.htm)
+- [Computer Vision at Princeton](https://vision.princeton.edu):
+  - [COS597B: Advanced Topics in CS: Computer Vision Research Skills (Fall 2018)](https://registrar.princeton.edu/course-offerings/course_details.xml?courseid=002123&term=1192)
+  - [COS598B: Advanced Topics in CS: Visual Recognition (Spring 2018)](http://www.cs.princeton.edu/courses/archive/spring18/cos598B/)
+  - [COS429: Computer Vision (Fall 2017)](https://www.cs.princeton.edu/courses/archive/fall17/cos429/)
+  - [COS598: Advanced Topics in CS: Deep Learning for Graphics and Vision (Spring 2017)](https://www.cs.princeton.edu/courses/archive/spring17/cos598F/)
+  - [COS429: Computer Vision (Fall 2016)](https://www.cs.princeton.edu/courses/archive/fall16/cos429/)
+  - [COSIW01: Deep Learning (Spring 2016)](http://www.cs.princeton.edu/courses/archive/spr16/cosIW01/)
+  - [COS429: Computer Vision (Fall 2015)](http://3dvision.princeton.edu/courses/COS429/2015fa/)
+  - [COS598: Advanced Topics in CS: The Unreasonable Effectiveness of Big Visual Data (Spring 2015)](http://3dvision.princeton.edu/courses/COS598/2015sp/)
+  - [COS429: Computer Vision (Fall 2014)](http://3dvision.princeton.edu/courses/COS429/2014fa/)
+  - [COS598: Advanced Topics in CS: Scene Understanding (Spring 2014)](http://3dvision.princeton.edu/courses/COS598/2014sp/)
 
 ## Workshop
 - [Bay Area Vision Meeting 2014 - Hosted by Computational Vision and Geometry Lab](http://cvgl.stanford.edu/BAVM14/) ([Index Of](http://cvgl.stanford.edu/BAVM14/slides/))
