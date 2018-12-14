@@ -11,3 +11,6 @@
   - [https://www.cs.cornell.edu/courses/cs6670/2011sp/lectures/lectures.html](https://www.cs.cornell.edu/courses/cs6670/2011sp/lectures/lectures.html)
 - [UNIK4690 - Vår 2016 ](https://www.uio.no/studier/emner/matnat/its/UNIK4690/v16/forelesninger/)
 - [https://www.cs.utah.edu/~srikumar/teaching.htm](https://www.cs.utah.edu/~srikumar/teaching.htm)
+
+## Workshop
+- [Bay Area Vision Meeting 2014 - Hosted by Computational Vision and Geometry Lab](http://cvgl.stanford.edu/BAVM14/) ([Index Of](http://cvgl.stanford.edu/BAVM14/slides/))
