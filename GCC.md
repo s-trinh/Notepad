@@ -55,3 +55,7 @@ sudo apt-get update
 sudo apt-get install gcc-8 g++-8
 gcc-8 --version
 ```
+
+### Misc
+- [How do I force make/gcc to show me the commands?](https://stackoverflow.com/questions/5820303/how-do-i-force-make-gcc-to-show-me-the-commands): `make VERBOSE=1`
+- [How do I list the symbols in a .so file](https://stackoverflow.com/questions/34732/how-do-i-list-the-symbols-in-a-so-file/34796#34796): `nm -gC yourLib.so`
