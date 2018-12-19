@@ -20,3 +20,21 @@
 - make right tab panel visible
 - in `Modifiers`, select `Noise` and change the strength parameter
 - multiple `Modifiers` can be added, frame range can also be restricted
+
+### Add multiple image textures for a cube
+- [How do I put an image texture on a material in Cycles?](https://blender.stackexchange.com/questions/8697/how-do-i-put-an-image-texture-on-a-material-in-cycles)
+- [Unwrapping a cube for multiple textures?](https://blender.stackexchange.com/questions/73426/unwrapping-a-cube-for-multiple-textures)
+- Example:
+  - Use default cube
+  - There should be one `Material`, remove the default texture?
+  - Add texture: `New` button > `Open` button
+  - Split screens: `UV/Image Editor`, switch `3D View` to `Texture` (`Viewport Shading`)
+  - Edit mode (`tab`), select one face
+  - Press `u` key > `Unwrap`
+  - `UV/Image Editor`, `Browse Image to be linked`
+  - For another texture
+  - Add a new `Material` (`+` button) > `New` button
+  - `Texture` tab, `New` button > `Open` button
+  - Select another face
+  - Press `u` key > `Unwrap` > `Browse Image to be linked`
+  - `Material` tab > `Assign`
