@@ -38,3 +38,8 @@
   - Select another face
   - Press `u` key > `Unwrap` > `Browse Image to be linked`
   - `Material` tab > `Assign`
+ 
+ ### Add a texture for a teabox
+ - See previous example
+ - To select all vertices in edit mode: press `a` key
+ - No need to unwrap?
