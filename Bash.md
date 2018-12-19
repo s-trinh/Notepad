@@ -7,3 +7,7 @@
 `for f in *.jpg; do mv "$f" "$(echo "$f" | sed s/old_name_/new_name_/)"; done`
 - [List all installed packages in size order](https://ubuntuforums.org/showthread.php?t=599424): `dpkg-query -W --showformat='${Installed-Size;10}\t${Package}\n' | sort -k1,1n`
 - [show file size](https://ubuntuforums.org/showthread.php?t=1513757): `ls -sh`
+- [Download Google Drive files with WGET](https://gist.github.com/iamtekeste/3cdfd0366ebfd2c0d805#gistcomment-2151867):
+```
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=FILEID' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=FILEID" -O FILENAME && rm -rf /tmp/cookies.txt 
+```
