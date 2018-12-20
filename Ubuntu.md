@@ -26,3 +26,4 @@ gedit ~/.bash_aliases
 alias alias_name='command'
 source ~/.bashrc
 ```
+- [How can I add a bookmark in my nautilus folder explorer](https://askubuntu.com/questions/188083/how-can-i-add-a-bookmark-in-my-nautilus-folder-explorer/206683#206683): hit `Ctrl + D`
