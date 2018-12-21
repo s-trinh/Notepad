@@ -39,7 +39,17 @@
   - Press `u` key > `Unwrap` > `Browse Image to be linked`
   - `Material` tab > `Assign`
  
- ### Add a texture for a teabox
- - See previous example
- - To select all vertices in edit mode: press `a` key
- - No need to unwrap?
+### Add a texture for a teabox
+- See previous example
+- To select all vertices in edit mode: press `a` key
+- No need to unwrap?
+ 
+### Export multiple objects (meshes) to PLY:
+- [How can I make multiple meshes into a single hollow mesh?](https://blender.stackexchange.com/questions/39961/how-can-i-make-multiple-meshes-into-a-single-hollow-mesh/39963#39963):
+> For separate meshes, you should first of all join them in a single object (`Ctrl + J`)
+ 
+### Make top bar menu come back
+- [Menu disappeared](https://blender.stackexchange.com/questions/92489/menu-disappeared/92490#92490)
+- > Create a new "window" (by dragging the top-right corner of any frame down or left)
+- > On the window view selector (on the bottom-left corner of the "window"), select "info" from the dropdown.
+- > You can then select a new Layout and work from there
