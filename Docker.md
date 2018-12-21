@@ -21,3 +21,8 @@ docker rm  <CONTAINER ID> # Remove docker container
 > Images are frozen immutable snapshots of live containers.
 >
 > Containers are running (or stopped) instances of some image.
+- [Issue with OpenGL and `nvidia-docker-2` (`nvidia-docker-1` is ok)](https://github.com/NVIDIA/nvidia-docker/issues/534):
+```
+libGL error: No matching fbConfigs or visuals found
+libGL error: failed to load driver: swrast
+```
