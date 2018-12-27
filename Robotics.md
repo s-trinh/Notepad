@@ -14,6 +14,9 @@
 - [Modern Robotics: Mechanics, Planning, and Control, Kevin M. Lynch, Frank C. Park, Cambridge University Press, 2017 ](http://hades.mech.northwestern.edu/index.php/Modern_Robotics) (£ 59.99) ([preprint](http://hades.mech.northwestern.edu/images/7/7f/MR.pdf))
 - [Principles of Robot Motion, Howie Choset, Kevin M. Lynch, Seth Hutchinson, George A. Kantor, Wolfram Burgard, Lydia E. Kavraki, and Sebastian Thrun, MIT Press, 2005 ](http://mitpress.mit.edu/books/principles-robot-motion) ($85.00)
 - [Robot Manipulator Control - Theory and Practice](http://www.robot.bmstu.ru/files/books/Robot%20Manipulator%20Control%20Theory%20and%20Practice%20-%20Frank%20L.Lewis.pdf) ([#2](http://www.uta.edu/utari/acs/FL%20books/Robot_Manipulator_Control_Theory_and_Practice_-_Frank_L.Lewis-%20small.pdf))
+- [Robot Dynamics Lecture Notes](https://www.ethz.ch/content/dam/ethz/special-interest/mavt/robotics-n-intelligent-systems/rsl-dam/documents/RobotDynamics2016/RD2016script.pdf)
+- [Unmanned Rotorcraft Systems](https://link.springer.com/book/10.1007/978-0-85729-635-1)
+  - [Coordinate Systems and Transformations](https://link.springer.com/chapter/10.1007/978-0-85729-635-1_2) ([link](https://www.springer.com/cda/content/document/cda_downloaddocument/9780857296344-c2.pdf?SGWID=0-0-45-1143141-p174116371))
 
 ## Courses
 - [AutoRob - Introduction to Autonomous Robotics - Michigan EECS 398 / Robot Kinematics and Dynamics - Michigan ME 567   EECS 567   ROB 510 / Fall 2018](http://autorob.org/)
@@ -54,6 +57,8 @@
   - [EE 5329 – Distributed Decision & Control](http://www.uta.edu/utari/acs/ee5329/ee5329home.htm)
 - [Introduction to Mobile Robotics - SS 2018, Albert-Ludwigs-Universität Freiburg](http://ais.informatik.uni-freiburg.de/teaching/ss18/robotics/):
   - [slides](http://ais.informatik.uni-freiburg.de/teaching/ss18/robotics/slides/)
+- [Master's Course in Robotics and Intelligent Systems, Università degli Studi di Napoli Federico II](http://www.master-ris.unina.it/)
+  - [slides](http://www.master-ris.unina.it/custom-php/materiale_didattico/)
 
 ## Rotation interpolation and smoothing
 - [Interpolation schemes for rigid body motions, Milos Zefran and Vijay Kumar](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.25.1776&rep=rep1&type=pdf)
@@ -67,6 +72,8 @@
 - [Axis–angle representation (Wikipedia](https://en.wikipedia.org/wiki/Axis%E2%80%93angle_representation)
 - [Exponential_map_from_so(3)_to_SO(3) (Wikipedia)](https://en.wikipedia.org/wiki/Axis%E2%80%93angle_representation#Exponential_map_from_so(3)_to_SO(3))
 - [Rodrigues' rotation formula (Wikipedia)](https://en.wikipedia.org/wiki/Rodrigues%27_rotation_formula)
+- [Robotics Kinematics and Dynamics/Description of Position and Orientation](https://en.wikibooks.org/wiki/Robotics_Kinematics_and_Dynamics/Description_of_Position_and_Orientation)
+- [Robot Dynamics Lecture Notes](https://www.ethz.ch/content/dam/ethz/special-interest/mavt/robotics-n-intelligent-systems/rsl-dam/documents/RobotDynamics2016/RD2016script.pdf)
 
 ## Quaternion
 - [The Quaternionic Exponential (and beyond), Hubert HOLIN](https://www.boost.org/doc/libs/1_48_0/libs/math/quaternion/TQE.pdf)
