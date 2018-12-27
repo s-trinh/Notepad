@@ -27,3 +27,8 @@ importer->Update();
 ### User guide
 - [The VTK-m User’s Guide](http://m.vtk.org/images/c/c8/VTKmUsersGuide.pdf)
 - [The VTK User’s Guide - 11th Edition](https://www.kitware.com/products/books/VTKUsersGuide.pdf)
+
+### Camera
+- `vtkCamera` frame convention is [OpenGL convention](https://learnopengl.com/Getting-started/Camera):
+![OpenGL camera](https://raw.githubusercontent.com/s-trinh/Notepad/master/Assets/VTK/camera_axes.png "OpenGL/VTK camera frame")
+
