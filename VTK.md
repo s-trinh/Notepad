@@ -23,3 +23,7 @@ importer->Update();
 - [make_vtk_camera.cpp](https://gist.github.com/decrispell/fc4b69f6bedf07a3425b)
 - [How to interpret the VtkCamera viewTransformMatrix](https://stackoverflow.com/questions/18077105/how-to-interpret-the-vtkcamera-viewtransformmatrix/38801824#38801824)
 - [Question on manual configuration of VTK camera](http://vtk.1045678.n5.nabble.com/Question-on-manual-configuration-of-VTK-camera-td5059478.html)
+
+### User guide
+- [The VTK-m User’s Guide](http://m.vtk.org/images/c/c8/VTKmUsersGuide.pdf)
+- [The VTK User’s Guide - 11th Edition](https://www.kitware.com/products/books/VTKUsersGuide.pdf)
