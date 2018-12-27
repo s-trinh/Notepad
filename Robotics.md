@@ -17,7 +17,7 @@
 
 ## Courses
 - [AutoRob - Introduction to Autonomous Robotics - Michigan EECS 398 / Robot Kinematics and Dynamics - Michigan ME 567   EECS 567   ROB 510 / Fall 2018](http://autorob.org/)
-- [CSCI-498/598: Robot Planning and Manipulation (Colorado School of Mines](http://www.neil.dantam.name/rpm/)
+- [CSCI-498/598: Robot Planning and Manipulation (Colorado School of Mines)](http://www.neil.dantam.name/rpm/)
 - [Mechanics of Manipulation 16-741 (Matthew Mason, CMU)](https://www.cs.cmu.edu/afs/cs/academic/class/16741-s07/www/)
 - [8803 - Mobile Manipulation 2008](https://www.cc.gatech.edu/~hic/8803-Mobile-08/Welcome.html):
   - [Index of /~hic/8803-Mobile-08/slides](https://www.cc.gatech.edu/~hic/8803-Mobile-08/slides/)
@@ -52,6 +52,8 @@
   - [EE 5325/4315- Robotics](http://www.uta.edu/utari/acs/jmireles/Robotics/ee5325home.htm)
   - [EE 5327 – System Identification and Estimation](http://www.uta.edu/utari/acs/ee5327/ee5327home.htm)
   - [EE 5329 – Distributed Decision & Control](http://www.uta.edu/utari/acs/ee5329/ee5329home.htm)
+- [Introduction to Mobile Robotics - SS 2018, Albert-Ludwigs-Universität Freiburg](http://ais.informatik.uni-freiburg.de/teaching/ss18/robotics/):
+  - [slides](http://ais.informatik.uni-freiburg.de/teaching/ss18/robotics/slides/)
 
 ## Rotation interpolation and smoothing
 - [Interpolation schemes for rigid body motions, Milos Zefran and Vijay Kumar](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.25.1776&rep=rep1&type=pdf)
