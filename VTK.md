@@ -20,6 +20,7 @@ importer->Update();
 ```
 
 ### Set camera intrinsic parameters
+- [OpenGL/VTK: setting camera intrinsic parameters](https://stackoverflow.com/questions/18019732/opengl-vtk-setting-camera-intrinsic-parameters/35489926#35489926)
 - [make_vtk_camera.cpp](https://gist.github.com/decrispell/fc4b69f6bedf07a3425b)
 - [How to interpret the VtkCamera viewTransformMatrix](https://stackoverflow.com/questions/18077105/how-to-interpret-the-vtkcamera-viewtransformmatrix/38801824#38801824)
 - [Question on manual configuration of VTK camera](http://vtk.1045678.n5.nabble.com/Question-on-manual-configuration-of-VTK-camera-td5059478.html)
@@ -31,4 +32,4 @@ importer->Update();
 ### Camera
 - `vtkCamera` frame convention is [OpenGL convention](https://learnopengl.com/Getting-started/Camera):
 ![OpenGL camera](https://raw.githubusercontent.com/s-trinh/Notepad/master/Assets/VTK/camera_axes.png "OpenGL/VTK camera frame")
-
+- Camera intrinsic parameters <--> view angle conversion: [Angle of view](https://en.wikipedia.org/wiki/Angle_of_view#Calculating_a_camera.27s_angle_of_view)
