@@ -171,3 +171,49 @@ outputImg.pixels = np_out_img.ravel()  #flatten the array to 1 dimension and wri
 - [What are the units for camera shift?](https://blender.stackexchange.com/questions/58235/what-are-the-units-for-camera-shift/58236#58236)
 - [From Blender to OpenCV Camera and back](https://www.rojtberg.net/1601/from-blender-to-opencv-camera-and-back/)
 - [Orthographic view with something like shift/transformation?](https://blender.stackexchange.com/questions/98836/orthographic-view-with-something-like-shift-transformation/98871#98871)
+
+### Blender camera
+- [Exploration du module Camera de l'API Python Blender](https://download.tuxfamily.org/linuxgraphic/archives/pdf/blender-lg-05.pdf)
+- [Pointing the camera in a particular direction programmatically](https://blender.stackexchange.com/questions/5210/pointing-the-camera-in-a-particular-direction-programmatically/5220#5220):
+```
+import bpy
+
+def look_at(obj_camera, point):
+    loc_camera = obj_camera.matrix_world.to_translation()
+
+    direction = point - loc_camera
+    # point the cameras '-Z' and use its 'Y' as up
+    rot_quat = direction.to_track_quat('-Z', 'Y')
+
+    # assume we're using euler rotation
+    obj_camera.rotation_euler = rot_quat.to_euler()
+
+# Test
+obj_camera = bpy.data.objects["Camera"]
+obj_other = bpy.data.objects["Cube"]
+
+obj_camera.location = (5.0, 2.0, 3.0)
+look_at(obj_camera, obj_other.matrix_world.to_translation())
+```
+- [Python Implementation of Track-to/aim constraint](https://blender.stackexchange.com/questions/16275/python-implementation-of-track-to-aim-constraint/16349#16349):
+```
+targetobj = bpy.data.objects['Sphere']
+pointyobj = bpy.data.objects['Cone']
+
+ttc = pointyobj.constraints.new(type='TRACK_TO')
+ttc.target = targetobj
+ttc.track_axis = 'TRACK_Z'
+# we don't care about the up_axis
+# but default is Z and it needs to be different that track_axis
+ttc.up_axis = 'UP_X'
+
+bpy.ops.object.select_all(action='DESELECT')
+pointyobj.select = True
+bpy.ops.object.visual_transform_apply()
+
+pointyobj.constraints.remove(ttc)
+```
+- [Constraint the camera to look at an object](https://blender.stackexchange.com/questions/42837/constraint-the-camera-to-look-at-an-object/42839#42839)
+
+### Blender: obj rotation
+- [Bad 90 rotation from](https://blender.stackexchange.com/questions/117527/bad-90-rotation-from/117534#117534)
