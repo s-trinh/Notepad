@@ -44,3 +44,13 @@ git submodule update --init --recursive # first time you checkout a repo you nee
 git push origin 'refs/remotes/upstream/*:refs/heads/*'
 git push origin 'refs/tags/*:refs/tags/*'
 ```
+- [Setting up and using Meld as your git difftool and mergetool](https://stackoverflow.com/questions/34119866/setting-up-and-using-meld-as-your-git-difftool-and-mergetool/34119867#34119867):
+```
+# Add the following to your .gitconfig file.
+[diff]
+    tool = meld
+[difftool]
+    prompt = false
+[difftool "meld"]
+    cmd = meld "$LOCAL" "$REMOTE"
+```
