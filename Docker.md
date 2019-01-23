@@ -2,6 +2,18 @@
 - `docker load < img.tar.gz`
 - `docker load -i img.tar.gz` # equivalent?
 
+### Save container image
+- [How do I use Docker save to backup a local image to a file?](https://stackoverflow.com/questions/45535790/how-do-i-use-docker-save-to-backup-a-local-image-to-a-file):
+```
+docker commit container_id repo/image_name:tag
+docker save -o image_name.tar.gz repo/image_name:tag
+```
+- [Docker commit](https://docs.docker.com/engine/reference/commandline/commit/):
+```
+docker commit c3f279d17e0a svendowideit/testimage:version3
+```
+- [How to save a Docker container state](https://stackoverflow.com/questions/44480740/how-to-save-a-docker-container-state/44480870#44480870)
+
 ### Commands
 - `docker images` or `docker image ls`
 - `docker container ls` or `docker ps`?
