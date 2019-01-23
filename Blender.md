@@ -2,6 +2,15 @@
 - insert keyframe: `press i`
 - delete keyframe: `alt + i`
 - [group objects](https://blender.stackexchange.com/questions/33743/group-objects-in-blender/33748#33748): `select > ctrl + p > keep transform`
+- [Remove relationship between two objects](https://blender.stackexchange.com/questions/42768/remove-relationship-between-two-objects): `alt + p`
+- [How to apply transformations directly on mesh data?](https://blender.stackexchange.com/questions/3646/how-to-apply-transformations-directly-on-mesh-data/3648#3648): `ctrl + a`
+- [Why does part of my model disappear when I zoom in on it in the 3D Viewport?](https://blender.stackexchange.com/questions/8553/why-does-part-of-my-model-disappear-when-i-zoom-in-on-it-in-the-3d-viewport/8554#8554): set `Clip: Start / End`
+- [How can I create an Empty in Blender 3D 2.73?](https://blender.stackexchange.com/questions/26369/how-can-i-create-an-empty-in-blender-3d-2-73/26370#26370): `shift + a > Empty > Plain Axis`
+- [An easy way to remove all children in a parent-child relation?](https://blender.stackexchange.com/questions/8146/an-easy-way-to-remove-all-children-in-a-parent-child-relation/8149#8149): `shift + g > Children` (select all children), `alt + p` (remove the parent-child relationships)
+
+### Tutorials
+- [https://docs.blender.org/manual/nb/dev/](https://docs.blender.org/manual/nb/dev/)
+- [Blender 3D: Noob to Pro](https://en.wikibooks.org/wiki/Blender_3D:_Noob_to_Pro)
 
 ### Generate color and depth map
 - references:
@@ -54,7 +63,7 @@
 - > On the window view selector (on the bottom-left corner of the "window"), select "info" from the dropdown.
 - > You can then select a new Layout and work from there
 
-### Save depth from Python
+### Save depth from Python / Z-Buffer
 - [How to get Color and Z-Depth from Viewer Node?](https://blender.stackexchange.com/questions/35191/how-to-get-color-and-z-depth-from-viewer-node/71264#71264)
 - [How to save an .exr file with 32 bit with python](https://blender.stackexchange.com/questions/95380/how-to-save-an-exr-file-with-32-bit-with-python/95384#95384)
 - [Clip depth field of view in nodes](https://blender.stackexchange.com/questions/128456/clip-depth-field-of-view-in-nodes):
@@ -163,6 +172,46 @@ outputImg.pixels = np_out_img.ravel()  #flatten the array to 1 dimension and wri
 ```
 - [Adjusting image pixels internally in Blender with bpy](https://blenderscripting.blogspot.com/2012/08/adjusting-image-pixels-internally-in.html)
 - [Blender Python Recipes](https://github.com/zeffii/BlenderPythonRecipes)
+- [Z-Buffer rendering issues](https://blender.stackexchange.com/questions/71647/z-buffer-rendering-issues)
+- [How to access Render Result pixels from python script?](https://blender.stackexchange.com/questions/2170/how-to-access-render-result-pixels-from-python-script)
+- [Blender: Access Render Results pixels directly from Python](https://ammous88.wordpress.com/2015/01/16/blender-access-render-results-pixels-directly-from-python-2/):
+```
+import bpy
+import numpy as np
+ 
+# switch on nodes
+bpy.context.scene.use_nodes = True
+tree = bpy.context.scene.node_tree
+links = tree.links
+  
+# clear default nodes
+for n in tree.nodes:
+    tree.nodes.remove(n)
+  
+# create input render layer node
+rl = tree.nodes.new('CompositorNodeRLayers')      
+rl.location = 185,285
+ 
+# create output node
+v = tree.nodes.new('CompositorNodeViewer')   
+v.location = 750,210
+v.use_alpha = False
+ 
+# Links
+links.new(rl.outputs[0], v.inputs[0])  # link Image output to Viewer input
+ 
+# render
+bpy.ops.render.render()
+ 
+# get viewer pixels
+pixels = bpy.data.images['Viewer Node'].pixels
+print(len(pixels)) # size is always width * height * 4 (rgba)
+ 
+# copy buffer to numpy array for faster manipulation
+arr = np.array(pixels[:])
+```
+- [Z-buffer output from blender as file](https://blender.stackexchange.com/questions/33293/z-buffer-output-from-blender-as-file)
+
 
 ### Blender camera: principal point
 - [What is blender's camera projection matrix model?](https://blender.stackexchange.com/questions/15102/what-is-blenders-camera-projection-matrix-model/38189#38189)
@@ -217,3 +266,8 @@ pointyobj.constraints.remove(ttc)
 
 ### Blender: obj rotation
 - [Bad 90 rotation from](https://blender.stackexchange.com/questions/117527/bad-90-rotation-from/117534#117534)
+
+### Cycle nodes
+- [how are the math node operations in cycles calculated?](https://blender.stackexchange.com/questions/45089/how-are-the-math-node-operations-in-cycles-calculated/45094#45094)
+- [Math Node](https://docs.blender.org/manual/en/latest/compositing/types/converter/math.html)
+
