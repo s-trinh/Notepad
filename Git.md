@@ -54,3 +54,8 @@ git push origin 'refs/tags/*:refs/tags/*'
 [difftool "meld"]
     cmd = meld "$LOCAL" "$REMOTE"
 ```
+
+### Push too much data
+- [Git, fatal: The remote end hung up unexpectedly](https://stackoverflow.com/questions/15240815/git-fatal-the-remote-end-hung-up-unexpectedly)
+- [Git fails when pushing commit to github](https://stackoverflow.com/questions/2702731/git-fails-when-pushing-commit-to-github)
+- [Github Push Error: RPC failed; result=22, HTTP code = 413](https://stackoverflow.com/questions/7489813/github-push-error-rpc-failed-result-22-http-code-413/7489832#7489832)
