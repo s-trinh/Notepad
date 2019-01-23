@@ -18,3 +18,7 @@
 - [How to use the auto-dispatching for AVX (plus some more questions)](https://software.intel.com/en-us/forums/intel-c-compiler/topic/544561)
 - [The significance of SIMD, SSE and AVX](https://www.polyhedron.com/web_images/intel/productbriefs/3a_SIMD.pdf)
 - [Using AVX CPU instructions: Poor performance without “/arch:AVX”](https://stackoverflow.com/questions/7839925/using-avx-cpu-instructions-poor-performance-without-archavx/28356924#28356924)
+- [VC++ /arch:AVX option – unsafe at any speed](https://randomascii.wordpress.com/2016/12/05/vc-archavx-option-unsafe-at-any-speed/)
+
+### Visual Studio
+- [Predefined Macros](https://docs.microsoft.com/en-us/cpp/preprocessor/predefined-macros?view=vs-2017)
