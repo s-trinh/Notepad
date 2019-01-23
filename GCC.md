@@ -21,6 +21,11 @@ String dump of section '.GCC.command.line':
 ```
 - [It is more complicated than I thought: -mtune, -march in GCC](https://lemire.me/blog/2018/07/25/it-is-more-complicated-than-i-thought-mtune-march-in-gcc/)
 - [GCC: how is march different from mtune?](https://stackoverflow.com/questions/10559275/gcc-how-is-march-different-from-mtune)
+- [How to see which flags -march=native will activate?](https://stackoverflow.com/questions/5470257/how-to-see-which-flags-march-native-will-activate):
+```
+gcc -march=native -E -v - </dev/null 2>&1 | grep cc1
+gcc -march=native -Q --help=target
+```
 
 ### GCC 8 in Ubuntu 16.04
 - [How to install latest gcc on Ubuntu LTS (12.04, 14.04, 16.04)](https://gist.github.com/application2000/73fd6f4bf1be6600a2cf9f56315a2d91#gistcomment-1813119):
