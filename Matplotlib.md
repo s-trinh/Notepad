@@ -32,10 +32,8 @@ def plot_pose(tvec, rvec):
 
 def main():
   parser = argparse.ArgumentParser(description='Plot pose estimation.')
-  parser.add_argument('--tvec', type=str, nargs=1,
-                      help='Translation vectors file')
-  parser.add_argument('--rvec', type=str, nargs=1,
-                      help='Rotation vectors file')
+  parser.add_argument('--tvec', type=str, help='Translation vectors file')
+  parser.add_argument('--rvec', type=str, help='Rotation vectors file')
 
   args = parser.parse_args()
 
