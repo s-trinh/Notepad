@@ -91,3 +91,13 @@ alias alias_name='command'
 source ~/.bashrc
 ```
 - [How can I add a bookmark in my nautilus folder explorer](https://askubuntu.com/questions/188083/how-can-i-add-a-bookmark-in-my-nautilus-folder-explorer/206683#206683): hit `Ctrl + D`
+- [Safely removing USB 3.0 drive freezes the system - why and how to fix?](https://askubuntu.com/questions/1099414/safely-removing-usb-3-0-drive-freezes-the-system-why-and-how-to-fix/1100480#1100480)
+- [Ubuntu 16.04.5 kernel 4.4.0-139 hard freezes when unmounting USB drive](https://ubuntuforums.org/showthread.php?t=2406277)
+
+### Update kernel version
+- [How to update kernel in Ubuntu 16.04?](https://askubuntu.com/questions/905049/how-to-update-kernel-in-ubuntu-16-04/905063#905063): [LTSEnablementStack](https://wiki.ubuntu.com/Kernel/LTSEnablementStack#Ubuntu_16.04_LTS_-_Xenial_Xerus)
+```
+dpkg --print-architecture
+uname -r
+sudo apt-get install --install-recommends linux-generic-hwe-16.04 xserver-xorg-hwe-16.04 
+```
