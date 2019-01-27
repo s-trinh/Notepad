@@ -47,3 +47,7 @@ aptitude versions {package-name-here} | more
 aptitude versions {package-name-here} | awk { print $2 }
 ```
 - [How to redirect output to a file and stdout](https://stackoverflow.com/questions/418896/how-to-redirect-output-to-a-file-and-stdout/418899#418899): `program [arguments...] 2>&1 | tee outfile` and to append to a log file `program [arguments...] 2>&1 | tee -a outfile`
+- [Show the year while listing files in the current directory](https://unix.stackexchange.com/questions/50431/show-the-year-while-listing-files-in-the-current-directory/50433#50433):
+```
+ls --full-time
+```
