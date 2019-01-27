@@ -26,6 +26,14 @@ String dump of section '.GCC.command.line':
 gcc -march=native -E -v - </dev/null 2>&1 | grep cc1
 gcc -march=native -Q --help=target
 ```
+- [Can we get compiler information from an elf binary?](https://unix.stackexchange.com/questions/719/can-we-get-compiler-information-from-an-elf-binary):
+```
+objdump -s --section .comment /path/binary
+# or
+readelf -p .comment a.out
+# or
+strings -a <binary/library> |grep "GCC: ("
+```
 
 ### GCC 8 in Ubuntu 16.04
 - [How to install latest gcc on Ubuntu LTS (12.04, 14.04, 16.04)](https://gist.github.com/application2000/73fd6f4bf1be6600a2cf9f56315a2d91#gistcomment-1813119):
