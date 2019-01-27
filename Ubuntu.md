@@ -1,11 +1,11 @@
 ### Software
-- [Latest Gimp version in Ubuntu 16.04](https://doc.ubuntu-fr.org/gimp#pour_disposer_des_dernieres_versions_stables):
+- [Latest Gimp version on Ubuntu 16.04](https://doc.ubuntu-fr.org/gimp#pour_disposer_des_dernieres_versions_stables):
 ```
 sudo add-apt-repository ppa:otto-kesselgulasch/gimp
 sudo apt-get update
 sudo apt-get install gimp
 ```
-- [Latest Gimp version in Ubuntu 16.04 (Flatpak)](https://www.tecmint.com/install-gimp-in-ubuntu/):
+- [Latest Gimp version on Ubuntu 16.04 (Flatpak)](https://www.tecmint.com/install-gimp-in-ubuntu/):
 ```
 sudo add-apt-repository ppa:alexlarsson/flatpak
 sudo apt update
@@ -17,6 +17,30 @@ flatpak run org.gimp.GIMP
 # (uninstall)
 sudo apt install ppa-purge
 sudo ppa-purge ppa:otto-kesselgulasch/gimp
+```
+- [Latest ffmpeg version on Ubuntu 16.04](https://tecadmin.net/install-ffmpeg-on-linux/):
+```
+sudo add-apt-repository ppa:jonathonf/ffmpeg-4
+sudo apt-get update
+sudo apt-get install ffmpeg
+ffmpeg -version
+```
+- [Latest Terminator version on Ubuntu 16.04](https://nikitashalnov.github.io/terminator-crashes-in-ubuntu-1604/):
+```
+sudo add-apt-repository ppa:gnome-terminator/nightly-gtk3
+sudo apt-get update
+apt-cache policy terminator
+sudo apt-get install terminator
+```
+- [Latest VLC version on Ubuntu 16.04](http://ubuntuhandbook.org/index.php/2018/05/install-vlc-3-0-2-ubuntu-16-04-ppa/):
+```
+sudo add-apt-repository ppa:jonathonf/vlc-3
+sudo add-apt-repository ppa:jonathonf/ffmpeg-4
+sudo add-apt-repository ppa:jonathonf/meson
+sudo apt-get update && sudo apt-get install vlc
+# revert / restore
+sudo apt-get install ppa-purge && sudo ppa-purge ppa:jonathonf/vlc-3
+sudo ppa-purge ppa:jonathonf/ffmpeg-4
 ```
 - [Problems with libGl, fbConfigs, swrast through each update?](https://askubuntu.com/questions/541343/problems-with-libgl-fbconfigs-swrast-through-each-update):
 ```
