@@ -26,3 +26,24 @@ foo="$foo World"
 echo $foo
 > Hello World
 ```
+- [How do I show apt-get package management history via command line?](https://askubuntu.com/questions/21657/how-do-i-show-apt-get-package-management-history-via-command-line#21658): `less /var/log/apt/history.log`
+- [How to undo apt-get autoremove](https://askubuntu.com/questions/738984/how-to-undo-apt-get-autoremove#738986):
+```
+echo '#!/bin/bash' > restore
+echo sudo apt-get install `grep Remove /var/log/apt/history.log | tail -1 | sed -e 's|Remove: ||g' -e 's|([^)]*)||g' -e 's|:[^ ]* ||g' -e 's|,||g'` >> restore
+chmod +x restore 
+./restore
+```
+- [Check Debian/Ubuntu Linux package version using apt-get/aptitude command](https://www.cyberciti.biz/faq/debian-ubuntu-linux-apt-get-aptitude-show-package-version-command/):
+```
+apt-cache policy {package}
+# or
+apt-cache madison {package}
+# Debian Linux package version
+apt list {package-name-here}
+# Check package version
+aptitude versions {package-name-here}
+aptitude versions {package-name-here} | more
+aptitude versions {package-name-here} | awk { print $2 }
+```
+- [How to redirect output to a file and stdout](https://stackoverflow.com/questions/418896/how-to-redirect-output-to-a-file-and-stdout/418899#418899): `program [arguments...] 2>&1 | tee outfile` and to append to a log file `program [arguments...] 2>&1 | tee -a outfile`
