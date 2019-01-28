@@ -25,7 +25,7 @@ sudo apt-get update
 sudo apt-get install ffmpeg
 ffmpeg -version
 ```
-- [Latest Terminator version on Ubuntu 16.04](https://nikitashalnov.github.io/terminator-crashes-in-ubuntu-1604/):
+- [Latest Terminator version on Ubuntu 16.04](https://nikitashalnov.github.io/terminator-crashes-in-ubuntu-1604/) ([terminator keeps crashing: segfault in libvte.so.9.2800.2](https://bugs.launchpad.net/ubuntu/+source/terminator/+bug/1568132)):
 ```
 sudo add-apt-repository ppa:gnome-terminator/nightly-gtk3
 sudo apt-get update
