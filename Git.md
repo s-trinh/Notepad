@@ -54,6 +54,15 @@ git push origin 'refs/tags/*:refs/tags/*'
 [difftool "meld"]
     cmd = meld "$LOCAL" "$REMOTE"
 ```
+- [Git Diff and Meld on Windows](https://stackoverflow.com/questions/20238883/git-diff-and-meld-on-windows/24943348#24943348):
+```
+[diff]
+    tool = meld
+[difftool]
+    prompt = false
+[difftool "meld"]
+    cmd = \"C:/Program Files (x86)/Meld/Meld.exe\" "$LOCAL" "$REMOTE"
+```
 
 ### Push too much data
 - [Git, fatal: The remote end hung up unexpectedly](https://stackoverflow.com/questions/15240815/git-fatal-the-remote-end-hung-up-unexpectedly)
