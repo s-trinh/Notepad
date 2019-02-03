@@ -90,3 +90,8 @@
 - [5th place solution (based only on Mask-RCNN)](https://www.kaggle.com/c/data-science-bowl-2018/discussion/56326)
 - [Train & Test Image Mosaic](https://www.kaggle.com/bonlime/train-test-image-mosaic)
 - [Must Know Tips/Tricks in Deep Neural Networks (by Xiu-Shen Wei)](http://lamda.nju.edu.cn/weixs/project/CNNTricks/CNNTricks.html)
+
+## Hardware
+- [Hardware for Deep Learning. Part 1: Introduction](https://blog.inten.to/hardware-for-deep-learning-current-state-and-trends-51c01ebbb6dc)
+- [Hardware for Deep Learning. Part 2: CPU](https://blog.inten.to/cpu-hardware-for-deep-learning-b91f53cb18af)
+- [Hardware for Deep Learning. Part 3: GPU](https://blog.inten.to/hardware-for-deep-learning-part-3-gpu-8906c1644664)
