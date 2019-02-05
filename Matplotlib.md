@@ -1,4 +1,4 @@
-## Plot pose estimation from `vpPlot` format
+### Plot pose estimation from `vpPlot` format
 ```
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
@@ -57,3 +57,6 @@ def main():
 if __name__ == "__main__":
   main()
 ```
+
+### Examples
+- [matplotlib - 2D and 3D plotting in Python](https://nbviewer.jupyter.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-4-Matplotlib.ipynb)
