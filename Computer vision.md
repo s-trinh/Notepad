@@ -62,6 +62,23 @@
   - [https://sites.google.com/seas.upenn.edu/cis580spr19/lectures](https://sites.google.com/seas.upenn.edu/cis580spr19/lectures)
   - [https://fling.seas.upenn.edu/~cis580/wiki/index.php?title=CIS580:_Machine_Perception](https://fling.seas.upenn.edu/~cis580/wiki/index.php?title=CIS580:_Machine_Perception)
   - [https://fling.seas.upenn.edu/~cis580/wiki/index.php?title=Lectures_Spring_2018](https://fling.seas.upenn.edu/~cis580/wiki/index.php?title=Lectures_Spring_2018)
+- [ME 5286: Robotics - Computer Vision (University of Minnesota)](http://www.me.umn.edu/courses/me5286/vision/)
+  - [2017](http://www.me.umn.edu/courses/me5286/vision/VisionNotes/2017/)
+  - [2018](http://www.me.umn.edu/courses/me5286/vision/VisionNotes/2018/)
+- [Computer Vision (University of Texas)](http://www.cs.utexas.edu/~grauman/)
+  - [CS 378H: Honors Machine Vision - Spring 2017](http://vision.cs.utexas.edu/378h-spring2017/)
+  - [CS 376: Computer Vision - Spring 2018](http://vision.cs.utexas.edu/376-spring2018/)
+  - [CS381V: Visual Recognition, Fall 2017](http://vision.cs.utexas.edu/381V-fall2017/)
+- [Computer Vision - University of Szeged - Zoltan Kato](https://www.inf.u-szeged.hu/~kato/teaching/computervision/)
+- [CS370: Introduction to Computer Vision - University of Massachusetts](https://people.cs.umass.edu/~elm/Teaching/370_S14/)
+  - [https://people.cs.umass.edu/~elm/Teaching/ppt/370/](https://people.cs.umass.edu/~elm/Teaching/ppt/370/)
+- [Physics 1230: Light and Color - University of Colorado](https://physicscourses.colorado.edu/phys1230/phys1230_sp14/)
+  - [https://physicscourses.colorado.edu/phys1230/phys1230_sp14/lectureNotes1230S14/](https://physicscourses.colorado.edu/phys1230/phys1230_sp14/lectureNotes1230S14/)
+- [Computer Vision - Carlo Tomasi (Duke Computer Science)](https://www2.cs.duke.edu/courses/fall15/compsci527/)
+  - [https://www2.cs.duke.edu/courses/fall15/compsci527/syllabus.html](https://www2.cs.duke.edu/courses/fall15/compsci527/syllabus.html)
+  - [https://www2.cs.duke.edu/courses/fall15/compsci527/notes/](https://www2.cs.duke.edu/courses/fall15/compsci527/notes/)
+- [CSC 420, Fall 2011 - Introduction to Image Understanding (University of Toronto)](http://www.cs.toronto.edu/~jepson/csc420/)
+
 
 ## Workshop
 - [Bay Area Vision Meeting 2014 - Hosted by Computational Vision and Geometry Lab](http://cvgl.stanford.edu/BAVM14/) ([Index Of](http://cvgl.stanford.edu/BAVM14/slides/))
