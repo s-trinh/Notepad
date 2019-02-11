@@ -59,6 +59,7 @@
   - [slides](http://ais.informatik.uni-freiburg.de/teaching/ss18/robotics/slides/)
 - [Master's Course in Robotics and Intelligent Systems, Università degli Studi di Napoli Federico II](http://www.master-ris.unina.it/)
   - [slides](http://www.master-ris.unina.it/custom-php/materiale_didattico/)
+- [ME 5286: Robotics - Spring 2019 (University of Minnesota)](http://www.me.umn.edu/courses/me5286/)
 
 ## Rotation interpolation and smoothing
 - [Interpolation schemes for rigid body motions, Milos Zefran and Vijay Kumar](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.25.1776&rep=rep1&type=pdf)
