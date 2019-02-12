@@ -75,6 +75,10 @@
 - [Rodrigues' rotation formula (Wikipedia)](https://en.wikipedia.org/wiki/Rodrigues%27_rotation_formula)
 - [Robotics Kinematics and Dynamics/Description of Position and Orientation](https://en.wikibooks.org/wiki/Robotics_Kinematics_and_Dynamics/Description_of_Position_and_Orientation)
 - [Robot Dynamics Lecture Notes](https://www.ethz.ch/content/dam/ethz/special-interest/mavt/robotics-n-intelligent-systems/rsl-dam/documents/RobotDynamics2016/RD2016script.pdf)
+- [Rodrigues vectors, unit Quaternions, A.D. (Tony) Rollett, S. R. Wilson (CMU)](http://pajarito.materials.cmu.edu/rollett/27750/Rodrigues-Vectors-Seth-2Jan15.pdf)
+- [Axis–angle representation (WikiVisually)](https://wikivisually.com/wiki/Axis%E2%80%93angle_representation)
+- [Rodrigues' rotation formula (WikiVisually)](https://wikivisually.com/wiki/Rodrigues%27_rotation_formula)
+- [Three-Dimensional Rotations](https://home.aero.polimi.it/trainelli/downloads/Bottasso_ThreeDimensionalRotations.pdf)
 
 ## Quaternion
 - [The Quaternionic Exponential (and beyond), Hubert HOLIN](https://www.boost.org/doc/libs/1_48_0/libs/math/quaternion/TQE.pdf)
