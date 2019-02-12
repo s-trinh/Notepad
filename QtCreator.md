@@ -26,6 +26,7 @@
 > > Qt-creator at qt-project.org
 > > http://lists.qt-project.org/mailman/listinfo/qt-creator
 - [Keyboard Shortcuts](https://doc.qt.io/qtcreator/creator-keyboard-shortcuts.html)
+- [Qt Creator: Multi line text editing](https://stackoverflow.com/questions/17320056/qt-creator-multi-line-text-editing/23652683#23652683): `hold shift + alt > move cursor to the multi lines selection > type`
 
 ## Install
 - [Qt Offline Installers](https://www1.qt.io/offline-installers/)
