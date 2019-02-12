@@ -630,7 +630,7 @@
 > LAPACK ($MKLROOT/lib/intel64/libmkl_<C>_<P>.so)
 > LAPACKE ($MKLROOT/lib/intel64/libmkl_<C>_<P>.so, $MKLROOT/include/mkl_lapacke.h)
 > ```
-```
+> ```
 > <C> is the compiler ABI (gf for GFortran and intel for IFort) and <P> is the 64-bit model, lp64 or ilp64.
 > ```
 
