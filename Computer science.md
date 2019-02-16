@@ -16,3 +16,5 @@
   - [Real-time kernels (Real-time Operating Systems)](http://sigpromu.org/brett/elec3730/lecture13.pdf)
   - [Real-time kernels - How MicroC/OS-II does it!](http://sigpromu.org/brett/elec3730/lecture14.pdf)
   - [Real-time kernels - Shared Resources](http://sigpromu.org/brett/elec3730/lecture15.pdf)
+- [ACMS 40212/60212: Advanced Scientific Computing, Spring 2016, Zhiliang Xu (University of Notre Dame)](https://www3.nd.edu/~zxu2/ACMS40212-S16.html)
+- [ACMS 40390: Fall 2016 - Numerical Analysis, Zhiliang Xu (University of Notre Dame)](https://www3.nd.edu/~zxu2/ACMS40390-F16.html)
