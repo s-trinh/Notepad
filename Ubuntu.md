@@ -1,4 +1,11 @@
 ### Software
+- [Latest ffmpeg version on Ubuntu 16.04](https://tecadmin.net/install-ffmpeg-on-linux/):
+```
+sudo add-apt-repository ppa:jonathonf/ffmpeg-4
+sudo apt-get update
+sudo apt-get install ffmpeg
+ffmpeg -version
+```
 - [Latest Gimp version on Ubuntu 16.04](https://doc.ubuntu-fr.org/gimp#pour_disposer_des_dernieres_versions_stables):
 ```
 sudo add-apt-repository ppa:otto-kesselgulasch/gimp
@@ -18,12 +25,12 @@ flatpak run org.gimp.GIMP
 sudo apt install ppa-purge
 sudo ppa-purge ppa:otto-kesselgulasch/gimp
 ```
-- [Latest ffmpeg version on Ubuntu 16.04](https://tecadmin.net/install-ffmpeg-on-linux/):
+- [Latest Inkscape on Ubuntu 16.04](http://ubuntuhandbook.org/index.php/2017/01/install-inkscape-0-92-ppa-ubuntu-16-04-16-10-14-04/):
 ```
-sudo add-apt-repository ppa:jonathonf/ffmpeg-4
-sudo apt-get update
-sudo apt-get install ffmpeg
-ffmpeg -version
+# sudo snap remove inkscape
+sudo add-apt-repository ppa:inkscape.dev/stable
+sudo apt update
+sudo apt install inkscape
 ```
 - [Latest Terminator version on Ubuntu 16.04](https://nikitashalnov.github.io/terminator-crashes-in-ubuntu-1604/) ([terminator keeps crashing: segfault in libvte.so.9.2800.2](https://bugs.launchpad.net/ubuntu/+source/terminator/+bug/1568132)):
 ```
