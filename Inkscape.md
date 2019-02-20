@@ -1,0 +1,16 @@
+### Misc
+- Select object: `F1`
+- Draw line: `Shift + F6`, RMB to finish
+- Draw curved line: `Shift + F6`, LMB to start, hold LMB at the end and move the mouse, RMB to finish
+- Draw circle: `F5`
+- [How to draw an arrow in inkscape](https://graphicdesign.stackexchange.com/questions/54517/how-to-draw-an-arrow-in-inkscape/54518#54518):
+  - Draw a line: `Shift + F6`
+  - Open Fill and Stroke dialog: `Shift + Ctrl + F`
+  - Select Stroke Style tab
+  - Choose an arrow for the Start Marker or End Marker
+- Line thickness: `Shift + Ctrl + F`
+- Object properties: `Shift + Ctrl + O`
+- [Draw triangle](http://goinkscape.com/3-ways-to-draw-triangles-in-inkscape/): `Polygon tool` > `Regular polygon` > `Corners to 3`
+- Latex equation:
+  - `Extensions -> Render -> LaTeX Formula`
+  - if [menu is hidden](http://wiki.inkscape.org/wiki/index.php/LaTeX): `sudo apt-get install texlive pstoedit`
