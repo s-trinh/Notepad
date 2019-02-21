@@ -117,5 +117,24 @@
 - [Notes on Quaternions, Simo Särkkä](https://users.aalto.fi/~ssarkka/pub/quat.pdf)
 - [Lecture 7. Representing Rotation, Matthew T. Mason](https://www.cs.cmu.edu/afs/cs/academic/class/16741-s07/www/lectures/lecture7.pdf)
 
+## Hand-Eye calibration
+- [Poor accuracy of hand eye calibration when using vanilla Tsai's method](https://robotics.stackexchange.com/questions/14135/poor-accuracy-of-hand-eye-calibration-when-using-vanilla-tsais-method)
+- [Hand Eye Calibration Solver](https://robotics.stackexchange.com/questions/7953/hand-eye-calibration-solver)
+- [Hand Eye Calibration](https://robotics.stackexchange.com/questions/7163/hand-eye-calibration)
+- [Hand-Eye Calibration (CAMPAR @ TUM)](http://campar.in.tum.de/Chair/HandEyeCalibration)
+- [ROS + CamOdoCal Hand Eye Calibration](https://github.com/jhu-lcsr/handeye_calib_camodocal)
+- [Hand Eye Calibration (presentation)](https://www.icloud.com/keynote/000FCawnmweBkaoPmQx2PY8nA#Optimal_Hand_Eye_Calibration)
+- [CamOdoCal: Automatic Intrinsic and Extrinsic Calibration of a Rig with Multiple Generic Cameras and Odometry](https://github.com/hengli/camodocal)
+- [Hand-Eye-Calibration (ETHZ)](https://github.com/ethz-asl/hand_eye_calibration)
+- [Optimal Hand-Eye Calibration](https://www.robotic.dlr.de/fileadmin/robotic/stroblk/publications/strobl_2006iros.pdf)
+
 ## Articles
 - [Vision for Robotics, Danica Kragic and Markus Vincze](https://pdfs.semanticscholar.org/1594/1d6904c641e9225bb00648d0664026d17247.pdf)
+
+## Libraries
+- [Rigid motions and robotics toolbox](https://www.mathworks.com/matlabcentral/fileexchange/56758-rigid-motions-and-robotics-toolbox)
+> 3D rigid transforms and robotics with quaternions and dual quaternions (OO interface)
+- [trac_ik](https://bitbucket.org/traclabs/trac_ik)
+> The ROS packages in this repository were created to provide an alternative Inverse Kinematics solver to the popular inverse Jacobian methods in KDL. Specifically, KDL's convergence algorithms are based on Newton's method, which does not work well in the presence of joint limits --- common for many robotic platforms. TRAC-IK concurrently runs two IK implementations. One is a simple extension to KDL's Newton-based convergence algorithm that detects and mitigates local minima due to joint limits by random jumps. The second is an SQP (Sequential Quadratic Programming) nonlinear optimization approach which uses quasi-Newton methods that better handle joint limits. By default, the IK search returns immediately when either of these algorithms converges to an answer. Secondary constraints of distance and manipulability are also provided in order to receive back the "best" IK solution.
+- [Robotics Toolbox for MATLAB® release 10](https://github.com/petercorke/robotics-toolbox-matlab)
+- [Spatial Math Toolbox for MATLAB®](https://github.com/petercorke/spatial-math)
