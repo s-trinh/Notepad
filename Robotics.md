@@ -140,6 +140,11 @@
 - [CamOdoCal: Automatic Intrinsic and Extrinsic Calibration of a Rig with Multiple Generic Cameras and Odometry](https://github.com/hengli/camodocal)
 - [Hand-Eye-Calibration (ETHZ)](https://github.com/ethz-asl/hand_eye_calibration)
 - [Optimal Hand-Eye Calibration](https://www.robotic.dlr.de/fileadmin/robotic/stroblk/publications/strobl_2006iros.pdf)
+- [SolveAXXB](https://github.com/zhixy/SolveAXXB)
+- [easy_handeye: TF / VISP Hand-Eye Calibration](https://github.com/IFL-CAMP/easy_handeye/)
+- [A fully automatic camera and hand eye calibration](https://github.com/christianwengert/calib_toolbox_addon/)
+- [Camera-to-Arm-Calibration](https://github.com/ZacharyTaylor/Camera-to-Arm-Calibration)
+- [Hand-Eye-Calibration-Matlab](https://github.com/hengguan/Hand-Eye-Calibration-Matlab)
 
 ## Articles
 - [Vision for Robotics, Danica Kragic and Markus Vincze](https://pdfs.semanticscholar.org/1594/1d6904c641e9225bb00648d0664026d17247.pdf)
