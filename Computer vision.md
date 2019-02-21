@@ -88,3 +88,7 @@
 - [Structure from Motion Using Structure-less Resection](https://www.cs.unc.edu/~ezheng/resources/structure-less_sfm/67_final.pdf)
 - [Structure from Motion by Chahat Deep Singh](https://cmsc426.github.io/sfm/)
 - [Structure from Motion by Nitin J. Sanket](https://cmsc426.github.io/gtsam/)
+
+## Papers
+- [Minimal Problems in Computer Vision](http://cmp.felk.cvut.cz/mini/):
+> This page provides a list of papers, software, data, and evaluations for solving minimal problems in computer vision, which is concerned with finding parameters of (geometrical) models from as small (minimal) data sets by solving systems of algebraic equations.
