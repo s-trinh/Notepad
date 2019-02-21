@@ -116,6 +116,19 @@
 - [Quaternion Computation](http://www.neil.dantam.name/note/dantam-quaternion.pdf)
 - [Notes on Quaternions, Simo Särkkä](https://users.aalto.fi/~ssarkka/pub/quat.pdf)
 - [Lecture 7. Representing Rotation, Matthew T. Mason](https://www.cs.cmu.edu/afs/cs/academic/class/16741-s07/www/lectures/lecture7.pdf)
+- [Quaternions and Rotations (Com S 477/577 Notes), Yan-Bin Jia](http://graphics.stanford.edu/courses/cs348a-17-winter/Papers/quaternion.pdf)
+- [Quaternions and Rotations, Jernej Barbic, CSCI 520 ComputerAnimation and Simulation (University of Southern California)](http://run.usc.edu/cs520-s12/quaternions/quaternions-cs520.pdf)
+- [Orientation & QuaternionsCSE169: Computer Animation, Instructor: Steve Rotenberg, UCSD, Winter 2017](https://cseweb.ucsd.edu/classes/wi17/cse169-a/slides/CSE169_03.pdf)
+- [Euler Angles, Quaternions, and Transformation Matrices](https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19770024290.pdf)
+- [Quaternions in numpy](https://github.com/moble/quaternion)
+- [Homogeneous Transformation Matrices and Quaternions.](https://www.lfd.uci.edu/~gohlke/code/transformations.py.html)
+> Transformations is a Python library for calculating 4x4 matrices for
+> translating, rotating, reflecting, scaling, shearing, projecting,
+> orthogonalizing, and superimposing arrays of 3D homogeneous coordinates
+> as well as for converting between rotation matrices, Euler angles,
+> and quaternions. Also includes an Arcball control object and
+> functions to decompose transformation matrices.
+- [Spatial Math Toolbox for MATLAB®](https://github.com/petercorke/spatial-math)
 
 ## Hand-Eye calibration
 - [Poor accuracy of hand eye calibration when using vanilla Tsai's method](https://robotics.stackexchange.com/questions/14135/poor-accuracy-of-hand-eye-calibration-when-using-vanilla-tsais-method)
