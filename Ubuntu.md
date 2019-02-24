@@ -38,6 +38,16 @@ sudo add-apt-repository ppa:octave/stable
 sudo apt update
 sudo apt install octave
 ```
+- [Latest Octave on Ubuntu 16.04/18.04 (Flatpak)](http://ubuntuhandbook.org/index.php/2018/07/install-latest-gnu-octave-4-4-ubuntu-18-04/):
+```
+sudo apt-get install flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+flatpak install flathub org.octave.Octave
+flatpak run org.octave.Octave
+# Uninstall
+flatpak uninstall org.octave.Octave
+sudo apt-get remove flatpak
+```
 - [Latest Terminator version on Ubuntu 16.04](https://nikitashalnov.github.io/terminator-crashes-in-ubuntu-1604/) ([terminator keeps crashing: segfault in libvte.so.9.2800.2](https://bugs.launchpad.net/ubuntu/+source/terminator/+bug/1568132)):
 ```
 sudo add-apt-repository ppa:gnome-terminator/nightly-gtk3
