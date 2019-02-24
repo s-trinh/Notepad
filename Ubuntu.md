@@ -32,6 +32,12 @@ sudo add-apt-repository ppa:inkscape.dev/stable
 sudo apt update
 sudo apt install inkscape
 ```
+- [Latest Octave on Ubuntu 16.04](https://askubuntu.com/questions/945517/installing-latest-version-of-gnu-octave-when-i-have-already-installed-other-vers/945532#945532) ([Installation et configuration de GNU Octave et des packages Octave-Forge](https://enacit1.epfl.ch/cours_matlab/octave.shtml)):
+```
+sudo add-apt-repository ppa:octave/stable
+sudo apt update
+sudo apt install octave
+```
 - [Latest Terminator version on Ubuntu 16.04](https://nikitashalnov.github.io/terminator-crashes-in-ubuntu-1604/) ([terminator keeps crashing: segfault in libvte.so.9.2800.2](https://bugs.launchpad.net/ubuntu/+source/terminator/+bug/1568132)):
 ```
 sudo add-apt-repository ppa:gnome-terminator/nightly-gtk3
