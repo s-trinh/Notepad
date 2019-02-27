@@ -89,6 +89,10 @@
   - [12 - Frequency Shaping (28/11/2012)](http://www-lar.deis.unibo.it/people/cmelchiorri/Files_ACST/12_Frequency_Shaping.pdf)
   - [13 - Control of Digital Systems (05/12/2012)](http://www-lar.deis.unibo.it/people/cmelchiorri/Files_ACST/13_Digital_Systems_Control.pdf)
   - [14 - Analysis and Control of Non Linear Systems (11/12/2013)](http://www-lar.deis.unibo.it/people/cmelchiorri/Files_ACST/100_Non_Linear_Systems.pdf)
+- [Drones and Autonomous Systems Lab @ UNLV](http://www.daslhub.org/)
+  - [UNLV ME729 - Advanced Robotics Spring 2018 Home Page](http://www.daslhub.org/unlv/courses/me729-sp/me729Jan2018-May2018.html)
+  - [UNLV ME 425/625 - Robotics Spring 2019 Home Page](http://www.daslhub.org/unlv/courses/me425-625/me425Jan2019May2019.html)
+  - [http://www.daslhub.org/unlv/wiki/doku.php](http://www.daslhub.org/unlv/wiki/doku.php)
 
 ## Rotation interpolation and smoothing
 - [Interpolation schemes for rigid body motions, Milos Zefran and Vijay Kumar](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.25.1776&rep=rep1&type=pdf)
