@@ -108,6 +108,15 @@
 - [Axis–angle representation (WikiVisually)](https://wikivisually.com/wiki/Axis%E2%80%93angle_representation)
 - [Rodrigues' rotation formula (WikiVisually)](https://wikivisually.com/wiki/Rodrigues%27_rotation_formula)
 - [Three-Dimensional Rotations](https://home.aero.polimi.it/trainelli/downloads/Bottasso_ThreeDimensionalRotations.pdf)
+- [Three-Dimensional Proper and Improper Rotation Matrices, Physics 116A, Winter 2011](http://scipp.ucsc.edu/~haber/ph116A/rotation_11.pdf)
+- [Rotation in the Space](http://web.cs.iastate.edu/~cs577/handouts/rotation.pdf)
+- [A Robust Method to Extract the Rotational Part of Deformations](https://animation.rwth-aachen.de/media/papers/2016-MIG-StableRotation.pdf)
+- [Matrix Animation and Polar Decomposition](http://graphicsinterface.org/wp-content/uploads/gi1992-30.pdf)
+- [Distance between rotations](http://www.boris-belousov.net/2016/12/01/quat-dist/)
+
+## Lie Groups
+- [An Elementary Introduction to Groups and Representations, Brian C. Hall, University of Notre Dame, Department of Mathematics](https://arxiv.org/abs/math-ph/0005032)
+- [Quantum Theory, Groups and Representations: An Introduction, Peter Woit, Department of Mathematics, Columbia University](http://www.math.columbia.edu/~woit/QM/qmbook.pdf)
 
 ## Quaternion
 - [The Quaternionic Exponential (and beyond), Hubert HOLIN](https://www.boost.org/doc/libs/1_48_0/libs/math/quaternion/TQE.pdf)
@@ -129,6 +138,14 @@
 > and quaternions. Also includes an Arcball control object and
 > functions to decompose transformation matrices.
 - [Spatial Math Toolbox for MATLAB®](https://github.com/petercorke/spatial-math)
+- [Rotation with Quaternions, Peter Grogono (Department of Computer Science, Concordia University, December 2001)](http://mathinfo.univ-reims.fr/IMG/pdf/rotation.pdf)
+- [Quaternions (Matlab)](https://www.mathworks.com/matlabcentral/fileexchange/35475-quaternions)
+- [MATLAB Transformation Toolbox](https://github.com/kutzer/TransformationToolbox)
+- [3D kinematics using dual quaternions: theory and applications in neuroscience](https://www.frontiersin.org/articles/10.3389/fnbeh.2013.00007/full)
+- [Dual quaternion toolbox (Matlab)](https://www.mathworks.com/matlabcentral/fileexchange/39288-dual-quaternion-toolbox)
+- [Quaternion Toolbox (Matlab)](https://www.mathworks.com/matlabcentral/fileexchange/1176-quaternion-toolbox)
+- [Pose and Motion Estimation from Vision Using Dual Quaternion-Based Extended Kalman Filtering](https://www.imaging.utk.edu/publications/papers/dissertation/goddard.pdf)
+- [The Quaternions and the Spaces S3, SU(2),SO(3),and RP3](http://www.cis.upenn.edu/~cis610/cis610sl7.pdf)
 
 ## Hand-Eye calibration
 - [Poor accuracy of hand eye calibration when using vanilla Tsai's method](https://robotics.stackexchange.com/questions/14135/poor-accuracy-of-hand-eye-calibration-when-using-vanilla-tsais-method)
@@ -145,6 +162,24 @@
 - [A fully automatic camera and hand eye calibration](https://github.com/christianwengert/calib_toolbox_addon/)
 - [Camera-to-Arm-Calibration](https://github.com/ZacharyTaylor/Camera-to-Arm-Calibration)
 - [Hand-Eye-Calibration-Matlab](https://github.com/hengguan/Hand-Eye-Calibration-Matlab)
+- [Orthogonal dual tensor method for solving the AX = XB sensor calibration problem](https://www.researchgate.net/publication/304540776_Orthogonal_dual_tensor_method_for_solving_the_AX_XB_sensor_calibration_problem)
+- [A new hand-eye calibration approach for fracture reduction robot](https://www.tandfonline.com/doi/pdf/10.1080/24699322.2017.1379254)
+- [Hand-Eye Calibration and Inverse Kinematics of Robot Arm using Neural Network](http://orbit.dtu.dk/files/74242737/rita2013.pdf)
+- [Vision-Based Calibration of Dual RCM-Based Robot Arms in Human-Robot Collaborative Minimally Invasive Surgery](https://liuziwei7.github.io/papers/robotcalibration.pdf)
+- [Simplified Intrinsic Camera Calibration and Hand-Eye Calibration for Robot Vision](https://www.techfak.uni-bielefeld.de/~rhaschke/lehre/WS04/humanoids/papers/cam-calibration.pdf)
+- [Global Optimization Techniques in Camera-Robot Calibration](http://www.cski.cz/files/cena2016/web_heller/down/Thesis_Heller.pdf)
+- [Calibration and Registration Techniques for Robotics](http://math.loyola.edu/~mili/Calibration/)
+- [An Overview of Robot-Sensor Calibration Methods for Evaluation of Perception Systems](https://ws680.nist.gov/publication/get_pdf.cfm?pub_id=910651)
+- [Solving the Robot-World/Hand-Eye Calibration Problem Using the Kronecker Product](https://ws680.nist.gov/publication/get_pdf.cfm?pub_id=910225)
+- [A Flexible Solution to AX=XB for Robot Hand-Eye Calibration](https://pdfs.semanticscholar.org/d36c/d02f387724687ac3276f4cc449a30908c710.pdf)
+- [Calibration of Wrist-Mounted Robotic Sensors by Solving Homogeneous Transform Equations the Form AX = XB](http://people.csail.mit.edu/tieu/stuff/Shiu1989.pdf)
+- [Hand-eye Calibration, Radu Horaud, Fadi Dornaika](https://hal.inria.fr/inria-00590039/document)
+- [Hand-Eye Calibration Using Dual Quaternions, K. Daniilidis](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.18.366&rep=rep1&type=pdf)
+- [Robot Sensor Calibration: Solving AX = XB on the Euclidean Group](http://robotics.snu.ac.kr/fcp/files/_pdf_files_publications/7_c/robot_sensor_calibration.pdf)
+- [A New Technique for Fully Autonomous and Efficient 3D Robotics Hand/Eye Calibration, Tsai, Lenz](https://pdfs.semanticscholar.org/19b3/89a797a55c8b63dca8b6d1889df4cff8bfaa.pdf)
+- [On-line Hand-Eye Calibration, Nicolas Andreff, Radu Horaud, Bernard Espiau](https://hal.inria.fr/inria-00590109/document)
+- [RWHEC-Tabb-AhmadYousef, Methods for robot-world, hand-eye calibration; version 2.0.](https://github.com/amy-tabb/RWHEC-Tabb-AhmadYousef)
+- [Solving the robot-world hand-eye(s) calibration problem with iterative methods](https://www.researchgate.net/publication/316625160_Solving_the_robot-world_hand-eyes_calibration_problem_with_iterative_methods)
 
 ## Articles
 - [Vision for Robotics, Danica Kragic and Markus Vincze](https://pdfs.semanticscholar.org/1594/1d6904c641e9225bb00648d0664026d17247.pdf)
@@ -156,3 +191,4 @@
 > The ROS packages in this repository were created to provide an alternative Inverse Kinematics solver to the popular inverse Jacobian methods in KDL. Specifically, KDL's convergence algorithms are based on Newton's method, which does not work well in the presence of joint limits --- common for many robotic platforms. TRAC-IK concurrently runs two IK implementations. One is a simple extension to KDL's Newton-based convergence algorithm that detects and mitigates local minima due to joint limits by random jumps. The second is an SQP (Sequential Quadratic Programming) nonlinear optimization approach which uses quasi-Newton methods that better handle joint limits. By default, the IK search returns immediately when either of these algorithms converges to an answer. Secondary constraints of distance and manipulability are also provided in order to receive back the "best" IK solution.
 - [Robotics Toolbox for MATLAB® release 10](https://github.com/petercorke/robotics-toolbox-matlab)
 - [Spatial Math Toolbox for MATLAB®](https://github.com/petercorke/spatial-math)
+- [MATLAB Transformation Toolbox](https://github.com/kutzer/TransformationToolbox)
