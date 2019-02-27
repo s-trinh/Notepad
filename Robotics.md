@@ -148,6 +148,8 @@
 - [The Quaternions and the Spaces S3, SU(2),SO(3),and RP3](http://www.cis.upenn.edu/~cis610/cis610sl7.pdf)
 - [https://github.com/mrdoob/three.js/blob/dev/src/math/Quaternion.js](https://github.com/mrdoob/three.js/blob/dev/src/math/Quaternion.js)
 - [https://github.com/USC-ACTLab/crazyswarm/blob/master/matlab/trajectorygen/rot2quat.m](https://github.com/USC-ACTLab/crazyswarm/blob/master/matlab/trajectorygen/rot2quat.m)
+- [Angular Momentum, Quaternion, Octonion, And Lie-Super Algebra OSP(1,2)](http://cds.cern.ch/record/337864/files/9710038.pdf)
+- [Octonions and Fermions](http://people.oregonstate.edu/~drayt/talks/OFpub.pdf)
 
 ## Hand-Eye calibration
 - [Poor accuracy of hand eye calibration when using vanilla Tsai's method](https://robotics.stackexchange.com/questions/14135/poor-accuracy-of-hand-eye-calibration-when-using-vanilla-tsais-method)
