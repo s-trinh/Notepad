@@ -146,6 +146,8 @@
 - [Quaternion Toolbox (Matlab)](https://www.mathworks.com/matlabcentral/fileexchange/1176-quaternion-toolbox)
 - [Pose and Motion Estimation from Vision Using Dual Quaternion-Based Extended Kalman Filtering](https://www.imaging.utk.edu/publications/papers/dissertation/goddard.pdf)
 - [The Quaternions and the Spaces S3, SU(2),SO(3),and RP3](http://www.cis.upenn.edu/~cis610/cis610sl7.pdf)
+- [https://github.com/mrdoob/three.js/blob/dev/src/math/Quaternion.js](https://github.com/mrdoob/three.js/blob/dev/src/math/Quaternion.js)
+- [https://github.com/USC-ACTLab/crazyswarm/blob/master/matlab/trajectorygen/rot2quat.m](https://github.com/USC-ACTLab/crazyswarm/blob/master/matlab/trajectorygen/rot2quat.m)
 
 ## Hand-Eye calibration
 - [Poor accuracy of hand eye calibration when using vanilla Tsai's method](https://robotics.stackexchange.com/questions/14135/poor-accuracy-of-hand-eye-calibration-when-using-vanilla-tsais-method)
