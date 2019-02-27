@@ -51,3 +51,9 @@ aptitude versions {package-name-here} | awk { print $2 }
 ```
 ls --full-time
 ```
+- [Merging folders with mv?](https://unix.stackexchange.com/questions/127712/merging-folders-with-mv/127715#127715):
+```
+rsync -av /source/ /destination/
+# (after checking)
+rm -rf /source/
+```
