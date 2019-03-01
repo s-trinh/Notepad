@@ -882,3 +882,92 @@ Call Stack (most recent call first):
     return 0;
   }
   ```
+  
+## Docker
+- [How to use Docker (with ROS)](https://github.com/alecGraves/wiki/wiki/How-to-use-Docker-(with-ROS))
+```
+docker pull ros:kinetic-perception
+nvidia-docker run -v /host/dir:/home/docker_dir -e DISPLAY  -v "/tmp/.X11-unix:/tmp/.X11-unix" -it ros:kinetic-perception
+# without nvidia-docker should also work?
+#
+source /opt/ros/kinetic/setup.bash
+roscore
+# for the other terminals
+docker exec -it container_id bash
+#
+rosrun image_view image_view image=/camera/image/image_raw #use appropriate topic name
+```
+- [docker_run](https://github.com/lakehanne/Shells/blob/master/docker_run)
+```
+#/bin/bash
+
+printf '\n\nbinding xhost to the docker engine'
+xhost +local:root
+
+printf '\n\nWould you be attaching the display? \t [y/n] \n'
+read disp_resp
+
+echo -e "\nEnter the image and tag name: e.g. \n\t<$USER/repo:tag>\n"
+read repo_tag
+
+echo -e "\nAre you attaching a usb device? \t [y/n] \n"
+read usb_resp
+
+echo -e "\nAre you attaching the system's gpu? [y|n] \n"
+read gpu_resp
+
+is_yes() {
+	yesses={y,Y,yes,Yes,YES}
+	if [[ $yesses =~ $1 ]]; then
+		echo 1
+	fi
+	}
+
+is_no() {
+        noses={n,N,no,No,No}
+        if [[ $noses =~ $1 ]]; then
+                echo 1
+        fi
+        }
+disp="-v /tmp/.X11-unix:/tmp/.X11-unix:ro -e DISPLAY=$DISPLAY"
+usb_mode="--privileged -v /dev/bus/usb:/dev/bus/usb"
+gpu_mode="--device /dev/nvidia0:/dev/nvidia0 --device /dev/nvidiactl:/dev/nvidiactl --device /dev/nvidia-uvm:/dev/nvidia-uvm"
+
+if [ $(is_yes $usb_resp)  ]  && [  $(is_yes $disp_resp) ] && [ $(is_yes $gpu_resp) ]; then
+		echo -e "running 'docker run -ti --rm $disp $usb_mode $repo_tag $gpu_mode' "
+		docker run -ti --rm $disp  $usb_mode  $gpu_mode $repo_tag
+elif [ $(is_yes $usb_resp)  ]  && [  $(is_yes $disp_resp) ] && [ $(is_no $gpu_resp) ]; then
+		echo -e "running 'docker run -ti --rm $disp $usb_mode $repo_tag' "
+		docker run -ti --rm $disp  $usb_mode  $repo_tag		
+elif [ $(is_yes $usb_resp) ] && [ $(is_no $disp_resp) ] && [ $(is_no $gpu_resp)]; then
+	echo -e "docker run -it --rm $usb_mode $repo_tag"
+        docker run -it --rm $usb_mode $repo_tag
+elif [ $(is_no $usb_resp) ] && [ $(is_no $disp_resp) ] && [ $(is_no $gpu_resp)]; then
+	echo -e "docker run -it --rm $usb_mode $repo_tag"
+        docker run -it --rm $repo_tag        
+elif [ $(is_no $usb_resp) ] && [ $(is_yes $disp_resp) ]; then
+	echo -e "docker run -ti --rm $disp $repo_tag"
+	docker run -ti --rm $disp $repo_tag
+else [ $is_no $usb_rep ] && [ $is_no  $disp_resp ]
+	echo -e "running without display or usb privileged mode"
+	docker run -ti --rm $repo_tag
+fi
+```
+- [Is it possible to run ROS (robotic operating system) inside a Docker and have X11 outputs from GUI tools?](https://www.quora.com/Is-it-possible-to-run-ROS-robotic-operating-system-inside-a-Docker-and-have-X11-outputs-from-GUI-tools)
+```
+sudo docker run -it  --rm=true  --name <CONTAINER NAME>   -e DISPLAY  -v "/tmp/.X11-unix:/tmp/.X11-unix"  <image name>   bash
+# if “No protocol specified QXcbConnection: Could not connect to display :0”.
+# You should allow clients from any host, using command “ xhost + “.
+#
+# Mac OS X
+# xquartz 
+open -a XQuartz 
+
+# XQuarzt ip setup 
+ip=$(ifconfig en0 | grep inet | awk '$1=="inet" {print $2}') 
+xhost + $ip
+
+# docker run with XQuartz 
+
+docker run -it --name <CONTAINER NAME> -e DISPLAY=$ip:0 -v /tmp/.X11-unix:/tmp/.X11-unix <image name> bash
+```
