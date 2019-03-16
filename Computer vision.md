@@ -78,6 +78,7 @@
   - [https://www2.cs.duke.edu/courses/fall15/compsci527/syllabus.html](https://www2.cs.duke.edu/courses/fall15/compsci527/syllabus.html)
   - [https://www2.cs.duke.edu/courses/fall15/compsci527/notes/](https://www2.cs.duke.edu/courses/fall15/compsci527/notes/)
 - [CSC 420, Fall 2011 - Introduction to Image Understanding (University of Toronto)](http://www.cs.toronto.edu/~jepson/csc420/)
+- [CMSC: 426 Computer Vision (aka Image Processing in the Catalog), Ramani Duraiswami (University of Maryland)](http://users.umiacs.umd.edu/~ramani/cmsc426/)
 
 
 ## Workshop
@@ -89,6 +90,12 @@
 - [Structure from Motion by Chahat Deep Singh](https://cmsc426.github.io/sfm/)
 - [Structure from Motion by Nitin J. Sanket](https://cmsc426.github.io/gtsam/)
 
+## PnP
+- [Lecture 23: 3-D Pose Object Recognition](http://users.umiacs.umd.edu/~ramani/cmsc426/Lecture23_3Dpose.pdf)
+
 ## Papers
 - [Minimal Problems in Computer Vision](http://cmp.felk.cvut.cz/mini/):
 > This page provides a list of papers, software, data, and evaluations for solving minimal problems in computer vision, which is concerned with finding parameters of (geometrical) models from as small (minimal) data sets by solving systems of algebraic equations.
+
+## Misc
+- [https://paperswithcode.com/](https://paperswithcode.com/)
