@@ -14,6 +14,40 @@ docker commit c3f279d17e0a svendowideit/testimage:version3
 ```
 - [How to save a Docker container state](https://stackoverflow.com/questions/44480740/how-to-save-a-docker-container-state/44480870#44480870)
 
+### Change docker images default location
+- use a disk partition with `Ext4` file system on Linux (`NTFS` will not work with docker on Ubuntu)
+- mount the disk partition automatically at startup:
+  - launch `Gnome-disks`
+  - select the partition
+  - click on the option button (wheel)
+  - and select automount
+- edit `etc/docker/daemon.json` and add:
+```
+"data-root":"/mnt/<disk_uuid>/docker",
+```
+- then.
+```
+sudo systemctl stop docker
+# Check docker has been stopped
+ps aux | grep -i docker | grep -v grep
+# Copy the files to the new location
+# -a, --archive             archive mode; equals -rlptgoD (no -H,-A,-X)
+# -x, --one-file-system     don't cross filesystem boundaries
+# -P                        show progress during transfer
+# -S, --sparse              handle sparse files efficiently
+sudo rsync -axPS /var/lib/docker/ /new/path/to/docker-data
+# service docker restart
+sudo systemctl start docker
+# Check Docker has started up using the new location
+docker info | grep 'Docker Root Dir'
+# Check everything has started up that should be running
+docker ps
+# Leave both copies on the server for a few days to make sure no issues arise, then feel free to delete it.
+sudo rm -r /var/lib/docker
+```
+- [Change Docker data directory on Debian](https://blog.adriel.co.nz/2018/01/25/change-docker-data-directory-in-debian-jessie/)
+- [How to change the docker image installation directory?](https://stackoverflow.com/questions/24309526/how-to-change-the-docker-image-installation-directory/50217666#50217666)
+
 ### Commands
 - `docker images` or `docker image ls`
 - `docker container ls` or `docker ps`?
