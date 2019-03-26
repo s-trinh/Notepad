@@ -31,6 +31,13 @@ git reset --hard commit_sha
 # or
 git reset --hard origin/master
 ```
+- [Git Pull with Submodule](http://openmetric.org/til/programming/git-pull-with-submodule/):
+```
+# For a repo with submodules, we can pull all submodules using
+git submodule update --init --recursive
+# To update submodules, we can use
+git pull origin master --recurse-submodules
+```
 - [Git clone recursive over https](https://stackoverflow.com/questions/11410017/git-submodule-update-over-https/11410074#11410074):
 ```
 Edit your `.gitmodule` file
