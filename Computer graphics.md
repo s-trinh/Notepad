@@ -6,3 +6,4 @@
 - [Course Notes, Peter Grogono, 24 December 2011, Department of Computer Science and Software Engineering, Concordia University](http://users.encs.concordia.ca/home/g/grogono/CourseNotes/coursenotes.html)
   - [COMP 477 Animation for Computer Games](http://users.encs.concordia.ca/home/g/grogono/CourseNotes/COMP-477-Notes-2010.pdf)
   - [COMP 6761   Advanced Computer Graphics](http://users.encs.concordia.ca/home/g/grogono/CourseNotes/COMP-6761-Notes.pdf)
+- [CS 354 - Computer Graphics - Fall 2016, Don Fussell (The University of Texas)](https://www.cs.utexas.edu/users/fussell/courses/cs354/)
