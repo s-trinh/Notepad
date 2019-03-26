@@ -94,6 +94,10 @@ glLoadMatrixd(&glViewMatrix.at<double>(0, 0));
 - [Simulating Calibrated Cameras in OpenGL](https://sightations.wordpress.com/2010/08/03/simulating-calibrated-cameras-in-opengl/)
 - [Why does sign matter in opengl projection matrix](https://stackoverflow.com/questions/2286529/why-does-sign-matter-in-opengl-projection-matrix)
 - [Unable to Draw 3D (Frustum) on top of 2D (Ortho) in OpenGL](https://stackoverflow.com/questions/5328571/unable-to-draw-3d-frustum-on-top-of-2d-ortho-in-opengl/5328804#5328804)
+- [Problem with rendering to a new framebuffer](https://www.reddit.com/r/opengl/comments/6wptxk/problem_with_rendering_to_a_new_framebuffer/)
+- [ImGui Window is not displaying correctly a texture #1408](https://github.com/ocornut/imgui/issues/1408)
+- [How to draw on an ImGui window? #984](https://github.com/ocornut/imgui/issues/984)
+- [OpenGL sample ontop of modern opengl #90](https://github.com/ocornut/imgui/issues/90)
 
 ### Documentation
 - [Coordinate Systems](https://learnopengl.com/Getting-started/Coordinate-Systems)
@@ -104,6 +108,7 @@ glLoadMatrixd(&glViewMatrix.at<double>(0, 0));
 - [The Perspective and Orthographic Projection Matrix](https://www.scratchapixel.com/lessons/3d-basic-rendering/perspective-and-orthographic-projection-matrix/opengl-perspective-projection-matrix)
 - [Framebuffer Object](https://www.khronos.org/opengl/wiki/Framebuffer_Object)
 - [Image Format](https://www.khronos.org/opengl/wiki/Image_Format)
+- [OpenGL Loading Library](https://www.khronos.org/opengl/wiki/OpenGL_Loading_Library)
 
 ### Sample code
 - [OGL_OCV_common.cpp](https://github.com/royshil/HeadPosePnP/blob/master/OGL_OCV_common.cpp)
@@ -2851,6 +2856,416 @@ int main(int argc, char* argv[])
 
 - [Marker-less Augmented Reality by OpenCV and OpenGL](https://medium.com/@ahmetozlu93/marker-less-augmented-reality-by-opencv-and-opengl-531b2af0a130)
 - [Marker-less Augmented Reality](https://github.com/ahmetozlu/augmented_reality)
+
+- [OpenGL sample ontop of modern opengl #90](https://github.com/ocornut/imgui/issues/90) ([https://pastebin.com/BGexwriB](https://pastebin.com/BGexwriB)):
+<details>
+
+```
+GLuint programScene;
+GLuint programIMGUI;
+GLuint programFinal; // final compositing shader: fragColor = texture(scene, uv) + texture(imgui, uv) + vec4(0.3, 0.0, 0.0, 0.5) ;
+
+GLuint fboRender; // FBO (RGB) for storing scene
+GLuint texRender;
+GLuint texRenderLoc;
+GLuint fboIMGUI; // FBO (RGBA) for storing GUI
+GLuint texIMGUI;
+GLuint texIMGUILoc;
+
+// This is the main rendering function that you have to implement and provide to ImGui (via setting up 'RenderDrawListsFn' in the ImGuiIO structuer)
+static void ImImpl_RenderDrawLists(ImDrawList** const cmd_lists, int cmd_lists_count)
+{
+	size_t total_vtx_count = 0;
+	for (int n = 0; n < cmd_lists_count; n++)
+		total_vtx_count += cmd_lists[n]->vtx_buffer.size();
+	if (total_vtx_count == 0)
+		return;
+
+	// Copy all vertices into a single contiguous GL buffer
+	glBindBuffer(GL_ARRAY_BUFFER, vbo);
+	glBindVertexArray(vao);
+	glBufferData(GL_ARRAY_BUFFER, total_vtx_count * sizeof(ImDrawVert), NULL, GL_STREAM_DRAW);
+	unsigned char* buffer_data = (unsigned char*)glMapBuffer(GL_ARRAY_BUFFER, GL_WRITE_ONLY);
+	if (!buffer_data)
+		return;
+	for (int n = 0; n < cmd_lists_count; n++)
+	{
+		const ImDrawList* cmd_list = cmd_lists[n];
+		memcpy(buffer_data, &cmd_list->vtx_buffer[0], cmd_list->vtx_buffer.size() * sizeof(ImDrawVert));
+		buffer_data += cmd_list->vtx_buffer.size() * sizeof(ImDrawVert);
+	}
+	glUnmapBuffer(GL_ARRAY_BUFFER);
+
+	// Setup render state: alpha-blending enabled, no face culling, no depth testing
+	glEnable(GL_BLEND);
+	glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+	glDisable(GL_CULL_FACE);
+	glDisable(GL_DEPTH_TEST);
+
+	// Bind texture and enable our shader
+	glBindTexture(GL_TEXTURE_2D, fontTex);
+	glUseProgram(programIMGUI);
+	const GLint uniMVP = glGetUniformLocation(programIMGUI, "MVP");
+	const GLint uniClipRect = glGetUniformLocation(programIMGUI, "ClipRect");
+
+	// Setup orthographic projection matrix
+	const float width = ImGui::GetIO().DisplaySize.x;
+	const float height = ImGui::GetIO().DisplaySize.y;
+	const float mvp[4][4] =
+	{
+		{ 2.0f/width,	0.0f,			0.0f,		0.0f },
+		{ 0.0f,			2.0f/-height,	0.0f,		0.0f },
+		{ 0.0f,			0.0f,			-1.0f,		0.0f },
+		{ -1.0f,		1.0f,			0.0f,		1.0f },
+	};
+	glUniformMatrix4fv(uniMVP, 1, GL_FALSE, &mvp[0][0]);
+
+	// Render command lists
+	int vtx_offset = 0;
+	for (int n = 0; n < cmd_lists_count; n++)
+	{
+		const ImDrawList* cmd_list = cmd_lists[n];
+		const ImDrawCmd* pcmd_end = cmd_list->commands.end();
+		for (const ImDrawCmd* pcmd = cmd_list->commands.begin(); pcmd != pcmd_end; pcmd++)
+		{
+			glUniform4fv(uniClipRect, 1, (float*)&pcmd->clip_rect);
+			glDrawArrays(GL_TRIANGLES, vtx_offset, pcmd->vtx_count);
+			vtx_offset += pcmd->vtx_count;
+		}
+	}
+
+	// Cleanup GL state
+	glBindTexture(GL_TEXTURE_2D, 0);
+	glBindVertexArray(0);
+	glBindBuffer(GL_ARRAY_BUFFER, 0);
+	glUseProgram(0);
+}
+
+void ReloadIMGUIShaders()
+{
+	// Load the shaders
+	string vs_imgui, fs_imgui;
+	vs_imgui = app.ReadFile("Data/Shaders/vs_imgui.c");
+	fs_imgui = app.ReadFile("Data/Shaders/fs_imgui.c");
+
+	// Compile the shaders
+	GLuint imguiVsObj = Shader::Compile(GL_VERTEX_SHADER, 1, vs_imgui);
+	GLuint imguiFsObj = Shader::Compile(GL_FRAGMENT_SHADER, 1, fs_imgui);
+	programIMGUI = Shader::Create(imguiVsObj, imguiFsObj);
+
+	// Setup the fbo's
+	glGenFramebuffers(1, &fboIMGUI);
+	glBindFramebuffer(GL_FRAMEBUFFER, fboIMGUI);
+	
+	// Create a texture to render the scene to, which is sampled by the GUI
+	glGenTextures(1, &texIMGUI);
+	glBindTexture(GL_TEXTURE_2D, texIMGUI);
+	glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, 800, 600, 0, GL_RGBA, GL_UNSIGNED_BYTE, NULL);
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
+
+	// Attach tex to fbo
+	glFramebufferTexture2D(GL_FRAMEBUFFER, GL_COLOR_ATTACHMENT0, GL_TEXTURE_2D, texIMGUI, 0);
+}
+
+
+// Live shader reload
+void ReloadSceneShaders()
+{
+	// Load the shaders
+	string vs_raymarch, fs_raymarch, vs_default, fs_default;
+	vs_raymarch = app.ReadFile("Data/Shaders/vs_raymarch.c");
+	fs_raymarch = app.ReadFile("Data/Shaders/fs_modelling.c");
+
+	vs_default = app.ReadFile("Data/Shaders/vs_final.c");
+	fs_default = app.ReadFile("Data/Shaders/fs_final.c");
+
+	// Compile the shaders
+	GLuint defaultVsObj = Shader::Compile(GL_VERTEX_SHADER, 1, vs_default);
+	GLuint defaultFsObj = Shader::Compile(GL_FRAGMENT_SHADER, 1, fs_default);
+	programFinal = Shader::Create(defaultVsObj, defaultFsObj);
+
+	// Compile scene shaders
+	GLuint raymarchVsObj = Shader::Compile(GL_VERTEX_SHADER, 1, vs_raymarch);
+	GLuint raymarchFsObj = Shader::Compile(GL_FRAGMENT_SHADER, 1, fs_raymarch);
+	programScene = Shader::Create(raymarchVsObj, raymarchFsObj);
+	glUseProgram(programScene);
+
+	// Create fbo for rendering to
+	glGenFramebuffers(1, &fboRender);
+	glBindFramebuffer(GL_FRAMEBUFFER, fboRender);
+	
+	// Create a texture to render the scene to, which is sampled by the GUI
+	glGenTextures(1, &texRender);
+	glBindTexture(GL_TEXTURE_2D, texRender);
+	glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, 800, 600, 0, GL_RGB, GL_UNSIGNED_BYTE, NULL);
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
+
+	// Attach tex to fbo
+	glFramebufferTexture2D(GL_FRAMEBUFFER, GL_COLOR_ATTACHMENT0, GL_TEXTURE_2D, texRender, 0);
+
+	
+	// Gen data for scene
+	glGenVertexArrays(1, &vao);
+	glBindVertexArray(vao);
+
+	glGenBuffers(1, &vbo);
+	glBindBuffer(GL_ARRAY_BUFFER, vbo);
+	glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
+
+	GLuint positionAttrib = glGetAttribLocation(programScene, "position");
+	glEnableVertexAttribArray(positionAttrib);
+	glVertexAttribPointer(positionAttrib, 2, GL_FLOAT, GL_FALSE, 0, 0);
+
+	// send data....
+
+	// here we bind the two textures to the final compositing shader
+	texRenderLoc	= glGetUniformLocation(programFinal, "scene"); glUniform1i(texRenderLoc, 0); // Bind to GL_TEXTURE0
+	texIMGUILoc	= glGetUniformLocation(programFinal, "imgui"); glUniform1i(texIMGUILoc, 1);	// Bind to GL_TEXTURE1
+
+}
+
+void InitImGui()
+{
+	int w, h;
+	glfwGetWindowSize((GLFWwindow*)window.handle, &w, &h);
+
+	ImGuiIO& io = ImGui::GetIO();
+	io.DisplaySize = ImVec2((float)w, (float)h);			// Display size, in pixels. For clamping windows positions.
+	io.DeltaTime = 1.0f/60.0f;								// Time elapsed since last frame, in seconds (in this sample app we'll override this every frame because our timestep is variable)
+	io.PixelCenterOffset = 0.5f;							// Align OpenGL texels
+	io.KeyMap[ImGuiKey_Tab] = GLFW_KEY_TAB;					// Keyboard mapping. ImGui will use those indices to peek into the io.KeyDown[] array that we will update during the application lifetime.
+	io.KeyMap[ImGuiKey_LeftArrow] = GLFW_KEY_LEFT;
+	io.KeyMap[ImGuiKey_RightArrow] = GLFW_KEY_RIGHT;
+	io.KeyMap[ImGuiKey_UpArrow] = GLFW_KEY_UP;
+	io.KeyMap[ImGuiKey_DownArrow] = GLFW_KEY_DOWN;
+	io.KeyMap[ImGuiKey_Home] = GLFW_KEY_HOME;
+	io.KeyMap[ImGuiKey_End] = GLFW_KEY_END;
+	io.KeyMap[ImGuiKey_Delete] = GLFW_KEY_DELETE;
+	io.KeyMap[ImGuiKey_Backspace] = GLFW_KEY_BACKSPACE;
+	io.KeyMap[ImGuiKey_Enter] = GLFW_KEY_ENTER;
+	io.KeyMap[ImGuiKey_Escape] = GLFW_KEY_ESCAPE;
+	io.KeyMap[ImGuiKey_A] = GLFW_KEY_A;
+	io.KeyMap[ImGuiKey_C] = GLFW_KEY_C;
+	io.KeyMap[ImGuiKey_V] = GLFW_KEY_V;
+	io.KeyMap[ImGuiKey_X] = GLFW_KEY_X;
+	io.KeyMap[ImGuiKey_Y] = GLFW_KEY_Y;
+	io.KeyMap[ImGuiKey_Z] = GLFW_KEY_Z;
+
+	io.RenderDrawListsFn = ImImpl_RenderDrawLists;
+	io.SetClipboardTextFn = ImImpl_SetClipboardTextFn;
+	io.GetClipboardTextFn = ImImpl_GetClipboardTextFn;
+
+	// Setup graphics backend
+	GLint status = GL_TRUE;
+	GLenum err = GL_NO_ERROR;
+	err = glGetError(); IM_ASSERT(err == GL_NO_ERROR);
+
+	// Create and compile the shaders
+	ReloadIMGUIShaders();
+
+	// Create Vertex Buffer Objects & Vertex Array Objects
+	glGenBuffers(1, &vbo);
+	glBindBuffer(GL_ARRAY_BUFFER, vbo);
+	glGenVertexArrays(1, &vao);
+	glBindVertexArray(vao);
+
+	GLint posAttrib = glGetAttribLocation(programIMGUI, "i_pos");
+	glVertexAttribPointer(posAttrib, 2, GL_FLOAT, GL_FALSE, sizeof(ImDrawVert), 0);
+	glEnableVertexAttribArray(posAttrib);
+
+	GLint uvAttrib = glGetAttribLocation(programIMGUI, "i_uv");
+	glEnableVertexAttribArray(uvAttrib);
+	glVertexAttribPointer(uvAttrib, 2, GL_FLOAT, GL_FALSE, sizeof(ImDrawVert), (void*)(2*sizeof(float)));
+
+	GLint colAttrib = glGetAttribLocation(programIMGUI, "i_col");
+	glVertexAttribPointer(colAttrib, 4, GL_UNSIGNED_BYTE, GL_TRUE, sizeof(ImDrawVert), (void*)(4*sizeof(float)));
+	glEnableVertexAttribArray(colAttrib);
+	err = glGetError(); IM_ASSERT(err == GL_NO_ERROR);
+
+	glBindVertexArray(0);
+	glBindBuffer(GL_ARRAY_BUFFER, 0);
+
+	// Load font texture
+	glGenTextures(1, &fontTex);
+	glBindTexture(GL_TEXTURE_2D, fontTex);
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST);
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_NEAREST);
+
+	const void* png_data;
+	unsigned int png_size;
+	ImGui::GetDefaultFontData(NULL, NULL, &png_data, &png_size);
+	int tex_x, tex_y, tex_comp;
+	void* tex_data = stbi_load_from_memory((const unsigned char*)png_data, (int)png_size, &tex_x, &tex_y, &tex_comp, 0);
+	glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, tex_x, tex_y, 0, GL_RGBA, GL_UNSIGNED_BYTE, tex_data);
+	stbi_image_free(tex_data);
+}
+
+
+void RenderScene()
+{
+	// Shader hot loading
+	shaderFileWatcher.update();
+
+	// Bind FBO
+	glBindFramebuffer(GL_FRAMEBUFFER, fboRender);
+
+	// Start
+	glUseProgram(programScene);
+	glGenVertexArrays(1, &vao);
+	glBindVertexArray(vao);
+
+	glGenBuffers(1, &vbo);
+	glBindBuffer(GL_ARRAY_BUFFER, vbo);
+	glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
+	glClearColor(0, 0, 0, 0);
+	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+
+	// Send uniform data
+        ...
+	
+	// Draw our fullscreen triangle
+	glEnableVertexAttribArray(0);
+	glBindBuffer(GL_ARRAY_BUFFER, vbo);
+	glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 0, (void*)0);
+	
+	// Draw the triangle !
+	glDrawArrays(GL_TRIANGLES, 0, 3); // Starting from vertex 0; 3 vertices total -> 1 triangle
+	
+	// Disable everything
+	glDisableVertexAttribArray(0);
+	glBindVertexArray(0);
+	glBindBuffer(GL_ARRAY_BUFFER, 0);
+	glBindFramebuffer(GL_FRAMEBUFFER, 0);
+	glUseProgram(0);
+}
+
+void RenderGUI()
+{
+    // Bind FBO
+    glBindFramebuffer(GL_FRAMEBUFFER, fboIMGUI);
+
+
+	// IMGUI
+	glUseProgram(programIMGUI);
+	ImGuiIO& io = ImGui::GetIO();
+	glfwPollEvents();
+
+	// 1) ImGui start frame, setup time delta & inputs
+    // Setup timestep
+    static double time = 0.0f;
+    const double current_time =  glfwGetTime();
+    io.DeltaTime = (float)(current_time - time);
+    time = current_time;
+
+    // (we already got mouse wheel, keyboard keys & characters from glfw callbacks polled in glfwPollEvents())
+    double mouse_x, mouse_y;
+    glfwGetCursorPos((GLFWwindow*)window.handle, &mouse_x, &mouse_y);
+    io.MousePos = ImVec2((float)mouse_x * mousePosScale.x, (float)mouse_y * mousePosScale.y);      // Mouse position, in pixels (set to -1,-1 if no mouse / on another screen, etc.)
+   
+	// WARNING THIS IS MODIFIED - IF THE MOUSE ISN'T CORRECT, REFER TO OPENGL_EXAMPLE!!
+	io.MouseDown[0] = glfwGetMouseButton((GLFWwindow*)window.handle, GLFW_MOUSE_BUTTON_LEFT) != 0;  // If a mouse press event came, always pass it as "mouse held this frame", so we don't miss click-release events that are shorter than 1 frame.
+    io.MouseDown[1] = glfwGetMouseButton((GLFWwindow*)window.handle, GLFW_MOUSE_BUTTON_RIGHT) != 0;
+
+	ImGui::NewFrame();
+
+	// 2) ImGui usage
+	static bool show_test_window = true;
+	static bool show_another_window = false;
+	static float f;
+	ImGui::Text("Hello, world!");
+	ImGui::SliderFloat("float", &f, 0.0f, 1.0f);
+	show_test_window ^= ImGui::Button("Test Window");
+	show_another_window ^= ImGui::Button("Another Window");
+
+	// Calculate and show framerate
+	static float ms_per_frame[120] = { 0 };
+	static int ms_per_frame_idx = 0;
+	static float ms_per_frame_accum = 0.0f;
+	ms_per_frame_accum -= ms_per_frame[ms_per_frame_idx];
+	ms_per_frame[ms_per_frame_idx] = io.DeltaTime * 1000.0f;
+	ms_per_frame_accum += ms_per_frame[ms_per_frame_idx];
+	ms_per_frame_idx = (ms_per_frame_idx + 1) % 120;
+	const float ms_per_frame_avg = ms_per_frame_accum / 120;
+	ImGui::Text("Application average %.3f ms/frame (%.1f FPS)", ms_per_frame_avg, 1000.0f / ms_per_frame_avg);
+
+	if (show_test_window)
+	{
+		// More example code in ShowTestWindow()
+		ImGui::SetNewWindowDefaultPos(ImVec2(650, 20));		// Normally user code doesn't need/want to call it because positions are saved in .ini file anyway. Here we just want to make the demo initial state a bit more friendly!
+		ImGui::ShowTestWindow(&show_test_window);
+	}
+
+	if (show_another_window)
+	{
+		ImGui::Begin("Another Window", &show_another_window, ImVec2(200,100));
+		ImGui::Text("Hello");
+		ImGui::End();
+	}
+
+    // 3) Rendering
+	ImGui::Render();
+
+	// Disable everything
+	glDisableVertexAttribArray(0);
+	glBindVertexArray(0);
+	glBindBuffer(GL_ARRAY_BUFFER, 0);
+	glBindFramebuffer(GL_FRAMEBUFFER, 0);
+	glUseProgram(0);
+}
+
+// Renders a full-screen triangle with two fbo images for combining results
+void RenderCombine()
+{
+	app.PollEvents();
+	glBindFramebuffer(GL_FRAMEBUFFER, 0); // draw to default fbo
+	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+	glUseProgram(programFinal);
+	glGenVertexArrays(1, &vao);
+	glBindVertexArray(vao);
+
+	glGenBuffers(1, &vbo);
+	glBindBuffer(GL_ARRAY_BUFFER, vbo);
+	glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
+
+	// Send our two textures
+	glActiveTexture(GL_TEXTURE0);
+	glBindTexture(GL_TEXTURE_2D, texRender);
+	glEnable(GL_TEXTURE_2D);
+
+	glActiveTexture(GL_TEXTURE1);
+	glBindTexture(GL_TEXTURE_2D, texIMGUI);
+	glEnable(GL_TEXTURE_2D);
+
+	// Draw our fullscreen triangle
+	glEnableVertexAttribArray(0);
+	glBindBuffer(GL_ARRAY_BUFFER, vbo);
+	glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 0, (void*)0);
+	
+	// Draw the triangle !
+	glDrawArrays(GL_TRIANGLES, 0, 3); // Starting from vertex 0; 3 vertices total -> 1 triangle
+	
+	// Disable everything
+	glDisableVertexAttribArray(0);
+}
+
+
+void Render()
+{
+void Update()
+{
+	if (!window.GetVisible()) app.RequestShutdown();
+
+	RenderGUI(); // render to fbo tex
+	RenderScene(); // render to fbo tex
+	RenderCombine(); // combine two and draw to default fb
+
+	// Swap buffers
+	window.SwapBuffers();
+}
+```
+</details>
 
 ### Books
 - [OpenGL Programming Guide](https://www.glprogramming.com/red/)
