@@ -80,7 +80,6 @@
 - [CSC 420, Fall 2011 - Introduction to Image Understanding (University of Toronto)](http://www.cs.toronto.edu/~jepson/csc420/)
 - [CMSC: 426 Computer Vision (aka Image Processing in the Catalog), Ramani Duraiswami (University of Maryland)](http://users.umiacs.umd.edu/~ramani/cmsc426/)
 
-
 ## Workshop
 - [Bay Area Vision Meeting 2014 - Hosted by Computational Vision and Geometry Lab](http://cvgl.stanford.edu/BAVM14/) ([Index Of](http://cvgl.stanford.edu/BAVM14/slides/))
 
@@ -99,3 +98,7 @@
 
 ## Misc
 - [https://paperswithcode.com/](https://paperswithcode.com/)
+
+## Books
+- [Computer Vision: A Modern Approach, David A. Forsyth, Jean Ponce](https://www.pearson.com/us/higher-education/program/Forsyth-Computer-Vision-A-Modern-Approach-2nd-Edition/PGM111082.html) ([link 1](http://cmuems.com/excap/readings/forsyth-ponce-computer-vision-a-modern-approach.pdf), [link 2](http://newton.uam.mx/xgeorge/uea/Proc_Dig_Im/Computer%20Vision%20A%20Modern%20Approach%20-%20Forsyth%20,%20Ponce.pdf))
+- [Principles of Digital Image Processing - Core Algorithms](https://www.springer.com/kr/book/9781848001947) ([link 1](http://newton.uam.mx/xgeorge/uea/Proc_Dig_Im/Burger%20W.,%20Burge%20M.J.%20Principles%20of%20digital%20image%20processing.%20Core%20algorithms%20(Springer,%202009)(ISBN%201848001940)(O)(341s)_CsIp_.pdf))
