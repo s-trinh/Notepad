@@ -22,3 +22,19 @@
 
 ### Visual Studio
 - [Predefined Macros](https://docs.microsoft.com/en-us/cpp/preprocessor/predefined-macros?view=vs-2017)
+
+### Code
+- [Prevent GCC from optimizing away a snippet of code](https://yangzhang.tech/blog/2015/04/27/prevent-gcc-optimize-away-code/):
+```
+#pragma GCC push_options
+#pragma GCC optimize("O0")
+void doTest() {
+    int a;
+    a = 15;
+    a += 1;
+}
+#pragma GCC pop_options
+#
+# or
+__attribute__((optimize("O0")))
+```
