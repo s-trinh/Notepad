@@ -98,6 +98,208 @@ glLoadMatrixd(&glViewMatrix.at<double>(0, 0));
 - [ImGui Window is not displaying correctly a texture #1408](https://github.com/ocornut/imgui/issues/1408)
 - [How to draw on an ImGui window? #984](https://github.com/ocornut/imgui/issues/984)
 - [OpenGL sample ontop of modern opengl #90](https://github.com/ocornut/imgui/issues/90)
+- [Glad 2 - Multi-Language Vulkan/GL/GLES/EGL/GLX/WGL Loader-Generator](https://gen.glad.sh/)
+- [How is ImDrawList::AddCallback Used? #876](https://github.com/ocornut/imgui/issues/876)
+- [ImDrawList rendering in world coordinates? #1162](https://github.com/ocornut/imgui/issues/1162)
+- [How to read the values from a glm::mat4](https://stackoverflow.com/questions/18890084/how-to-read-the-values-from-a-glmmat4/18890208#18890208):
+```
+glm::mat4 pMat4;  // your matrix
+
+double dArray[16] = {0.0};
+
+const float *pSource = (const float*)glm::value_ptr(pMat4);
+for (int i = 0; i < 16; ++i)
+    dArray[i] = pSource[i];
+```
+- [glm rotate usage in Opengl](https://stackoverflow.com/questions/8844585/glm-rotate-usage-in-opengl)
+- [Imgui on Android question #1200](https://github.com/ocornut/imgui/issues/1200)
+- [The Open-Asset-Importer-Lib](http://www.assimp.org/)
+- [https://github.com/assimp/assimp](https://github.com/assimp/assimp)
+- [Load .obj file out of Blender](https://stackoverflow.com/questions/15542139/load-obj-file-out-of-blender)
+- [OpenCV and OpenGL, not always friends](http://spottrlabs.blogspot.com/2012/07/opencv-and-opengl-not-always-friends.html):
+<details>
+
+```
+ Mat expandedR;
+Rodrigues(r, expandedR);
+
+Mat Rt = Mat::zeros(4, 4, CV_64FC1);
+for (int y = 0; y < 3; y++) {
+   for (int x = 0; x < 3; x++) {
+      Rt.at<double>(y, x) = expandedR.at<double>(y, x);
+   }
+   Rt.at<double>(y, 3) = t.at<double>(y, 0);
+}
+Rt.at<double>(3, 3) = 1.0;
+
+//OpenGL has reversed Y & Z coords
+Mat reverseYZ = Mat::eye(4, 4, CV_64FC1);
+reverseYZ.at<double>(1, 1) = reverseYZ.at<double>(2, 2) = -1;
+    
+//since we are in landscape mode
+Mat rot2D = Mat::eye(4, 4, CV_64FC1);
+rot2D.at<double>(0, 0) = rot2D.at<double>(1, 1) = 0;
+rot2D.at<double>(0, 1) = 1;
+rot2D.at<double>(1, 0) = -1;
+    
+Mat projMat = Mat::zeros(4, 4, CV_64FC1);
+float far = 10000, near = 5;
+projMat.at<double>(0, 0) = 2*scaledCameraMatrix.at<double>(0, 0)/imageWidth;
+projMat.at<double>(0, 2) = -1 + (2*scaledCameraMatrix.at<double>(0, 2)/imageWidth);
+projMat.at<double>(1, 1) = 2*scaledCameraMatrix.at<double>(1, 1)/imageHeight;
+projMat.at<double>(1, 2) = -1 + (2*scaledCameraMatrix.at<double>(1, 2)/imageHeight);
+projMat.at<double>(2, 2) = -(far+near)/(far-near);
+projMat.at<double>(2, 3) = -2*far*near/(far-near);
+projMat.at<double>(3, 2) = -1;
+
+Mat mvMat = reverseYZ * Rt;
+projMat = rot2D * projMat;
+
+Mat mvp = projMat * mvMat;
+```
+</details>
+
+- [Augmented Reality OpenGL+OpenCV](https://stackoverflow.com/questions/21997021/augmented-reality-openglopencv)
+- [GL_MODELVIEW and GL_PROJECTION](https://stackoverflow.com/questions/15482641/gl-modelview-and-gl-projection)
+- [OpenGL setup using GLUT #69](https://github.com/ocornut/imgui/issues/69)
+- [OpenGL3 example altering GL state? (How to draw behind imgui windows?) #664](https://github.com/ocornut/imgui/issues/664)
+- [Render in a imGui Window](https://gamedev.stackexchange.com/questions/150214/render-in-a-imgui-window/150215#150215)
+<details>
+
+```
+//this is our main game loop
+while (!window.Closed())
+{
+    //we need to clear the window,
+    //This is how the clear method is structured:
+    //void Window::Clear(float x, float y, float z, bool enableGLDepth,bool clearImGUIframe)const
+    //{
+    //  //clear the color of the window with an alpha value of 1.0f
+    //  glClearColor(x, y, z, 1.0f);    
+    //  if (clearImGUIframe)
+    //  {
+    //      ImGui_ImplGlfwGL3_NewFrame();
+    //  }
+    //  if (enableGLDepth)
+    //  {
+    //      //enable the GL_DEPTH_TEST to be able to see 3D object correctly
+    //      glEnable(GL_DEPTH_TEST);
+    //      //clear both the color buffer bit and the depth buffer bit
+    //      glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+    //  }
+    //  else
+    //  {
+    //      //clear just the color buffer bit
+    //      glClear(GL_COLOR_BUFFER_BIT);
+    //  }
+    //}
+
+    window.Clear(0.5f, 0.5f, 0.5f,true,true);
+
+    //switch to our custom FBO
+    //window.bindFBO is the same as writing glBindFramebuffer(GL_FRAMEBUFFER,FBO);
+    window.bindFBO();
+
+    //we need to call clear twice
+    window.Clear(1.0f, 1.0f, 1.0f, true, false);
+    //Draw our simple triangle
+    shader.Use();
+    glBindVertexArray(Tvao);
+    glDrawArrays(GL_TRIANGLES, 0, 3);
+
+    //switch to the default FBO
+    //again, unbindFBO() is the same as glBindFramebuffer(GL_FRAMEBUFFER,0)
+    window.unbindFBO();
+
+    //create our ImGui window
+    ImGui::Begin("Scene Window");
+    //get the mouse position
+    ImVec2 pos = ImGui::GetCursorScreenPos();
+
+    //pass the texture of the FBO
+    //window.getRenderTexture() is the texture of the FBO
+    //the next parameter is the upper left corner for the uvs to be applied at
+    //the third parameter is the lower right corner
+    //the last two parameters are the UVs
+    //they have to be flipped (normally they would be (0,0);(1,1) 
+    ImGui::GetWindowDrawList()->AddImage(
+        (void *)window.getRenderTexture(), 
+ImVec2(ImGui::GetCursorScreenPos()),
+        ImVec2(ImGui::GetCursorScreenPos().x + window.getWidth()/2, 
+ImGui::GetCursorScreenPos().y + window.getHeight()/2), ImVec2(0, 1), ImVec2(1, 0));
+
+    //we are done working with this window
+    ImGui::End();
+    //swap the buffers and check for events
+    window.Update();
+}
+```
+</details>
+
+<details>
+
+```
+#include "Engine.h"
+
+using namespace Engine;
+using namespace graphics;
+
+int main()
+{
+Window window("Advent3D", 800,600, false);
+Shader shader("Res/Shaders/Unlit.shader");
+
+//TRIANGLE CREATION//
+float Tvertices[] = {-0.5f, -0.5f, 0.0f,0.5f, -0.5f, 0.0f,0.0f,  0.5f, 0.0f};
+
+unsigned int Tvbo, Tvao;
+glGenVertexArrays(1, &Tvao);
+glGenBuffers(1, &Tvbo);
+glBindVertexArray(Tvao);
+glBindBuffer(GL_ARRAY_BUFFER, Tvbo);
+glBufferData(GL_ARRAY_BUFFER, sizeof(Tvertices), Tvertices, GL_STATIC_DRAW);
+glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void*)0);
+glEnableVertexAttribArray(0);
+glBindBuffer(GL_ARRAY_BUFFER, 0);
+
+glBindVertexArray(0);
+
+
+while (!window.Closed())
+{
+    //we need to clear the window, 
+    window.Clear(0.5f, 0.5f, 0.5f,true,true);
+
+    //switch to the custom fbo
+    window.bindFBO();
+
+    window.Clear(1.0f, 1.0f, 1.0f, true, false);
+
+    shader.Use();
+    glBindVertexArray(Tvao);
+    glDrawArrays(GL_TRIANGLES, 0, 3);
+
+    //switch to the default fbo
+    window.unbindFBO();
+
+    ImGui::Begin("Scene Window");
+
+    ImVec2 pos = ImGui::GetCursorScreenPos();
+
+    ImGui::GetWindowDrawList()->AddImage(
+        (void *)window.getRenderTexture(), ImVec2(ImGui::GetCursorScreenPos()),
+        ImVec2(ImGui::GetCursorScreenPos().x + window.getWidth()/2, ImGui::GetCursorScreenPos().y + window.getHeight()/2), ImVec2(0, 1), ImVec2(1, 0));
+
+    ImGui::End();
+
+    window.Update();
+}   
+
+}
+```
+</details>
+
+- [OpenGL SDL2 imgui-master examples with custom loader using index vbo doesnt work #483](https://github.com/ocornut/imgui/issues/483)
 
 ### Documentation
 - [Coordinate Systems](https://learnopengl.com/Getting-started/Coordinate-Systems)
@@ -109,6 +311,9 @@ glLoadMatrixd(&glViewMatrix.at<double>(0, 0));
 - [Framebuffer Object](https://www.khronos.org/opengl/wiki/Framebuffer_Object)
 - [Image Format](https://www.khronos.org/opengl/wiki/Image_Format)
 - [OpenGL Loading Library](https://www.khronos.org/opengl/wiki/OpenGL_Loading_Library)
+- [The graphics pipeline](https://open.gl/drawing)
+- [FrameBufferObject en OpenGL](https://alexandre-laurent.developpez.com/tutoriels/OpenGL/OpenGL-FBO/)
+- [Les Frame Buffer Objects](https://openclassrooms.com/fr/courses/966823-developpez-vos-applications-3d-avec-opengl-3-3/966821-les-frame-buffer-objects)
 
 ### Sample code
 - [OGL_OCV_common.cpp](https://github.com/royshil/HeadPosePnP/blob/master/OGL_OCV_common.cpp)
@@ -3263,6 +3468,395 @@ void Update()
 
 	// Swap buffers
 	window.SwapBuffers();
+}
+```
+</details>
+
+- [Advanced Rendering for Augmented Reality on Mobile Devices](https://pdfs.semanticscholar.org/0fb1/aeee3472d7b59a83f360f211504602ef480b.pdf)
+- [andarshaders](https://code.google.com/archive/p/andarshaders/)
+- [20-lines AR in OpenCV [w/code]](http://www.morethantechnical.com/2010/11/10/20-lines-ar-in-opencv-wcode/):
+<details>
+
+```
+void display(void)
+{
+    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+ 
+    //Make sure we have a background image buffer
+    if(img_to_show.data != NULL) {
+        Mat tmp; 
+         
+        //Switch to Ortho for drawing background
+        glMatrixMode(GL_PROJECTION);
+        glPushMatrix();
+        gluOrtho2D(0.0, 0.0, 640.0, 480.0);
+         
+        glMatrixMode(GL_MODELVIEW);
+         
+        //Textures can only have power-of-two dimensions, so closest to 640x480 is 1024x512
+        tmp = Mat(Size(1024,512),CV_8UC3);
+        //However we are going to use only a portion, so create an ROI
+        Mat ttmp = tmp(Range(0,img_to_show.rows),Range(0,img_to_show.cols));
+ 
+        //Some frames could be 8bit grayscale, so make sure on the output we always get 24bit RGB.
+        if(img_to_show.step == img_to_show.cols)
+            cvtColor(img_to_show, ttmp, CV_GRAY2RGB);
+        else if(img_to_show.step == img_to_show.cols * 3)
+            cvtColor(img_to_show, ttmp, CV_BGR2RGB);
+        flip(ttmp,ttmp,0);
+         
+        glEnable(GL_TEXTURE_2D);
+        glTexImage2D(GL_TEXTURE_2D, 0, 3, 1024, 512, 0, GL_RGB, GL_UNSIGNED_BYTE, tmp.data);
+         
+        //Finally, draw the texture using a simple quad with texture coords in corners.
+        glPushMatrix();
+        glTranslated(-320.0, -240.0, -500.0);//why these parameters?!
+        glBegin(GL_QUADS);
+        glTexCoord2i(0, 0); glVertex2i(0, 0);
+        glTexCoord2i(1, 0); glVertex2i(640, 0);
+        glTexCoord2i(1, 1); glVertex2i(640, 480);
+        glTexCoord2i(0, 1); glVertex2i(0, 480);
+        glEnd();
+        glPopMatrix();
+ 
+        glMatrixMode(GL_PROJECTION);
+        glPopMatrix();
+        glMatrixMode(GL_MODELVIEW);
+    }
+     
+    glPushMatrix();
+    double m[16] = {    _d[0],-_d[3],-_d[6],0,
+                        _d[1],-_d[4],-_d[7],0,
+                        _d[2],-_d[5],-_d[8],0,
+                        tv[0],-tv[1],-tv[2],1   };
+     
+    //Rotate and translate according to result from solvePnP
+    glLoadMatrixd(m);
+     
+    //Draw a basic cube
+    glDisable(GL_TEXTURE_2D);
+    glColor3b(255, 0, 0);
+    glutSolidCube(1);
+    glPopMatrix();
+ 
+    glutSwapBuffers();
+}
+```
+</details>
+
+- [ARDrawingContext.cpp](https://github.com/ahmetozlu/augmented_reality/blob/master/MarkerlessAR_V2/src/ARDrawingContext.cpp):
+<details>
+
+```
+/*
+---------------------------------------------------------------------
+--- Author         : Ahmet Özlü
+--- Mail           : ahmetozlu93@gmail.com
+--- Date           : 1st August 2017
+--- Version        : 1.0
+--- OpenCV Version : 2.4.10
+--- Demo Video     : https://www.youtube.com/watch?v=nPfR5ACrqu0
+---------------------------------------------------------------------
+*/
+
+// File includes:
+#include <windows.h>
+#include "ARDrawingContext.hpp"
+
+// Include standard headers
+#include <stdio.h>
+#include <stdlib.h>
+#include <vector>
+
+// Include GLEW
+#include <GL/glew.h>
+
+// Include GLFW
+#include <glfw3.h>
+GLFWwindow* window;
+
+// Include GLM
+#include <glm/glm.hpp>
+#include <glm/gtc/matrix_transform.hpp>
+using namespace glm;
+
+// Standard includes:
+#include <gl/gl.h>
+#include <gl/glu.h>
+
+#include "objloader.hpp"
+#include "texture.hpp"
+
+GLuint VertexArrayID;
+
+std::vector<glm::vec3> vertices;
+std::vector<glm::vec2> uvs;
+std::vector<glm::vec3> normals; // Won't be used at the moment.
+
+bool res;
+
+glm::vec3 a;
+glm::vec2 b;
+
+GLuint Texture;
+
+void ARDrawingContextDrawCallback(void* param)
+{
+	ARDrawingContext * ctx = static_cast<ARDrawingContext*>(param);
+	if (ctx)
+	{
+		ctx->draw();
+	}
+}
+
+ARDrawingContext::ARDrawingContext(std::string windowName, cv::Size frameSize, const CameraCalibration& c)
+	: m_isTextureInitialized(false)
+	, m_calibration(c)
+	, m_windowName(windowName)
+{
+	// Create window with OpenGL support
+	cv::namedWindow(windowName, cv::WINDOW_OPENGL);
+
+	// Resize it exactly to video size
+	cv::resizeWindow(windowName, frameSize.width, frameSize.height);
+
+	// Initialize OpenGL draw callback:
+	cv::setOpenGlContext(windowName);
+	cv::setOpenGlDrawCallback(windowName, ARDrawingContextDrawCallback, this);
+	
+	// Initialise GLFW
+	if (!glfwInit())
+	{
+		fprintf(stderr, "Failed to initialize GLFW\n");
+	}
+
+	glewExperimental = true; // Needed for core profile
+	if (glewInit() != GLEW_OK) {
+		fprintf(stderr, "Failed to initialize GLEW\n");
+	}
+	
+	glEnable(GL_CULL_FACE);
+	glCullFace(GL_FRONT);
+
+	// Load .bmp file as texture
+	Texture=loadBMP_custom("C:/Users/ErArGe-5/Documents/Visual Studio 2013/Projects/ARProject/Debug/preview.bmp");
+	
+    // Load .dds file as texture (uvmap)
+    //Texture=loadDDS("C:/Users/ErArGe-5/Documents/Visual Studio 2013/Projects/ARProject/Debug/uvmap.dds");
+
+    // load(parse) .obj file
+	res = loadOBJ("C:/Users/ErArGe-5/Documents/Visual Studio 2013/Projects/ARProject/Debug/untitled.obj", vertices, uvs, normals);
+
+	// Scale 3D Model
+    scale3DModel(0.1f);
+
+	// Analyze size of the vertices and uvs
+	/*std::cout << vertices.size();
+	std::cout <<uvs.size();*/
+}
+
+ARDrawingContext::~ARDrawingContext()
+{
+	cv::setOpenGlDrawCallback(m_windowName, 0, 0);
+}
+
+void ARDrawingContext::updateBackground(const cv::Mat& frame)
+{
+	frame.copyTo(m_backgroundImage);
+}
+
+void ARDrawingContext::updateWindow()
+{
+	cv::updateWindow(m_windowName);
+}
+
+void ARDrawingContext::draw()
+{
+	glClear(GL_DEPTH_BUFFER_BIT | GL_COLOR_BUFFER_BIT); // Clear entire screen:
+	drawCameraFrame();                                  // Render background
+	drawAugmentedScene();                               // Draw AR
+	glFlush();
+}
+
+void ARDrawingContext::drawCameraFrame()
+{
+	// Initialize texture for background image
+	if (!m_isTextureInitialized)
+	{
+		glGenTextures(1, &m_backgroundTextureId);
+		glBindTexture(GL_TEXTURE_2D, m_backgroundTextureId);
+
+		glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+		glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
+
+		m_isTextureInitialized = true;
+	}
+
+	int w = m_backgroundImage.cols;
+	int h = m_backgroundImage.rows;
+	
+	glPixelStorei(GL_PACK_ALIGNMENT, 1);
+	glBindTexture(GL_TEXTURE_2D, m_backgroundTextureId);
+
+	// Upload new texture data:
+	if (m_backgroundImage.channels() == 3)
+		glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, w, h, 0, GL_BGR_EXT, GL_UNSIGNED_BYTE, m_backgroundImage.data);
+	else if (m_backgroundImage.channels() == 4)
+		glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, w, h, 0, GL_BGRA_EXT, GL_UNSIGNED_BYTE, m_backgroundImage.data);
+	else if (m_backgroundImage.channels() == 1)
+		glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, w, h, 0, GL_LUMINANCE, GL_UNSIGNED_BYTE, m_backgroundImage.data);
+
+	const GLfloat bgTextureVertices[] = { 0, 0, w, 0, 0, h, w, h };
+	const GLfloat bgTextureCoords[] = { 1, 0, 1, 1, 0, 0, 0, 1 };
+	const GLfloat proj[] = { 0, -2.f / w, 0, 0, -2.f / h, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1 };
+
+	glMatrixMode(GL_PROJECTION);
+	glLoadMatrixf(proj);
+
+	glMatrixMode(GL_MODELVIEW);
+	glLoadIdentity();
+
+	glEnable(GL_TEXTURE_2D);
+	glBindTexture(GL_TEXTURE_2D, m_backgroundTextureId);
+
+	// Update attribute values.
+	glEnableClientState(GL_VERTEX_ARRAY);
+	glEnableClientState(GL_TEXTURE_COORD_ARRAY);
+
+	glVertexPointer(2, GL_FLOAT, 0, bgTextureVertices);
+	glTexCoordPointer(2, GL_FLOAT, 0, bgTextureCoords);
+
+	glColor4f(1, 1, 1, 1);
+	glDrawArrays(GL_TRIANGLE_STRIP, 0, 4);
+
+	glDisableClientState(GL_VERTEX_ARRAY);
+	glDisableClientState(GL_TEXTURE_COORD_ARRAY);
+	glDisable(GL_TEXTURE_2D);
+}
+
+void ARDrawingContext::drawAugmentedScene()
+{
+	// Init augmentation projection
+	Matrix44 projectionMatrix;
+	
+	int w = m_backgroundImage.cols;
+	int h = m_backgroundImage.rows;
+	
+	buildProjectionMatrix(m_calibration, w, h, projectionMatrix);
+
+	glMatrixMode(GL_PROJECTION);
+	glLoadMatrixf(projectionMatrix.data);
+
+	glMatrixMode(GL_MODELVIEW);
+	glLoadIdentity();
+
+	if (isPatternPresent)
+	{
+		// Set the pattern transformation
+		Matrix44 glMatrix = patternPose.getMat44();
+		glLoadMatrixf(reinterpret_cast<const GLfloat*>(&glMatrix.data[0]));
+
+		// Render model
+		//drawCoordinateAxis();
+		draw3DModel();
+	}
+}
+
+void ARDrawingContext::buildProjectionMatrix(const CameraCalibration& calibration, int screen_width, int screen_height, Matrix44& projectionMatrix)
+{
+	float nearPlane = 0.01f;  // Near clipping distance
+	float farPlane = 100.0f;  // Far clipping distance
+
+	// Camera parameters
+	float f_x = calibration.fx(); // Focal length in x axis
+	float f_y = calibration.fy(); // Focal length in y axis (usually the same?)
+	float c_x = calibration.cx(); // Camera primary point x
+	float c_y = calibration.cy(); // Camera primary point y
+
+	projectionMatrix.data[0] = -2.0f * f_x / screen_width;
+	projectionMatrix.data[1] = 0.0f;
+	projectionMatrix.data[2] = 0.0f;
+	projectionMatrix.data[3] = 0.0f;
+
+	projectionMatrix.data[4] = 0.0f;
+	projectionMatrix.data[5] = 2.0f * f_y / screen_height;
+	projectionMatrix.data[6] = 0.0f;
+	projectionMatrix.data[7] = 0.0f;
+
+	projectionMatrix.data[8] = 2.0f * c_x / screen_width - 1.0f;
+	projectionMatrix.data[9] = 2.0f * c_y / screen_height - 1.0f;
+	projectionMatrix.data[10] = -(farPlane + nearPlane) / (farPlane - nearPlane);
+	projectionMatrix.data[11] = -1.0f;
+
+	projectionMatrix.data[12] = 0.0f;
+	projectionMatrix.data[13] = 0.0f;
+	projectionMatrix.data[14] = -2.0f * farPlane * nearPlane / (farPlane - nearPlane);
+	projectionMatrix.data[15] = 0.0f;
+}
+
+void ARDrawingContext::drawCoordinateAxis()
+{
+	static float lineX[] = { 0, 0, 0, 1, 0, 0 };
+	static float lineY[] = { 0, 0, 0, 0, 1, 0 };
+	static float lineZ[] = { 0, 0, 0, 0, 0, 1 };
+
+	glLineWidth(2);
+
+	glBegin(GL_LINES);
+
+	glColor3f(1.0f, 0.0f, 0.0f);
+	glVertex3fv(lineX);
+	glVertex3fv(lineX + 3);
+
+	glColor3f(0.0f, 1.0f, 0.0f);
+	glVertex3fv(lineY);
+	glVertex3fv(lineY + 3);
+
+	glColor3f(0.0f, 0.0f, 1.0f);
+	glVertex3fv(lineZ);
+	glVertex3fv(lineZ + 3);
+
+	glEnd();
+}
+
+void ARDrawingContext::draw3DModel()
+{
+		
+	glEnable(GL_TEXTURE_2D);	
+	glBindTexture(GL_TEXTURE_2D, Texture);
+
+	//glPolygonMode(GL_FRONT_AND_BACK, GL_FILL);
+	glBegin(GL_TRIANGLES);
+	
+	for (int i = 0; i < vertices.size(); i += 1)
+	{
+		a = vertices[i];
+		b = uvs[i];
+		glNormal3f(a.x, a.y, a.z);
+		glTexCoord2d(b.x, b.y);
+		glVertex3f(a.x, a.y, a.z);		
+	}
+
+	glEnd();//end drawing of line loop
+	glDisable(GL_TEXTURE_2D);
+}
+
+void ARDrawingContext::scale3DModel(float scaleFactor)
+{
+	for (int i = 0; i < vertices.size(); i += 1)
+	{
+		vertices[i] = vertices[i] * vec3(scaleFactor * 1.0f, scaleFactor * 1.0f, scaleFactor * 1.0f);
+	}
+
+	for (int i = 0; i < normals.size(); i += 1)
+	{
+		normals[i] = normals[i] * vec3(scaleFactor * 1.0f, scaleFactor * 1.0f, scaleFactor * 1.0f);
+	}
+
+	for (int i = 0; i < uvs.size(); i += 1)
+	{
+		uvs[i] = uvs[i] * vec2(scaleFactor * 1.0f, scaleFactor * 1.0f);
+	}
 }
 ```
 </details>
