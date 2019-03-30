@@ -38,3 +38,102 @@ void doTest() {
 # or
 __attribute__((optimize("O0")))
 ```
+- Infinity representation:
+  - [Sample single precision floating-point values for IEEE 754 arithmetic](https://developer.arm.com/docs/dui0475/g/floating-point-support/sample-single-precision-floating-point-values-for-ieee-754-arithmetic)
+  - [Sample double precision floating-point values for IEEE 754 arithmetic](https://developer.arm.com/docs/dui0475/g/floating-point-support/sample-double-precision-floating-point-values-for-ieee-754-arithmetic)
+  - [`std::numeric_limits::infinity`](https://en.cppreference.com/w/cpp/types/numeric_limits/infinity)
+  - [`HUGE_VAL`](https://en.cppreference.com/w/cpp/numeric/math/HUGE_VAL)
+  - [`INFINITY`](https://en.cppreference.com/w/cpp/numeric/math/INFINITY)
+  - [IEEE 754 - Standard binary arithmetic float](http://www.softelectro.ru/ieee754_en.html)
+  - [Infinity and NaNs](https://www.doc.ic.ac.uk/~eedwards/compsys/float/nan.html)
+  - [IEEE Standard 754 Floating Point Numbers](https://steve.hollasch.net/cgindex/coding/ieeefloat.html)
+  - [http://cpp.sh/2xok2](http://cpp.sh/2xok2)
+  <details>
+  
+  ```
+  #include <iostream>
+  #include <limits>
+  #include <cstring>
+  #include <cmath>
+
+  union U_INF {
+      uint64_t l;
+      double d;
+  };
+
+  double hex_inf_pos() {
+      int64_t i_val = 0x7FF0000000000000;
+      double d_val = 0;
+      memcpy(reinterpret_cast<void*>(&d_val), reinterpret_cast<void*>(&i_val), sizeof(double));
+      return d_val;
+  }
+
+  double hex_inf_neg() {
+      uint64_t i_val = 0xFFF0000000000000;
+      double d_val = 0;
+      memcpy(&d_val, &i_val, sizeof(double));
+      return d_val;
+  }
+
+  double union_inf_pos() {
+      U_INF u_val;
+      u_val.l = 0x7FF0000000000000;
+      return u_val.d;
+  }
+
+  static inline double double_pos_inf() {
+      union {double d; int64_t i;} u;
+      u.i = 0x7FF0000000000000;
+      return u.d;
+  }
+
+  static inline double double_neg_inf() {
+      union {double d; int64_t i;} u;
+      u.i = 0xFFF0000000000000;
+      return u.d;
+  }
+
+  static inline float float_pos_inf() {
+      union {float f; int32_t i;} u;
+      u.i = 0x7F800000;
+      return u.f;
+  }
+
+  static inline float float_neg_inf() {
+      union {float f; uint32_t i;} u;
+      u.i = 0xFF800000;
+      return u.f;
+  }
+
+  int main()
+  {
+      double val1 = std::numeric_limits<double>::infinity();
+      double val2 = -std::numeric_limits<double>::infinity();
+      double val3 = hex_inf_pos();
+      double val4 = hex_inf_neg();
+      double val5 = HUGE_VALF;
+      float val6 = HUGE_VALF;
+      double val7 = 0x7F800000;
+      float val8 = 0x7F800000;
+      double val9 = union_inf_pos();
+      double val10 = double_pos_inf();
+      double val11 = double_neg_inf();
+      float val12 = float_pos_inf();
+      float val13 = float_neg_inf();
+      std::cout << "val1: " << val1 << std::endl;
+      std::cout << "val2: " << val2 << std::endl;
+      std::cout << "val3: " << val3 << std::endl;
+      std::cout << "val4: " << val4 << std::endl;
+      std::cout << "HUGE_VALF: " << val5 << std::endl;
+      std::cout << "HUGE_VALF: " << val6 << std::endl;
+      std::cout << "INFINITY: " << INFINITY << std::endl;
+      std::cout << "0x7F800000: " << val7 << std::endl;
+      std::cout << "0x7F800000: " << val8 << std::endl;
+      std::cout << "val9: " << val9 << std::endl;
+      std::cout << "double_pos_inf: " << val10 << std::endl;
+      std::cout << "double_neg_inf: " << val11 << std::endl;
+      std::cout << "float_pos_inf: " << val12 << std::endl;
+      std::cout << "float_neg_inf: " << val13 << std::endl;
+  }
+  ```
+  </details>
