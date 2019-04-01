@@ -79,6 +79,7 @@
   - [https://www2.cs.duke.edu/courses/fall15/compsci527/notes/](https://www2.cs.duke.edu/courses/fall15/compsci527/notes/)
 - [CSC 420, Fall 2011 - Introduction to Image Understanding (University of Toronto)](http://www.cs.toronto.edu/~jepson/csc420/)
 - [CMSC: 426 Computer Vision (aka Image Processing in the Catalog), Ramani Duraiswami (University of Maryland)](http://users.umiacs.umd.edu/~ramani/cmsc426/)
+- [CSE/EE486 Computer Vision I - Introduction to Computer Vision (Fall 2007) - CSE Department, Penn State University - Instructor: Robert Collins](http://www.cse.psu.edu/~rtc12/CSE486/)
 
 ## Workshop
 - [Bay Area Vision Meeting 2014 - Hosted by Computational Vision and Geometry Lab](http://cvgl.stanford.edu/BAVM14/) ([Index Of](http://cvgl.stanford.edu/BAVM14/slides/))
