@@ -1,4 +1,8 @@
 ### Software
+- [Install CloudCompare](https://www.danielgm.net/cc/):
+```
+snap install cloudcompare
+```
 - [Latest ffmpeg version on Ubuntu 16.04](https://tecadmin.net/install-ffmpeg-on-linux/):
 ```
 sudo add-apt-repository ppa:jonathonf/ffmpeg-4
