@@ -223,10 +223,14 @@
 - [Robot-to-Camera Calibration: A Generic Approach Using 6D Detections](https://core.ac.uk/download/pdf/84276744.pdf)
 - [Flexible Self-Calibrated Visual Servoing for a Humanoid Robot](https://pdfs.semanticscholar.org/584e/5034f1af634425572968abbf6d908bbf88c2.pdf)
 
+## Kinematics
+- [Inverse Kinematics with Quaternion Joint Limits](http://number-none.com/product/IK%20with%20Quaternion%20Joint%20Limits/)
+
 ## Articles
 - [Vision for Robotics, Danica Kragic and Markus Vincze](https://pdfs.semanticscholar.org/1594/1d6904c641e9225bb00648d0664026d17247.pdf)
+- [http://number-none.com/product/](http://number-none.com/product/)
 
-## Libraries
+## Libraries / Code
 - [Rigid motions and robotics toolbox](https://www.mathworks.com/matlabcentral/fileexchange/56758-rigid-motions-and-robotics-toolbox)
 > 3D rigid transforms and robotics with quaternions and dual quaternions (OO interface)
 - [trac_ik](https://bitbucket.org/traclabs/trac_ik)
@@ -235,3 +239,5 @@
 - [Spatial Math Toolbox for MATLAB®](https://github.com/petercorke/spatial-math)
 - [MATLAB Transformation Toolbox](https://github.com/kutzer/TransformationToolbox)
 - [JdeRobot - an open source toolkit for Robotics and Computer Vision!](https://jderobot.org/Main_Page)
+- [MathUtilities, Johnathon Selstad (Leap Motion)](https://github.com/zalo/MathUtilities)
+- [Sublucid Geometry, Johnathon Selstad (Leap Motion)](https://zalo.github.io/)
