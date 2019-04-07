@@ -89,6 +89,10 @@
 - [Structure from Motion Using Structure-less Resection](https://www.cs.unc.edu/~ezheng/resources/structure-less_sfm/67_final.pdf)
 - [Structure from Motion by Chahat Deep Singh](https://cmsc426.github.io/sfm/)
 - [Structure from Motion by Nitin J. Sanket](https://cmsc426.github.io/gtsam/)
+- [Structure-from-motion in Spherical Video using the von Mises-Fisher Distribution](http://eprints.whiterose.ac.uk/109220/) (reflinks: [Tensors in sympy?](https://stackoverflow.com/questions/55404150/tensors-in-sympy), [Optimization of Sampson Error](https://www.reddit.com/r/computervision/comments/b82khn/optimization_of_sampson_error/))
+
+## 3D registration / reconstruction
+- [A novel point cloud registration using 2D image features](https://asp-eurasipjournals.springeropen.com/articles/10.1186/s13634-016-0435-y)
 
 ## PnP
 - [Lecture 23: 3-D Pose Object Recognition](http://users.umiacs.umd.edu/~ramani/cmsc426/Lecture23_3Dpose.pdf)
@@ -97,8 +101,10 @@
 - [Minimal Problems in Computer Vision](http://cmp.felk.cvut.cz/mini/):
 > This page provides a list of papers, software, data, and evaluations for solving minimal problems in computer vision, which is concerned with finding parameters of (geometrical) models from as small (minimal) data sets by solving systems of algebraic equations.
 
-## Misc
+## Misc / Code / Libraries
 - [https://paperswithcode.com/](https://paperswithcode.com/)
+- [MathUtilities, Johnathon Selstad (Leap Motion)](https://github.com/zalo/MathUtilities)
+- [Sublucid Geometry, Johnathon Selstad (Leap Motion)](https://zalo.github.io/)
 
 ## Books
 - [Computer Vision: A Modern Approach, David A. Forsyth, Jean Ponce](https://www.pearson.com/us/higher-education/program/Forsyth-Computer-Vision-A-Modern-Approach-2nd-Edition/PGM111082.html) ([link 1](http://cmuems.com/excap/readings/forsyth-ponce-computer-vision-a-modern-approach.pdf), [link 2](http://newton.uam.mx/xgeorge/uea/Proc_Dig_Im/Computer%20Vision%20A%20Modern%20Approach%20-%20Forsyth%20,%20Ponce.pdf))
