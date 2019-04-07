@@ -123,6 +123,7 @@
 - [Animation and Quaternions](https://webcourse.cs.technion.ac.il/234325/Winter2014-2015/ho/WCFiles/10_Animations_bw.pdf)
 - [Geometry for computer Vision - Lecture 7b: Rotation Interpolation and smoothing](https://www.cvl.isy.liu.se/education/graduate/geometry2010/lectures/Lecture7b.pdf)
 - [SLERP (Wikipedia)](https://en.wikipedia.org/wiki/Slerp)
+- [Understanding Slerp, Then Not Using It, Jonathan Blow](http://number-none.com/product/Understanding%20Slerp,%20Then%20Not%20Using%20It/)
 
 ## Rotation formalism
 - [Axis–angle representation (Wikipedia](https://en.wikipedia.org/wiki/Axis%E2%80%93angle_representation)
@@ -139,6 +140,7 @@
 - [A Robust Method to Extract the Rotational Part of Deformations](https://animation.rwth-aachen.de/media/papers/2016-MIG-StableRotation.pdf)
 - [Matrix Animation and Polar Decomposition](http://graphicsinterface.org/wp-content/uploads/gi1992-30.pdf)
 - [Distance between rotations](http://www.boris-belousov.net/2016/12/01/quat-dist/)
+- [Orthonormalization, Johnathon Selstad (Leap Motion)](https://zalo.github.io/blog/polar-decomposition/)
 
 ## Lie Groups
 - [An Elementary Introduction to Groups and Representations, Brian C. Hall, University of Notre Dame, Department of Mathematics](https://arxiv.org/abs/math-ph/0005032)
@@ -226,9 +228,10 @@
 ## Kinematics
 - [Inverse Kinematics with Quaternion Joint Limits](http://number-none.com/product/IK%20with%20Quaternion%20Joint%20Limits/)
 
-## Articles
+## Articles / Papers
 - [Vision for Robotics, Danica Kragic and Markus Vincze](https://pdfs.semanticscholar.org/1594/1d6904c641e9225bb00648d0664026d17247.pdf)
-- [http://number-none.com/product/](http://number-none.com/product/)
+- [http://number-none.com/product/, Jonathan Blow](http://number-none.com/product/)
+- [Jonathan Blow's home page](http://number-none.com/blow/)
 
 ## Libraries / Code
 - [Rigid motions and robotics toolbox](https://www.mathworks.com/matlabcentral/fileexchange/56758-rigid-motions-and-robotics-toolbox)
