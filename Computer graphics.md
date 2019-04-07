@@ -50,3 +50,9 @@
   - [Image-Based Rendering](https://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/lec/24/lec24.pdf)
   - [Guest Lecture: Jean-Francois Lalonde](https://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/lec/25/lec25.pdf)
   - [Non-Photorealistic Rendering & Visualization](https://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/lec/27/lec27.pdf)
+
+### Articles
+- [http://number-none.com/product/, Jonathan Blow](http://number-none.com/product/)
+- [Jonathan Blow's home page](http://number-none.com/blow/)
+- [Understanding Slerp, Then Not Using It, Jonathan Blow](http://number-none.com/product/Understanding%20Slerp,%20Then%20Not%20Using%20It/)
+- [How to find the inertia tensor (or other mass properties) of a 3D solid body represented by a triangle mesh, Jonathan Blow and Atman J Binstock](http://number-none.com/blow/inertia/)
