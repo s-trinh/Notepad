@@ -1,0 +1,12 @@
+### How to choose camera lens / camera sensor
+- [Lens Focal Length and Stereo Baseline Calculator (Nerian)](https://nerian.com/support/resources/calculator/)
+- [Lens Calculator - Calculate Field of View, Focal Length or Object Distance by providing the other two properties. (FLIR)](https://www.ptgrey.com/lens-calculator)
+- [Selecting a Lens for your Camera (FLIR)](https://www.ptgrey.com/KB/10694)
+- [Lenses - The matching lens for any sensor size (Basler)](https://www.baslerweb.com/en/products/vision-components/lenses/)
+- [Lens Selector (Basler)](https://www.baslerweb.com/en/products/tools/lens-selector/ (Basler))
+- [Bringing it All into Focus: Finding the Right Lens for Your Camera (Basler)](https://www.baslerweb.com/en/vision-campus/vision-systems-and-components/find-the-right-lens/)
+- [Camera Sizes: the Smaller, the Finer (Basler)](https://www.baslerweb.com/en/vision-campus/camera-technology/camera-sizes/)
+- [What Lenses Are Available and How Do You Select the Right Lens for a Camera? (Basler)](http://kamery.atesystem.cz/site/assets/files/1325/bas1606_white_paper_objektauswahl_en.pdf)
+- [Why do 1/2.5" Basler Lenses Often Fit Better than 2/3" Lenses? (Basler)](https://multipix.com/wp-content/uploads/2018/04/BAS1602_Marketing_Notes_Basler_Lenses_EN.pdf)
+- [Calcul de la résolution du capteur et de la focale de l'objectif d'une caméra (NI)](http://www.ni.com/product-documentation/54616/fr/)
+- [Image Acquisition System Setup](http://www.ni.com/product-documentation/4229/en/ (NI))
