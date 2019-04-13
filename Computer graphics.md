@@ -56,3 +56,7 @@
 - [Jonathan Blow's home page](http://number-none.com/blow/)
 - [Understanding Slerp, Then Not Using It, Jonathan Blow](http://number-none.com/product/Understanding%20Slerp,%20Then%20Not%20Using%20It/)
 - [How to find the inertia tensor (or other mass properties) of a 3D solid body represented by a triangle mesh, Jonathan Blow and Atman J Binstock](http://number-none.com/blow/inertia/)
+
+### Codes
+- [Flavors of SIMD](https://zeux.io/2019/02/17/flavors-of-simd/), [simplifier.cpp](https://gist.github.com/zeux/1171b770c105b11c3bde128e1d3a16ec)
+- [Optimizing slerp](https://zeux.io/2016/05/05/optimizing-slerp/), [nlerpsimd.cpp](https://gist.github.com/zeux/1935b5f6d1c8c311e68bbd4a13955dfa)
