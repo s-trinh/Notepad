@@ -124,6 +124,7 @@
 - [Geometry for computer Vision - Lecture 7b: Rotation Interpolation and smoothing](https://www.cvl.isy.liu.se/education/graduate/geometry2010/lectures/Lecture7b.pdf)
 - [SLERP (Wikipedia)](https://en.wikipedia.org/wiki/Slerp)
 - [Understanding Slerp, Then Not Using It, Jonathan Blow](http://number-none.com/product/Understanding%20Slerp,%20Then%20Not%20Using%20It/)
+- [Optimizing slerp](https://zeux.io/2016/05/05/optimizing-slerp/), [nlerpsimd.cpp](https://gist.github.com/zeux/1935b5f6d1c8c311e68bbd4a13955dfa)
 
 ## Rotation formalism
 - [Axis–angle representation (Wikipedia](https://en.wikipedia.org/wiki/Axis%E2%80%93angle_representation)
