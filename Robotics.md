@@ -229,10 +229,19 @@
 ## Kinematics
 - [Inverse Kinematics with Quaternion Joint Limits](http://number-none.com/product/IK%20with%20Quaternion%20Joint%20Limits/)
 
+## Visual Servoing
+- [Visual Servoing Control Based on EGM Interface of an ABB Robot, Yichao Mao, Qi Lu, Qing Xu, Published in Chinese Automation Congress (CAC) 2018, DOI:10.1109/cac.2018.8623638](https://www.semanticscholar.org/paper/Visual-Servoing-Control-Based-on-EGM-Interface-of-Mao-Lu/df493ca598cc709d1c2230b7b6ed9b98aa1d2ff5)
+- [Relative end-effector control using Cartesian position based visual servoing, William J. Wilson, Carol Hulls, G. S. Bell, Published in IEEE Trans. Robotics and Automation 1996, DOI:10.1109/70.538974](https://www.semanticscholar.org/paper/Relative-end-effector-control-using-Cartesian-based-Wilson-Hulls/b8fb5e5c81624ed62079ab342e719ea24d0b29ed)
+- [VISUAL SERVOING with applications in medical robotics, Florent Nageotte, Michel de Mathelin, Louis Pasteur University – Strasbourg, LSIIT – Control, Vision & Robotics Research Group](http://www.lirmm.fr/uee07/presentations/lecturers/Nageotte.pdf)
+
 ## Articles / Papers
 - [Vision for Robotics, Danica Kragic and Markus Vincze](https://pdfs.semanticscholar.org/1594/1d6904c641e9225bb00648d0664026d17247.pdf)
 - [http://number-none.com/product/, Jonathan Blow](http://number-none.com/product/)
 - [Jonathan Blow's home page](http://number-none.com/blow/)
+- [End-Effector Pose Correction for Versatile Large-Scale Multi-Robotic Systems, Lukas Stadelmann, Timothy Sandy, Andreas Thoma, Jonas Buchli, Published in IEEE Robotics and Automation Letters 2019, DOI:10.1109/lra.2019.2891499](https://www.semanticscholar.org/paper/End-Effector-Pose-Correction-for-Versatile-Systems-Stadelmann-Sandy/bfd0269b6737efe94807c0a4b94505c4fa8a7cb7) ([video](https://www.youtube.com/watch?v=pI2GX073SGM))
+- [ConFusion: Sensor Fusion for Complex Robotic Systems Using Nonlinear Optimization, Timothy Sandy, Simon Kerscher, Jonas Buchli, Published in IEEE Robotics and Automation Letters 2019, DOI:10.1109/LRA.2019.2894168](https://www.semanticscholar.org/paper/ConFusion%3A-Sensor-Fusion-for-Complex-Robotic-Using-Sandy-Kerscher/d203f3bbc2d0688167e8eaa7919b3f2663374b80) ([video](https://www.youtube.com/watch?v=J6up9Eq9Sxc), [code](https://bitbucket.org/tsandy/confusion))
+- [Closed-Loop Algorithms for Industrial Robots — Status and Recent Trends, H.-B.Kuntze, https://doi.org/10.1016/S1474-6670(17)60003-X](https://www.sciencedirect.com/science/article/pii/S147466701760003X)
+- [Welcome to AMDS123 Blog! (http://paperreading.club/)](http://paperreading.club/) ([old](https://amds123.github.io/))
 
 ## Libraries / Code
 - [Rigid motions and robotics toolbox](https://www.mathworks.com/matlabcentral/fileexchange/56758-rigid-motions-and-robotics-toolbox)
@@ -245,3 +254,6 @@
 - [JdeRobot - an open source toolkit for Robotics and Computer Vision!](https://jderobot.org/Main_Page)
 - [MathUtilities, Johnathon Selstad (Leap Motion)](https://github.com/zalo/MathUtilities)
 - [Sublucid Geometry, Johnathon Selstad (Leap Motion)](https://zalo.github.io/)
+
+## Videos
+- [Marc Raibert: Boston Dynamics | MIT Artificial Intelligence (AI) Podcast](https://www.youtube.com/watch?v=LiNSPRKHyvo)
