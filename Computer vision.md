@@ -97,6 +97,12 @@
 ## PnP
 - [Lecture 23: 3-D Pose Object Recognition](http://users.umiacs.umd.edu/~ramani/cmsc426/Lecture23_3Dpose.pdf)
 
+## SLAM / Visual Odometry
+- [Direct Visual-Inertial Odometry with Stereo Cameras, Vladyslav C. Usenko, Jakob Engel, Jörg Stückler, Daniel Cremers, IEEE International Conference on Robotics and Automation (ICRA) 2016, DOI:10.1109/ICRA.2016.7487335](https://www.semanticscholar.org/paper/Direct-visual-inertial-odometry-with-stereo-cameras-Usenko-Engel/2cbc2797efe322f8ac286d90cbc2c4852f0f6bde)
+- [VINS-Mono - A Robust and Versatile Monocular Visual-Inertial State Estimator](https://github.com/HKUST-Aerial-Robotics/VINS-Mono)
+- [Kudan SLAM](https://www.kudan.io/)
+- [ElasticFusion - Real-time dense visual SLAM system capable of capturing comprehensive dense globally consistent surfel-based maps of room scale environments explored using an RGB-D camera.](https://github.com/mp3guy/ElasticFusion)
+
 ## Papers
 - [Minimal Problems in Computer Vision](http://cmp.felk.cvut.cz/mini/):
 > This page provides a list of papers, software, data, and evaluations for solving minimal problems in computer vision, which is concerned with finding parameters of (geometrical) models from as small (minimal) data sets by solving systems of algebraic equations.
