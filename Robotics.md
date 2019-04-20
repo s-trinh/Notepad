@@ -152,6 +152,14 @@
 - [Introduction to Lie Groups and Lie Algebras, Alexander Kirillov, Jr.](https://www.math.stonybrook.edu/~kirillov/mat552/liegroups.pdf)
 - [Lie Groups, Lie Algebras, and Representations - An Elementary Introduction, Hall, Brian C.](https://www.springer.com/la/book/9783319134666) (direct [link](https://www.researchgate.net/profile/Tadeusz_Ostrowski2/post/Please_point_to_an_easy_to_follow_tutorial_on_group_theory_and_lie_groups/attachment/59d6279879197b8077985e54/AS%3A326529922945024%401454862208252/download/Hall-Lie+Groups%2C+Lie+algebras+%282015.Springer.+Elementary+intro%29.pdf))
 - [Integrating Generic Sensor Fusion Algorithms withSound State Representations through Encapsulation of Manifolds](https://arxiv.org/abs/1107.1119)
+- [http://ethaneade.com/](http://ethaneade.com/)
+  - [Lie groups for Computer Vision (reference)](http://ethaneade.com/lie_groups.pdf)
+  - [Lie groups for 2D and 3D Transformations (more detail and derivations)](http://ethaneade.com/lie.pdf)
+  - [Derivative of the Exponential Map (with some closed-form results)](http://ethaneade.com/exp_diff.pdf)
+  - [Hermite Splines in Lie Groups as Products of Geodesics](http://ethaneade.com/lie_spline.pdf)
+  - [Gauss-Newton Optimization](http://ethaneade.com/optimization.pdf)
+  - [Rotation between two 3-vectors](http://ethaneade.com/rot_between_vectors.pdf)
+  - [Process Noise for Gaussian Random Walks](http://ethaneade.com/process_noise_random_walk.pdf)
 
 ## Quaternion
 - [The Quaternionic Exponential (and beyond), Hubert HOLIN](https://www.boost.org/doc/libs/1_48_0/libs/math/quaternion/TQE.pdf)
@@ -233,6 +241,7 @@
 - [Visual Servoing Control Based on EGM Interface of an ABB Robot, Yichao Mao, Qi Lu, Qing Xu, Published in Chinese Automation Congress (CAC) 2018, DOI:10.1109/cac.2018.8623638](https://www.semanticscholar.org/paper/Visual-Servoing-Control-Based-on-EGM-Interface-of-Mao-Lu/df493ca598cc709d1c2230b7b6ed9b98aa1d2ff5)
 - [Relative end-effector control using Cartesian position based visual servoing, William J. Wilson, Carol Hulls, G. S. Bell, Published in IEEE Trans. Robotics and Automation 1996, DOI:10.1109/70.538974](https://www.semanticscholar.org/paper/Relative-end-effector-control-using-Cartesian-based-Wilson-Hulls/b8fb5e5c81624ed62079ab342e719ea24d0b29ed)
 - [VISUAL SERVOING with applications in medical robotics, Florent Nageotte, Michel de Mathelin, Louis Pasteur University – Strasbourg, LSIIT – Control, Vision & Robotics Research Group](http://www.lirmm.fr/uee07/presentations/lecturers/Nageotte.pdf)
+- [Implementation of a Visual Servo Control in a Bi-Manual Collaborative Robot, José Agustín Aguilar Plazaola](https://upcommons.upc.edu/handle/2117/98733) ([Semantic Scholar](https://www.semanticscholar.org/paper/Implementation-of-a-Visual-Servo-Control-in-a-Robot-Plazaola-Rosell/48b04531da2132d97e8d396531cad7fb9bdb5743))
 
 ## Articles / Papers
 - [Vision for Robotics, Danica Kragic and Markus Vincze](https://pdfs.semanticscholar.org/1594/1d6904c641e9225bb00648d0664026d17247.pdf)
