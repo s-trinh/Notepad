@@ -57,6 +57,13 @@
 - [Understanding Slerp, Then Not Using It, Jonathan Blow](http://number-none.com/product/Understanding%20Slerp,%20Then%20Not%20Using%20It/)
 - [How to find the inertia tensor (or other mass properties) of a 3D solid body represented by a triangle mesh, Jonathan Blow and Atman J Binstock](http://number-none.com/blow/inertia/)
 
+### Papers
+- [awesome-collision-detection](https://github.com/jslee02/awesome-collision-detection):
+  - A fast triangle to triangle intersection test for collision detection (2006), O. Tropp et al. [[pdf](http://webee.technion.ac.il/~ayellet/Ps/TroppTalShimshoni.pdf), [code](http://webee.technion.ac.il/labs/cgm/Computer-Graphics-Multimedia/Software/TriangleIntersection/code.cpp)] ([failure case on SO](https://stackoverflow.com/questions/1496215/triangle-triangle-intersection-in-3d-space/29563443#29563443))
+  - Faster Triangle-Triangle Intersection Tests (2006), O. Devillers et al. [[pdf](https://hal.inria.fr/inria-00072100/document), [code](https://github.com/CGAL/cgal/blob/076c982dbf37cc244206fd7962e73360fb17ea47/Intersections_3/include/CGAL/Triangle_3_Triangle_3_do_intersect.h)]
+  - A Fast Triangle-Triangle Intersecion Test (1997), T. Muller. [[pdf](http://web.stanford.edu/class/cs277/resources/papers/Moller1997b.pdf), [code](https://github.com/erich666/jgt-code/blob/master/Volume_02/Number_2/Moller1997b/tritri_isectline.c)]
+
 ### Codes
 - [Flavors of SIMD](https://zeux.io/2019/02/17/flavors-of-simd/), [simplifier.cpp](https://gist.github.com/zeux/1171b770c105b11c3bde128e1d3a16ec)
 - [Optimizing slerp](https://zeux.io/2016/05/05/optimizing-slerp/), [nlerpsimd.cpp](https://gist.github.com/zeux/1935b5f6d1c8c311e68bbd4a13955dfa)
+- [Code for the "Graphics Gems" book series](https://github.com/erich666/GraphicsGems)
