@@ -102,6 +102,7 @@
 - [VINS-Mono - A Robust and Versatile Monocular Visual-Inertial State Estimator](https://github.com/HKUST-Aerial-Robotics/VINS-Mono)
 - [Kudan SLAM](https://www.kudan.io/)
 - [ElasticFusion - Real-time dense visual SLAM system capable of capturing comprehensive dense globally consistent surfel-based maps of room scale environments explored using an RGB-D camera.](https://github.com/mp3guy/ElasticFusion)
+- [Bundle Adjustment for Matlab](https://github.com/tikroeger/BA_Matlab)
 
 ## Papers
 - [Minimal Problems in Computer Vision](http://cmp.felk.cvut.cz/mini/):
@@ -111,6 +112,8 @@
 - [https://paperswithcode.com/](https://paperswithcode.com/)
 - [MathUtilities, Johnathon Selstad (Leap Motion)](https://github.com/zalo/MathUtilities)
 - [Sublucid Geometry, Johnathon Selstad (Leap Motion)](https://zalo.github.io/)
+- [personalrobotics/apriltags_rgbd_node](https://github.com/personalrobotics/apriltags_rgbd_node)
+- [Python utilities used by the Personal Robotics Laboratory.](https://github.com/personalrobotics/prpy)
 
 ## Books
 - [Computer Vision: A Modern Approach, David A. Forsyth, Jean Ponce](https://www.pearson.com/us/higher-education/program/Forsyth-Computer-Vision-A-Modern-Approach-2nd-Edition/PGM111082.html) ([link 1](http://cmuems.com/excap/readings/forsyth-ponce-computer-vision-a-modern-approach.pdf), [link 2](http://newton.uam.mx/xgeorge/uea/Proc_Dig_Im/Computer%20Vision%20A%20Modern%20Approach%20-%20Forsyth%20,%20Ponce.pdf))
