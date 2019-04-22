@@ -251,6 +251,21 @@
 - [ConFusion: Sensor Fusion for Complex Robotic Systems Using Nonlinear Optimization, Timothy Sandy, Simon Kerscher, Jonas Buchli, Published in IEEE Robotics and Automation Letters 2019, DOI:10.1109/LRA.2019.2894168](https://www.semanticscholar.org/paper/ConFusion%3A-Sensor-Fusion-for-Complex-Robotic-Using-Sandy-Kerscher/d203f3bbc2d0688167e8eaa7919b3f2663374b80) ([video](https://www.youtube.com/watch?v=J6up9Eq9Sxc), [code](https://bitbucket.org/tsandy/confusion))
 - [Closed-Loop Algorithms for Industrial Robots — Status and Recent Trends, H.-B.Kuntze, https://doi.org/10.1016/S1474-6670(17)60003-X](https://www.sciencedirect.com/science/article/pii/S147466701760003X)
 - [Welcome to AMDS123 Blog! (http://paperreading.club/)](http://paperreading.club/) ([old](https://amds123.github.io/))
+- [Awesome Multibody Dynamics Simulation](https://github.com/jslee02/awesome-multibody-dynamics-simulation)
+- [Awesome Robotics Libraries](https://github.com/jslee02/awesome-robotics-libraries)
+- [Awesome Collision Detection](https://github.com/jslee02/awesome-collision-detection)
+- [Sensor fusion for fiducial tags: Highly robust pose estimation from single frame RGBD, Pengju Jin, Pyry Matikainen, Siddhartha S. Srinivasa, Published in IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2017, DOI:10.1109/IROS.2017.8206468](https://www.semanticscholar.org/paper/Sensor-fusion-for-fiducial-tags%3A-Highly-robust-pose-Jin-Matikainen/a993f18e2ec2a8d56cd6e61de6ee627eaf0fa580):
+  - [paper link](https://pengjujin.github.io/files/iros_aptag.pdf)
+  - [personalrobotics/apriltags_rgbd_node](https://github.com/personalrobotics/apriltags_rgbd_node)
+  - [iros_aptag](https://github.com/pengjujin/iros_aptag)
+  - [pengjujin/apriltags_rgbd](https://github.com/pengjujin/apriltags_rgbd)
+- [Uncertainty Adaptation in Robot Perception and Learning](http://reports-archive.adm.cs.cmu.edu/anon/2018/CMU-CS-18-103.pdf)
+- [https://www.clintonliddick.com/articles/](https://www.clintonliddick.com/articles/):
+  - [Intro to Robotics Programming: Part 1](https://www.clintonliddick.com/articles/intro-to-robotics-part-1/)
+  - [Intro to Robotics Programming: Part 2](https://www.clintonliddick.com/articles/intro-to-robotics-part-2/)
+  - [Intro to Robotics Programming: Part 3](https://www.clintonliddick.com/articles/intro-to-robotics-part-3/)
+  - [Intro to Robotics Programming: Part 4](https://www.clintonliddick.com/articles/intro-to-robotics-part-4/)
+  - [https://github.com/ClintLiddick/robotics_intro](https://github.com/ClintLiddick/robotics_intro)
 
 ## Libraries / Code
 - [Rigid motions and robotics toolbox](https://www.mathworks.com/matlabcentral/fileexchange/56758-rigid-motions-and-robotics-toolbox)
