@@ -971,3 +971,33 @@ xhost + $ip
 
 docker run -it --name <CONTAINER NAME> -e DISPLAY=$ip:0 -v /tmp/.X11-unix:/tmp/.X11-unix <image name> bash
 ```
+
+## Camera Calibration
+- [ros-drivers/usb_cam](https://github.com/ros-drivers/usb_cam) ([http://wiki.ros.org/usb_cam](http://wiki.ros.org/usb_cam))
+- [How to Calibrate a Monocular Camera](http://library.isr.ist.utl.pt/docs/roswiki/camera_calibration(2f)Tutorials(2f)MonocularCalibration.html):
+```
+# Install
+$ rosdep install camera_calibration
+$ rosmake camera_calibration
+#
+$ rostopic list
+/usb_cam/camera_info
+/usb_cam/image_raw
+#
+rosrun camera_calibration cameracalibrator.py --size 9x6 --square 0.03 image:=/usb_cam/image_raw camera:=/usb_cam
+```
+- [Calibrating a Monocular Camera with ROS](http://ros-developer.com/2017/04/23/camera-calibration-with-ros/):
+```
+sudo apt-get install ros-kinetic-usb-cam uvcdynctrl
+# check if your camera supports autofocus:
+uvcdynctrl --device=/dev/video0 --clist
+# turn off the autofocus:
+uvcdynctrl --device=/dev/video0 --set='Focus, Auto' 0
+# check if the autofocus is off:
+uvcdynctrl --device=/dev/video0 --get='Focus, Auto'
+# Publish the data from your camera, for example, via use usb_cam:
+rosrun usb_cam usb_cam_node
+# Calibration
+rosrun camera_calibration cameracalibrator.py --size 9x6 --square 0.02517 image:=/usb_cam/image_raw camera:=/usb_cam --no-service-check
+```
+- [camera_calibration](http://wiki.ros.org/camera_calibration)
