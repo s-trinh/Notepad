@@ -103,6 +103,9 @@
 - [personalrobotics/apriltags_rgbd_node](https://github.com/personalrobotics/apriltags_rgbd_node)
 - [pengjujin/iros_aptag](https://github.com/pengjujin/iros_aptag)
 - [pengjujin/apriltags_rgbd](https://github.com/pengjujin/apriltags_rgbd)
+- [A Comparison of 2D-3D Pose Estimation Methods, Thomas Petersen](https://projekter.aau.dk/projekter/en/studentthesis/a-comparison-of-2d3d-pose-estimation-methods(b6d7dbbe-5e9d-422d-89ad-3755f561ebc0).html) ([link](https://projekter.aau.dk/projekter/files/14427578/A_Comparison_of_2D-3D_Pose_Estimation_Methods.pdf), [A Comparison of Iterative 2D-3D Pose Estimation Methods for Real-Time Applications, 10.1007/978-3-642-02230-2_72](https://www.researchgate.net/publication/220809302_A_Comparison_of_Iterative_2D-3D_Pose_Estimation_Methods_for_Real-Time_Applications))
+- [Efficient decoupled pose estimation from a set of points, Omar Tahri, Helder Araujo, Youcef Mezouar, François Chaumette](https://hal.inria.fr/hal-00851997)
+- [DenseFusion: 6D Object Pose Estimation by Iterative Dense Fusion, Chen Wang, Danfei Xu, Yuke Zhu, Roberto Martín-Martín, Cewu Lu, Li Fei-Fei, Silvio Savarese](https://arxiv.org/abs/1901.04780)
 
 ## SLAM / Visual Odometry
 - [Direct Visual-Inertial Odometry with Stereo Cameras, Vladyslav C. Usenko, Jakob Engel, Jörg Stückler, Daniel Cremers, IEEE International Conference on Robotics and Automation (ICRA) 2016, DOI:10.1109/ICRA.2016.7487335](https://www.semanticscholar.org/paper/Direct-visual-inertial-odometry-with-stereo-cameras-Usenko-Engel/2cbc2797efe322f8ac286d90cbc2c4852f0f6bde)
