@@ -96,6 +96,13 @@
 
 ## PnP
 - [Lecture 23: 3-D Pose Object Recognition](http://users.umiacs.umd.edu/~ramani/cmsc426/Lecture23_3Dpose.pdf)
+- [Une solution analytique au problème « Perspective-N-Points » et son extension aux capteurs catadioptriques](http://documents.irevues.inist.fr/bitstream/handle/2042/13680/A343.pdf)
+- [Linear N-Point Camera Pose Determination, Long Quan, Zhong-Dan Lan](https://hal.inria.fr/inria-00590105)
+- [A Review of Solutions for Perspective-n-Point Problem in Camera Pose Estimation, Xiao Xin LU, doi: 10.1088/1742-6596/1087/5/052009](https://iopscience.iop.org/article/10.1088/1742-6596/1087/5/052009/pdf)
+- [Camera Pose Revisited -- New Linear Algorithms, Marc-André Ameller, Bill Triggs, Long Quan](https://hal.inria.fr/inria-00548306)
+- [personalrobotics/apriltags_rgbd_node](https://github.com/personalrobotics/apriltags_rgbd_node)
+- [pengjujin/iros_aptag](https://github.com/pengjujin/iros_aptag)
+- [pengjujin/apriltags_rgbd](https://github.com/pengjujin/apriltags_rgbd)
 
 ## SLAM / Visual Odometry
 - [Direct Visual-Inertial Odometry with Stereo Cameras, Vladyslav C. Usenko, Jakob Engel, Jörg Stückler, Daniel Cremers, IEEE International Conference on Robotics and Automation (ICRA) 2016, DOI:10.1109/ICRA.2016.7487335](https://www.semanticscholar.org/paper/Direct-visual-inertial-odometry-with-stereo-cameras-Usenko-Engel/2cbc2797efe322f8ac286d90cbc2c4852f0f6bde)
