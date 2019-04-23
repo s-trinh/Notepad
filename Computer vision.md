@@ -111,6 +111,10 @@
 - [ElasticFusion - Real-time dense visual SLAM system capable of capturing comprehensive dense globally consistent surfel-based maps of room scale environments explored using an RGB-D camera.](https://github.com/mp3guy/ElasticFusion)
 - [Bundle Adjustment for Matlab](https://github.com/tikroeger/BA_Matlab)
 
+## Camera Calibration
+- [Single Camera Calibrator App (Matlab)](https://www.mathworks.com/help/vision/ug/single-camera-calibrator-app.html)
+- [A Single-shot-per-pose Camera-Projector Calibration System For Imperfect Planar Targets, Bingyao Huang, Samed Ozdemir, Ying Tang, Chunyuan Liao, Haibin Ling](https://www.semanticscholar.org/paper/A-Single-shot-per-pose-Camera-Projector-Calibration-Huang-Ozdemir/d4a23a9b8d8cef2044e16690e688b09cbff3cc10) ([arXiv](https://arxiv.org/abs/1803.09058))
+
 ## Papers
 - [Minimal Problems in Computer Vision](http://cmp.felk.cvut.cz/mini/):
 > This page provides a list of papers, software, data, and evaluations for solving minimal problems in computer vision, which is concerned with finding parameters of (geometrical) models from as small (minimal) data sets by solving systems of algebraic equations.
