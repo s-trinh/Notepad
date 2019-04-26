@@ -113,6 +113,8 @@
 - [Kudan SLAM](https://www.kudan.io/)
 - [ElasticFusion - Real-time dense visual SLAM system capable of capturing comprehensive dense globally consistent surfel-based maps of room scale environments explored using an RGB-D camera.](https://github.com/mp3guy/ElasticFusion)
 - [Bundle Adjustment for Matlab](https://github.com/tikroeger/BA_Matlab)
+- [A Comparative Analysis of Tightly-coupled Monocular, Binocular, and Stereo VINS](http://mars.cs.umn.edu/research/stereo_vins.php)
+- [Multiple Autonomous Robotic Systems Laboratory](http://mars.cs.umn.edu/)
 
 ## Camera Calibration
 - [Single Camera Calibrator App (Matlab)](https://www.mathworks.com/help/vision/ug/single-camera-calibrator-app.html)
