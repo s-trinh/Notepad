@@ -193,6 +193,9 @@
 - [https://github.com/USC-ACTLab/crazyswarm/blob/master/matlab/trajectorygen/rot2quat.m](https://github.com/USC-ACTLab/crazyswarm/blob/master/matlab/trajectorygen/rot2quat.m)
 - [Angular Momentum, Quaternion, Octonion, And Lie-Super Algebra OSP(1,2)](http://cds.cern.ch/record/337864/files/9710038.pdf)
 - [Octonions and Fermions](http://people.oregonstate.edu/~drayt/talks/OFpub.pdf)
+- [Quaternions White Paper, November 30, 2003, NAIF](ftp://naif.jpl.nasa.gov/pub/naif/misc/Quaternion_White_Paper/Quaternions_White_Paper.pdf)
+- [Why and How to Avoid the Flipped Quaternion Multiplication, Hannes Sommer, Igor Gilitschenski, Michael Bloesch, Stephan Weiss, Roland Siegwart, Juan I. Nieto, Published in ArXiv 2018](https://www.semanticscholar.org/paper/Why-and-How-to-Avoid-the-Flipped-Quaternion-Sommer-Gilitschenski/6e92f7101bc989f5931e9023e3ce300dcd2dfd1d)
+- [Quaternions, orientation et mouvement, Florian Monteghetti](https://hal.archives-ouvertes.fr/hal-01618257)
 
 ## Hand-Eye calibration
 - [Poor accuracy of hand eye calibration when using vanilla Tsai's method](https://robotics.stackexchange.com/questions/14135/poor-accuracy-of-hand-eye-calibration-when-using-vanilla-tsais-method)
