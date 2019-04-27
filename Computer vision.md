@@ -80,6 +80,8 @@
 - [CSC 420, Fall 2011 - Introduction to Image Understanding (University of Toronto)](http://www.cs.toronto.edu/~jepson/csc420/)
 - [CMSC: 426 Computer Vision (aka Image Processing in the Catalog), Ramani Duraiswami (University of Maryland)](http://users.umiacs.umd.edu/~ramani/cmsc426/)
 - [CSE/EE486 Computer Vision I - Introduction to Computer Vision (Fall 2007) - CSE Department, Penn State University - Instructor: Robert Collins](http://www.cse.psu.edu/~rtc12/CSE486/)
+- [SIGGRAPH 2001, Course 8, An Introduction to the Kalman Filter, Greg Welch, Gary Bishop](http://www.cs.unc.edu/~tracker/media/pdf/SIGGRAPH2001_CoursePack_08.pdf)
+- [The Kalman Filter](http://www.cs.unc.edu/~welch/kalman/)
 
 ## Workshop
 - [Bay Area Vision Meeting 2014 - Hosted by Computational Vision and Geometry Lab](http://cvgl.stanford.edu/BAVM14/) ([Index Of](http://cvgl.stanford.edu/BAVM14/slides/))
