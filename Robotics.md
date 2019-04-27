@@ -115,6 +115,8 @@
   - [18_ActuationFaults.pdf](http://www.diag.uniroma1.it/~deluca/rob2_en/18_ActuationFaults.pdf)
   - [19_CollisionDetectionReaction.pdf](http://www.diag.uniroma1.it/~deluca/rob2_en/19_CollisionDetectionReaction.pdf)
   - [20_HR_CoexistenceCollaboration.pdf](http://www.diag.uniroma1.it/~deluca/rob2_en/20_HR_CoexistenceCollaboration.pdf)
+- [SIGGRAPH 2001, Course 8, An Introduction to the Kalman Filter, Greg Welch, Gary Bishop](http://www.cs.unc.edu/~tracker/media/pdf/SIGGRAPH2001_CoursePack_08.pdf)
+- [The Kalman Filter](http://www.cs.unc.edu/~welch/kalman/)
 
 ## Rotation interpolation and smoothing
 - [Interpolation schemes for rigid body motions, Milos Zefran and Vijay Kumar](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.25.1776&rep=rep1&type=pdf)
