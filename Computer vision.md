@@ -120,6 +120,12 @@
 - [Single Camera Calibrator App (Matlab)](https://www.mathworks.com/help/vision/ug/single-camera-calibrator-app.html)
 - [A Single-shot-per-pose Camera-Projector Calibration System For Imperfect Planar Targets, Bingyao Huang, Samed Ozdemir, Ying Tang, Chunyuan Liao, Haibin Ling](https://www.semanticscholar.org/paper/A-Single-shot-per-pose-Camera-Projector-Calibration-Huang-Ozdemir/d4a23a9b8d8cef2044e16690e688b09cbff3cc10) ([arXiv](https://arxiv.org/abs/1803.09058))
 
+## Ellipse detection
+- [Arc-support Line Segments Revisited: An Efficient and High-quality Ellipse Detection](https://github.com/AlanLuSun/High-quality-ellipse-detection) ([arXiv](https://arxiv.org/abs/1810.03243v4))
+
+### Stereo Matching
+- [Segment-based Disparity Refinement with Occlusion Handling for Stereo Matching](https://github.com/TingmanYan/SDR) ([IEEE Xplore](https://ieeexplore.ieee.org/document/8661596))
+
 ## Papers
 - [Minimal Problems in Computer Vision](http://cmp.felk.cvut.cz/mini/):
 > This page provides a list of papers, software, data, and evaluations for solving minimal problems in computer vision, which is concerned with finding parameters of (geometrical) models from as small (minimal) data sets by solving systems of algebraic equations.
@@ -134,3 +140,10 @@
 ## Books
 - [Computer Vision: A Modern Approach, David A. Forsyth, Jean Ponce](https://www.pearson.com/us/higher-education/program/Forsyth-Computer-Vision-A-Modern-Approach-2nd-Edition/PGM111082.html) ([link 1](http://cmuems.com/excap/readings/forsyth-ponce-computer-vision-a-modern-approach.pdf), [link 2](http://newton.uam.mx/xgeorge/uea/Proc_Dig_Im/Computer%20Vision%20A%20Modern%20Approach%20-%20Forsyth%20,%20Ponce.pdf))
 - [Principles of Digital Image Processing - Core Algorithms](https://www.springer.com/kr/book/9781848001947) ([link 1](http://newton.uam.mx/xgeorge/uea/Proc_Dig_Im/Burger%20W.,%20Burge%20M.J.%20Principles%20of%20digital%20image%20processing.%20Core%20algorithms%20(Springer,%202009)(ISBN%201848001940)(O)(341s)_CsIp_.pdf))
+
+## Matlab
+- [Digital Image Processing Using MATLAB®, Rafael C. Gonzalez, Richard E. Woods, Steven L. Eddins](https://www.academia.edu/18324189/Digital_image_processing_using_matlab_gonzalez_)
+- [Digital Image Processing Using MATLAB®, Rafael C. Gonzalez, Richard E. Woods, Steven L. Eddins](http://web.ipac.caltech.edu/staff/fmasci/home/astro_refs/Digital_Image_Processing_2ndEd.pdf)
+- [Digital Image Processing Using MATLAB®, Rafael C. Gonzalez, Richard E. Woods, Steven L. Eddins](https://github.com/ViachaslauBohdan/mgr/blob/master/Digital%20Image%20Processing%20Using%20Matlab%20-%20Gonzalez%20Woods%20%26%20Eddins.pdf)
+- [Matlab Image Processing Toolbox™ User's Guide](https://www.mathworks.com/help/pdf_doc/images/images_tb.pdf)
+- [Matlab Computer Vision Toolbox™ User's Guide](https://www.mathworks.com/help/pdf_doc/vision/vision_ug.pdf)
