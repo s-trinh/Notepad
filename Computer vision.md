@@ -82,6 +82,11 @@
 - [CSE/EE486 Computer Vision I - Introduction to Computer Vision (Fall 2007) - CSE Department, Penn State University - Instructor: Robert Collins](http://www.cse.psu.edu/~rtc12/CSE486/)
 - [SIGGRAPH 2001, Course 8, An Introduction to the Kalman Filter, Greg Welch, Gary Bishop](http://www.cs.unc.edu/~tracker/media/pdf/SIGGRAPH2001_CoursePack_08.pdf)
 - [The Kalman Filter](http://www.cs.unc.edu/~welch/kalman/)
+- [Computer Vision 2014, Carl Olsson (Lund University)](http://www.maths.lth.se/matematiklth/personal/calle/datorseende14/)
+- [Computer Vision 2019, Carl Olsson (Lund University)](http://www.maths.lth.se/matematiklth/personal/calle/datorseende19/)
+- [Tracking and Detection in Computer Vision - Winter Term 2011/12](http://campar.in.tum.de/Chair/TeachingWs11TDCV)
+  - [Teaching Activities at CAMP+AR](http://campar.in.tum.de/Chair/TeachingHistory)
+  - [Tracking and Detection in Computer Vision - Non-linear optimization and robust estimation for tracking - Slobodan Ilić, Technischen Universität München - Winter Semester 2011/2012](http://campar.in.tum.de/twiki/pub/Chair/TeachingWs11TDCV/non-linear_optm-RANSAC.pdf)
 
 ## Workshop
 - [Bay Area Vision Meeting 2014 - Hosted by Computational Vision and Geometry Lab](http://cvgl.stanford.edu/BAVM14/) ([Index Of](http://cvgl.stanford.edu/BAVM14/slides/))
@@ -108,6 +113,8 @@
 - [A Comparison of 2D-3D Pose Estimation Methods, Thomas Petersen](https://projekter.aau.dk/projekter/en/studentthesis/a-comparison-of-2d3d-pose-estimation-methods(b6d7dbbe-5e9d-422d-89ad-3755f561ebc0).html) ([link](https://projekter.aau.dk/projekter/files/14427578/A_Comparison_of_2D-3D_Pose_Estimation_Methods.pdf), [A Comparison of Iterative 2D-3D Pose Estimation Methods for Real-Time Applications, 10.1007/978-3-642-02230-2_72](https://www.researchgate.net/publication/220809302_A_Comparison_of_Iterative_2D-3D_Pose_Estimation_Methods_for_Real-Time_Applications))
 - [Efficient decoupled pose estimation from a set of points, Omar Tahri, Helder Araujo, Youcef Mezouar, François Chaumette](https://hal.inria.fr/hal-00851997)
 - [DenseFusion: 6D Object Pose Estimation by Iterative Dense Fusion, Chen Wang, Danfei Xu, Yuke Zhu, Roberto Martín-Martín, Cewu Lu, Li Fei-Fei, Silvio Savarese](https://arxiv.org/abs/1901.04780)
+- [Computer Vision: Lecture 3 (DLT), Carl Olsson, 2014-01-29 (Lund University)](http://www.maths.lth.se/matematiklth/personal/calle/datorseende14/pres/forelas3.pdf)
+- [DLT Method](http://www.kwon3d.com/theory/dlt/dlt.html)
 
 ## SLAM / Visual Odometry
 - [Direct Visual-Inertial Odometry with Stereo Cameras, Vladyslav C. Usenko, Jakob Engel, Jörg Stückler, Daniel Cremers, IEEE International Conference on Robotics and Automation (ICRA) 2016, DOI:10.1109/ICRA.2016.7487335](https://www.semanticscholar.org/paper/Direct-visual-inertial-odometry-with-stereo-cameras-Usenko-Engel/2cbc2797efe322f8ac286d90cbc2c4852f0f6bde)
@@ -117,6 +124,10 @@
 - [Bundle Adjustment for Matlab](https://github.com/tikroeger/BA_Matlab)
 - [A Comparative Analysis of Tightly-coupled Monocular, Binocular, and Stereo VINS](http://mars.cs.umn.edu/research/stereo_vins.php)
 - [Multiple Autonomous Robotic Systems Laboratory](http://mars.cs.umn.edu/)
+- [Closed-form Preintegration Methods for Graph-based Visual-Inertial Navigation](https://journals.sagepub.com/doi/abs/10.1177/0278364919835021):
+  - [arXiv](https://arxiv.org/abs/1805.02774)
+  - [Continuous Preintegration](https://github.com/rpng/cpi)
+- [IMU Preintegration on Manifold for Efficient Visual-Inertial Maximum-a-Posteriori Estimation](http://www.roboticsproceedings.org/rss11/p06.pdf)
 
 ## Camera Calibration
 - [Single Camera Calibrator App (Matlab)](https://www.mathworks.com/help/vision/ug/single-camera-calibrator-app.html)
@@ -142,6 +153,7 @@
 ## Books
 - [Computer Vision: A Modern Approach, David A. Forsyth, Jean Ponce](https://www.pearson.com/us/higher-education/program/Forsyth-Computer-Vision-A-Modern-Approach-2nd-Edition/PGM111082.html) ([link 1](http://cmuems.com/excap/readings/forsyth-ponce-computer-vision-a-modern-approach.pdf), [link 2](http://newton.uam.mx/xgeorge/uea/Proc_Dig_Im/Computer%20Vision%20A%20Modern%20Approach%20-%20Forsyth%20,%20Ponce.pdf))
 - [Principles of Digital Image Processing - Core Algorithms](https://www.springer.com/kr/book/9781848001947) ([link 1](http://newton.uam.mx/xgeorge/uea/Proc_Dig_Im/Burger%20W.,%20Burge%20M.J.%20Principles%20of%20digital%20image%20processing.%20Core%20algorithms%20(Springer,%202009)(ISBN%201848001940)(O)(341s)_CsIp_.pdf))
+- [Theoretical Foundation (Kwon3D)](http://www.kwon3d.com/theories.html)
 
 ## Matlab
 - [Digital Image Processing Using MATLAB®, Rafael C. Gonzalez, Richard E. Woods, Steven L. Eddins](https://www.academia.edu/18324189/Digital_image_processing_using_matlab_gonzalez_)
