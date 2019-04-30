@@ -128,6 +128,7 @@
   - [arXiv](https://arxiv.org/abs/1805.02774)
   - [Continuous Preintegration](https://github.com/rpng/cpi)
 - [IMU Preintegration on Manifold for Efficient Visual-Inertial Maximum-a-Posteriori Estimation](http://www.roboticsproceedings.org/rss11/p06.pdf)
+- [Robocentric Visual-Inertial Odometry](https://github.com/rpng/R-VIO)
 
 ## Camera Calibration
 - [Single Camera Calibrator App (Matlab)](https://www.mathworks.com/help/vision/ug/single-camera-calibrator-app.html)
