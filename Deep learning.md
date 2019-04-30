@@ -17,8 +17,7 @@
 - [Understanding Learning Rates and How It Improves Performance in Deep Learning](https://towardsdatascience.com/understanding-learning-rates-and-how-it-improves-performance-in-deep-learning-d0d4059c1c10)
 - [Realtime Interactive Visualization of Convolutional Neural Networks in Unity](https://vimeo.com/274236414)
 
-## Course
-- [Deep Learning book](http://www.deeplearningbook.org/)
+## Courses
 - [Deep Natural Language Processing, University of Oxford, 2017](https://github.com/oxford-cs-deepnlp-2017/lectures)
 - [Reconnaissance des formes et méthodes neuronales (US330X) - Master TRIED - Neural Networks and Deep Learning](http://cedric.cnam.fr/~thomen/cours/US330X.html)
   - [http://cedric.cnam.fr/~thomen/cours/US330X/cours1.pdf](http://cedric.cnam.fr/~thomen/cours/US330X/cours1.pdf)
@@ -95,3 +94,13 @@
 - [Hardware for Deep Learning. Part 1: Introduction](https://blog.inten.to/hardware-for-deep-learning-current-state-and-trends-51c01ebbb6dc)
 - [Hardware for Deep Learning. Part 2: CPU](https://blog.inten.to/cpu-hardware-for-deep-learning-b91f53cb18af)
 - [Hardware for Deep Learning. Part 3: GPU](https://blog.inten.to/hardware-for-deep-learning-part-3-gpu-8906c1644664)
+
+## Books
+- [Deep Learning book](http://www.deeplearningbook.org/)
+- [Reinforcement Learning: An Introduction, Richard S. Sutton and Andrew G. Barto, Second Edition, MIT Press, Cambridge, MA, 2018](http://incompleteideas.net/book/the-book-2nd.html) ([pdf](http://incompleteideas.net/book/RLbook2018.pdf), [Google Drive](https://drive.google.com/file/d/1opPSz5AZ_kVa1uWOdOiveNiBFiEOHjkG/view))
+
+## Papers
+- [Deep Learning Resources (DL4J)](https://deeplearning4j.org/cn/deeplearningpapers)
+- [Deep Multi-modal Object Detection and Semantic Segmentation for Autonomous Driving: Datasets, Methods, and Challenges, Di Feng, Christian Haase-Schuetz, Lars Rosenbaum, Heinz Hertlein, Fabian Duffhauss, Claudius Gläser, Werner Wiesbeck, Klaus C. J. Dietmayer, Published in ArXiv 2019](https://www.semanticscholar.org/paper/Deep-Multi-modal-Object-Detection-and-Semantic-for-Feng-Haase-Schuetz/641e8208f7a1a5510ab167b18daeb7e81efdd83b) ([arXiv](https://arxiv.org/abs/1902.07830))
+- [Pseudo-LiDAR from Visual Depth Estimation: Bridging the Gap in 3D Object Detection for Autonomous Driving, Yan Wang, Wei-Lun Chao, Divyansh Garg, Bharath Hariharan, Mark Campbell, Kilian Q. Weinberger, Published in ArXiv 2018](https://www.semanticscholar.org/paper/Pseudo-LiDAR-from-Visual-Depth-Estimation%3A-Bridging-Wang-Chao/1c880573742d2cde2e7554162ab13a0632534ea9) ([arXiv](https://arxiv.org/abs/1812.07179))
+- [Multi-view 3D Object Detection Network for Autonomous Driving, Xiaozhi Chen, Huimin Ma, Ji Wan, Bo Li, Tian Xia, DOI:10.1109/CVPR.2017.691, IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2017](https://www.semanticscholar.org/paper/Multi-view-3D-Object-Detection-Network-for-Driving-Chen-Ma/2e016c61724304980dc2c82b7d60896fd921c176) ([arXiv](https://arxiv.org/abs/1611.07759))
