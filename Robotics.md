@@ -162,6 +162,10 @@
   - [Gauss-Newton Optimization](http://ethaneade.com/optimization.pdf)
   - [Rotation between two 3-vectors](http://ethaneade.com/rot_between_vectors.pdf)
   - [Process Noise for Gaussian Random Walks](http://ethaneade.com/process_noise_random_walk.pdf)
+- [Practical Parameterization of Rotations Using the Exponential Map, F. Sebastian Grassia, Carnegie Mellon University](https://www.cs.cmu.edu/~spiff/moedit99/expmap.pdf)
+  - [ACM](https://dl.acm.org/citation.cfm?id=781241)
+  - [exp-map](http://www.cs.cmu.edu/~spiff/exp-map/)
+- [MT_ExpMap.cpp](https://github.com/jesterKing/blender/blob/master/blender/intern/iksolver/intern/MT_ExpMap.cpp)
 
 ## Quaternion
 - [The Quaternionic Exponential (and beyond), Hubert HOLIN](https://www.boost.org/doc/libs/1_48_0/libs/math/quaternion/TQE.pdf)
