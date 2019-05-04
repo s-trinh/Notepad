@@ -1,6 +1,9 @@
 ## Books
 - [Convex Optimization](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf)
 - [An Introduction to Optimization, 4th Edition, Edwin K. P. Chong, Stanislaw H. Zak, ISBN: 978-1-118-51515-0](https://www.wiley.com/en-fr/An+Introduction+to+Optimization,+4th+Edition-p-9781118515150) ([link](https://eng.uok.ac.ir/mfathi/Courses/Advanced%20Eng%20Math/An%20Introduction%20to%20Optimization-%20E.%20Chong,%20S.%20Zak.pdf))
+- [Least Squares Data Fitting with Applications, Per Christian Hansen, Victor Pereyra, and Godela Scherer](http://www.imm.dtu.dk/~pcha/LSDF/)
+  - [Data Fitting and Linear Least-Squares Problems](http://www.imm.dtu.dk/~pcha/LSDF/LinDataFit.pdf)
+  - [Nonlinear least squares problems](http://www.imm.dtu.dk/~pcha/LSDF/NonlinDataFit.pdf)
 
 ## Papers
 - [Gauss-Newton / Levenberg-Marquardt Optimization - Ethan Eade - Updated March 20, 2013](http://ethaneade.com/optimization.pdf)
@@ -11,9 +14,23 @@
 - [Non-linear Optimization, Fall 07](https://www8.cs.umu.se/kurser/5DA001/HT07/)
   - [lectures](https://www8.cs.umu.se/kurser/5DA001/HT07/lectures/)
   - [Non linear Optimization - Least Squares Problems - The Gauss-Newton method, Niclas Börlin - Department of Computing Science - Umeå University, November 22, 2007](https://www8.cs.umu.se/kurser/5DA001/HT07/lectures/lsq-handouts.pdf)
+- [Non-Linear Optimization (57002HT15)](http://www8.cs.umu.se/kurser/cambrogateway/?id=57002HT15-1)
+  - [Lectures](http://www8.cs.umu.se/kurser/5DA001/HT15/lectures/)
 - [Lecture 08- Nonlinear least square & RANSAC - EE382-Visual localization & Perception - Danping Zou @Shanghai Jiao Tong University](http://drone.sjtu.edu.cn/dpzou/teaching/course/lecture07-08-nonlinear_least_square_ransac.pdf)
 - [02610 Optimization and Data Fitting - Nonlinear Least-Squares Problems](http://www2.compute.dtu.dk/~pcha/LSDF/NonlinDataFit.pdf)
 - [L. Vandenberghe - ECE133A (Fall 2018) - 13. Nonlinear least squares](http://www.seas.ucla.edu/~vandenbe/133A/lectures/nlls.pdf)
+- [CS5240 Theoretical Foundations in Multimedia, Leow Wee Kheng (National University of Singapore)](https://www.comp.nus.edu.sg/~cs5240/)
+  - [Lectures](https://www.comp.nus.edu.sg/~cs5240/lecture/)
+  - [Robust Methods - CS5240 Theoretical Foundations in Multimedia - Leow Wee Kheng - Department of Computer Science - School of Computing - National University of Singapore](https://www.comp.nus.edu.sg/~cs5240/lecture/robust.pdf)
+- [EE263: Introduction to Linear Dynamical Systems - Professor Stephen Boyd, Stanford University, Autumn Quarter 2007–08](http://web.stanford.edu/class/archive/ee/ee263/ee263.1082/)
+  - [Lecture Slides](http://web.stanford.edu/class/archive/ee/ee263/ee263.1082/lectures.html)
+  - [EE263 Autumn 2007-08 - Stephen Boyd - Lecture 7 - Regularized least-squares and Gauss-Newton method, Professor Stephen Boyd, Stanford University, Autumn Quarter 2007–08](https://see.stanford.edu/materials/lsoeldsee263/07-ls-reg.pdf)
+- [EE263: Introduction to Linear Dynamical Systems - Reza Nasiri Mahalati, Stanford University, Fall Quarter 2018](http://ee263.stanford.edu/)
+- [BST 764 Applied Statistical Modeling for Medicine and Public Health, Patrick Breheny](https://web.as.uky.edu/statistics/users/pbreheny/764-F11/)
+  - [Lectures](https://web.as.uky.edu/statistics/users/pbreheny/764-F11/notes.html)
+  - [Robust regression, Patrick Breheny](https://web.as.uky.edu/statistics/users/pbreheny/764-F11/notes/12-1.pdf)
+- [Statistiques robustes](http://lagis-vi.univ-lille1.fr/~lm/classpec/reunion_31_10_07/Statistiques_robustes_dh.pdf)
+- [Least Squares Adjustment:Linear and Nonlinear Weighted Regression Analysis, Allan Aasbjerg Nielsen, Technical University of Denmark](http://www2.imm.dtu.dk/pubdb/views/edoc_download.php/2804/pdf/imm2804.pdf)
 
 ## Matlab
 - [Matlab Optimization Toolbox™ User's Guide](https://www.mathworks.com/help/pdf_doc/optim/optim_tb.pdf)
@@ -28,3 +45,8 @@
 - [Relation between Covariance matrix and Jacobian in Nonlinear Least Squares](https://stats.stackexchange.com/questions/231868/relation-between-covariance-matrix-and-jacobian-in-nonlinear-least-squares/231886#231886)
 - [Gauss Newton algorthm](https://nghiaho.com/?page_id=355)
 - [7 Optimization in MATLAB](https://fenix.tecnico.ulisboa.pt/downloadFile/845043405433149/MDO_lecture_07.pdf)
+- [Weighted Least Squares weights not changing Jacobian matrix](https://stats.stackexchange.com/questions/295351/weighted-least-squares-weights-not-changing-jacobian-matrix/295471#295471)
+- [Weighted least squares](https://en.wikipedia.org/wiki/Weighted_least_squares)
+- [Non-linear least squares](https://en.wikipedia.org/wiki/Non-linear_least_squares)
+- [Gauss-Newton versus gradient descent](https://math.stackexchange.com/questions/1085436/gauss-newton-versus-gradient-descent/1182563#1182563)
+- [Why is Newton's method faster than gradient descent?](https://math.stackexchange.com/questions/1013195/why-is-newtons-method-faster-than-gradient-descent/1015879#1015879)
