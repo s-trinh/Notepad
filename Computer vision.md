@@ -129,6 +129,8 @@
   - [Continuous Preintegration](https://github.com/rpng/cpi)
 - [IMU Preintegration on Manifold for Efficient Visual-Inertial Maximum-a-Posteriori Estimation](http://www.roboticsproceedings.org/rss11/p06.pdf)
 - [Robocentric Visual-Inertial Odometry](https://github.com/rpng/R-VIO)
+- [Semi-dense visual odometry for RGB-D cameras using approximate nearest neighbour fields, Yi Zhou, Laurent Kneip, Hongdong Li, IEEE International Conference on Robotics and Automation (ICRA) 2017, DOI:10.1109/ICRA.2017.7989742](https://www.semanticscholar.org/paper/Semi-dense-visual-odometry-for-RGB-D-cameras-using-Zhou-Kneip/f6e335e6402db23beed46d913aaec4c0be9ca508) ([arXiv](https://arxiv.org/abs/1702.02512))
+- [Yi Zhou, Australian National University (ANU)](http://users.cecs.anu.edu.au/~u5535909/)
 
 ## Camera Calibration
 - [Single Camera Calibrator App (Matlab)](https://www.mathworks.com/help/vision/ug/single-camera-calibrator-app.html)
