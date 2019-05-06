@@ -131,6 +131,9 @@
 - [Robocentric Visual-Inertial Odometry](https://github.com/rpng/R-VIO)
 - [Semi-dense visual odometry for RGB-D cameras using approximate nearest neighbour fields, Yi Zhou, Laurent Kneip, Hongdong Li, IEEE International Conference on Robotics and Automation (ICRA) 2017, DOI:10.1109/ICRA.2017.7989742](https://www.semanticscholar.org/paper/Semi-dense-visual-odometry-for-RGB-D-cameras-using-Zhou-Kneip/f6e335e6402db23beed46d913aaec4c0be9ca508) ([arXiv](https://arxiv.org/abs/1702.02512))
 - [Yi Zhou, Australian National University (ANU)](http://users.cecs.anu.edu.au/~u5535909/)
+- [TurtleZhong/msckf_mono](https://github.com/TurtleZhong/msckf_mono)
+- [http://www.xinliang-zhong.vip/msckf_notes/](http://www.xinliang-zhong.vip/msckf_notes/)
+- [Quaternion kinematics for the error-state Kalman filter, Joan Solà](https://arxiv.org/abs/1711.02508)
 
 ## Camera Calibration
 - [Single Camera Calibrator App (Matlab)](https://www.mathworks.com/help/vision/ug/single-camera-calibrator-app.html)
