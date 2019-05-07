@@ -50,3 +50,5 @@
 - [Non-linear least squares](https://en.wikipedia.org/wiki/Non-linear_least_squares)
 - [Gauss-Newton versus gradient descent](https://math.stackexchange.com/questions/1085436/gauss-newton-versus-gradient-descent/1182563#1182563)
 - [Why is Newton's method faster than gradient descent?](https://math.stackexchange.com/questions/1013195/why-is-newtons-method-faster-than-gradient-descent/1015879#1015879)
+- [Levenberg Marquardt](https://github.com/ydsf16/LevenbergMarquardt)
+- [Levenberg Marquardt (https://zhuanlan.zhihu.com/p/42415718)](https://zhuanlan.zhihu.com/p/42415718)
