@@ -104,3 +104,7 @@
 - [Deep Multi-modal Object Detection and Semantic Segmentation for Autonomous Driving: Datasets, Methods, and Challenges, Di Feng, Christian Haase-Schuetz, Lars Rosenbaum, Heinz Hertlein, Fabian Duffhauss, Claudius Gläser, Werner Wiesbeck, Klaus C. J. Dietmayer, Published in ArXiv 2019](https://www.semanticscholar.org/paper/Deep-Multi-modal-Object-Detection-and-Semantic-for-Feng-Haase-Schuetz/641e8208f7a1a5510ab167b18daeb7e81efdd83b) ([arXiv](https://arxiv.org/abs/1902.07830))
 - [Pseudo-LiDAR from Visual Depth Estimation: Bridging the Gap in 3D Object Detection for Autonomous Driving, Yan Wang, Wei-Lun Chao, Divyansh Garg, Bharath Hariharan, Mark Campbell, Kilian Q. Weinberger, Published in ArXiv 2018](https://www.semanticscholar.org/paper/Pseudo-LiDAR-from-Visual-Depth-Estimation%3A-Bridging-Wang-Chao/1c880573742d2cde2e7554162ab13a0632534ea9) ([arXiv](https://arxiv.org/abs/1812.07179))
 - [Multi-view 3D Object Detection Network for Autonomous Driving, Xiaozhi Chen, Huimin Ma, Ji Wan, Bo Li, Tian Xia, DOI:10.1109/CVPR.2017.691, IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2017](https://www.semanticscholar.org/paper/Multi-view-3D-Object-Detection-Network-for-Driving-Chen-Ma/2e016c61724304980dc2c82b7d60896fd921c176) ([arXiv](https://arxiv.org/abs/1611.07759))
+
+## Code
+- [Convolutional Neural Network (CNN), 5KK73 GPU Assignment 2013](https://sites.google.com/site/5kk73gpu2013/assignment/cnn)
+- [OverFeat](https://github.com/sermanet/OverFeat)
