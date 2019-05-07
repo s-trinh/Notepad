@@ -87,6 +87,7 @@
 - [Tracking and Detection in Computer Vision - Winter Term 2011/12](http://campar.in.tum.de/Chair/TeachingWs11TDCV)
   - [Teaching Activities at CAMP+AR](http://campar.in.tum.de/Chair/TeachingHistory)
   - [Tracking and Detection in Computer Vision - Non-linear optimization and robust estimation for tracking - Slobodan Ilić, Technischen Universität München - Winter Semester 2011/2012](http://campar.in.tum.de/twiki/pub/Chair/TeachingWs11TDCV/non-linear_optm-RANSAC.pdf)
+- [Object recognition and computer vision 2015/2016, Jean Ponce, Ivan Laptev, Cordelia Schmid and Josef Sivic](https://www.di.ens.fr/willow/teaching/recvis15/)
 
 ## Workshop
 - [Bay Area Vision Meeting 2014 - Hosted by Computational Vision and Geometry Lab](http://cvgl.stanford.edu/BAVM14/) ([Index Of](http://cvgl.stanford.edu/BAVM14/slides/))
@@ -115,6 +116,9 @@
 - [DenseFusion: 6D Object Pose Estimation by Iterative Dense Fusion, Chen Wang, Danfei Xu, Yuke Zhu, Roberto Martín-Martín, Cewu Lu, Li Fei-Fei, Silvio Savarese](https://arxiv.org/abs/1901.04780)
 - [Computer Vision: Lecture 3 (DLT), Carl Olsson, 2014-01-29 (Lund University)](http://www.maths.lth.se/matematiklth/personal/calle/datorseende14/pres/forelas3.pdf)
 - [DLT Method](http://www.kwon3d.com/theory/dlt/dlt.html)
+- [PnP Solver](https://github.com/ydsf16/PnP_Solver)
+  - [DLT](https://zhuanlan.zhihu.com/p/58648937)
+  - [EPnP](https://zhuanlan.zhihu.com/p/59070440)
 
 ## SLAM / Visual Odometry
 - [Direct Visual-Inertial Odometry with Stereo Cameras, Vladyslav C. Usenko, Jakob Engel, Jörg Stückler, Daniel Cremers, IEEE International Conference on Robotics and Automation (ICRA) 2016, DOI:10.1109/ICRA.2016.7487335](https://www.semanticscholar.org/paper/Direct-visual-inertial-odometry-with-stereo-cameras-Usenko-Engel/2cbc2797efe322f8ac286d90cbc2c4852f0f6bde)
@@ -134,6 +138,10 @@
 - [TurtleZhong/msckf_mono](https://github.com/TurtleZhong/msckf_mono)
 - [http://www.xinliang-zhong.vip/msckf_notes/](http://www.xinliang-zhong.vip/msckf_notes/)
 - [Quaternion kinematics for the error-state Kalman filter, Joan Solà](https://arxiv.org/abs/1711.02508)
+- [SLAM, Dongsheng Yang](https://zhuanlan.zhihu.com/slamTech)
+  - [ArUco-based EKF-SLAM](https://github.com/ydsf16/aruco_ekf_slam)
+  - [ArUco EKF SLAM](https://zhuanlan.zhihu.com/p/45207081)
+- [Robot Mapping - WS 2013/14, Cyrill Stachniss (University of Freiburg)](http://ais.informatik.uni-freiburg.de/teaching/ws13/mapping/)
 
 ## Camera Calibration
 - [Single Camera Calibrator App (Matlab)](https://www.mathworks.com/help/vision/ug/single-camera-calibrator-app.html)
@@ -144,6 +152,36 @@
 
 ### Stereo Matching
 - [Segment-based Disparity Refinement with Occlusion Handling for Stereo Matching](https://github.com/TingmanYan/SDR) ([IEEE Xplore](https://ieeexplore.ieee.org/document/8661596))
+
+### Viola & Jones
+- [An Analysis of the Viola-Jones Face Detection Algorithm, Yi-Qing Wang](https://www.ipol.im/pub/art/2014/104/)
+- [Viola-Jones object detection [updated], Inspirit](https://web.archive.org/web/20160409211400/http://blog.inspirit.ru/viola-jones-object-detection/)
+- [jsfeat_haar.js](https://github.com/inspirit/jsfeat/blob/master/src/jsfeat_haar.js)
+- [js-objectdetect](https://github.com/mtschirs/js-objectdetect)
+- [JavaScript Computer Vision library](https://github.com/inspirit/jsfeat)
+- [wasmface](https://github.com/noahlevenson/wasmface)
+- [Face detection in pure PHP (without OpenCV)](https://svay.com/blog/face-detection-in-pure-php-without-opencv/)
+- [PHP Face Detection](https://github.com/mauricesvay/php-facedetection)
+- [Viola and Jones Object Detection Framework (C++)](https://github.com/alexdemartos/ViolaAndJones)
+- [Viola Jones (Python)](https://github.com/Simon-Hohberg/Viola-Jones)
+- [Dsid/viola jones #6](https://github.com/kalonice/training/pull/6)
+- [Face detection Application using OpenCV](https://github.com/TheAdnan/detekcija_lica)
+- [https://github.com/Ronneesley/redesocial/tree/master/pesquisas/Viola-Jones](https://github.com/Ronneesley/redesocial/tree/master/pesquisas/Viola-Jones)
+- [https://github.com/shkolnick-kun/cv_school/blob/master/task6/libvj.py](https://github.com/shkolnick-kun/cv_school/blob/master/task6/libvj.py)
+- [https://github.com/bansalayush25/Viola-Jones](https://github.com/bansalayush25/Viola-Jones)
+- [matlab-Viola-and-Jones-Implementation](https://github.com/ancodeUDW/matlab-Viola-and-Jones-Implementation)
+- [Optimizing Flash Based Face Detection](http://www.quasimondo.com/archives/000687.php)
+- [Efficient Face Detection Algorithm using Viola Jones method, Ali Tarhini, 30 Apr 2011](https://www.codeproject.com/Articles/85113/Efficient-Face-Detection-Algorithm-using-Viola-Jon)
+- [Haar-feature Object Detection in C#, César de Souza, 2 Dec 2014 ](https://www.codeproject.com/Articles/441226/Haar-feature-Object-Detection-in-Csharp)
+- [Accord.NET Framework](https://github.com/accord-net/framework)
+- [Rapid Object Detection in .NET, Huseyin Atasoy, 21 Mar 2015](https://www.codeproject.com/Articles/436521/Rapid-Object-Detection-in-NET)
+- [Ultra Rapid Object Detection in Computer Vision Applications with Haar-like Wavelet Features, Chesnokov Yuriy, 9 Jul 2008](https://www.codeproject.com/Articles/27125/Ultra-Rapid-Object-Detection-in-Computer-Vision-Ap)
+- [https://github.com/openmv/openmv/blob/master/src/omv/img/haar.c](https://github.com/openmv/openmv/blob/master/src/omv/img/haar.c)
+- [Viola-Jones Face Detection, Zhenyu Ye](https://sites.google.com/site/5kk73gpu2012/assignment/viola-jones-face-detection)
+- [RASW: a Run-time Adaptive Sliding Windowto Improve Viola-Jones Object Detection](http://www.ics.ele.tue.nl/~tbasten/papers/icdsc_2013_final.pdf)
+- [http://www.es.ele.tue.nl/video/](http://www.es.ele.tue.nl/video/)
+- [Face tracking based on haar-like features and eigenfaces, Paulo Menezes, José Carlos Barreto, Jorge Dias](https://www.sciencedirect.com/science/article/pii/S1474667017319936)
+- [ufpa-face-detection (Face detection for Octave / Matlab)](https://github.com/aldebaro/ufpa-face-detection)
 
 ## Papers
 - [Minimal Problems in Computer Vision](http://cmp.felk.cvut.cz/mini/):
