@@ -142,6 +142,8 @@
   - [ArUco-based EKF-SLAM](https://github.com/ydsf16/aruco_ekf_slam)
   - [ArUco EKF SLAM](https://zhuanlan.zhihu.com/p/45207081)
 - [Robot Mapping - WS 2013/14, Cyrill Stachniss (University of Freiburg)](http://ais.informatik.uni-freiburg.de/teaching/ws13/mapping/)
+- [ReFusion: 3D Reconstruction in Dynamic Environments for RGB-D Cameras Exploiting Residuals](https://github.com/PRBonn/refusion)
+- [https://github.com/zdzhaoyong/SummerCamp2018](https://github.com/zdzhaoyong/SummerCamp2018)
 
 ## Camera Calibration
 - [Single Camera Calibrator App (Matlab)](https://www.mathworks.com/help/vision/ug/single-camera-calibrator-app.html)
@@ -150,10 +152,11 @@
 ## Ellipse detection
 - [Arc-support Line Segments Revisited: An Efficient and High-quality Ellipse Detection](https://github.com/AlanLuSun/High-quality-ellipse-detection) ([arXiv](https://arxiv.org/abs/1810.03243v4))
 
-### Stereo Matching
+## Stereo Matching / Stereo Vision
 - [Segment-based Disparity Refinement with Occlusion Handling for Stereo Matching](https://github.com/TingmanYan/SDR) ([IEEE Xplore](https://ieeexplore.ieee.org/document/8661596))
+- [Robust Stereo](http://www.robots.ox.ac.uk/~avsegal/ames_robust_stereo.html)
 
-### Viola & Jones
+## Viola & Jones
 - [An Analysis of the Viola-Jones Face Detection Algorithm, Yi-Qing Wang](https://www.ipol.im/pub/art/2014/104/)
 - [Viola-Jones object detection [updated], Inspirit](https://web.archive.org/web/20160409211400/http://blog.inspirit.ru/viola-jones-object-detection/)
 - [jsfeat_haar.js](https://github.com/inspirit/jsfeat/blob/master/src/jsfeat_haar.js)
