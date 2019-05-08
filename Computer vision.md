@@ -144,10 +144,16 @@
 - [Robot Mapping - WS 2013/14, Cyrill Stachniss (University of Freiburg)](http://ais.informatik.uni-freiburg.de/teaching/ws13/mapping/)
 - [ReFusion: 3D Reconstruction in Dynamic Environments for RGB-D Cameras Exploiting Residuals](https://github.com/PRBonn/refusion)
 - [https://github.com/zdzhaoyong/SummerCamp2018](https://github.com/zdzhaoyong/SummerCamp2018)
+- [SobolevFusion: 3D Reconstruction of Scenes Undergoing Free Non-Rigid Motion, Slavcheva, Miroslava and Baust, Maximilian and Ilic, Slobodan](https://github.com/dgrzech/sobfu)
+- [InfiniTAM v3](https://github.com/victorprad/InfiniTAM)
+- [Co-Fusion: Real-time Segmentation, Tracking and Fusion of Multiple Objects, Martin Rünz and Lourdes Agapito](http://visual.cs.ucl.ac.uk/pubs/cofusion/)
+- [Co-Fusion](https://github.com/martinruenz/co-fusion)
 
 ## Camera Calibration
 - [Single Camera Calibrator App (Matlab)](https://www.mathworks.com/help/vision/ug/single-camera-calibrator-app.html)
 - [A Single-shot-per-pose Camera-Projector Calibration System For Imperfect Planar Targets, Bingyao Huang, Samed Ozdemir, Ying Tang, Chunyuan Liao, Haibin Ling](https://www.semanticscholar.org/paper/A-Single-shot-per-pose-Camera-Projector-Calibration-Huang-Ozdemir/d4a23a9b8d8cef2044e16690e688b09cbff3cc10) ([arXiv](https://arxiv.org/abs/1803.09058))
+- [Demystifying Geometric Camera Calibration for Intrinsic Matrix](https://kushalvyas.github.io/calib.html)
+- [Camera calibration using Python](https://github.com/kushalvyas/CameraCalibration)
 
 ## Ellipse detection
 - [Arc-support Line Segments Revisited: An Efficient and High-quality Ellipse Detection](https://github.com/AlanLuSun/High-quality-ellipse-detection) ([arXiv](https://arxiv.org/abs/1810.03243v4))
