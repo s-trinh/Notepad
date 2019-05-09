@@ -9,3 +9,6 @@
 - [deeptracking](https://github.com/lvsn/deeptracking)
 - [The Laval 6 DOF Object Tracking Dataset](http://vision.gel.ulaval.ca/~jflalonde/projects/6dofObjectTracking/)
 - [6DOF_tracking_evaluation](https://github.com/lvsn/6DOF_tracking_evaluation)
+
+## Code
+- [Edge Based Tracking library](https://github.com/CogRob/object_tracking_2D)
