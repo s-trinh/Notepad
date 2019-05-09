@@ -119,11 +119,17 @@
 - [PnP Solver](https://github.com/ydsf16/PnP_Solver)
   - [DLT](https://zhuanlan.zhihu.com/p/58648937)
   - [EPnP](https://zhuanlan.zhihu.com/p/59070440)
+- [A Minimal Solution to the Generalized Pose-and-Scale Problem, Jonathan Ventura, Clemens Arth, Gerhard Reitmayr, Dieter Schmalstieg, IEEE Conference on Computer Vision and Pattern Recognition 2014, https://doi.org/10.1109/CVPR.2014.61](https://www.semanticscholar.org/paper/A-Minimal-Solution-to-the-Generalized-Problem-Ventura-Arth/152213bc5b226bcd8674a70fffc449d6d6ab86ac) ([pdf](https://www.jventura.net/sites/default/files/jventura_cvpr14.pdf), [code](https://github.com/jonathanventura/genposeandscale))
+- [gDLS: A Scalable Solution to the Generalized Pose and Scale Problem, Chris Sweeney, Victor Fragoso, Tobias Höllerer, Matthew Turk, Published in ECCV 2014, https://doi.org/10.1007/978-3-319-10593-2_2](https://www.semanticscholar.org/paper/gDLS%3A-A-Scalable-Solution-to-the-Generalized-Pose-Sweeney-Fragoso/7f25f4c32495901650ca9feddaaf2a43c6fae60c) ([paper](http://vfragoso.com/pdfs/gdls_eccv_14.pdf))
+- [On the Probability of the Number of Solutions for the P4P Problem, Xiao-Shan Gao, Jianliang Tang, Published in Journal of Mathematical Imaging and Vision 2006, https://doi.org/10.1007/s10851-006-5149-6](https://www.semanticscholar.org/paper/On-the-Probability-of-the-Number-of-Solutions-for-Gao-Tang/086c3697c72668c2f4aa38dfd26e0fbdbf5acc72) ([paper](http://www.mmrc.iss.ac.cn/~xgao/paper/gao-tang.pdf))
+- [On the Number of Solutions for the P4P Problem](http://mmrc.iss.ac.cn/mm/mm21/mm21pdf/gao3.pdf)
+- [Pose Estimation from Line Correspondences: A Complete Analysis and A Series of Solutions, Chi Xu, Lilian Zhang, Li Chen Cheng, Reinhard Koch, IEEE Transactions on Pattern Analysis and Machine Intelligence 2017, https://doi.org/10.1109/TPAMI.2016.2582162](https://www.semanticscholar.org/paper/Pose-Estimation-from-Line-Correspondences%3A-A-and-a-Xu-Zhang/50901306152b746e3b80101140a036a6f69d8342) ([paper](https://web.bii.a-star.edu.sg/~chengli/papers/XuEtAl_PAMI17.pdf))
 
 ## SLAM / Visual Odometry
 - [Direct Visual-Inertial Odometry with Stereo Cameras, Vladyslav C. Usenko, Jakob Engel, Jörg Stückler, Daniel Cremers, IEEE International Conference on Robotics and Automation (ICRA) 2016, DOI:10.1109/ICRA.2016.7487335](https://www.semanticscholar.org/paper/Direct-visual-inertial-odometry-with-stereo-cameras-Usenko-Engel/2cbc2797efe322f8ac286d90cbc2c4852f0f6bde)
 - [VINS-Mono - A Robust and Versatile Monocular Visual-Inertial State Estimator](https://github.com/HKUST-Aerial-Robotics/VINS-Mono)
 - [Kudan SLAM](https://www.kudan.io/)
+- [An Introduction to Simultaneous Localisation and Mapping ](https://www.kudan.io/post/an-introduction-to-simultaneous-localisation-and-mapping)
 - [ElasticFusion - Real-time dense visual SLAM system capable of capturing comprehensive dense globally consistent surfel-based maps of room scale environments explored using an RGB-D camera.](https://github.com/mp3guy/ElasticFusion)
 - [Bundle Adjustment for Matlab](https://github.com/tikroeger/BA_Matlab)
 - [A Comparative Analysis of Tightly-coupled Monocular, Binocular, and Stereo VINS](http://mars.cs.umn.edu/research/stereo_vins.php)
@@ -195,6 +201,7 @@
 ## Papers
 - [Minimal Problems in Computer Vision](http://cmp.felk.cvut.cz/mini/):
 > This page provides a list of papers, software, data, and evaluations for solving minimal problems in computer vision, which is concerned with finding parameters of (geometrical) models from as small (minimal) data sets by solving systems of algebraic equations.
+- [Lie-X: Depth Image Based Articulated Object PoseEstimation, Tracking, and Action Recognition on Lie Groups, Chi Xu, Lakshmi Narasimhan Govindarajan, Yu Zhang, Li Cheng, Published in International Journal of Computer Vision 2017, https://doi.org/10.1007/s11263-017-0998-6](https://www.semanticscholar.org/paper/Lie-X%3A-Depth-Image-Based-Articulated-Object-Pose-on-Xu-Govindarajan/3f5158ea65bb483c6797462faffa16fea9f0b004) ([paper](https://web.bii.a-star.edu.sg/~chengli/papers/XuEtAl_IJCV17.pdf), [project page](https://web.bii.a-star.edu.sg/archive/machine_learning/Projects/behaviorAnalysis/Lie-X/Lie-X.html))
 
 ## Misc / Code / Libraries
 - [https://paperswithcode.com/](https://paperswithcode.com/)
