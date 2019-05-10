@@ -154,6 +154,14 @@
 - [InfiniTAM v3](https://github.com/victorprad/InfiniTAM)
 - [Co-Fusion: Real-time Segmentation, Tracking and Fusion of Multiple Objects, Martin Rünz and Lourdes Agapito](http://visual.cs.ucl.ac.uk/pubs/cofusion/)
 - [Co-Fusion](https://github.com/martinruenz/co-fusion)
+- [VI-Stereo-DSO](https://github.com/RonaldSun/VI-Stereo-DSO)
+- [DSO: Direct Sparse Odometry](https://github.com/JakobEngel/dso)
+- [vins_mono_cg](https://github.com/cggos/vins_mono_cg)
+- [VINS-Mono notes](https://www.zybuluo.com/Xiaobuyi/note/866099)
+- [Depth Filter notes](https://www.zybuluo.com/Xiaobuyi/note/1107128)
+- [Question about mid-point integration in integration_base.h](https://github.com/HKUST-Aerial-Robotics/VINS-Mono/issues/14)
+- [A Benchmark Comparison of Monocular Visual-Inertial Odometry Algorithms for Flying Robots, Jeffrey A. Delmerico, Davide Scaramuzza, IEEE International Conference on Robotics and Automation (ICRA) 2018, https://doi.org/10.1109/ICRA.2018.8460664](https://www.semanticscholar.org/paper/A-Benchmark-Comparison-of-Monocular-Visual-Inertial-Delmerico-Scaramuzza/4e6d4a677d6bd1baf53ba0371b12aa7c76c367e1) ([pdf](http://rpg.ifi.uzh.ch/docs/ICRA18_Delmerico.pdf), [pptx](http://rpg.ifi.uzh.ch/docs/ICRA18_Delmerico.pptx), [video](https://www.youtube.com/watch?v=ymI3FmwU9AY))
+- [Co-VINS: Collaborative Localization for Multiple Monocular Visual-Inertial Systems](https://github.com/qintonguav/Co-VINS)
 
 ## Camera Calibration
 - [Single Camera Calibrator App (Matlab)](https://www.mathworks.com/help/vision/ug/single-camera-calibrator-app.html)
@@ -167,6 +175,9 @@
 ## Stereo Matching / Stereo Vision
 - [Segment-based Disparity Refinement with Occlusion Handling for Stereo Matching](https://github.com/TingmanYan/SDR) ([IEEE Xplore](https://ieeexplore.ieee.org/document/8661596))
 - [Robust Stereo](http://www.robots.ox.ac.uk/~avsegal/ames_robust_stereo.html)
+- [Continuous 3D Label Stereo Matching using Local Expansion Moves, Tatsunori Taniai, Yasuyuki Matsushita, Yoichi Sato, Takeshi Naemura](https://taniai.space/projects/stereo/)
+- [Continuous 3D Label Stereo Matching using Local Expansion Moves](https://github.com/t-taniai/LocalExpStereo)
+- [Robust Photometric Stereo in Python](https://github.com/yasumat/RobustPhotometricStereo)
 
 ## Viola & Jones
 - [An Analysis of the Viola-Jones Face Detection Algorithm, Yi-Qing Wang](https://www.ipol.im/pub/art/2014/104/)
@@ -209,6 +220,7 @@
 - [Sublucid Geometry, Johnathon Selstad (Leap Motion)](https://zalo.github.io/)
 - [personalrobotics/apriltags_rgbd_node](https://github.com/personalrobotics/apriltags_rgbd_node)
 - [Python utilities used by the Personal Robotics Laboratory.](https://github.com/personalrobotics/prpy)
+- [Yael](http://yael.gforge.inria.fr/): Yael is a library implementing computationally intensive functions used in large scale image retrieval, such as neighbor search, clustering and inverted files. The library offers interfaces for C, Python and Matlab. Authors: Matthijs Douze & Hervé Jégou
 
 ## Books
 - [Computer Vision: A Modern Approach, David A. Forsyth, Jean Ponce](https://www.pearson.com/us/higher-education/program/Forsyth-Computer-Vision-A-Modern-Approach-2nd-Edition/PGM111082.html) ([link 1](http://cmuems.com/excap/readings/forsyth-ponce-computer-vision-a-modern-approach.pdf), [link 2](http://newton.uam.mx/xgeorge/uea/Proc_Dig_Im/Computer%20Vision%20A%20Modern%20Approach%20-%20Forsyth%20,%20Ponce.pdf))
