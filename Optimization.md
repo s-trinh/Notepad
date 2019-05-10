@@ -40,6 +40,10 @@
 - [immoptibox - A Matlab Toolbox for Optimization and Data Fitting - Hans Bruun Nielsen - DTU Compute - Technical University of Denmark - Version 2.2. November 2010](http://www2.imm.dtu.dk/projects/immoptibox/)
   - [Manual](http://www2.imm.dtu.dk/projects/immoptibox/Manual.pdf)
   - [immoptibox](http://www2.imm.dtu.dk/projects/immoptibox/immoptibox.zip)
+  
+## Code
+- [Levenberg Marquardt](https://github.com/ydsf16/LevenbergMarquardt)
+- [General Norm Minimization Solver](https://github.com/yasumat/NormMinimization)
 
 ## Misc
 - [Relation between Covariance matrix and Jacobian in Nonlinear Least Squares](https://stats.stackexchange.com/questions/231868/relation-between-covariance-matrix-and-jacobian-in-nonlinear-least-squares/231886#231886)
@@ -52,3 +56,4 @@
 - [Why is Newton's method faster than gradient descent?](https://math.stackexchange.com/questions/1013195/why-is-newtons-method-faster-than-gradient-descent/1015879#1015879)
 - [Levenberg Marquardt](https://github.com/ydsf16/LevenbergMarquardt)
 - [Levenberg Marquardt (https://zhuanlan.zhihu.com/p/42415718)](https://zhuanlan.zhihu.com/p/42415718)
+- [Ceres notes](https://www.zybuluo.com/Xiaobuyi/note/890320)
