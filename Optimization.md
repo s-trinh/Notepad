@@ -57,3 +57,4 @@
 - [Levenberg Marquardt](https://github.com/ydsf16/LevenbergMarquardt)
 - [Levenberg Marquardt (https://zhuanlan.zhihu.com/p/42415718)](https://zhuanlan.zhihu.com/p/42415718)
 - [Ceres notes](https://www.zybuluo.com/Xiaobuyi/note/890320)
+- [Uncertainty on pose estimate when minimizing measurement errors](https://stackoverflow.com/questions/49239473/how-to-project-3d-covariance-matrix-to-a-given-image-plan-pose/49614280#49614280)
