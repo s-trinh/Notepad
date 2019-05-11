@@ -74,6 +74,12 @@
 - [Hands-on with the Google TPUv2](https://medium.com/paperspace/hands-on-with-the-google-tpuv2-9feb0c5ea952)
 - [How AI is decommoditizing the chip industry](https://venturebeat.com/2018/08/16/how-ai-is-decommoditizing-the-chip-industry/)
 - [AI performance, not stories - 15,000 images/sec on ResNet-50. Production-ready.](https://habana.ai/)
+- ["Mythic's Analog Deep Learning Accelerator Chip: High Performance Inference," a Presentation from Mythic](https://www.embedded-vision.com/platinum-members/mythic/embedded-vision-training/videos/pages/may-2018-embedded-vision-summit)
+- [Mythic](https://www.mythic-ai.com/)
+- [Mythic Multiplies in a Flash - Analog In-Memory Computing Eliminates DRAM Read/Write Cycles](https://www.mythic-ai.com/wp-content/uploads/2018/08/Mythic-Multiplies-In-A-Flash.pdf)
+- [Syntiant](https://www.syntiant.com/)
+- [Xnor.ai](https://www.xnor.ai/)
+- [NovuMind](https://www.novumind.com/)
 
 ## Transfer learning
 - [Transfer Learning (CS231n)](https://cs231n.github.io/transfer-learning/)
