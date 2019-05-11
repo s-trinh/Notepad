@@ -166,6 +166,7 @@
   - [ACM](https://dl.acm.org/citation.cfm?id=781241)
   - [exp-map](http://www.cs.cmu.edu/~spiff/exp-map/)
 - [MT_ExpMap.cpp](https://github.com/jesterKing/blender/blob/master/blender/intern/iksolver/intern/MT_ExpMap.cpp)
+- [`expm`](https://www.mathworks.com/help/matlab/ref/expm.html)
 
 ## Quaternion
 - [The Quaternionic Exponential (and beyond), Hubert HOLIN](https://www.boost.org/doc/libs/1_48_0/libs/math/quaternion/TQE.pdf)
