@@ -88,6 +88,7 @@
   - [Teaching Activities at CAMP+AR](http://campar.in.tum.de/Chair/TeachingHistory)
   - [Tracking and Detection in Computer Vision - Non-linear optimization and robust estimation for tracking - Slobodan Ilić, Technischen Universität München - Winter Semester 2011/2012](http://campar.in.tum.de/twiki/pub/Chair/TeachingWs11TDCV/non-linear_optm-RANSAC.pdf)
 - [Object recognition and computer vision 2015/2016, Jean Ponce, Ivan Laptev, Cordelia Schmid and Josef Sivic](https://www.di.ens.fr/willow/teaching/recvis15/)
+- [Undergraduate course - Visual Localization & Perception (EE382), Shanghai Jiao Tong University](http://drone.sjtu.edu.cn/dpzou/teaching.php)
 
 ## Workshop
 - [Bay Area Vision Meeting 2014 - Hosted by Computational Vision and Geometry Lab](http://cvgl.stanford.edu/BAVM14/) ([Index Of](http://cvgl.stanford.edu/BAVM14/slides/))
@@ -113,7 +114,6 @@
 - [pengjujin/apriltags_rgbd](https://github.com/pengjujin/apriltags_rgbd)
 - [A Comparison of 2D-3D Pose Estimation Methods, Thomas Petersen](https://projekter.aau.dk/projekter/en/studentthesis/a-comparison-of-2d3d-pose-estimation-methods(b6d7dbbe-5e9d-422d-89ad-3755f561ebc0).html) ([link](https://projekter.aau.dk/projekter/files/14427578/A_Comparison_of_2D-3D_Pose_Estimation_Methods.pdf), [A Comparison of Iterative 2D-3D Pose Estimation Methods for Real-Time Applications, 10.1007/978-3-642-02230-2_72](https://www.researchgate.net/publication/220809302_A_Comparison_of_Iterative_2D-3D_Pose_Estimation_Methods_for_Real-Time_Applications))
 - [Efficient decoupled pose estimation from a set of points, Omar Tahri, Helder Araujo, Youcef Mezouar, François Chaumette](https://hal.inria.fr/hal-00851997)
-- [DenseFusion: 6D Object Pose Estimation by Iterative Dense Fusion, Chen Wang, Danfei Xu, Yuke Zhu, Roberto Martín-Martín, Cewu Lu, Li Fei-Fei, Silvio Savarese](https://arxiv.org/abs/1901.04780)
 - [Computer Vision: Lecture 3 (DLT), Carl Olsson, 2014-01-29 (Lund University)](http://www.maths.lth.se/matematiklth/personal/calle/datorseende14/pres/forelas3.pdf)
 - [DLT Method](http://www.kwon3d.com/theory/dlt/dlt.html)
 - [PnP Solver](https://github.com/ydsf16/PnP_Solver)
@@ -124,6 +124,11 @@
 - [On the Probability of the Number of Solutions for the P4P Problem, Xiao-Shan Gao, Jianliang Tang, Published in Journal of Mathematical Imaging and Vision 2006, https://doi.org/10.1007/s10851-006-5149-6](https://www.semanticscholar.org/paper/On-the-Probability-of-the-Number-of-Solutions-for-Gao-Tang/086c3697c72668c2f4aa38dfd26e0fbdbf5acc72) ([paper](http://www.mmrc.iss.ac.cn/~xgao/paper/gao-tang.pdf))
 - [On the Number of Solutions for the P4P Problem](http://mmrc.iss.ac.cn/mm/mm21/mm21pdf/gao3.pdf)
 - [Pose Estimation from Line Correspondences: A Complete Analysis and A Series of Solutions, Chi Xu, Lilian Zhang, Li Chen Cheng, Reinhard Koch, IEEE Transactions on Pattern Analysis and Machine Intelligence 2017, https://doi.org/10.1109/TPAMI.2016.2582162](https://www.semanticscholar.org/paper/Pose-Estimation-from-Line-Correspondences%3A-A-and-a-Xu-Zhang/50901306152b746e3b80101140a036a6f69d8342) ([paper](https://web.bii.a-star.edu.sg/~chengli/papers/XuEtAl_PAMI17.pdf))
+
+## Pose estimation
+- [DenseFusion: 6D Object Pose Estimation by Iterative Dense Fusion, Chen Wang, Danfei Xu, Yuke Zhu, Roberto Martín-Martín, Cewu Lu, Li Fei-Fei, Silvio Savarese](https://arxiv.org/abs/1901.04780)
+- [QuEst: A Quaternion-Based Approach for Camera Motion Estimation From Minimal Feature Points, Kaveh Fathian, Juan-Pablo Ramirez-Paredes, Emily A. Doucette, Jacqueline W. Curtis, Nicholas R. Gans, Published in IEEE Robotics and Automation Letters 2018, https://doi.org/10.1109/LRA.2018.2792142](https://www.semanticscholar.org/paper/QuEst%3A-A-Quaternion-Based-Approach-for-Camera-From-Fathian-Ramirez-Paredes/ab57021e6a201752306d13f4b39ef199bf13ad64) ([code](https://sites.google.com/view/kavehfathian/code))
+- [Backtracking Regression Forests for Accurate Camera Relocalization](https://github.com/lood339/btrf) ([paper](https://www.cs.ubc.ca/~jhchen14/btrf/2017_backtracking_regression_forests_for_accurate_camera_relocalization.pdf))
 
 ## SLAM / Visual Odometry
 - [Direct Visual-Inertial Odometry with Stereo Cameras, Vladyslav C. Usenko, Jakob Engel, Jörg Stückler, Daniel Cremers, IEEE International Conference on Robotics and Automation (ICRA) 2016, DOI:10.1109/ICRA.2016.7487335](https://www.semanticscholar.org/paper/Direct-visual-inertial-odometry-with-stereo-cameras-Usenko-Engel/2cbc2797efe322f8ac286d90cbc2c4852f0f6bde)
@@ -163,6 +168,17 @@
 - [A Benchmark Comparison of Monocular Visual-Inertial Odometry Algorithms for Flying Robots, Jeffrey A. Delmerico, Davide Scaramuzza, IEEE International Conference on Robotics and Automation (ICRA) 2018, https://doi.org/10.1109/ICRA.2018.8460664](https://www.semanticscholar.org/paper/A-Benchmark-Comparison-of-Monocular-Visual-Inertial-Delmerico-Scaramuzza/4e6d4a677d6bd1baf53ba0371b12aa7c76c367e1) ([pdf](http://rpg.ifi.uzh.ch/docs/ICRA18_Delmerico.pdf), [pptx](http://rpg.ifi.uzh.ch/docs/ICRA18_Delmerico.pptx), [video](https://www.youtube.com/watch?v=ymI3FmwU9AY))
 - [Co-VINS: Collaborative Localization for Multiple Monocular Visual-Inertial Systems](https://github.com/qintonguav/Co-VINS)
 - ["Visual-Inertial Tracking for AR and VR," a Presentation from Meta](https://www.embedded-vision.com/platinum-members/embedded-vision-alliance/embedded-vision-training/videos/pages/may-2018-embedded-vision-summit-ahonen)
+- [Undergraduate course - Visual Localization & Perception (EE382), Shanghai Jiao Tong University](http://drone.sjtu.edu.cn/dpzou/teaching.php)
+- [CoSLAM](https://github.com/danping/CoSLAM)
+- [StructVIO: Visual-inertial Odometry with Structural Regularity of Man-made Environments](http://drone.sjtu.edu.cn/dpzou/project/structvio.html)
+- [StructVIO](https://github.com/danping/structvio)
+- [LaserSLAM](https://github.com/meyiao/LaserSLAM)
+- [SimpleStereoVO](https://github.com/meyiao/SimpleStereoVO)
+- [EKF IMU Fusion Algorithms](https://github.com/meyiao/ImuFusion)
+- [Pop-up SLAM: Semantic Monocular Plane SLAM for Low-texture Environments](https://github.com/shichaoy/pop_up_slam)
+- [MSCKF_VIO](https://github.com/KumarRobotics/msckf_vio)
+- [OKVIS: Open Keyframe-based Visual-Inertial SLAM](https://github.com/ethz-asl/okvis)
+- [Stereo Odometry based on careful Feature selection and Tracking](https://github.com/ZhenghaoFei/visual_odom)
 
 ## Camera Calibration
 - [Single Camera Calibrator App (Matlab)](https://www.mathworks.com/help/vision/ug/single-camera-calibrator-app.html)
