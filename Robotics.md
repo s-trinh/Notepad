@@ -144,6 +144,8 @@
 - [Matrix Animation and Polar Decomposition](http://graphicsinterface.org/wp-content/uploads/gi1992-30.pdf)
 - [Distance between rotations](http://www.boris-belousov.net/2016/12/01/quat-dist/)
 - [Orthonormalization, Johnathon Selstad (Leap Motion)](https://zalo.github.io/blog/polar-decomposition/)
+- [Extracting Euler Angles from a Rotation Matrix, Mike D. Day, Published 2014](https://www.semanticscholar.org/paper/Extracting-Euler-Angles-from-a-Rotation-Matrix-Day/668137fa4b875d890f446e689eea1e334bcf6bf6)
+- [Extracting Euler Angles from a Rotation Matrix, Mike Day, Insomniac Games, mday@insomniacgames.com](https://d3cw3dd2w32x2b.cloudfront.net/wp-content/uploads/2012/07/euler-angles.pdf)
 
 ## Lie Groups
 - [An Elementary Introduction to Groups and Representations, Brian C. Hall, University of Notre Dame, Department of Mathematics](https://arxiv.org/abs/math-ph/0005032)
