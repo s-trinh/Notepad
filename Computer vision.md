@@ -179,6 +179,7 @@
 - [MSCKF_VIO](https://github.com/KumarRobotics/msckf_vio)
 - [OKVIS: Open Keyframe-based Visual-Inertial SLAM](https://github.com/ethz-asl/okvis)
 - [Stereo Odometry based on careful Feature selection and Tracking](https://github.com/ZhenghaoFei/visual_odom)
+- [Volumetric 3D Mapping in Real-Time on a CPU](https://github.com/tum-vision/fastfusion)
 
 ## Camera Calibration
 - [Single Camera Calibrator App (Matlab)](https://www.mathworks.com/help/vision/ug/single-camera-calibrator-app.html)
