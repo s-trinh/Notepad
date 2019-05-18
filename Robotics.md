@@ -249,6 +249,7 @@
 
 ## Kinematics
 - [Inverse Kinematics with Quaternion Joint Limits](http://number-none.com/product/IK%20with%20Quaternion%20Joint%20Limits/)
+- [IKBT](https://github.com/uw-biorobotics/IKBT)
 
 ## Visual Servoing
 - [Visual Servoing Control Based on EGM Interface of an ABB Robot, Yichao Mao, Qi Lu, Qing Xu, Published in Chinese Automation Congress (CAC) 2018, DOI:10.1109/cac.2018.8623638](https://www.semanticscholar.org/paper/Visual-Servoing-Control-Based-on-EGM-Interface-of-Mao-Lu/df493ca598cc709d1c2230b7b6ed9b98aa1d2ff5)
@@ -292,6 +293,7 @@
 - [MathUtilities, Johnathon Selstad (Leap Motion)](https://github.com/zalo/MathUtilities)
 - [Sublucid Geometry, Johnathon Selstad (Leap Motion)](https://zalo.github.io/)
 - [Python utilities used by the Personal Robotics Laboratory.](https://github.com/personalrobotics/prpy)
+- [IKBT](https://github.com/uw-biorobotics/IKBT)
 
 ## Videos
 - [Marc Raibert: Boston Dynamics | MIT Artificial Intelligence (AI) Podcast](https://www.youtube.com/watch?v=LiNSPRKHyvo)
