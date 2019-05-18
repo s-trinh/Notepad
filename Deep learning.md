@@ -29,6 +29,8 @@
 - [A Fuller Understanding of Fully Convolutional Networks](http://www.micc.unifi.it/bagdanov/pdfs/FCN-presentation.pdf)
 - [Image Segmentation using deconvolution layer in Tensorflow](https://cv-tricks.com/image-segmentation/transpose-convolution-in-tensorflow/)
 - [Deep Learning Tutorials](http://deeplearning.net/tutorial/contents.html)
+- [fast.ai](https://www.fast.ai/) ([wiki](http://wiki.fast.ai/index.php/Main_Page))
+- [Computational Linear Algebra for Coders](https://github.com/fastai/numerical-linear-algebra)
 
 ## Deep learning (object detection)
 - [Understanding SSD MultiBox — Real-Time Object Detection In Deep Learning](https://towardsdatascience.com/understanding-ssd-multibox-real-time-object-detection-in-deep-learning-495ef744fab)
@@ -110,6 +112,7 @@
 - [Deep Multi-modal Object Detection and Semantic Segmentation for Autonomous Driving: Datasets, Methods, and Challenges, Di Feng, Christian Haase-Schuetz, Lars Rosenbaum, Heinz Hertlein, Fabian Duffhauss, Claudius Gläser, Werner Wiesbeck, Klaus C. J. Dietmayer, Published in ArXiv 2019](https://www.semanticscholar.org/paper/Deep-Multi-modal-Object-Detection-and-Semantic-for-Feng-Haase-Schuetz/641e8208f7a1a5510ab167b18daeb7e81efdd83b) ([arXiv](https://arxiv.org/abs/1902.07830))
 - [Pseudo-LiDAR from Visual Depth Estimation: Bridging the Gap in 3D Object Detection for Autonomous Driving, Yan Wang, Wei-Lun Chao, Divyansh Garg, Bharath Hariharan, Mark Campbell, Kilian Q. Weinberger, Published in ArXiv 2018](https://www.semanticscholar.org/paper/Pseudo-LiDAR-from-Visual-Depth-Estimation%3A-Bridging-Wang-Chao/1c880573742d2cde2e7554162ab13a0632534ea9) ([arXiv](https://arxiv.org/abs/1812.07179))
 - [Multi-view 3D Object Detection Network for Autonomous Driving, Xiaozhi Chen, Huimin Ma, Ji Wan, Bo Li, Tian Xia, DOI:10.1109/CVPR.2017.691, IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2017](https://www.semanticscholar.org/paper/Multi-view-3D-Object-Detection-Network-for-Driving-Chen-Ma/2e016c61724304980dc2c82b7d60896fd921c176) ([arXiv](https://arxiv.org/abs/1611.07759))
+- [NAS-FPN: Learning Scalable Feature Pyramid Architecture for Object Detection, Golnaz Ghiasi, Tsung-Yi Lin, Ruoming Pang, Quoc V. Le, Published in ArXiv 2019](https://www.semanticscholar.org/paper/NAS-FPN%3A-Learning-Scalable-Feature-Pyramid-for-Ghiasi-Lin/7b89427b330960fd82876b607e1671d29f9f2497) ([arXiv](https://arxiv.org/abs/1904.07392))
 
 ## Code
 - [Convolutional Neural Network (CNN), 5KK73 GPU Assignment 2013](https://sites.google.com/site/5kk73gpu2013/assignment/cnn)
