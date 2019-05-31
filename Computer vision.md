@@ -180,6 +180,15 @@
 - [OKVIS: Open Keyframe-based Visual-Inertial SLAM](https://github.com/ethz-asl/okvis)
 - [Stereo Odometry based on careful Feature selection and Tracking](https://github.com/ZhenghaoFei/visual_odom)
 - [Volumetric 3D Mapping in Real-Time on a CPU](https://github.com/tum-vision/fastfusion)
+- [3D Reconstructions with KinFu Using Different RGBD Sensors, Isabel C. Patiño Mejia ; Andreas Zell](https://ieeexplore.ieee.org/document/8708892)
+- [An evaluation of real-time RGB-D visual odometry algorithms on mobile devices, Vincent Angladon, Simone Gasparini, Vincent Charvillat, Tomislav Pribanić, Tomislav Petković, Matea Ðonlić, Benjamin Ahsan, Frédéric Bruel](https://hal.archives-ouvertes.fr/hal-01654706)
+- [libfovis](https://github.com/fovis/fovis)
+- [Visual Odometry and Mapping for Autonomous Flight Using an RGB-D Camera. Albert S. Huang, Abraham Bachrach, Peter Henry, Michael Krainin, Daniel Maturana, Dieter Fox, and Nicholas Roy. Int. Symposium on Robotics Research (ISRR), Flagstaff, Arizona, USA, Aug. 2011](https://fovis.github.io/)
+- [Why would i want a gyroscope on my RGB-D sensor?, Hannes Ovren, P. Forssén, David Tornqvist, Published in IEEE Workshop on Robot Vision (WORV) 2013, DOI:10.1109/WORV.2013.6521916](https://www.semanticscholar.org/paper/Why-would-i-want-a-gyroscope-on-my-RGB-D-sensor-Ovren-Forss%C3%A9n/9fc1f2348ebaf0b05f4dd55953d637470b76e866) ([paper](http://users.isy.liu.se/cvl/perfo/papers/ovren_worv13.pdf))
+- [Kabsch algorithm](https://en.wikipedia.org/wiki/Kabsch_algorithm)
+- [Orthogonal Procrustes problem](https://en.wikipedia.org/wiki/Orthogonal_Procrustes_problem)
+- [Estimating 3-D rigid body transformations: a comparison of four major algorithms, David W. Eggert, Adele Lorusso, Robert B. Fisher, Published in Machine Vision and Applications 1997, DOI:10.1007/s001380050048](https://www.semanticscholar.org/paper/Estimating-3-D-rigid-body-transformations%3A-a-of-Eggert-Lorusso/4586f77703c38277a9f7686aeca97de808df20ad)
+- [3D Modelling by Low-Cost Range Camera: Software Evaluation and Comparison, Rodolfo Ravanelli, Lorenzo Lastilla, Mattia Crespi, Published 2017, DOI:10.5194/isprs-archives-XLII-2-W8-209-2017](https://www.semanticscholar.org/paper/3D-MODELLING-BY-LOW-COST-RANGE-CAMERA%3ASOFTWARE-AND-Ravanelli-Lastilla/c31117e78b5569794dd5fcc60ab0f7bcaf503e12) ([paper](https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLII-2-W8/209/2017/isprs-archives-XLII-2-W8-209-2017.pdf))
 
 ## Camera Calibration
 - [Single Camera Calibrator App (Matlab)](https://www.mathworks.com/help/vision/ug/single-camera-calibrator-app.html)
