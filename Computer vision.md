@@ -264,3 +264,11 @@
 - [Digital Image Processing Using MATLAB®, Rafael C. Gonzalez, Richard E. Woods, Steven L. Eddins](https://github.com/ViachaslauBohdan/mgr/blob/master/Digital%20Image%20Processing%20Using%20Matlab%20-%20Gonzalez%20Woods%20%26%20Eddins.pdf)
 - [Matlab Image Processing Toolbox™ User's Guide](https://www.mathworks.com/help/pdf_doc/images/images_tb.pdf)
 - [Matlab Computer Vision Toolbox™ User's Guide](https://www.mathworks.com/help/pdf_doc/vision/vision_ug.pdf)
+
+## RGBD Sensors
+- [ZED](https://www.stereolabs.com/zed/) / [ZED Mini](https://www.stereolabs.com/zed-mini/)
+- [Intel RealSense](https://www.intelrealsense.com/)
+- [MYNT EYE D](https://www.mynteye.com/products/mynt-eye-d-order) ([MYNT EYE D SDK Documentation, Release 1.7.6](https://buildmedia.readthedocs.org/media/pdf/mynt-eye-d-sdk/latest/mynt-eye-d-sdk.pdf), [MYNT® EYE S SDK Guide](https://slightech.github.io/MYNT-EYE-S-SDK-Guide/), [https://www.myntai.com/](https://www.myntai.com/))
+- [Structure Core](https://structure.io/structure-core)
+- [https://rosindustrial.org/3d-camera-survey/](https://rosindustrial.org/3d-camera-survey/)
+- [https://stimulant.com/depth-sensor-shootout-2/](https://stimulant.com/depth-sensor-shootout-2/)
