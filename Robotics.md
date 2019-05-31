@@ -169,6 +169,10 @@
   - [exp-map](http://www.cs.cmu.edu/~spiff/exp-map/)
 - [MT_ExpMap.cpp](https://github.com/jesterKing/blender/blob/master/blender/intern/iksolver/intern/MT_ExpMap.cpp)
 - [`expm`](https://www.mathworks.com/help/matlab/ref/expm.html)
+- [Why would i want a gyroscope on my RGB-D sensor?, Hannes Ovren, P. Forssén, David Tornqvist, Published in IEEE Workshop on Robot Vision (WORV) 2013, DOI:10.1109/WORV.2013.6521916](https://www.semanticscholar.org/paper/Why-would-i-want-a-gyroscope-on-my-RGB-D-sensor-Ovren-Forss%C3%A9n/9fc1f2348ebaf0b05f4dd55953d637470b76e866) ([paper](http://users.isy.liu.se/cvl/perfo/papers/ovren_worv13.pdf))
+- [Kabsch algorithm](https://en.wikipedia.org/wiki/Kabsch_algorithm)
+- [Orthogonal Procrustes problem](https://en.wikipedia.org/wiki/Orthogonal_Procrustes_problem)
+- [Estimating 3-D rigid body transformations: a comparison of four major algorithms, David W. Eggert, Adele Lorusso, Robert B. Fisher, Published in Machine Vision and Applications 1997, DOI:10.1007/s001380050048](https://www.semanticscholar.org/paper/Estimating-3-D-rigid-body-transformations%3A-a-of-Eggert-Lorusso/4586f77703c38277a9f7686aeca97de808df20ad)
 
 ## Quaternion
 - [The Quaternionic Exponential (and beyond), Hubert HOLIN](https://www.boost.org/doc/libs/1_48_0/libs/math/quaternion/TQE.pdf)
@@ -246,6 +250,7 @@
 - [Eye-in-Hand/Eye-to-Hand Multi-Camera Visual Servoing](https://www.researchgate.net/publication/224627607_Eye-in-HandEye-to-Hand_Multi-Camera_Visual_Servoing)
 - [Robot-to-Camera Calibration: A Generic Approach Using 6D Detections](https://core.ac.uk/download/pdf/84276744.pdf)
 - [Flexible Self-Calibrated Visual Servoing for a Humanoid Robot](https://pdfs.semanticscholar.org/584e/5034f1af634425572968abbf6d908bbf88c2.pdf)
+- [Simultaneous Robot–World and Hand–Eye Calibration without a Calibration Object, Wei Li, Mingli Dong, Naiguang Lu, Xiaoping Lou and Peng Sun, https://doi.org/10.3390/s18113949](https://www.mdpi.com/1424-8220/18/11/3949)
 
 ## Kinematics
 - [Inverse Kinematics with Quaternion Joint Limits](http://number-none.com/product/IK%20with%20Quaternion%20Joint%20Limits/)
