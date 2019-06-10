@@ -146,6 +146,13 @@
 - [Orthonormalization, Johnathon Selstad (Leap Motion)](https://zalo.github.io/blog/polar-decomposition/)
 - [Extracting Euler Angles from a Rotation Matrix, Mike D. Day, Published 2014](https://www.semanticscholar.org/paper/Extracting-Euler-Angles-from-a-Rotation-Matrix-Day/668137fa4b875d890f446e689eea1e334bcf6bf6)
 - [Extracting Euler Angles from a Rotation Matrix, Mike Day, Insomniac Games, mday@insomniacgames.com](https://d3cw3dd2w32x2b.cloudfront.net/wp-content/uploads/2012/07/euler-angles.pdf)
+- [Physics 216, Spring 2012, Three-Dimensional Rotation Matrices](http://scipp.ucsc.edu/~haber/ph216/rotation_12.pdf)
+- [ROTATION: A review of useful theorems involving proper orthogonal matrices referenced to three-dimensional physical space.](https://my.mech.utah.edu/~brannon/public/rotation.pdf)
+- [An introduction to rotations](https://rotations.berkeley.edu/an-introduction-to-rotations/)
+- [Rotations, Berkeley](https://rotations.berkeley.edu/)
+- [Rodrigues' Rotation Formula, Serge Belongie](http://mathworld.wolfram.com/RodriguesRotationFormula.html)
+- [Rodrigues vectors, unit Quaternions](http://pajarito.materials.cmu.edu/rollett/27750/Rodrigues-Vectors-Seth-2Jan15.pdf)
+- [Vector Representation of Rotations, Carlo Tomasi](https://www2.cs.duke.edu/courses/fall13/compsci527/notes/rodrigues.pdf)
 
 ## Lie Groups
 - [An Elementary Introduction to Groups and Representations, Brian C. Hall, University of Notre Dame, Department of Mathematics](https://arxiv.org/abs/math-ph/0005032)
@@ -173,6 +180,9 @@
 - [Kabsch algorithm](https://en.wikipedia.org/wiki/Kabsch_algorithm)
 - [Orthogonal Procrustes problem](https://en.wikipedia.org/wiki/Orthogonal_Procrustes_problem)
 - [Estimating 3-D rigid body transformations: a comparison of four major algorithms, David W. Eggert, Adele Lorusso, Robert B. Fisher, Published in Machine Vision and Applications 1997, DOI:10.1007/s001380050048](https://www.semanticscholar.org/paper/Estimating-3-D-rigid-body-transformations%3A-a-of-Eggert-Lorusso/4586f77703c38277a9f7686aeca97de808df20ad)
+- [Rigid Transformations --- the geometry of SO(3) & SE(3) --- Luca Ballan](http://lucaballan.altervista.org/pdfs/RigidTransformations.pdf)
+- [Metrics on SO(3) and Inverse Kinematics, Luca Ballan](http://lucaballan.altervista.org/pdfs/IK.pdf)
+- [ROTATION: A review of useful theorems involving proper orthogonal matrices referenced to three-dimensional physical space.](https://my.mech.utah.edu/~brannon/public/rotation.pdf)
 
 ## Quaternion
 - [The Quaternionic Exponential (and beyond), Hubert HOLIN](https://www.boost.org/doc/libs/1_48_0/libs/math/quaternion/TQE.pdf)
