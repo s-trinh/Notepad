@@ -118,3 +118,13 @@
 ## Code
 - [Convolutional Neural Network (CNN), 5KK73 GPU Assignment 2013](https://sites.google.com/site/5kk73gpu2013/assignment/cnn)
 - [OverFeat](https://github.com/sermanet/OverFeat)
+
+## Libraries
+- [Tensor Comprehensions: Framework-Agnostic High-Performance Machine Learning Abstractions, Nicolas Vasilache, Oleksandr Zinenko, Theodoros Theodoridis, Priya Goyal, Zach DeVito, William S. Moses, Sven Verdoolaege, Andrew Adams, Albert Cohen, Published in ArXiv 2018](https://www.semanticscholar.org/paper/Tensor-Comprehensions%3A-Framework-Agnostic-Machine-Vasilache-Zinenko/cae9d90524cccac5081666985d5d055b71697cee) ([arXiv](https://arxiv.org/abs/1802.04730))
+- [From Research to Production With PyTorch 1.0, Peter Goldsborough](https://www.socallinuxexpo.org/sites/default/files/presentations/pytorch.pdf)
+- [What is PyTorch?](https://developer.download.nvidia.com/video/gputechconf/gtc/2019/presentation/s9830-training-ai-models-faster-with-distributed-training-in-pytorch-part1.pdf)
+- [Accelerating ML Development With PyTorch, Soumith Chintala](https://developer.download.nvidia.com/video/gputechconf/gtc/2019/presentation/s9830-training-ai-models-faster-with-distributed-training-in-pytorch-part2.pdf)
+- [PyTorch, JIT, Android, Thomas Viehmann](http://lernapparat.de/static/artikel/pytorch-jit-android/thomas_viehmann.pytorch_jit_android_2018-12-11.pdf)
+- [Intel Math Kernel Library for Deep Neural Networks (Intel MKL-DNN)](https://www.alcf.anl.gov/files/Gouicem_ALCF_SDL_2018_MKLDNN_presentation.pdf)
+- [Intel Nervana software stack](https://www.microsigma.fr/media/seminaire/Intel-TCAI-Workshop-slides-Nov-2017/Day02-03-Nervana_Software_Stack-Fayard.pdf)
+- [Anatomy of High-Performance Deep Learning Convolutions on SIMD Architectures, Evangelos Georganas, Sasikanth Avancha, Kunal Banerjee, Dhiraj D. Kalamkar, Greg Henry, Hans Pabst, Alexander Heinecke, SC18: International Conference for High Performance Computing, Networking, Storage and Analysis (2018)](https://www.semanticscholar.org/paper/Anatomy-of-High-Performance-Deep-Learning-on-SIMD-Georganas-Avancha/96b45f52832aec44326a0b944df411f7b2d67926) ([arXiv](https://arxiv.org/abs/1808.05567))
