@@ -139,6 +139,7 @@
 - [Automatic Calibration of an Industrial RGB-D Camera Network Using Retroreflective Fiducial Markers, Atle Aalerud, Joacim Dybedal, Geir Hovland, Published in Sensors 2019, https://doi.org/10.3390/s19071561](https://www.semanticscholar.org/paper/Automatic-Calibration-of-an-Industrial-RGB-D-Camera-Aalerud-Dybedal/180a91411be6de688873732bea6f6279e3a8667d) ([pdf](https://pdfs.semanticscholar.org/180a/91411be6de688873732bea6f6279e3a8667d.pdf))
 - [Sensor fusion for fiducial tags: Highly robust pose estimation from single frame RGBD, Pengju Jin, Pyry Matikainen, Siddhartha S. Srinivasa, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2017, https://doi.org/10.1109/IROS.2017.8206468](https://www.semanticscholar.org/paper/Sensor-fusion-for-fiducial-tags%3A-Highly-robust-pose-Jin-Matikainen/a993f18e2ec2a8d56cd6e61de6ee627eaf0fa580) ([pdf](https://personalrobotics.cs.washington.edu/publications/jin2017rgbdtags.pdf), [code](https://github.com/personalrobotics/apriltags_rgbd_node))
 - [X-Tag: A Fiducial Tag for Flexible and Accurate Bundle Adjustment, Tolga Birdal, Ievgeniia Dobryden, Slobodan Ilic, Fourth International Conference on 3D Vision (3DV) 2016, https://doi.org/10.1109/3DV.2016.65](https://www.semanticscholar.org/paper/X-Tag%3A-A-Fiducial-Tag-for-Flexible-and-Accurate-Birdal-Dobryden/9638260e872c2f1a4d3991a6c7be60cb70d4e433) ([pdf](http://campar.in.tum.de/pub/tbirdal20163dv/tbirdal20163dv.pdf))
+- [Dynamic Markers: UAV Landing Proof of Concept, Raul Acuna, Rosa Maria Carpio, Volker Willert, Latin American Robotic Symposium,  Brazilian Symposium on Robotics (SBR) and  Workshop on Robotics in Education (WRE) (2018), https://doi.org/10.1109/lars%2Fsbr%2Fwre.2018.00093](https://www.semanticscholar.org/paper/Dynamic-Markers%3A-UAV-Landing-Proof-of-Concept-Acuna-Carpio/ea69d21839bd6a877bec72ffd1d8c8bfa3d0af2b) ([arXiv](https://arxiv.org/abs/1709.04981))
 
 ## ICP
 - [Iterative Closest Point Algorithm, Wolfram Burgard, Cyrill Stachniss, Maren Bennewitz, Kai Arras](http://ais.informatik.uni-freiburg.de/teaching/ss11/robotics/slides/17-icp.pdf)
@@ -223,6 +224,8 @@
 - [Continuous 3D Label Stereo Matching using Local Expansion Moves](https://github.com/t-taniai/LocalExpStereo)
 - [Robust Photometric Stereo in Python](https://github.com/yasumat/RobustPhotometricStereo)
 - ["Depth Cameras: A State-of-the-Art Overview," a Presentation from Aquifi](https://www.embedded-vision.com/platinum-members/embedded-vision-alliance/embedded-vision-training/videos/pages/may-2018-embedded-vision-summit-dal-mutto)
+- [Method for measuring stereo camera depth accuracy based on stereoscopic vision](https://www.researchgate.net/publication/235349563_Method_for_measuring_stereo_camera_depth_accuracy_based_on_stereoscopic_vision)
+- [Real-Time Dense Mapping for Self-driving Vehicles using Fisheye Cameras, Zhaopeng Cui, Lionel Heng, Ye Chuan Yeo, Andreas Geiger, Marc Pollefeys, Torsten Sattler, Published in ArXiv 2018](https://www.semanticscholar.org/paper/Real-Time-Dense-Mapping-for-Self-driving-Vehicles-Cui-Heng/f57d0494eeecf7058b8f5e55405a7a22ab07c5de) ([arXiv](https://arxiv.org/abs/1809.06132))
 
 ## Ellipse detection
 - [Arc-support Line Segments Revisited: An Efficient and High-quality Ellipse Detection](https://github.com/AlanLuSun/High-quality-ellipse-detection) ([arXiv](https://arxiv.org/abs/1810.03243v4))
