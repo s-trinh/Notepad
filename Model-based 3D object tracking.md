@@ -1,4 +1,4 @@
-## Articles (MBT, 6 DoF Tracking)
+### Articles (MBT, 6 DoF Tracking)
 - [Efficient Model-Based Object Pose Estimation Based on Multi-Template Tracking and PnP Algorithms](https://www.mdpi.com/1999-4893/11/8/122)
   - [3D Pose Tracking of a Single Object](https://www.youtube.com/watch?v=-uVUbBIPAH4)
   - [3D Pose Tracking of Multiple Objects](https://www.youtube.com/watch?v=wBEHEQMFer4)
@@ -10,5 +10,9 @@
 - [The Laval 6 DOF Object Tracking Dataset](http://vision.gel.ulaval.ca/~jflalonde/projects/6dofObjectTracking/)
 - [6DOF_tracking_evaluation](https://github.com/lvsn/6DOF_tracking_evaluation)
 
-## Code
+### Code
 - [Edge Based Tracking library](https://github.com/CogRob/object_tracking_2D)
+
+### Misc
+- [Tracking multiple parts with VisionLib](https://www.youtube.com/watch?v=GfO6hmk7kww)
+- [visionLib – Augmented Reality Tracking Library for industries](https://visionlib.com/)
