@@ -184,6 +184,7 @@
 - [Rigid Transformations --- the geometry of SO(3) & SE(3) --- Luca Ballan](http://lucaballan.altervista.org/pdfs/RigidTransformations.pdf)
 - [Metrics on SO(3) and Inverse Kinematics, Luca Ballan](http://lucaballan.altervista.org/pdfs/IK.pdf)
 - [ROTATION: A review of useful theorems involving proper orthogonal matrices referenced to three-dimensional physical space.](https://my.mech.utah.edu/~brannon/public/rotation.pdf)
+- [Metrics for 3D Rotations: Comparison and Analysis, Du Q. Huynh, Published in Journal of Mathematical Imaging and Vision 2009, https://doi.org/10.1007/s10851-009-0161-2](https://www.semanticscholar.org/paper/Metrics-for-3D-Rotations%3A-Comparison-and-Analysis-Huynh/56178de1001efe54792ad93f6980de5d5e91906b) ([pdf](https://www.cs.cmu.edu/~cga/dynopt/readings/Rmetric.pdf))
 
 ## Quaternion
 - [The Quaternionic Exponential (and beyond), Hubert HOLIN](https://www.boost.org/doc/libs/1_48_0/libs/math/quaternion/TQE.pdf)
