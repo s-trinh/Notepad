@@ -67,7 +67,10 @@
 - [How to get Color and Z-Depth from Viewer Node?](https://blender.stackexchange.com/questions/35191/how-to-get-color-and-z-depth-from-viewer-node/71264#71264)
 - [How to save an .exr file with 32 bit with python](https://blender.stackexchange.com/questions/95380/how-to-save-an-exr-file-with-32-bit-with-python/95384#95384)
 - [Clip depth field of view in nodes](https://blender.stackexchange.com/questions/128456/clip-depth-field-of-view-in-nodes):
-```
+<details><summary>Code</summary>
+<p>
+
+```python
 import bpy
 import numpy as np
 
@@ -138,10 +141,17 @@ for step in range(1, step_count):
     img_z_clip.pixels = z_clip_rgba.ravel()
     img_z_clip.save_render('/tmp/blender_z_depth_clip_%04d.exr' % step)
 ```
+
+</p>
+</details>
+
 - [Is it possible to edit images programmatically with the Blender API? ](https://blender.stackexchange.com/questions/15890/is-it-possible-to-edit-images-programmatically-with-the-blender-api/15894#15894)
 - [Crop image with Python script](https://blender.stackexchange.com/questions/13422/crop-image-with-python-script/13516#13516)
 - [Why is accessing image data so slow?](https://blender.stackexchange.com/questions/3673/why-is-accessing-image-data-so-slow/3678#3678):
-```
+<details><summary>Code</summary>
+<p>
+
+```python
 img = bpy.data.images['Untitled']
 
 pixels = img.pixels[:] # create a copy (tuple) for read-only access
@@ -159,8 +169,15 @@ img.pixels[:] = pixels
 # Should probably update image
 img.update()
 ```
+
+</p>
+</details>
+
 - [How to convert numpy array into image and add it to images inside bpy](https://blender.stackexchange.com/questions/92692/how-to-convert-numpy-array-into-image-and-add-it-to-images-inside-bpy/105312#105312):
-```
+<details><summary>Code</summary>
+<p>
+
+```python
 numpy.zeroes((100,100,4), dtype = float16)
 
 if "TestImg.png" not in bpy.data.images.keys():
@@ -170,12 +187,19 @@ input_res = int(math.sqrt(outputImg.size[0]))
 np_out_img = np.zeros((input_res,input_res,4), dtype = np.float16)
 outputImg.pixels = np_out_img.ravel()  #flatten the array to 1 dimension and write it to testImg pixels
 ```
+
+</p>
+</details>
+
 - [Adjusting image pixels internally in Blender with bpy](https://blenderscripting.blogspot.com/2012/08/adjusting-image-pixels-internally-in.html)
 - [Blender Python Recipes](https://github.com/zeffii/BlenderPythonRecipes)
 - [Z-Buffer rendering issues](https://blender.stackexchange.com/questions/71647/z-buffer-rendering-issues)
 - [How to access Render Result pixels from python script?](https://blender.stackexchange.com/questions/2170/how-to-access-render-result-pixels-from-python-script)
 - [Blender: Access Render Results pixels directly from Python](https://ammous88.wordpress.com/2015/01/16/blender-access-render-results-pixels-directly-from-python-2/):
-```
+<details><summary>Code</summary>
+<p>
+
+```python
 import bpy
 import numpy as np
  
@@ -210,6 +234,10 @@ print(len(pixels)) # size is always width * height * 4 (rgba)
 # copy buffer to numpy array for faster manipulation
 arr = np.array(pixels[:])
 ```
+
+</p>
+</details>
+
 - [Z-buffer output from blender as file](https://blender.stackexchange.com/questions/33293/z-buffer-output-from-blender-as-file)
 
 
@@ -224,7 +252,10 @@ arr = np.array(pixels[:])
 ### Blender camera
 - [Exploration du module Camera de l'API Python Blender](https://download.tuxfamily.org/linuxgraphic/archives/pdf/blender-lg-05.pdf)
 - [Pointing the camera in a particular direction programmatically](https://blender.stackexchange.com/questions/5210/pointing-the-camera-in-a-particular-direction-programmatically/5220#5220):
-```
+<details><summary>Code</summary>
+<p>
+
+```python
 import bpy
 
 def look_at(obj_camera, point):
@@ -244,8 +275,15 @@ obj_other = bpy.data.objects["Cube"]
 obj_camera.location = (5.0, 2.0, 3.0)
 look_at(obj_camera, obj_other.matrix_world.to_translation())
 ```
+
+</p>
+</details>
+
 - [Python Implementation of Track-to/aim constraint](https://blender.stackexchange.com/questions/16275/python-implementation-of-track-to-aim-constraint/16349#16349):
-```
+<details><summary>Code</summary>
+<p>
+
+```python
 targetobj = bpy.data.objects['Sphere']
 pointyobj = bpy.data.objects['Cone']
 
@@ -262,6 +300,10 @@ bpy.ops.object.visual_transform_apply()
 
 pointyobj.constraints.remove(ttc)
 ```
+
+</p>
+</details>
+
 - [Constraint the camera to look at an object](https://blender.stackexchange.com/questions/42837/constraint-the-camera-to-look-at-an-object/42839#42839)
 
 ### Blender: obj rotation
