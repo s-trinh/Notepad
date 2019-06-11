@@ -313,3 +313,29 @@ pointyobj.constraints.remove(ttc)
 - [how are the math node operations in cycles calculated?](https://blender.stackexchange.com/questions/45089/how-are-the-math-node-operations-in-cycles-calculated/45094#45094)
 - [Math Node](https://docs.blender.org/manual/en/latest/compositing/types/converter/math.html)
 
+### Inverse Kinematics
+- [Blender for Robotics | Part 1 | Modelling Tips](https://vimeo.com/44610075)
+- [Blender for Robotics | Part 2 | Rigging](https://vimeo.com/45195591)
+- [Blender for Robotics | Part 3 | IK](https://vimeo.com/45211328)
+- [Blender for Robotics | Part 4 | Game Engine Programming](https://vimeo.com/55221278)
+- [Blender for Robotics | Part 4 | BGE Actions](https://vimeo.com/55198241)
+- [tutorial: Blender for Robotics | Part 1 | Introduction and Modelling](https://web.archive.org/web/20160329033332/http://www.warp1337.com/content/blender-robotics-part-1-introduction-and-modelling)
+- [tutorial: Blender for Robotics | Part 2 | Parenting and Rigging](https://web.archive.org/web/20160329033244/http://www.warp1337.com/content/blender-robotics-part-2-parenting-and-rigging)
+- [tutorial: Blender for Robotics | Part 3 | Interfacing with the GameEngine](https://web.archive.org/web/20160329033605/http://www.warp1337.com/content/blender-robotics-part-3-interfacing-gameengine)
+- [tutorial: Blender for Robotics | Part 4 | Programming in the GameEngine](https://web.archive.org/web/20160329033646/http://www.warp1337.com/content/blender-robotics-part-4-programming-gameengine)
+- [tutorial: Blender for Robotics | Part 5 | Game Engine and the Kinect](https://web.archive.org/web/20160329033526/http://www.warp1337.com/content/blender-robotics-part-5-game-engine-and-kinect)
+- [R2D3 Robotics simulation project](https://github.com/ajnsit/r2d3)
+- [Inverse Kinematics - Blender Fundamentals](https://www.youtube.com/watch?v=DZ_ocmY8xEI)
+
+### Misc
+- [Display debug commands](https://blender.stackexchange.com/questions/36192/how-to-translate-a-bone-with-ik-in-pose-mode-using-the-python-api/36385#36385):
+```
+./blender --debug-wm
+# or
+./blender --debug-all
+```
+- [Blender pour le jeu video](https://fr.flossmanuals.net/blender-pour-le-jeu-video/introduction/)
+- [Move keyframes from timeline?](https://blender.stackexchange.com/questions/1037/move-keyframes-from-timeline/1039#1039)
+- [How to access Render Result pixels from python script?](https://blender.stackexchange.com/questions/2170/how-to-access-render-result-pixels-from-python-script/23309#23309)
+- [Blender: Access Render Results pixels directly from Python](https://ammous88.wordpress.com/2015/01/16/blender-access-render-results-pixels-directly-from-python-2/)
+- [No render output node in scene](https://blender.stackexchange.com/questions/42607/no-render-output-node-in-scene/42609#42609)
