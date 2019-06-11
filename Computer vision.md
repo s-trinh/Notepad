@@ -203,15 +203,18 @@
 - [Estimating 3-D rigid body transformations: a comparison of four major algorithms, David W. Eggert, Adele Lorusso, Robert B. Fisher, Published in Machine Vision and Applications 1997, DOI:10.1007/s001380050048](https://www.semanticscholar.org/paper/Estimating-3-D-rigid-body-transformations%3A-a-of-Eggert-Lorusso/4586f77703c38277a9f7686aeca97de808df20ad)
 - [3D Modelling by Low-Cost Range Camera: Software Evaluation and Comparison, Rodolfo Ravanelli, Lorenzo Lastilla, Mattia Crespi, Published 2017, DOI:10.5194/isprs-archives-XLII-2-W8-209-2017](https://www.semanticscholar.org/paper/3D-MODELLING-BY-LOW-COST-RANGE-CAMERA%3ASOFTWARE-AND-Ravanelli-Lastilla/c31117e78b5569794dd5fcc60ab0f7bcaf503e12) ([paper](https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLII-2-W8/209/2017/isprs-archives-XLII-2-W8-209-2017.pdf))
 
+## Camera
+- [What to Expect from a Stereo Vision System](http://zone.ni.com/reference/en-XX/help/372916P-01/nivisionconceptsdita/guid-10d358bd-3dcd-4ccd-a73c-672e48aed39a/)
+- [Camera Exposure](https://www.cambridgeincolour.com/tutorials/camera-exposure.htm)
+- [Exposure Calculator to Compare Any Two Camera Exposures](https://www.scantips.com/lights/exposurecalc.html)
+
 ## Camera Calibration
 - [Single Camera Calibrator App (Matlab)](https://www.mathworks.com/help/vision/ug/single-camera-calibrator-app.html)
 - [A Single-shot-per-pose Camera-Projector Calibration System For Imperfect Planar Targets, Bingyao Huang, Samed Ozdemir, Ying Tang, Chunyuan Liao, Haibin Ling](https://www.semanticscholar.org/paper/A-Single-shot-per-pose-Camera-Projector-Calibration-Huang-Ozdemir/d4a23a9b8d8cef2044e16690e688b09cbff3cc10) ([arXiv](https://arxiv.org/abs/1803.09058))
 - [Demystifying Geometric Camera Calibration for Intrinsic Matrix](https://kushalvyas.github.io/calib.html)
 - [Camera calibration using Python](https://github.com/kushalvyas/CameraCalibration)
 - [How to Project 3D Covariance Matrix to a given Image Plan (Pose)](https://stackoverflow.com/questions/49239473/how-to-project-3d-covariance-matrix-to-a-given-image-plan-pose/49614280#49614280)
-
-## Ellipse detection
-- [Arc-support Line Segments Revisited: An Efficient and High-quality Ellipse Detection](https://github.com/AlanLuSun/High-quality-ellipse-detection) ([arXiv](https://arxiv.org/abs/1810.03243v4))
+- [Calibration hints (DLR CalDe/CalLab)](https://www.dlr.de/rm/en/desktopdefault.aspx/tabid-3925/6084_read-9196/)
 
 ## Stereo Matching / Stereo Vision
 - [Segment-based Disparity Refinement with Occlusion Handling for Stereo Matching](https://github.com/TingmanYan/SDR) ([IEEE Xplore](https://ieeexplore.ieee.org/document/8661596))
@@ -220,6 +223,9 @@
 - [Continuous 3D Label Stereo Matching using Local Expansion Moves](https://github.com/t-taniai/LocalExpStereo)
 - [Robust Photometric Stereo in Python](https://github.com/yasumat/RobustPhotometricStereo)
 - ["Depth Cameras: A State-of-the-Art Overview," a Presentation from Aquifi](https://www.embedded-vision.com/platinum-members/embedded-vision-alliance/embedded-vision-training/videos/pages/may-2018-embedded-vision-summit-dal-mutto)
+
+## Ellipse detection
+- [Arc-support Line Segments Revisited: An Efficient and High-quality Ellipse Detection](https://github.com/AlanLuSun/High-quality-ellipse-detection) ([arXiv](https://arxiv.org/abs/1810.03243v4))
 
 ## Viola & Jones
 - [An Analysis of the Viola-Jones Face Detection Algorithm, Yi-Qing Wang](https://www.ipol.im/pub/art/2014/104/)
