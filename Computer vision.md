@@ -129,6 +129,19 @@
 - [DenseFusion: 6D Object Pose Estimation by Iterative Dense Fusion, Chen Wang, Danfei Xu, Yuke Zhu, Roberto Martín-Martín, Cewu Lu, Li Fei-Fei, Silvio Savarese](https://arxiv.org/abs/1901.04780)
 - [QuEst: A Quaternion-Based Approach for Camera Motion Estimation From Minimal Feature Points, Kaveh Fathian, Juan-Pablo Ramirez-Paredes, Emily A. Doucette, Jacqueline W. Curtis, Nicholas R. Gans, Published in IEEE Robotics and Automation Letters 2018, https://doi.org/10.1109/LRA.2018.2792142](https://www.semanticscholar.org/paper/QuEst%3A-A-Quaternion-Based-Approach-for-Camera-From-Fathian-Ramirez-Paredes/ab57021e6a201752306d13f4b39ef199bf13ad64) ([code](https://sites.google.com/view/kavehfathian/code))
 - [Backtracking Regression Forests for Accurate Camera Relocalization](https://github.com/lood339/btrf) ([paper](https://www.cs.ubc.ca/~jhchen14/btrf/2017_backtracking_regression_forests_for_accurate_camera_relocalization.pdf))
+- [Object pose alignment](https://github.com/tensorflow/graphics/blob/master/tensorflow_graphics/notebooks/6dof_alignment.ipynb) ([Colab](https://colab.research.google.com/github/tensorflow/graphics/blob/master/tensorflow_graphics/notebooks/6dof_alignment.ipynb))
+
+## Fiducial Tags
+- [Robust identification of fiducial markers in challenging conditions, DOI: 10.1016/j.eswa.2017.10.032](https://www.researchgate.net/publication/320439756_Robust_identification_of_fiducial_markers_in_challenging_conditions)
+- [An open source, fiducial based, visual-inertial motion capture system, Michael Neunert, Michael Bloesch, Jonas Buchli, 19th International Conference on Information Fusion (FUSION) 2016](https://www.semanticscholar.org/paper/An-open-source%2C-fiducial-based%2C-visual-inertial-Neunert-Bloesch/e59da36d62eabe1330c1cb01a1b705353135c65d) ([arXiv](https://arxiv.org/abs/1507.02081))
+- [Accurate Fiducial Mapping for Pose Estimation Using Manifold Optimization, Xiao Hu, Jakobsen Jakob, Knudsen Per, Wei Jiang, https://doi.org/10.1109/ipin.2018.8533854, International Conference on Indoor Positioning and Indoor Navigation (IPIN) 2018](https://www.semanticscholar.org/paper/Accurate-Fiducial-Mapping-for-Pose-Estimation-Using-Hu-Jakob/30410de02ccdeebcef133da5b49502e4acae52b8)
+- [FingertipCubes: an inexpensive D.I.Y wearable for 6-DoF per fingertip pose estimation using a single RGB camera, Ojaswi Gupta, Ramya Hebbalaguppe, Published in SIGGRAPH ASIA Posters 2018, https://doi.org/10.1145/3283289.3283349](https://www.semanticscholar.org/paper/FingertipCubes%3A-an-inexpensive-D.I.Y-wearable-for-a-Gupta-Hebbalaguppe/6f2bcd9a841849aaaaf056534de154d166b7c4cc)
+- [Automatic Calibration of an Industrial RGB-D Camera Network Using Retroreflective Fiducial Markers, Atle Aalerud, Joacim Dybedal, Geir Hovland, Published in Sensors 2019, https://doi.org/10.3390/s19071561](https://www.semanticscholar.org/paper/Automatic-Calibration-of-an-Industrial-RGB-D-Camera-Aalerud-Dybedal/180a91411be6de688873732bea6f6279e3a8667d) ([pdf](https://pdfs.semanticscholar.org/180a/91411be6de688873732bea6f6279e3a8667d.pdf))
+- [Sensor fusion for fiducial tags: Highly robust pose estimation from single frame RGBD, Pengju Jin, Pyry Matikainen, Siddhartha S. Srinivasa, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2017, https://doi.org/10.1109/IROS.2017.8206468](https://www.semanticscholar.org/paper/Sensor-fusion-for-fiducial-tags%3A-Highly-robust-pose-Jin-Matikainen/a993f18e2ec2a8d56cd6e61de6ee627eaf0fa580) ([pdf](https://personalrobotics.cs.washington.edu/publications/jin2017rgbdtags.pdf), [code](https://github.com/personalrobotics/apriltags_rgbd_node))
+- [X-Tag: A Fiducial Tag for Flexible and Accurate Bundle Adjustment, Tolga Birdal, Ievgeniia Dobryden, Slobodan Ilic, Fourth International Conference on 3D Vision (3DV) 2016, https://doi.org/10.1109/3DV.2016.65](https://www.semanticscholar.org/paper/X-Tag%3A-A-Fiducial-Tag-for-Flexible-and-Accurate-Birdal-Dobryden/9638260e872c2f1a4d3991a6c7be60cb70d4e433) ([pdf](http://campar.in.tum.de/pub/tbirdal20163dv/tbirdal20163dv.pdf))
+
+## ICP
+- [Iterative Closest Point Algorithm, Wolfram Burgard, Cyrill Stachniss, Maren Bennewitz, Kai Arras](http://ais.informatik.uni-freiburg.de/teaching/ss11/robotics/slides/17-icp.pdf)
 
 ## SLAM / Visual Odometry
 - [Direct Visual-Inertial Odometry with Stereo Cameras, Vladyslav C. Usenko, Jakob Engel, Jörg Stückler, Daniel Cremers, IEEE International Conference on Robotics and Automation (ICRA) 2016, DOI:10.1109/ICRA.2016.7487335](https://www.semanticscholar.org/paper/Direct-visual-inertial-odometry-with-stereo-cameras-Usenko-Engel/2cbc2797efe322f8ac286d90cbc2c4852f0f6bde)
@@ -257,6 +270,7 @@
 - [Computer Vision: A Modern Approach, David A. Forsyth, Jean Ponce](https://www.pearson.com/us/higher-education/program/Forsyth-Computer-Vision-A-Modern-Approach-2nd-Edition/PGM111082.html) ([link 1](http://cmuems.com/excap/readings/forsyth-ponce-computer-vision-a-modern-approach.pdf), [link 2](http://newton.uam.mx/xgeorge/uea/Proc_Dig_Im/Computer%20Vision%20A%20Modern%20Approach%20-%20Forsyth%20,%20Ponce.pdf))
 - [Principles of Digital Image Processing - Core Algorithms](https://www.springer.com/kr/book/9781848001947) ([link 1](http://newton.uam.mx/xgeorge/uea/Proc_Dig_Im/Burger%20W.,%20Burge%20M.J.%20Principles%20of%20digital%20image%20processing.%20Core%20algorithms%20(Springer,%202009)(ISBN%201848001940)(O)(341s)_CsIp_.pdf))
 - [Theoretical Foundation (Kwon3D)](http://www.kwon3d.com/theories.html)
+- [Pattern Classification and Machine Learning, Matthias Seeger, Probabilistic Machine Learning Laboratory, Ecole Polytechnique Fédérale de Lausanne](https://mseeger.github.io/files/pcml_notes.pdf)
 
 ## Matlab
 - [Digital Image Processing Using MATLAB®, Rafael C. Gonzalez, Richard E. Woods, Steven L. Eddins](https://www.academia.edu/18324189/Digital_image_processing_using_matlab_gonzalez_)
@@ -272,3 +286,18 @@
 - [Structure Core](https://structure.io/structure-core)
 - [https://rosindustrial.org/3d-camera-survey/](https://rosindustrial.org/3d-camera-survey/)
 - [https://stimulant.com/depth-sensor-shootout-2/](https://stimulant.com/depth-sensor-shootout-2/)
+
+## Geometric transformations
+- [Decomposition of 2D-transform matrices](http://frederic-wang.fr/decomposition-of-2d-transform-matrices.html)
+
+## Plane Fitting
+- [Fitting a plane to many points in 3D](https://www.ilikebigbits.com/2015_03_04_plane_from_points.html)
+- [Least Squares Fitting of Data by Linear or Quadratic Structures, David Eberly, Geometric Tools, Redmond WA 98052, https://www.geometrictools.com/](https://www.geometrictools.com/Documentation/LeastSquaresFitting.pdf)
+- [3D Least Squares Plane](https://stackoverflow.com/questions/1400213/3d-least-squares-plane/1400338#1400338)
+- [Fit points to a plane algorithms, how to iterpret results?](https://stackoverflow.com/questions/15959411/fit-points-to-a-plane-algorithms-how-to-iterpret-results)
+- [Best Fitting Plane given a Set of Points](https://math.stackexchange.com/questions/99299/best-fitting-plane-given-a-set-of-points)
+- [lane fitting using SVD normal vector](https://math.stackexchange.com/questions/2810048/plane-fitting-using-svd-normal-vector)
+- [Regressions et trajectoires 3D, Jean Jacquelin](https://fr.scribd.com/doc/31477970/Regressions-et-trajectoires-3D)
+- [Finding the normal to a plane](https://web.ma.utexas.edu/users/m408m/Display12-5-4.shtml)
+- [Plane Equation](http://www.songho.ca/math/plane/plane.html)
+- [Intersections of Lines and Planes](http://geomalgorithms.com/a05-_intersect-1.html)
