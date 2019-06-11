@@ -13,10 +13,11 @@
 - [Robot Modeling and Control, Mark W. Spong, Seth Hutchinson, and M. Vidyasagar, Wiley, 2005 ](http://bcs.wiley.com/he-bcs/Books?action=index&itemId=0471649902&bcsId=2888)
 - [Modern Robotics: Mechanics, Planning, and Control, Kevin M. Lynch, Frank C. Park, Cambridge University Press, 2017 ](http://hades.mech.northwestern.edu/index.php/Modern_Robotics) (£ 59.99) ([preprint](http://hades.mech.northwestern.edu/images/7/7f/MR.pdf))
 - [Principles of Robot Motion, Howie Choset, Kevin M. Lynch, Seth Hutchinson, George A. Kantor, Wolfram Burgard, Lydia E. Kavraki, and Sebastian Thrun, MIT Press, 2005 ](http://mitpress.mit.edu/books/principles-robot-motion) ($85.00)
-- [Robot Manipulator Control - Theory and Practice](http://www.robot.bmstu.ru/files/books/Robot%20Manipulator%20Control%20Theory%20and%20Practice%20-%20Frank%20L.Lewis.pdf) ([#2](http://www.uta.edu/utari/acs/FL%20books/Robot_Manipulator_Control_Theory_and_Practice_-_Frank_L.Lewis-%20small.pdf))
+- [Robot Manipulator Control - Theory and Practice](https://www.crcpress.com/Robot-Manipulator-Control-Theory-and-Practice/Lewis-Dawson-Abdallah/p/book/9780824740726) ([#1](http://www.robot.bmstu.ru/files/books/Robot%20Manipulator%20Control%20Theory%20and%20Practice%20-%20Frank%20L.Lewis.pdf), [#2](http://www.uta.edu/utari/acs/FL%20books/Robot_Manipulator_Control_Theory_and_Practice_-_Frank_L.Lewis-%20small.pdf))
 - [Robot Dynamics Lecture Notes](https://www.ethz.ch/content/dam/ethz/special-interest/mavt/robotics-n-intelligent-systems/rsl-dam/documents/RobotDynamics2016/RD2016script.pdf)
 - [Unmanned Rotorcraft Systems](https://link.springer.com/book/10.1007/978-0-85729-635-1)
   - [Coordinate Systems and Transformations](https://link.springer.com/chapter/10.1007/978-0-85729-635-1_2) ([link](https://www.springer.com/cda/content/document/cda_downloaddocument/9780857296344-c2.pdf?SGWID=0-0-45-1143141-p174116371))
+- [Theory of Robot Control, Carlos Canudas de Wit, Bruno Siciliano and Georges Bastin (Eds)](https://www.springer.com/us/book/9781447115038) ([pdf](http://www.gipsa-lab.grenoble-inp.fr/~carlos.canudas-de-wit/publications/Theory_of_robot_control.pdf))
 
 ## Courses
 - [AutoRob - Introduction to Autonomous Robotics - Michigan EECS 398 / Robot Kinematics and Dynamics - Michigan ME 567   EECS 567   ROB 510 / Fall 2018](http://autorob.org/)
@@ -265,6 +266,18 @@
 ## Kinematics
 - [Inverse Kinematics with Quaternion Joint Limits](http://number-none.com/product/IK%20with%20Quaternion%20Joint%20Limits/)
 - [IKBT](https://github.com/uw-biorobotics/IKBT)
+- [Simulate Robot Applications](https://robodk.com/)
+- [KUKA robots](https://robodk.com/doc/en/Robots-KUKA.html)
+
+## Path Planning
+- [MoveIt](https://moveit.ros.org/documentation/concepts/)
+- [A Method on Dynamic Path Planning for Robotic Manipulator Autonomous Obstacle Avoidance Based on an Improved RRT Algorithm, Kun Wei, Bingyin Ren, Published in Sensors 2018, https://doi.org/10.3390/s18020571](https://www.semanticscholar.org/paper/A-Method-on-Dynamic-Path-Planning-for-Robotic-Based-Wei-Ren/addea3e6793c2e636b93ab08819ab0527d444eb1) ([pdf](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5856115/pdf/sensors-18-00571.pdf))
+- [Robot Motion Planning, Introduction to MoveIt!, Guillaume Walck](https://ni.www.techfak.uni-bielefeld.de/files/ROS:MoveIt.pdf)
+- [OctoMap - An Efficient Probabilistic 3D Mapping Framework Based on Octrees](https://octomap.github.io/) ([Preprint](http://www2.informatik.uni-freiburg.de/~hornunga/pub/hornung13auro.pdf))
+- [Lab 9: Robot Arm Inverse Kinematics and Path Planning](https://www.cs.cmu.edu/afs/cs.cmu.edu/academic/class/16311/www/s16/labs/lab09/)
+- [Locomotion control Tutorial: The Robot Position](http://doc.aldebaran.com/2-1/naoqi/motion/control-walk-tuto2.html)
+- [Path Planning and Trajectory Planning Algorithms: A General Overview](https://link.springer.com/chapter/10.1007/978-3-319-14705-5_1)
+- [Trajectory Planning, Quang-Cuong Pham, School of Mechanical and Aerospace Engineering, Nanyang Technological University, Singapore](http://www3.ntu.edu.sg/home/cuong/docs/trajectory-planning.pdf)
 
 ## Visual Servoing
 - [Visual Servoing Control Based on EGM Interface of an ABB Robot, Yichao Mao, Qi Lu, Qing Xu, Published in Chinese Automation Congress (CAC) 2018, DOI:10.1109/cac.2018.8623638](https://www.semanticscholar.org/paper/Visual-Servoing-Control-Based-on-EGM-Interface-of-Mao-Lu/df493ca598cc709d1c2230b7b6ed9b98aa1d2ff5)
@@ -295,6 +308,8 @@
   - [Intro to Robotics Programming: Part 3](https://www.clintonliddick.com/articles/intro-to-robotics-part-3/)
   - [Intro to Robotics Programming: Part 4](https://www.clintonliddick.com/articles/intro-to-robotics-part-4/)
   - [https://github.com/ClintLiddick/robotics_intro](https://github.com/ClintLiddick/robotics_intro)
+- [Robotics Glossary (Yaskawa)](https://www.motoman.com/en-us/about/company/robotics-glossary)
+- [Zero-Point/Home Position/Origin of Absolute Encoder: What is the Proper Name?](https://robotics.stackexchange.com/questions/15028/zero-point-home-position-origin-of-absolute-encoder-what-is-the-proper-name)
 
 ## Libraries / Code
 - [Rigid motions and robotics toolbox](https://www.mathworks.com/matlabcentral/fileexchange/56758-rigid-motions-and-robotics-toolbox)
