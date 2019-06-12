@@ -100,8 +100,19 @@
 - [Structure from Motion by Nitin J. Sanket](https://cmsc426.github.io/gtsam/)
 - [Structure-from-motion in Spherical Video using the von Mises-Fisher Distribution](http://eprints.whiterose.ac.uk/109220/) (reflinks: [Tensors in sympy?](https://stackoverflow.com/questions/55404150/tensors-in-sympy), [Optimization of Sampson Error](https://www.reddit.com/r/computervision/comments/b82khn/optimization_of_sampson_error/))
 
-## 3D registration / reconstruction
+## 3D registration / Reconstruction / ICP
 - [A novel point cloud registration using 2D image features](https://asp-eurasipjournals.springeropen.com/articles/10.1186/s13634-016-0435-y)
+- [Iterative Closest Point Algorithm, Wolfram Burgard, Cyrill Stachniss, Maren Bennewitz, Kai Arras](http://ais.informatik.uni-freiburg.de/teaching/ss11/robotics/slides/17-icp.pdf)
+- [Bundle Adjustment in the Large, Sameer Agarwal, Noah Snavely, Steven M. Seitz, Richard Szeliski, Published in ECCV 2010, https://doi.org/10.1007/978-3-642-15552-9_3](https://www.semanticscholar.org/paper/Bundle-Adjustment-in-the-Large-Agarwal-Snavely/6ca3c5ee075c463f2914e8ec211e041955502ec6) ([project](https://grail.cs.washington.edu/projects/bal/), [pdf](https://homes.cs.washington.edu/~sagarwal/bal.pdf))
+- [Dynamic geometry registration, Niloy Jyoti Mitra, Simon Flöry, Maks Ovsjanikov, Natasha Gelfand, Leonidas J. Guibas, Helmut Pottmann, Published in Symposium on Geometry Processing 2007, https://doi.org/10.2312/SGP%2FSGP07%2F173-182](https://www.semanticscholar.org/paper/Dynamic-geometry-registration-Mitra-Fl%C3%B6ry/5c7a6ed0ed0aaeac28780dd85b9e52d4109f971a) ([project](http://vecg.cs.ucl.ac.uk/Projects/SmartGeometry/dyn_registration/dyn_registration_sgp_07.html))
+- [Comparing Point Clouds, Facundo Mémoli, Guillermo Sapiro, Published in Symposium on Geometry Processing 2004, https://doi.org/10.1145/1057432.1057436](https://www.semanticscholar.org/paper/Comparing-Point-Clouds-M%C3%A9moli-Sapiro/3416f5746d5473b47465888367022f774e5295b7) ([pdf](https://people.math.osu.edu/memoli.2/papers/dgh-sgp04.pdf))
+- [Registration of 3D Point Clouds and Meshes: A Survey From Rigid to Non-Rigid, Gary K. L. Tam, Zhi-Quan Cheng, Yu-Kun Lai, Frank C. Langbein, Yonghuai Liu, David John Marshall, Ralph R. Martin, Xianfang Sun, Paul L. Rosin, Published 2015](https://www.semanticscholar.org/paper/Registration-of-3-D-Point-Clouds-and-Meshes-%3A-A-to-Tam-Cheng/074d69ad6641d49009b578ab72b2d94a6e60248d) ([pdf](https://users.cs.cf.ac.uk/Yukun.Lai/papers/R2NRR.pdf))
+- [Geometry Processing – Registration](https://github.com/alecjacobson/geometry-processing-registration)
+- [A C++ Implementation of Mesh-to-Mesh Distance](https://davidstutz.de/a-c-implementation-of-mesh-to-mesh-distance/)
+- [Mesh Evaluation](https://github.com/davidstutz/mesh-evaluation)
+- [Learning 3D Shape Completion from Laser Scan Data with Weak Supervision, David Stutz, Andreas Geiger, IEEE/CVF Conference on Computer Vision and Pattern Recognition (2018), https://doi.org/10.1109/CVPR.2018.00209](https://www.semanticscholar.org/paper/Learning-3D-Shape-Completion-from-Laser-Scan-Data-Stutz-Geiger/1335190de78e0b58fbf7a7c7c52fa1a15f14858a)
+- [Distance Between Point and Triangle in 3D, David Eberly, Geometric Tools, Redmond WA 98052](https://www.geometrictools.com/Documentation/DistancePoint3Triangle3.pdf)
+- [The Evaluation of CloudCompare Software in the Process of TLS Point Clouds Registration](http://revcad.uab.ro/upload/40_540_16Oniga_Savu_Negrila.pdf)
 
 ## PnP
 - [Lecture 23: 3-D Pose Object Recognition](http://users.umiacs.umd.edu/~ramani/cmsc426/Lecture23_3Dpose.pdf)
@@ -130,6 +141,7 @@
 - [QuEst: A Quaternion-Based Approach for Camera Motion Estimation From Minimal Feature Points, Kaveh Fathian, Juan-Pablo Ramirez-Paredes, Emily A. Doucette, Jacqueline W. Curtis, Nicholas R. Gans, Published in IEEE Robotics and Automation Letters 2018, https://doi.org/10.1109/LRA.2018.2792142](https://www.semanticscholar.org/paper/QuEst%3A-A-Quaternion-Based-Approach-for-Camera-From-Fathian-Ramirez-Paredes/ab57021e6a201752306d13f4b39ef199bf13ad64) ([code](https://sites.google.com/view/kavehfathian/code))
 - [Backtracking Regression Forests for Accurate Camera Relocalization](https://github.com/lood339/btrf) ([paper](https://www.cs.ubc.ca/~jhchen14/btrf/2017_backtracking_regression_forests_for_accurate_camera_relocalization.pdf))
 - [Object pose alignment](https://github.com/tensorflow/graphics/blob/master/tensorflow_graphics/notebooks/6dof_alignment.ipynb) ([Colab](https://colab.research.google.com/github/tensorflow/graphics/blob/master/tensorflow_graphics/notebooks/6dof_alignment.ipynb))
+- [Fast 3D object detection and pose estimation for augmented reality systems, Seyed Hesameddin Najafi Shoushtari, Published 2006](https://www.semanticscholar.org/paper/Fast-3D-object-detection-and-pose-estimation-for-Shoushtari/2ae3e5a47b22df6c029aa696bf6b51f5a4845750) ([dissertation](https://mediatum.ub.tum.de/doc/604471/604471.pdf))
 
 ## Fiducial Tags
 - [Robust identification of fiducial markers in challenging conditions, DOI: 10.1016/j.eswa.2017.10.032](https://www.researchgate.net/publication/320439756_Robust_identification_of_fiducial_markers_in_challenging_conditions)
@@ -140,9 +152,7 @@
 - [Sensor fusion for fiducial tags: Highly robust pose estimation from single frame RGBD, Pengju Jin, Pyry Matikainen, Siddhartha S. Srinivasa, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2017, https://doi.org/10.1109/IROS.2017.8206468](https://www.semanticscholar.org/paper/Sensor-fusion-for-fiducial-tags%3A-Highly-robust-pose-Jin-Matikainen/a993f18e2ec2a8d56cd6e61de6ee627eaf0fa580) ([pdf](https://personalrobotics.cs.washington.edu/publications/jin2017rgbdtags.pdf), [code](https://github.com/personalrobotics/apriltags_rgbd_node))
 - [X-Tag: A Fiducial Tag for Flexible and Accurate Bundle Adjustment, Tolga Birdal, Ievgeniia Dobryden, Slobodan Ilic, Fourth International Conference on 3D Vision (3DV) 2016, https://doi.org/10.1109/3DV.2016.65](https://www.semanticscholar.org/paper/X-Tag%3A-A-Fiducial-Tag-for-Flexible-and-Accurate-Birdal-Dobryden/9638260e872c2f1a4d3991a6c7be60cb70d4e433) ([pdf](http://campar.in.tum.de/pub/tbirdal20163dv/tbirdal20163dv.pdf))
 - [Dynamic Markers: UAV Landing Proof of Concept, Raul Acuna, Rosa Maria Carpio, Volker Willert, Latin American Robotic Symposium,  Brazilian Symposium on Robotics (SBR) and  Workshop on Robotics in Education (WRE) (2018), https://doi.org/10.1109/lars%2Fsbr%2Fwre.2018.00093](https://www.semanticscholar.org/paper/Dynamic-Markers%3A-UAV-Landing-Proof-of-Concept-Acuna-Carpio/ea69d21839bd6a877bec72ffd1d8c8bfa3d0af2b) ([arXiv](https://arxiv.org/abs/1709.04981))
-
-## ICP
-- [Iterative Closest Point Algorithm, Wolfram Burgard, Cyrill Stachniss, Maren Bennewitz, Kai Arras](http://ais.informatik.uni-freiburg.de/teaching/ss11/robotics/slides/17-icp.pdf)
+- [CCTag library](https://github.com/alicevision/CCTag)
 
 ## SLAM / Visual Odometry
 - [Direct Visual-Inertial Odometry with Stereo Cameras, Vladyslav C. Usenko, Jakob Engel, Jörg Stückler, Daniel Cremers, IEEE International Conference on Robotics and Automation (ICRA) 2016, DOI:10.1109/ICRA.2016.7487335](https://www.semanticscholar.org/paper/Direct-visual-inertial-odometry-with-stereo-cameras-Usenko-Engel/2cbc2797efe322f8ac286d90cbc2c4852f0f6bde)
@@ -203,6 +213,7 @@
 - [Orthogonal Procrustes problem](https://en.wikipedia.org/wiki/Orthogonal_Procrustes_problem)
 - [Estimating 3-D rigid body transformations: a comparison of four major algorithms, David W. Eggert, Adele Lorusso, Robert B. Fisher, Published in Machine Vision and Applications 1997, DOI:10.1007/s001380050048](https://www.semanticscholar.org/paper/Estimating-3-D-rigid-body-transformations%3A-a-of-Eggert-Lorusso/4586f77703c38277a9f7686aeca97de808df20ad)
 - [3D Modelling by Low-Cost Range Camera: Software Evaluation and Comparison, Rodolfo Ravanelli, Lorenzo Lastilla, Mattia Crespi, Published 2017, DOI:10.5194/isprs-archives-XLII-2-W8-209-2017](https://www.semanticscholar.org/paper/3D-MODELLING-BY-LOW-COST-RANGE-CAMERA%3ASOFTWARE-AND-Ravanelli-Lastilla/c31117e78b5569794dd5fcc60ab0f7bcaf503e12) ([paper](https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLII-2-W8/209/2017/isprs-archives-XLII-2-W8-209-2017.pdf))
+- [An experiment of a 3D real-time robust visual odometry for intelligent vehicles, Sergio Alberto, Rodriguez Florez, Vincent Frémont, Philippe Bonnifait, 12th International IEEE Conference on Intelligent Transportation Systems (2009), https://doi.org/10.1109/ITSC.2009.5309615](https://www.semanticscholar.org/paper/An-experiment-of-a-3D-real-time-robust-visual-for-Alberto-Florez/4af6efd39e32b35feeaf2650d2eb083a1905297a) ([pdf](https://hal.archives-ouvertes.fr/hal-00444019/))
 
 ## Camera
 - [What to Expect from a Stereo Vision System](http://zone.ni.com/reference/en-XX/help/372916P-01/nivisionconceptsdita/guid-10d358bd-3dcd-4ccd-a73c-672e48aed39a/)
@@ -274,6 +285,7 @@
 - [Yael](http://yael.gforge.inria.fr/): Yael is a library implementing computationally intensive functions used in large scale image retrieval, such as neighbor search, clustering and inverted files. The library offers interfaces for C, Python and Matlab. Authors: Matthijs Douze & Hervé Jégou
 - ["Introduction to Optics for Embedded Vision," a Presentation from Edmund Optics](https://www.embedded-vision.com/platinum-members/embedded-vision-alliance/embedded-vision-training/videos/pages/may-2018-embedded-vision-summit-gehlhar)
 - ["Think Like an Amateur, Do As an Expert: Lessons from a Career in Computer Vision," a Keynote Presentation from Dr. Takeo Kanade](https://www.embedded-vision.com/platinum-members/embedded-vision-alliance/embedded-vision-training/videos/pages/may-2018-embedded-vision-summit-kanade)
+- [https://www.geometrictools.com/](https://www.geometrictools.com/)
 
 ## Books
 - [Computer Vision: A Modern Approach, David A. Forsyth, Jean Ponce](https://www.pearson.com/us/higher-education/program/Forsyth-Computer-Vision-A-Modern-Approach-2nd-Edition/PGM111082.html) ([link 1](http://cmuems.com/excap/readings/forsyth-ponce-computer-vision-a-modern-approach.pdf), [link 2](http://newton.uam.mx/xgeorge/uea/Proc_Dig_Im/Computer%20Vision%20A%20Modern%20Approach%20-%20Forsyth%20,%20Ponce.pdf))
@@ -295,6 +307,9 @@
 - [Structure Core](https://structure.io/structure-core)
 - [https://rosindustrial.org/3d-camera-survey/](https://rosindustrial.org/3d-camera-survey/)
 - [https://stimulant.com/depth-sensor-shootout-2/](https://stimulant.com/depth-sensor-shootout-2/)
+- [Structured Lighting, Guido Gerig, CS 6320, 3D Computer Vision, Spring 2012](http://www.sci.utah.edu/~gerig/CS6320-S2013/Materials/CS6320-CV-S2012-StructuredLight.pdf)
+- [Structured Light II, Guido Gerig, CS 6320, Spring 2012](http://www.sci.utah.edu/~gerig/CS6320-S2013/Materials/CS6320-CV-S2012-StructuredLight-II.pdf)
+- [Computational Optical Imaging - Optique Numerique -- Active Light 3D -- Autumn 2015, Ivo Ihrke](http://manao.inria.fr/perso/~ihrke/wordpress/wp-content/uploads/2015/09/structured_light_and_photometric_stereo.pdf)
 
 ## Geometric transformations
 - [Decomposition of 2D-transform matrices](http://frederic-wang.fr/decomposition-of-2d-transform-matrices.html)
