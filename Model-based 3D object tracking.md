@@ -9,6 +9,7 @@
 - [deeptracking](https://github.com/lvsn/deeptracking)
 - [The Laval 6 DOF Object Tracking Dataset](http://vision.gel.ulaval.ca/~jflalonde/projects/6dofObjectTracking/)
 - [6DOF_tracking_evaluation](https://github.com/lvsn/6DOF_tracking_evaluation)
+- [Fast 3D object detection and pose estimation for augmented reality systems, Seyed Hesameddin Najafi Shoushtari, Published 2006](https://www.semanticscholar.org/paper/Fast-3D-object-detection-and-pose-estimation-for-Shoushtari/2ae3e5a47b22df6c029aa696bf6b51f5a4845750) ([dissertation](https://mediatum.ub.tum.de/doc/604471/604471.pdf))
 
 ### Code
 - [Edge Based Tracking library](https://github.com/CogRob/object_tracking_2D)
