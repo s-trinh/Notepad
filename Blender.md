@@ -11,6 +11,7 @@
 ### Tutorials
 - [https://docs.blender.org/manual/nb/dev/](https://docs.blender.org/manual/nb/dev/)
 - [Blender 3D: Noob to Pro](https://en.wikibooks.org/wiki/Blender_3D:_Noob_to_Pro)
+- [Blender Fundamentals](https://www.youtube.com/playlist?list=PLa1F2ddGya_8V90Kd5eC5PeBjySbXWGK1)
 
 ### Generate color and depth map
 - references:
