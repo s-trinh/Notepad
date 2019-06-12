@@ -339,3 +339,6 @@ pointyobj.constraints.remove(ttc)
 - [How to access Render Result pixels from python script?](https://blender.stackexchange.com/questions/2170/how-to-access-render-result-pixels-from-python-script/23309#23309)
 - [Blender: Access Render Results pixels directly from Python](https://ammous88.wordpress.com/2015/01/16/blender-access-render-results-pixels-directly-from-python-2/)
 - [No render output node in scene](https://blender.stackexchange.com/questions/42607/no-render-output-node-in-scene/42609#42609)
+- [BlenSor](https://www.blensor.org/): Free Open Source Simulation Package for Light Detection and Ranging (LIDAR/LADAR) and Kinect sensors
+- [Creating animation in Blender using Python](http://danielhnyk.cz/creating-animation-blender-using-python/)
+- [How to move a camera in Blender 2.61 with Python](https://stackoverflow.com/questions/8865672/how-to-move-a-camera-in-blender-2-61-with-python)
