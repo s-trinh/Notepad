@@ -18,6 +18,8 @@
 - [Unmanned Rotorcraft Systems](https://link.springer.com/book/10.1007/978-0-85729-635-1)
   - [Coordinate Systems and Transformations](https://link.springer.com/chapter/10.1007/978-0-85729-635-1_2) ([link](https://www.springer.com/cda/content/document/cda_downloaddocument/9780857296344-c2.pdf?SGWID=0-0-45-1143141-p174116371))
 - [Theory of Robot Control, Carlos Canudas de Wit, Bruno Siciliano and Georges Bastin (Eds)](https://www.springer.com/us/book/9781447115038) ([pdf](http://www.gipsa-lab.grenoble-inp.fr/~carlos.canudas-de-wit/publications/Theory_of_robot_control.pdf))
+- [Nonlinear Systems, Hassan K. Khalil, Prentice Hall](https://www.egr.msu.edu/~khalil/NonlinearSystems/)
+- [Calculus of Variations and Optimal Control Theory, Daniel Liberzon, Princeton University Press, 2011](http://liberzon.csl.illinois.edu/teaching/cvoc.pdf)
 
 ## Courses
 - [AutoRob - Introduction to Autonomous Robotics - Michigan EECS 398 / Robot Kinematics and Dynamics - Michigan ME 567   EECS 567   ROB 510 / Fall 2018](http://autorob.org/)
@@ -118,6 +120,10 @@
   - [20_HR_CoexistenceCollaboration.pdf](http://www.diag.uniroma1.it/~deluca/rob2_en/20_HR_CoexistenceCollaboration.pdf)
 - [SIGGRAPH 2001, Course 8, An Introduction to the Kalman Filter, Greg Welch, Gary Bishop](http://www.cs.unc.edu/~tracker/media/pdf/SIGGRAPH2001_CoursePack_08.pdf)
 - [The Kalman Filter](http://www.cs.unc.edu/~welch/kalman/)
+- [ECE6552 - Spring 2018, Nonlinear Control Systems, Magnus Egerstedt (Gatech)](https://magnus.ece.gatech.edu/ece6552.html)
+- [ECE6553 - Spring 2017, Optimal Control and Optimization, Magnus Egerstedt (Gatech)](https://magnus.ece.gatech.edu/ece6553.html)
+- [Nonlinear Control, Hassan K. Khalil](https://www.egr.msu.edu/~khalil/NonlinearControl/)
+- [AA 274: Principles of Robotic Autonomy, Winter 2019](https://stanfordasl.github.io/aa274/)
 
 ## Rotation interpolation and smoothing
 - [Interpolation schemes for rigid body motions, Milos Zefran and Vijay Kumar](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.25.1776&rep=rep1&type=pdf)
@@ -185,6 +191,20 @@
 - [Metrics on SO(3) and Inverse Kinematics, Luca Ballan](http://lucaballan.altervista.org/pdfs/IK.pdf)
 - [ROTATION: A review of useful theorems involving proper orthogonal matrices referenced to three-dimensional physical space.](https://my.mech.utah.edu/~brannon/public/rotation.pdf)
 - [Metrics for 3D Rotations: Comparison and Analysis, Du Q. Huynh, Published in Journal of Mathematical Imaging and Vision 2009, https://doi.org/10.1007/s10851-009-0161-2](https://www.semanticscholar.org/paper/Metrics-for-3D-Rotations%3A-Comparison-and-Analysis-Huynh/56178de1001efe54792ad93f6980de5d5e91906b) ([pdf](https://www.cs.cmu.edu/~cga/dynopt/readings/Rmetric.pdf))
+- [Robotics, Geometry and Control - Rigid body motion and geometry, Ravi Banavar](http://www.eeci-institute.eu/pdf/M5-textes/M5_slides4.pdf)
+- [Lie Groups and Algebras for optimisation and motion representation](http://www.robots.ox.ac.uk/~cmei/talks/reading_group_lie.pdf)
+- [Basics of Classical Lie Groups: The Exponential Map, Lie Groups, and Lie Algebras](http://www.cis.upenn.edu/~cis610/geombchap14.pdf)
+- [Exponential Maps for Computer Vision, Nick Birnie, Published 2011](https://www.semanticscholar.org/paper/Exponential-Maps-for-Computer-Vision-Birnie/2782edad05faada45db57a7f6da1a6ee9ecc8974)
+- [SE3](http://www.xrpbot.org/wiki/SE3)
+- [Minimization on the Lie Group SO(3) and Related Manifolds, David J. Kriegman, Published 1994](https://www.semanticscholar.org/paper/Minimization-on-the-Lie-Group-SO(3)-and-Related-Kriegman/0c70e90a16a2a450154a391a28c092fcf6655a34) ([pdf](https://www.seas.upenn.edu/~cjtaylor/PUBLICATIONS/pdfs/TaylorTR94b.pdf))
+- [Minimization on the Lie Group SO(3)](https://math.stackexchange.com/questions/180736/minimization-on-the-lie-group-so3)
+- [Jacobian matrix of the Rodrigues' formula (exponential map)](https://math.stackexchange.com/questions/64253/jacobian-matrix-of-the-rodrigues-formula-exponential-map)
+- [Jacobian of exponential mapping in SO3/SE3](https://math.stackexchange.com/questions/812563/jacobian-of-exponential-mapping-in-so3-se3)
+- [Lecture Notes in Lie Groups, Vladimir G. Ivancevic, Tijana T. Ivancevic, Published 2011](https://www.semanticscholar.org/paper/Lecture-Notes-in-Lie-Groups-Ivancevic-Ivancevic/70c8118179b8f9adf1b97cfcff77ba33e35a9235) ([arXiv](https://arxiv.org/abs/1104.1106))
+- [Lie groups and Lie algebras, Wilfried Schmid, Lecture notes by Tony Feng, Spring 2012](http://web.stanford.edu/~tonyfeng/222.pdf)
+- [Lecture Notes on Lie Algebras and Lie Groups, Luiz Agostinho Ferreira](http://www.ifsc.usp.br/~laf/algebra/notes.pdf)
+- [Lie groups, E.P. van den Ban, Lecture Notes, Spring 2010](https://www.staff.science.uu.nl/~ban00101/lecnotes/lie2010.pdf)
+- [Lie groups and Lie algebras, Eckhard Meinrenken, Lecture Notes, University of Toronto, Fall 2010](http://www.math.toronto.edu/mein/teaching/LectureNotes/lie.pdf)
 
 ## Quaternion
 - [The Quaternionic Exponential (and beyond), Hubert HOLIN](https://www.boost.org/doc/libs/1_48_0/libs/math/quaternion/TQE.pdf)
@@ -269,6 +289,7 @@
 - [IKBT](https://github.com/uw-biorobotics/IKBT)
 - [Simulate Robot Applications](https://robodk.com/)
 - [KUKA robots](https://robodk.com/doc/en/Robots-KUKA.html)
+- [Simple kinematics for mobile robot](https://husarion.com/tutorials/ros-tutorials/3-simple-kinematics-for-mobile-robot/)
 
 ## Path Planning
 - [MoveIt](https://moveit.ros.org/documentation/concepts/)
