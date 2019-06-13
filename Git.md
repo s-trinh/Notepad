@@ -70,6 +70,10 @@ git push origin 'refs/tags/*:refs/tags/*'
 [difftool "meld"]
     cmd = \"C:/Program Files (x86)/Meld/Meld.exe\" "$LOCAL" "$REMOTE"
 ```
+- [Ignore files >100MB in your Git repos](https://github.com/sr320/course-fish546-2015/issues/43) ([see also](https://stackoverflow.com/questions/4035779/gitignore-by-file-size/5200267#5200267)):
+```
+find ./* -size +100M | cat >> .gitignore
+```
 
 ### Push too much data
 - [Git, fatal: The remote end hung up unexpectedly](https://stackoverflow.com/questions/15240815/git-fatal-the-remote-end-hung-up-unexpectedly)
