@@ -1,0 +1,41 @@
+
+  <HTML>
+  <HEAD>
+  <TITLE> page.13.png </TITLE>
+  </HEAD>
+  <SCRIPT LANGUAGE = "JavaScript">
+  
+   function overview() { window.location="overview.html" }  
+   function prev()     { window.location="page.12.html" }  
+   function next()     { window.location="page.14.html" }  
+
+  </SCRIPT>
+
+  <BODY BGCOLOR=white text=red link=red vlink=red alink=red BACKGROUND="page.13.png">
+
+  <DIV  STYLE="position:absolute; left:0; top:0;" >
+  <layer LEFT=0 TOP=0>
+<center>
+   <img src=transparent.gif width=99%  height=153.6 border=0 onMouseDown="overview()"><br>
+</center>
+   <img src=transparent.gif width=40% height=537.6 align=left border=0 onMouseDown="prev()">
+   <img src=transparent.gif width=19% height=537.6 align=left border=0 onMouseDown="nextimage()">
+   <img src=transparent.gif width=40% height=537.6 align=right border=0 onMouseDown="next()">
+  </layer> 
+  </DIV>
+    
+   <script language="javascript">
+ i = 0; images = new Array();
+images[0] = new Image; images[0].src = "../Figsajd/SLAM/uc1.gif"; images[1]
+= new Image; images[1].src = "../Figsajd/SLAM/uc2.gif"; images[2] =
+new Image; images[2].src = "../Figsajd/SLAM/uc3.gif"; images[3] = new
+Image; images[3].src = "../Figsajd/SLAM/uc4.gif"; images[4] = new Image;
+images[4].src = "../Figsajd/SLAM/uc5.gif"; images[5] = new Image; images[5].src
+= "../Figsajd/SLAM/uc6.gif"; images[6] = new Image; images[6].src =
+"../Figsajd/SLAM/uc7.gif"; function nextimage() { i++; if (i==7) {
+i=0; } document.theImage.src = images[i].src; } </script> 
+<center><img src="transparent.gif" height=260 width=1><dt><img src="../Figsajd/SLAM/uc1.gif" name="theImage" width=587 height=458></center>
+
+  </BODY>
+  </HTML>
+  

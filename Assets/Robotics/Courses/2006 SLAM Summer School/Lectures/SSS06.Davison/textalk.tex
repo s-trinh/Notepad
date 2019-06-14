@@ -1,0 +1,352 @@
+% First set margins etc.
+\oddsidemargin=-1in
+\textwidth=209mm % A4 width
+\textheight=0.75\textheight % 600/800 or 768/1024
+\topmargin=-1in
+\parindent=0pt
+
+% Define a unit of length corresponding to 1 pixel
+% This assumes a 1024 x 768 window.
+\newdimen\px
+\px=\textwidth
+\divide\px by 1020
+
+% Turn off page numbers/headers
+\pagestyle{empty}
+\advance\topmargin by -1cm % Headers take about 1cm
+
+%% A tilde in postscript
+\def\awftilde{\%7E}
+
+%% \head
+% A typical ``head of slide'' macro, but anything can be used.
+% This one makes a table of contents entry
+\def\head#1{
+\clearpage
+ \begin{center}~\\
+ \Large\sf\black{#1}\\
+ \color[rgb]{0.4,0.9,0.3} \rule{\textwidth}{1mm}
+ \end{center}
+ \usecounter{section}
+ \addcontentsline{toc}{section}{\thepart\hspace{1em}#1}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% User-level embedding macros.  
+% Basically one provides a TeX ``box'' (typically using \epsfbox)
+% and a movie object, which is set to the same size in the final
+% output as the TeX box.
+
+% \embed{640\px}{480\px}{movie.mpg}{movie.eps}
+\newcommand{\embed}[4]{\awfembedmovie{\epsfxsize=#1\epsfysize=#2\epsfbox{#4}}{#3}}
+
+% \embedwide{0.7\textwidth}{movie.mpg}{movie.eps}
+\newcommand{\embedwide}[3]{\awfembedmovie{\epsfxsize=#1\epsfbox{#2}}{#3}}
+
+% Embed h movie eps
+\newcommand{\embedhigh}[3]{\awfembedmovie{\epsfxsize=#1\epsfbox{#2}}{#3}}
+
+% awfembed{printed-object}{html-code}
+\newcommand{\awfembed}[2]{{%
+\setbox1=\hbox{#1}% Store #1 in a box
+\newdimen\w\w=\wd1% Compute its width/height, store in \w, \h
+\newdimen\h\h=\ht1
+\mbox{\awfincludeps{
+(#2) % html code to be put in <DIV>, of size: 
+(\the\w) awfstrtonum   % Width in format ``1234.5pt'', convert to PostScript units
+(\the\h) awfstrtonum  % Height, similarly
+curposdiv }
+\box1}% actualy send printed-object to TeX
+}}
+ 
+% awfembedmovie{textobject}{movie.mpg}
+\newcommand{\awfembedmovie}[2]{
+\awfembed{\mbox{#1}}{<embed
+controller="false"
+playcount=3   for ie
+loop=3 for netscape
+% framerate=10 
+autorewind="false"
+TransparentAtStart=true
+autostart="true"
+appearance="1"
+borderstyle="0"
+src=#2 
+WIDTH=$WIDTH$ HEIGHT=$HEIGHT$>}}
+
+
+%% \textalkdata{title}{author}{date}
+% Set these variables in the postscript file, so textalk-header
+% can use them for filenames, page titles etc.
+\def\textalktitle#1#2#3{%
+\awfincludepsheader{/title (#1) def}
+\awfincludepsheader{/author (#2) def}
+\awfincludepsheader{/date (#3) def}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Internals: Code which speaks to textalk-header.ps
+
+% Pass text directly to dvips, and hence to PostScript.
+\def\textalkspecial#1{%
+  \begingroup
+    \edef~{\string~}%
+    %... other redefinitions if needed.
+    \special{#1}%
+  \endgroup
+}
+
+% Evaluate postscript in the file header, within textalkdict if
+% known, otherwise blank.
+\def\awfincludepsheader#1{\textalkspecial{!/textalkdict where { pop
+textalkdict begin
+#1
+end
+} {} ifelse }}
+
+
+\def\awfincludeps#1{\textalkspecial{"/textalkdict where { pop
+textalkdict begin
+#1
+end
+} {} ifelse }}
+
+\def\awfincludehtml#1{\awfincludeps{
+(#1) dup hprintnl
+(awfincludehtml:[) print print (]) print
+}}
+
+% \newcommand{\awfhtmlembed}[4]{% width height embed-text alternative-psfile
+% \mbox{\epsfxsize=#1pt\epsfysize=#2pt\awfincludeps{ (#3) #1 #2 curposdiv }\epsfbox{#4}}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Larger font stuff
+\DeclareFontShape{OT1}{cmr}{m}{n}
+   {  <5> <6> <7> <8> <9> <10> <12> gen * cmr
+      <10.95> cmr10
+      <14.4>  cmr12
+      <17.28><20.74><24.88>cmr17
+      <29.86> <35.83> <43.00> <51.6> <61.92> <74.3> <89.16> <107.0> cmr17}{}
+
+\DeclareFontShape{OT1}{cmr}{m}{sl}
+    {
+      <5><6><7>cmsl8%
+      <8> <9> gen * cmsl
+      <10><10.95>cmsl10%
+      <12><14.4><17.28><20.74><24.88>
+      <29.86> <35.83> <43.00> <51.6> <61.92> <74.3> <89.16> <107.0> cmsl12}{}
+
+\DeclareFontShape{OT1}{cmr}{m}{it}
+    {
+      <5><6><7>cmti7%
+      <8>cmti8%
+      <9>cmti9%
+      <10><10.95>cmti10%
+      <12><14.4><17.28><20.74><24.88>
+      <29.86> <35.83> <43.00> <51.6> <61.92> <74.3> <89.16> <107.0> cmti12}{}
+
+\DeclareFontShape{OT1}{cmr}{m}{sc}
+    {
+      <5><6><7><8><9><10><10.95><12>
+      <14.4><17.28><20.74><24.88> 
+      <29.86> <35.83> <43.00> <51.6> <61.92> <74.3> <89.16> <107.0> cmcsc10}{}
+
+\DeclareFontShape{OT1}{cmr}{m}{ui}
+   {
+      <5><6><7><8><9><10><10.95><12>
+      <14.4><17.28><20.74><24.88>
+      <29.86> <35.83> <43.00> <51.6> <61.92> <74.3> <89.16> <107.0> cmu10}{}
+      
+\DeclareFontShape{OT1}{cmr}{b}{n}
+     {
+      <5><6><7><8><9><10><10.95><12>
+      <14.4><17.28><20.74><24.88>
+      <29.86> <35.83> <43.00> <51.6> <61.92> <74.3> <89.16> <107.0> cmb10}{}
+
+\DeclareFontShape{OT1}{cmr}{bx}{n}
+   {
+      <5> <6> <7> <8> <9> gen * cmbx
+      <10><10.95> cmbx10
+      <12><14.4><17.28><20.74><24.88>
+      <29.86> <35.83> <43.00> <51.6> <61.92> <74.3> <89.16> <107.0> cmbx12}{}
+       
+\DeclareFontShape{OT1}{cmr}{bx}{sl}
+      {
+      <5> <6> <7> <8> <9>
+      <10> <10.95> <12> <14.4> <17.28> <20.74> <24.88>
+      <29.86> <35.83> <43.00> <51.6> <61.92> <74.3> <89.16> <107.0> cmbxsl10}{}
+
+\DeclareFontShape{OT1}{cmr}{bx}{it}
+      {
+      <5> <6>  <7>  <8> <9>
+      <10> <10.95> <12> <14.4> <17.28> <20.74> <24.88>
+      <29.86> <35.83> <43.00> <51.6> <61.92> <74.3> <89.16> <107.0> cmbxti10}{}
+
+\DeclareFontShape{OT1}{cmss}{m}{n}
+     {
+      <5><6><7><8>cmss8
+      <9>cmss9
+      <10><10.95>cmss10
+      <12><14.4>cmss12
+      <17.28><20.74><24.88>
+      <29.86> <35.83> <43.00> <51.6> <61.92> <74.3> <89.16> <107.0> cmss17}{}
+
+\DeclareFontShape{OT1}{cmss}{m}{sl}
+    {
+      <5><6><7><8>cmssi8 <9> cmssi9
+      <10><10.95>cmssi10
+      <12><14.4>cmssi12
+      <17.28><20.74><24.88>
+      <29.86> <35.83> <43.00> <51.6> <61.92> <74.3> <89.16> <107.0> cmssi17}{}
+
+\DeclareFontShape{OT1}{cmss}{sbc}{n}
+     {
+      <5> <6> <7> <8> <9> cmssdc10
+      <10> <10.95> <12> <14.4> <17.28> <20.74> <24.88>
+      <29.86> <35.83> <43.00> <51.6> <61.92> <74.3> <89.16> <107.0> cmssdc10}{}
+
+\DeclareFontShape{OT1}{cmss}{bx}{n}
+     {
+      <5> <6> <7> <8> <9> cmssbx10
+      <10> <10.95> <12> <14.4> <17.28> <20.74> <24.88>
+      <29.86> <35.83> <43.00> <51.6> <61.92> <74.3> <89.16> <107.0> cmssbx10}{}
+
+\DeclareFontShape{OT1}{cmtt}{m}{n}
+     {
+      <5><6><7><8>cmtt8 <9> cmtt9
+      <10><10.95>cmtt10
+      <12><14.4><17.28><20.74><24.88>
+      <29.86> <35.83> <43.00> <51.6> <61.92> <74.3> <89.16> <107.0> cmtt12}{}
+      
+\DeclareFontShape{OT1}{cmtt}{m}{it}
+     {
+      <5> <6> <7> <8> <9>
+      <10> <10.95> <12> <14.4> <17.28> <20.74> <24.88>
+      <29.86> <35.83> <43.00> <51.6> <61.92> <74.3> <89.16> <107.0> cmitt10}{}     
+     
+\DeclareFontShape{OT1}{cmtt}{m}{sl}
+     {
+      <5> <6> <7> <8> <9>
+      <10> <10.95> <12> <14.4> <17.28> <20.74> <24.88>
+      <29.86> <35.83> <43.00> <51.6> <61.92> <74.3> <89.16> <107.0> cmsltt10}{}
+     
+\DeclareFontShape{OT1}{cmtt}{m}{sc}
+     {
+      <5> <6> <7> <8> <9>
+      <10> <10.95> <12> <14.4> <17.28> <20.74> <24.88>
+      <29.86> <35.83> <43.00> <51.6> <61.92> <74.3> <89.16> <107.0> cmtcsc10}{}     
+
+\DeclareFontShape{OML}{cmm}{m}{it}
+    { <5> <6> <7> <8> <9> gen * cmmi
+      <10><10.95>cmmi10
+      <12><14.4><17.28><20.74><24.88>
+      <29.86> <35.83> <43.00> <51.6> <61.92> <74.3> <89.16> <107.0> cmmi12}{}
+
+\DeclareFontShape{OML}{cmm}{b}{it}{%
+      <5> <6> <7> <8> <9> gen * cmmib
+      <10> <10.95> <12> <14.4> <17.28> <20.74> <24.88>
+      <29.86> <35.83> <43.00> <51.6> <61.92> <74.3> <89.16> <107.0> cmmib10}{}
+
+
+\DeclareFontShape{OMS}{cmsy}{m}{n}{%
+      <5> <6> <7> <8> <9> <10> gen * cmsy
+      <10.95> <12> <14.4> <17.28> <20.74> <24.88>
+      <29.86> <35.83> <43.00> <51.6> <61.92> <74.3> <89.16> <107.0> cmsy10}{}
+
+\DeclareFontShape{OMS}{cmsy}{b}{n}{%
+      <5> <6> <7> <8> <9> gen * cmbsy
+      <10> <10.95> <12> <14.4> <17.28> <20.74> <24.88>
+      <29.86> <35.83> <43.00> <51.6> <61.92> <74.3> <89.16> <107.0> cmbsy10}{}
+
+\DeclareFontShape{OMX}{cmex}{m}{n}{%
+      <-8>sfixed * cmex7
+      <8> cmex8
+      <9> cmex9
+      <10> <10.95> <12> <14.4> <17.28> <20.74> <24.88> 
+      <29.86> <35.83> <43.00> <51.6> <61.92> <74.3> <89.16> <107.0> cmex10}{}
+
+\DeclareFontShape{U}{cmr}{m}{n}
+   {  <5> <6> <7> <8> <9> <10> <12> gen * cmr
+      <10.95> cmr10
+      <14.4>  cmr12
+      <17.28><20.74><24.88>
+      <29.86> <35.83> <43.00> <51.6> <61.92> <74.3> <89.16> <107.0> cmr17}{}
+
+\DeclareFontShape{U}{cmr}{m}{sl}
+    {
+      <5><6><7>cmsl8%
+      <8> <9> gen * cmsl
+      <10><10.95>cmsl10%
+      <12><14.4><17.28><20.74><24.88>
+      <29.86> <35.83> <43.00> <51.6> <61.92> <74.3> <89.16> <107.0> cmsl12}{}
+
+\DeclareFontShape{U}{cmr}{m}{it}
+    {
+      <5><6><7>cmti7%
+      <8>cmti8%
+      <9>cmti9%
+      <10><10.95>cmti10%
+      <12><14.4><17.28><20.74><24.88>
+      <29.86> <35.83> <43.00> <51.6> <61.92> <74.3> <89.16> <107.0> cmti12}{}
+
+\DeclareFontShape{U}{cmr}{m}{sc}
+    {
+      <5><6><7><8><9><10><10.95><12>
+      <14.4><17.28><20.74><24.88>
+      <29.86> <35.83> <43.00> <51.6> <61.92> <74.3> <89.16> <107.0> cmcsc10}{}
+
+\DeclareFontShape{U}{cmr}{m}{ui}
+   {
+      <5><6><7><8><9><10><10.95><12>%
+      <14.4><17.28><20.74><24.88>
+      <29.86> <35.83> <43.00> <51.6> <61.92> <74.3> <89.16> <107.0> cmu10}{}
+
+\DeclareFontShape{U}{cmr}{b}{n}
+     {
+      <5><6><7><8><9><10><10.95><12>
+      <14.4><17.28><20.74><24.88>
+      <29.86> <35.83> <43.00> <51.6> <61.92> <74.3> <89.16> <107.0> cmb10}{}
+
+\DeclareFontShape{U}{cmr}{bx}{n}
+   {
+      <5> <6> <7> <8> <9> gen * cmbx
+      <10><10.95> cmbx10
+      <12><14.4><17.28><20.74><24.88>
+      <29.86> <35.83> <43.00> <51.6> <61.92> <74.3> <89.16> <107.0> cmbx12}{}
+
+\DeclareFontShape{U}{cmr}{bx}{sl}
+      {
+      <5> <6> <7> <8> <9>
+      <10> <10.95> <12> <14.4> <17.28> <20.74> <24.88>
+      <29.86> <35.83> <43.00> <51.6> <61.92> <74.3> <89.16> <107.0> cmbxsl10}{}
+
+\DeclareFontShape{U}{cmr}{bx}{it}
+      {
+      <5> <6>  <7>  <8> <9>
+      <10> <10.95> <12> <14.4> <17.28> <20.74> <24.88> 
+      <29.86> <35.83> <43.00> <51.6> <61.92> <74.3> <89.16> <107.0> cmbxti10}{}
+
+
+\DeclareMathSizes{24.88}{24.88}{20.74}{14.4}
+\DeclareMathSizes{29.86}{29.86}{20.74}{14.4}
+\DeclareMathSizes{35.83}{35.83}{24.88}{17.28}
+\DeclareMathSizes{43.00}{43.00}{35.83}{24.88}
+\DeclareMathSizes{51.6}{51.6}{35.83}{24.88}
+\DeclareMathSizes{61.92}{61.92}{43}{29.86}
+\DeclareMathSizes{74.3}{74.3}{51.6}{35.83}
+\DeclareMathSizes{89.16}{89.16}{61.92}{43}
+\DeclareMathSizes{107}{107}{74.3}{51.6}
+
+
+% Add font sizes
+\makeatletter
+\newcommand{\hugea}{\fontsize{29.86}{37}\selectfont}
+\newcommand{\hugeb}{\fontsize{35.83}{45}\selectfont}
+\newcommand{\hugec}{\fontsize{43}{54}\selectfont}
+\newcommand{\huged}{\fontsize{51.6}{64}\selectfont}
+\newcommand{\hugee}{\fontsize{61.92}{77}\selectfont}
+\newcommand{\hugef}{\fontsize{74.3}{93}\selectfont}
+\newcommand{\hugeg}{\fontsize{89.16}{112}\selectfont}
+\newcommand{\hugeh}{\fontsize{107}{134}\selectfont}
+
+\makeatother
