@@ -283,6 +283,8 @@
 - [Robot-to-Camera Calibration: A Generic Approach Using 6D Detections](https://core.ac.uk/download/pdf/84276744.pdf)
 - [Flexible Self-Calibrated Visual Servoing for a Humanoid Robot](https://pdfs.semanticscholar.org/584e/5034f1af634425572968abbf6d908bbf88c2.pdf)
 - [Simultaneous Robot–World and Hand–Eye Calibration without a Calibration Object, Wei Li, Mingli Dong, Naiguang Lu, Xiaoping Lou and Peng Sun, https://doi.org/10.3390/s18113949](https://www.mdpi.com/1424-8220/18/11/3949)
+- [On the Covariance of X in AX = XB, Huy Nguyen, Quang-Cuong Pham, Published in IEEE Trans. Robotics 2018, https://doi.org/10.1109/TRO.2018.2861905](https://www.semanticscholar.org/paper/On-the-Covariance-of-X-in-AX-%3D-XB-Nguyen-Pham/26441ffb0a995c2e5f5f04db0caed08bd96c95c3) ([arXiv](https://arxiv.org/abs/1706.03498))
+- [Covariance-Based Pose Estimation (COPE)](https://github.com/dinhhuy2109/python-cope)
 
 ## Kinematics
 - [Inverse Kinematics with Quaternion Joint Limits](http://number-none.com/product/IK%20with%20Quaternion%20Joint%20Limits/)
