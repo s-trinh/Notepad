@@ -217,11 +217,19 @@
 - [3D Modelling by Low-Cost Range Camera: Software Evaluation and Comparison, Rodolfo Ravanelli, Lorenzo Lastilla, Mattia Crespi, Published 2017, DOI:10.5194/isprs-archives-XLII-2-W8-209-2017](https://www.semanticscholar.org/paper/3D-MODELLING-BY-LOW-COST-RANGE-CAMERA%3ASOFTWARE-AND-Ravanelli-Lastilla/c31117e78b5569794dd5fcc60ab0f7bcaf503e12) ([paper](https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLII-2-W8/209/2017/isprs-archives-XLII-2-W8-209-2017.pdf))
 - [An experiment of a 3D real-time robust visual odometry for intelligent vehicles, Sergio Alberto, Rodriguez Florez, Vincent Frémont, Philippe Bonnifait, 12th International IEEE Conference on Intelligent Transportation Systems (2009), https://doi.org/10.1109/ITSC.2009.5309615](https://www.semanticscholar.org/paper/An-experiment-of-a-3D-real-time-robust-visual-for-Alberto-Florez/4af6efd39e32b35feeaf2650d2eb083a1905297a) ([pdf](https://hal.archives-ouvertes.fr/hal-00444019/))
 - [Odometry from RGB-D Cameras for Autonomous Quadrocopters, Christian Kerl, Published 2012](https://www.semanticscholar.org/paper/Odometry-from-RGB-D-Cameras-for-Autonomous-Kerl/509e09608cfe9a0ecc1dda665586060897b71de6)
+- [http://www.cad.zju.edu.cn/home/gfzhang/](http://www.cad.zju.edu.cn/home/gfzhang/)
+- [https://github.com/zju3dv](https://github.com/zju3dv)
+- [RKSLAM: Robust Keyframe-based Monocular SLAM for AR](http://www.zjucvg.net/rkslam/rkslam.html)
+- [Training Course of Real-time Camera Tracking on Mobiles by Dong Zilong](http://www.cad.zju.edu.cn/home/gfzhang/training/realtime/index.htm)
+- [Elastic LiDAR Fusion: Dense Map-Centric Continuous-Time SLAM, Chanoh Park, Peyman Moghadam, Soohwan Kim, Alberto Elfes, Clinton Fookes, Sridha Sridharan, IEEE International Conference on Robotics and Automation (ICRA) (2018), https://doi.org/10.1109/icra.2018.8462915](https://www.semanticscholar.org/paper/Elastic-LiDAR-Fusion%3A-Dense-Map-Centric-SLAM-Park-Moghadam/4cfdd27e7c0f90078c7605abab38d37010d7661f) ([arXiv](https://arxiv.org/abs/1711.01691))
+
 
 ## Camera
 - [What to Expect from a Stereo Vision System](http://zone.ni.com/reference/en-XX/help/372916P-01/nivisionconceptsdita/guid-10d358bd-3dcd-4ccd-a73c-672e48aed39a/)
 - [Camera Exposure](https://www.cambridgeincolour.com/tutorials/camera-exposure.htm)
 - [Exposure Calculator to Compare Any Two Camera Exposures](https://www.scantips.com/lights/exposurecalc.html)
+- [Lens Selector (Basler)](https://www.baslerweb.com/en/products/tools/lens-selector/)
+- [Lens Calculator (FLIR)](https://www.flir.eu/iis/machine-vision/lens-calculator/)
 
 ## Camera Calibration
 - [Single Camera Calibrator App (Matlab)](https://www.mathworks.com/help/vision/ug/single-camera-calibrator-app.html)
@@ -240,6 +248,7 @@
 - ["Depth Cameras: A State-of-the-Art Overview," a Presentation from Aquifi](https://www.embedded-vision.com/platinum-members/embedded-vision-alliance/embedded-vision-training/videos/pages/may-2018-embedded-vision-summit-dal-mutto)
 - [Method for measuring stereo camera depth accuracy based on stereoscopic vision](https://www.researchgate.net/publication/235349563_Method_for_measuring_stereo_camera_depth_accuracy_based_on_stereoscopic_vision)
 - [Real-Time Dense Mapping for Self-driving Vehicles using Fisheye Cameras, Zhaopeng Cui, Lionel Heng, Ye Chuan Yeo, Andreas Geiger, Marc Pollefeys, Torsten Sattler, Published in ArXiv 2018](https://www.semanticscholar.org/paper/Real-Time-Dense-Mapping-for-Self-driving-Vehicles-Cui-Heng/f57d0494eeecf7058b8f5e55405a7a22ab07c5de) ([arXiv](https://arxiv.org/abs/1809.06132))
+- [Stereo Vision - Mathworks Example Article](http://mccormickml.com/assets/StereoVision/Stereo%20Vision%20-%20Mathworks%20Example%20Article.pdf)
 
 ## Ellipse detection
 - [Arc-support Line Segments Revisited: An Efficient and High-quality Ellipse Detection](https://github.com/AlanLuSun/High-quality-ellipse-detection) ([arXiv](https://arxiv.org/abs/1810.03243v4))
