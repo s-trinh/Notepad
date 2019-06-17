@@ -1,0 +1,25 @@
+This assignment is in two parts. First, write the routine PCA, which is called in pcatest.ch.
+The main routine will create a simulated random set of input images; four images each of six pixels.
+Then the PCA routine will be called. In this routine you should print out the eigenvectors and eigenvalues.
+You should zero the eigenvectors for which the eignevalues are <= 0.0001 since they are irrelevant. 
+Project the original data onto the eigenvectorrs, and return these projections. 
+On the web site pcatest.ch has the required code, but the acutal PCA routine is left blank.
+
+The second part of the assignment is to finish the read-eigenface.ch routine which is on the website.In it's current form 
+it reads in ten images, and converts them into a matrix of imgvect[NUM_PIXELS][NUM_IMAGES].
+Here NUM_PIXELS is 396, and NUM_IMAGES is 10. It displays each image, and you must hit any key in order
+to move from image to image. 
+
+The goal is to take the first image yucel5.jpg and compare this image to all the other nine images to see which one is the 
+most simlar. First you must normalize each image so that as a vector it has a magnitude of one. 
+
+Then do this comparison in three ways. 
+The first way is corrleation using a dot product. The second is least squares difference, and the third is using the PCA routine.
+In each case you should print out the image which is the closest match, in my implementation it was yucel1.jpg.
+The result should be the same for all three methods.
+
+The PCA routine you wrote in the first part of the assignment (pcatest.ch) should be used to compute the projections, which 
+are the co-ordinates of these images in the eigenspace. To find the closest image using the PCA approach find the image which
+has the closest projection vector to the first image yucel5.jpg.
+
+I use the routines mean, covariance, eigensystem, transpose, norm, dot, printf in this code.
