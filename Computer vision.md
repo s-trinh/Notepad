@@ -223,6 +223,8 @@
 - [Training Course of Real-time Camera Tracking on Mobiles by Dong Zilong](http://www.cad.zju.edu.cn/home/gfzhang/training/realtime/index.htm)
 - [Elastic LiDAR Fusion: Dense Map-Centric Continuous-Time SLAM, Chanoh Park, Peyman Moghadam, Soohwan Kim, Alberto Elfes, Clinton Fookes, Sridha Sridharan, IEEE International Conference on Robotics and Automation (ICRA) (2018), https://doi.org/10.1109/icra.2018.8462915](https://www.semanticscholar.org/paper/Elastic-LiDAR-Fusion%3A-Dense-Map-Centric-SLAM-Park-Moghadam/4cfdd27e7c0f90078c7605abab38d37010d7661f) ([arXiv](https://arxiv.org/abs/1711.01691))
 - [Welcome to the 2006 SLAM Summer School Homepage](http://www.robots.ox.ac.uk/~SSS06/Website/index.html)
+- [https://aaltovision.github.io/JoinTheTeam/](https://aaltovision.github.io/JoinTheTeam/)
+- [PIVO: Probabilistic inertial-visual odometry for occlusion-robust navigation, Arno Solin, Santiago Cortes, Esa Rahtu, and Juho Kannala, Published in WACV 2018](https://aaltovision.github.io/PIVO/) ([poster](https://aaltovision.github.io/PIVO/assets/WACV-poster.pdf))
 
 ## Camera
 - [What to Expect from a Stereo Vision System](http://zone.ni.com/reference/en-XX/help/372916P-01/nivisionconceptsdita/guid-10d358bd-3dcd-4ccd-a73c-672e48aed39a/)
