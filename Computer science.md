@@ -18,9 +18,24 @@
   - [Real-time kernels - Shared Resources](http://sigpromu.org/brett/elec3730/lecture15.pdf)
 - [ACMS 40212/60212: Advanced Scientific Computing, Spring 2016, Zhiliang Xu (University of Notre Dame)](https://www3.nd.edu/~zxu2/ACMS40212-S16.html)
 - [ACMS 40390: Fall 2016 - Numerical Analysis, Zhiliang Xu (University of Notre Dame)](https://www3.nd.edu/~zxu2/ACMS40390-F16.html)
+- [CSEP548: Computer Architecture by Prof. Luis Ceze with Liang Luo and Eddie Yan](https://courses.cs.washington.edu/courses/csep548/) ([CSE P 548: Computer Architecture - Autumn 2006](https://courses.cs.washington.edu/courses/csep548/06au/lectures.html))
+- [Advanced Computer Architectures - 088949, Prof. Cristina Silvano, Politecnico di Milano](http://home.deib.polimi.it/silvano/aca-milano.htm)
 
 ### Code
 - [In which order should floats be added to get the most precise result?](https://stackoverflow.com/questions/6699066/in-which-order-should-floats-be-added-to-get-the-most-precise-result)
 - [Kahan summation algorithm](https://en.wikipedia.org/wiki/Kahan_summation_algorithm)
 - [avx2 convolution pipeline utilization #477](https://github.com/intel/mkl-dnn/issues/477#issuecomment-493591765):
 > In x86 CPUs a number of physical registers is more than architectural one. It means that during the execution of code above, the architectural register ymm15 will be mapped on different physical registers to resolve dependencies.
+
+### High-Performance Computing
+- [Introduction to High-Performance Scientific Computing, Victor Eijkhout](http://pages.tacc.utexas.edu/~eijkhout/istc/html/)
+- [Performance speed limits](https://travisdowns.github.io/blog/2019/06/11/speed-limits.html)
+- [Avoiding instruction cache misses](https://pdziepak.github.io/2019/06/21/avoiding-icache-misses/)
+- [Practical x64 Assembly and C++ Tutorials](https://www.youtube.com/user/WhatsACreel)
+- [Branch Prediction Is Not a Solved Problem: Measurements, Opportunities, and Future Directions, Chit-Kwan Lin, Stephen J. Tarsa, Published 2019](https://www.semanticscholar.org/paper/Branch-Prediction-Is-Not-a-Solved-Problem%3A-and-Lin-Tarsa/b7e552f23be1e0a9894b00448119d05b2ed2818a) ([arXiv](https://arxiv.org/abs/1906.08170))
+- [Branch Prediction Techniques, Prof. Cristina Silvano, Politecnico di Milano](http://home.deib.polimi.it/silvano/FilePDF/AAC/Lectures_2017/Lesson_2_Branch_Prediction%20_V2.pdf)
+- [Bits, pixels, cycles and more](https://zeux.io/)
+- [The Xbox One System on a Chip and Kinect Sensor, John Sell, Patrick O'Connor, Published in IEEE Micro 2014, https://doi.org/10.1109/MM.2014.9](https://www.semanticscholar.org/paper/The-Xbox-One-System-on-a-Chip-and-Kinect-Sensor-Sell-O'Connor/862387d3f044935ae1e6f6c95eb15a0676d04316)
+- [Guide into OpenMP: Easy multithreading programming for C++](https://bisqwit.iki.fi/story/howto/openmp/)
+- [https://bisqwit.iki.fi/](https://bisqwit.iki.fi/)
+- [mimalloc](https://github.com/microsoft/mimalloc)
