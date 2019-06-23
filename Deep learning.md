@@ -114,6 +114,8 @@
 - [Multi-view 3D Object Detection Network for Autonomous Driving, Xiaozhi Chen, Huimin Ma, Ji Wan, Bo Li, Tian Xia, DOI:10.1109/CVPR.2017.691, IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2017](https://www.semanticscholar.org/paper/Multi-view-3D-Object-Detection-Network-for-Driving-Chen-Ma/2e016c61724304980dc2c82b7d60896fd921c176) ([arXiv](https://arxiv.org/abs/1611.07759))
 - [NAS-FPN: Learning Scalable Feature Pyramid Architecture for Object Detection, Golnaz Ghiasi, Tsung-Yi Lin, Ruoming Pang, Quoc V. Le, Published in ArXiv 2019](https://www.semanticscholar.org/paper/NAS-FPN%3A-Learning-Scalable-Feature-Pyramid-for-Ghiasi-Lin/7b89427b330960fd82876b607e1671d29f9f2497) ([arXiv](https://arxiv.org/abs/1904.07392))
 - [Understanding the Limitations of CNN-based Absolute Camera Pose Regression, Torsten Sattler, Qunjie Zhou, Marc Pollefeys, Laura Leal-Taixé, Published in ArXiv 2019](https://www.semanticscholar.org/paper/Understanding-the-Limitations-of-CNN-based-Absolute-Sattler-Zhou/a550802ba94933dee3d10f7d24091ee621e57b0b) ([arXiv](https://arxiv.org/abs/1903.07504))
+- [Zero-Shot Semantic Segmentation, Maxime Bucher, Tuan-Hung Vu, Matthieu Cord, Patrick Pérez, Published in ArXiv 2019](https://www.semanticscholar.org/paper/Zero-Shot-Semantic-Segmentation-Bucher-Vu/ff24ced52576b5da970c1397227e2c14933e7891) ([arXiv](https://arxiv.org/abs/1906.00817))
+- [Zero-Shot Semantic Segmentation](https://github.com/RohanDoshi2018/ZeroshotSemanticSegmentation)
 
 ## Code
 - [Convolutional Neural Network (CNN), 5KK73 GPU Assignment 2013](https://sites.google.com/site/5kk73gpu2013/assignment/cnn)
@@ -128,3 +130,7 @@
 - [Intel Math Kernel Library for Deep Neural Networks (Intel MKL-DNN)](https://www.alcf.anl.gov/files/Gouicem_ALCF_SDL_2018_MKLDNN_presentation.pdf)
 - [Intel Nervana software stack](https://www.microsigma.fr/media/seminaire/Intel-TCAI-Workshop-slides-Nov-2017/Day02-03-Nervana_Software_Stack-Fayard.pdf)
 - [Anatomy of High-Performance Deep Learning Convolutions on SIMD Architectures, Evangelos Georganas, Sasikanth Avancha, Kunal Banerjee, Dhiraj D. Kalamkar, Greg Henry, Hans Pabst, Alexander Heinecke, SC18: International Conference for High Performance Computing, Networking, Storage and Analysis (2018)](https://www.semanticscholar.org/paper/Anatomy-of-High-Performance-Deep-Learning-on-SIMD-Georganas-Avancha/96b45f52832aec44326a0b944df411f7b2d67926) ([arXiv](https://arxiv.org/abs/1808.05567))
+
+## Misc
+- [Patrick Pérez](https://ptrckprz.github.io/)
+- [Andrei Bursuc](https://abursuc.github.io/)
