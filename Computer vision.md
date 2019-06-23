@@ -137,6 +137,9 @@
 - [On the Probability of the Number of Solutions for the P4P Problem, Xiao-Shan Gao, Jianliang Tang, Published in Journal of Mathematical Imaging and Vision 2006, https://doi.org/10.1007/s10851-006-5149-6](https://www.semanticscholar.org/paper/On-the-Probability-of-the-Number-of-Solutions-for-Gao-Tang/086c3697c72668c2f4aa38dfd26e0fbdbf5acc72) ([paper](http://www.mmrc.iss.ac.cn/~xgao/paper/gao-tang.pdf))
 - [On the Number of Solutions for the P4P Problem](http://mmrc.iss.ac.cn/mm/mm21/mm21pdf/gao3.pdf)
 - [Pose Estimation from Line Correspondences: A Complete Analysis and A Series of Solutions, Chi Xu, Lilian Zhang, Li Chen Cheng, Reinhard Koch, IEEE Transactions on Pattern Analysis and Machine Intelligence 2017, https://doi.org/10.1109/TPAMI.2016.2582162](https://www.semanticscholar.org/paper/Pose-Estimation-from-Line-Correspondences%3A-A-and-a-Xu-Zhang/50901306152b746e3b80101140a036a6f69d8342) ([paper](https://web.bii.a-star.edu.sg/~chengli/papers/XuEtAl_PAMI17.pdf))
+- [Insights into the robustness of control point configurations for homography and planar pose estimation, Raul Acuna, Volker Willert](https://arxiv.org/abs/1803.03025)
+- [Robustness of control point configurations for homography and planar pose estimation, Raul Acuna, Volker Willert, Published in ArXiv 2019](https://www.semanticscholar.org/paper/Robustness-of-control-point-configurations-for-and-Acuna-Willert/9e384c0735ebf0e6c511105a9c797ea836e7c381)
+- [Mobile_Marker_Based_Navigation](https://github.com/EgalYue/Mobile_Marker_Based_Navigation)
 
 ## Pose estimation
 - [DenseFusion: 6D Object Pose Estimation by Iterative Dense Fusion, Chen Wang, Danfei Xu, Yuke Zhu, Roberto Martín-Martín, Cewu Lu, Li Fei-Fei, Silvio Savarese](https://arxiv.org/abs/1901.04780)
