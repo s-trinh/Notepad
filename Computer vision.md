@@ -254,6 +254,10 @@
 - [Method for measuring stereo camera depth accuracy based on stereoscopic vision](https://www.researchgate.net/publication/235349563_Method_for_measuring_stereo_camera_depth_accuracy_based_on_stereoscopic_vision)
 - [Real-Time Dense Mapping for Self-driving Vehicles using Fisheye Cameras, Zhaopeng Cui, Lionel Heng, Ye Chuan Yeo, Andreas Geiger, Marc Pollefeys, Torsten Sattler, Published in ArXiv 2018](https://www.semanticscholar.org/paper/Real-Time-Dense-Mapping-for-Self-driving-Vehicles-Cui-Heng/f57d0494eeecf7058b8f5e55405a7a22ab07c5de) ([arXiv](https://arxiv.org/abs/1809.06132))
 - [Stereo Vision - Mathworks Example Article](http://mccormickml.com/assets/StereoVision/Stereo%20Vision%20-%20Mathworks%20Example%20Article.pdf)
+- [Dense 3D Reconstruction from Stereo (using LIBELAS)](https://sourishghosh.com/2017/dense-reconstruction-from-stereo-libelas/)
+- [Stereo Calibration](https://jayrambhia.com/blog/stereo-calibration)
+- [Single View Stereo](http://www.bauva.com/blog/Single-View-Stereo/)
+- [Stereo Camera](https://walchko.github.io/blog/Vision/stereo-vision/stereo.html)
 
 ## Ellipse detection
 - [Arc-support Line Segments Revisited: An Efficient and High-quality Ellipse Detection](https://github.com/AlanLuSun/High-quality-ellipse-detection) ([arXiv](https://arxiv.org/abs/1810.03243v4))
