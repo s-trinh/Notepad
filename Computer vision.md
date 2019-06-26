@@ -228,6 +228,7 @@
 - [Welcome to the 2006 SLAM Summer School Homepage](http://www.robots.ox.ac.uk/~SSS06/Website/index.html)
 - [https://aaltovision.github.io/JoinTheTeam/](https://aaltovision.github.io/JoinTheTeam/)
 - [PIVO: Probabilistic inertial-visual odometry for occlusion-robust navigation, Arno Solin, Santiago Cortes, Esa Rahtu, and Juho Kannala, Published in WACV 2018](https://aaltovision.github.io/PIVO/) ([poster](https://aaltovision.github.io/PIVO/assets/WACV-poster.pdf))
+- [Visual-Inertial Navigation: Challenges and Applications, IROS 2019 Workshop (whole day): November 8, 2019, Macau, China](https://udel.edu/~ghuang/iros19-vins-workshop/)
 
 ## Camera
 - [What to Expect from a Stereo Vision System](http://zone.ni.com/reference/en-XX/help/372916P-01/nivisionconceptsdita/guid-10d358bd-3dcd-4ccd-a73c-672e48aed39a/)
