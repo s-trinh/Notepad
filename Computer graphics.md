@@ -67,3 +67,6 @@
 - [Flavors of SIMD](https://zeux.io/2019/02/17/flavors-of-simd/), [simplifier.cpp](https://gist.github.com/zeux/1171b770c105b11c3bde128e1d3a16ec)
 - [Optimizing slerp](https://zeux.io/2016/05/05/optimizing-slerp/), [nlerpsimd.cpp](https://gist.github.com/zeux/1935b5f6d1c8c311e68bbd4a13955dfa)
 - [Code for the "Graphics Gems" book series](https://github.com/erich666/GraphicsGems)
+- [Toy Path Tracer](https://github.com/aras-p/ToyPathTracer)
+- [Daily Pathtracer 8: SSE HitSpheres](http://aras-p.info/blog/2018/04/11/Daily-Pathtracer-8-SSE-HitSpheres/)
+- [Software Occlusion Culling](https://github.com/rygorous/intel_occlusion_cull)
