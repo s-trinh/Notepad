@@ -229,6 +229,9 @@
 - [https://aaltovision.github.io/JoinTheTeam/](https://aaltovision.github.io/JoinTheTeam/)
 - [PIVO: Probabilistic inertial-visual odometry for occlusion-robust navigation, Arno Solin, Santiago Cortes, Esa Rahtu, and Juho Kannala, Published in WACV 2018](https://aaltovision.github.io/PIVO/) ([poster](https://aaltovision.github.io/PIVO/assets/WACV-poster.pdf))
 - [Visual-Inertial Navigation: Challenges and Applications, IROS 2019 Workshop (whole day): November 8, 2019, Macau, China](https://udel.edu/~ghuang/iros19-vins-workshop/)
+- [OpenVSLAM: a Versatile Visual SLAM Framework](https://github.com/xdspacelab/openvslam) ([doc](https://openvslam.readthedocs.io/en/master/))
+- [OpenSfM](https://github.com/mapillary/OpenSfM)
+- [Simple loop closure for Visual SLAM](https://github.com/nicolov/simple_slam_loop_closure)
 
 ## Camera
 - [What to Expect from a Stereo Vision System](http://zone.ni.com/reference/en-XX/help/372916P-01/nivisionconceptsdita/guid-10d358bd-3dcd-4ccd-a73c-672e48aed39a/)
