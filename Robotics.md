@@ -349,6 +349,7 @@
 - [Sublucid Geometry, Johnathon Selstad (Leap Motion)](https://zalo.github.io/)
 - [Python utilities used by the Personal Robotics Laboratory.](https://github.com/personalrobotics/prpy)
 - [IKBT](https://github.com/uw-biorobotics/IKBT)
+- [GeRoNa: Generic Robot Navigation](https://github.com/cogsys-tuebingen/gerona)
 
 ## Videos
 - [Marc Raibert: Boston Dynamics | MIT Artificial Intelligence (AI) Podcast](https://www.youtube.com/watch?v=LiNSPRKHyvo)
