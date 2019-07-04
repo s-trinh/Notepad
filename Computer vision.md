@@ -255,6 +255,7 @@
 - [Camera calibration using Python](https://github.com/kushalvyas/CameraCalibration)
 - [How to Project 3D Covariance Matrix to a given Image Plan (Pose)](https://stackoverflow.com/questions/49239473/how-to-project-3d-covariance-matrix-to-a-given-image-plan-pose/49614280#49614280)
 - [Calibration hints (DLR CalDe/CalLab)](https://www.dlr.de/rm/en/desktopdefault.aspx/tabid-3925/6084_read-9196/)
+- [Calibration Wizard: A Guidance System for Camera Calibration, Songyou Peng, Peter Sturm](https://arxiv.org/abs/1811.03264)
 
 ## Stereo Matching / Stereo Vision
 - [Segment-based Disparity Refinement with Occlusion Handling for Stereo Matching](https://github.com/TingmanYan/SDR) ([IEEE Xplore](https://ieeexplore.ieee.org/document/8661596))
