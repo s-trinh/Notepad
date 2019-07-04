@@ -140,6 +140,8 @@
 - [Insights into the robustness of control point configurations for homography and planar pose estimation, Raul Acuna, Volker Willert](https://arxiv.org/abs/1803.03025)
 - [Robustness of control point configurations for homography and planar pose estimation, Raul Acuna, Volker Willert, Published in ArXiv 2019](https://www.semanticscholar.org/paper/Robustness-of-control-point-configurations-for-and-Acuna-Willert/9e384c0735ebf0e6c511105a9c797ea836e7c381)
 - [Mobile_Marker_Based_Navigation](https://github.com/EgalYue/Mobile_Marker_Based_Navigation)
+- [CoplanarPosit.cs (AForge.NET)](https://github.com/andrewkirillov/AForge.NET/blob/master/Sources/Math/Geometry/CoplanarPosit.cs) ([article](http://www.aforgenet.com/articles/posit/))
+- [CoplanarPosit.java](https://github.com/Harium/keel/blob/master/src/main/java/com/harium/keel/modifier/posit/CoplanarPosit.java)
 
 ## Pose estimation
 - [DenseFusion: 6D Object Pose Estimation by Iterative Dense Fusion, Chen Wang, Danfei Xu, Yuke Zhu, Roberto Martín-Martín, Cewu Lu, Li Fei-Fei, Silvio Savarese](https://arxiv.org/abs/1901.04780)
@@ -234,6 +236,8 @@
 - [Simple loop closure for Visual SLAM](https://github.com/nicolov/simple_slam_loop_closure)
 - [COLMAP – SfM and MVS](https://demuc.de/colmap/) ([https://github.com/colmap/colmap](https://github.com/colmap/colmap))
 - [GSLAM: Initialization-robust Monocular Visual SLAM via Global Structure-from-Motion](https://frobelbest.github.io/gslam) ([https://github.com/zdzhaoyong/GSLAM](https://github.com/zdzhaoyong/GSLAM))
+- [RGBD-Inertial Trajectory Estimation and Mapping for Small Ground Rescue Robot](https://github.com/STAR-Center/VINS-RGBD)
+- [Line3D++ (Efficient 3D Scene Abstraction Using Line Segments)](https://github.com/manhofer/Line3Dpp)
 
 ## Camera
 - [What to Expect from a Stereo Vision System](http://zone.ni.com/reference/en-XX/help/372916P-01/nivisionconceptsdita/guid-10d358bd-3dcd-4ccd-a73c-672e48aed39a/)
