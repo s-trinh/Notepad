@@ -353,6 +353,7 @@
 - [STOMP (Stochastic Trajectory Optimization for Motion Planning)](http://wiki.ros.org/stomp_motion_planner)
 - [YARC — A universal kinematic controller for serial robots based on PMAC and MoveIt!, Yanyu Su, Yongzhuo Gao, Yan Wu, Wei Dong, Weidong Wang, Zhijiang Du, Signal and Information Processing Association Annual Summit and Conference (APSIPA),  Asia-Pacific (2014), https://doi.org/10.1109/APSIPA.2014.7041708](https://www.semanticscholar.org/paper/YARC-%E2%80%94-A-universal-kinematic-controller-for-serial-Su-Gao/6c82b29b407aa7f0f2242a5e2a31af4ef22fbe84) ([pdf](http://www.yan-wu.com/docs/su2014yarc.pdf))
 - [The Open Motion Planning Library (OMPL)](https://ompl.kavrakilab.org/)
+- [TOPP-RA (A New Approach to Time-Optimal Path Parameterization Based on Reachability Analysis)](https://github.com/hungpham2511/toppra)
 
 ## Videos
 - [Marc Raibert: Boston Dynamics | MIT Artificial Intelligence (AI) Podcast](https://www.youtube.com/watch?v=LiNSPRKHyvo)
