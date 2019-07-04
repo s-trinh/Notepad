@@ -39,3 +39,4 @@
 - [Guide into OpenMP: Easy multithreading programming for C++](https://bisqwit.iki.fi/story/howto/openmp/)
 - [https://bisqwit.iki.fi/](https://bisqwit.iki.fi/)
 - [mimalloc](https://github.com/microsoft/mimalloc)
+- [Intel SPMD Program Compiler](https://ispc.github.io/)
