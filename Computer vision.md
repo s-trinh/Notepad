@@ -232,6 +232,8 @@
 - [OpenVSLAM: a Versatile Visual SLAM Framework](https://github.com/xdspacelab/openvslam) ([doc](https://openvslam.readthedocs.io/en/master/))
 - [OpenSfM](https://github.com/mapillary/OpenSfM)
 - [Simple loop closure for Visual SLAM](https://github.com/nicolov/simple_slam_loop_closure)
+- [COLMAP – SfM and MVS](https://demuc.de/colmap/) ([https://github.com/colmap/colmap](https://github.com/colmap/colmap))
+- [GSLAM: Initialization-robust Monocular Visual SLAM via Global Structure-from-Motion](https://frobelbest.github.io/gslam) ([https://github.com/zdzhaoyong/GSLAM](https://github.com/zdzhaoyong/GSLAM))
 
 ## Camera
 - [What to Expect from a Stereo Vision System](http://zone.ni.com/reference/en-XX/help/372916P-01/nivisionconceptsdita/guid-10d358bd-3dcd-4ccd-a73c-672e48aed39a/)
