@@ -120,6 +120,7 @@
 ## Code
 - [Convolutional Neural Network (CNN), 5KK73 GPU Assignment 2013](https://sites.google.com/site/5kk73gpu2013/assignment/cnn)
 - [OverFeat](https://github.com/sermanet/OverFeat)
+- [SRmeetsPS (Depth Super-Resolution Meets Uncalibrated Photometric Stereo)](https://github.com/pengsongyou/SRmeetsPS)
 
 ## Libraries
 - [Tensor Comprehensions: Framework-Agnostic High-Performance Machine Learning Abstractions, Nicolas Vasilache, Oleksandr Zinenko, Theodoros Theodoridis, Priya Goyal, Zach DeVito, William S. Moses, Sven Verdoolaege, Andrew Adams, Albert Cohen, Published in ArXiv 2018](https://www.semanticscholar.org/paper/Tensor-Comprehensions%3A-Framework-Agnostic-Machine-Vasilache-Zinenko/cae9d90524cccac5081666985d5d055b71697cee) ([arXiv](https://arxiv.org/abs/1802.04730))
