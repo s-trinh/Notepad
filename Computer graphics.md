@@ -70,3 +70,5 @@
 - [Toy Path Tracer](https://github.com/aras-p/ToyPathTracer)
 - [Daily Pathtracer 8: SSE HitSpheres](http://aras-p.info/blog/2018/04/11/Daily-Pathtracer-8-SSE-HitSpheres/)
 - [Software Occlusion Culling](https://github.com/rygorous/intel_occlusion_cull)
+- [Intel® Embree - High Performance Ray Tracing Kernels](https://www.embree.org/) ([code](https://github.com/embree/embree))
+- [Intel® OSPRay - The Open, Scalable, and Portable Ray Tracing Engine](https://www.ospray.org/) ([code](https://github.com/ospray/OSPRay))
