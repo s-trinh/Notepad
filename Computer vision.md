@@ -238,6 +238,8 @@
 - [GSLAM: Initialization-robust Monocular Visual SLAM via Global Structure-from-Motion](https://frobelbest.github.io/gslam) ([https://github.com/zdzhaoyong/GSLAM](https://github.com/zdzhaoyong/GSLAM))
 - [RGBD-Inertial Trajectory Estimation and Mapping for Small Ground Rescue Robot](https://github.com/STAR-Center/VINS-RGBD)
 - [Line3D++ (Efficient 3D Scene Abstraction Using Line Segments)](https://github.com/manhofer/Line3Dpp)
+- [hector_navigation](https://github.com/tu-darmstadt-ros-pkg/hector_navigation)
+- [Multithreaded Node for pose graph optimization](https://github.com/mpkuse/solve_keyframe_pose_graph)
 
 ## Camera
 - [What to Expect from a Stereo Vision System](http://zone.ni.com/reference/en-XX/help/372916P-01/nivisionconceptsdita/guid-10d358bd-3dcd-4ccd-a73c-672e48aed39a/)
