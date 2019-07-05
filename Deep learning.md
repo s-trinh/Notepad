@@ -116,6 +116,7 @@
 - [Understanding the Limitations of CNN-based Absolute Camera Pose Regression, Torsten Sattler, Qunjie Zhou, Marc Pollefeys, Laura Leal-Taixé, Published in ArXiv 2019](https://www.semanticscholar.org/paper/Understanding-the-Limitations-of-CNN-based-Absolute-Sattler-Zhou/a550802ba94933dee3d10f7d24091ee621e57b0b) ([arXiv](https://arxiv.org/abs/1903.07504))
 - [Zero-Shot Semantic Segmentation, Maxime Bucher, Tuan-Hung Vu, Matthieu Cord, Patrick Pérez, Published in ArXiv 2019](https://www.semanticscholar.org/paper/Zero-Shot-Semantic-Segmentation-Bucher-Vu/ff24ced52576b5da970c1397227e2c14933e7891) ([arXiv](https://arxiv.org/abs/1906.00817))
 - [Zero-Shot Semantic Segmentation](https://github.com/RohanDoshi2018/ZeroshotSemanticSegmentation)
+- [Learning SO(3) Equivariant Representations with Spherical CNNs, Carlos Esteves, Christine Allen-Blanchette, Ameesh Makadia, Kostas Daniilidis, Published in ECCV 2018, https://doi.org/10.1007/978-3-030-01261-8_4](https://www.semanticscholar.org/paper/Learning-SO(3)-Equivariant-Representations-with-Esteves-Allen-Blanchette/1ec575e06a69e0c04961c2caab9d90c26c931703) ([code](https://github.com/daniilidis-group/spherical-cnn))
 
 ## Code
 - [Convolutional Neural Network (CNN), 5KK73 GPU Assignment 2013](https://sites.google.com/site/5kk73gpu2013/assignment/cnn)
