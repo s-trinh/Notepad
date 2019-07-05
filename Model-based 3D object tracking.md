@@ -33,7 +33,7 @@
 - [Photorealistic Image Synthesis for Object Instance Detection, Tomás Hodan, Vibhav Vineet, Ran Gal, Emanuel Shalev, Jon Hanzelka, Treb Connell, Pedro Urbina, Sudipta N. Sinha, Brian K. Guenter, Published in ArXiv 2019](https://www.semanticscholar.org/paper/Photorealistic-Image-Synthesis-for-Object-Instance-Hodan-Vineet/7802e7e3fcb7bd0a0c44762b53470416e7d290a9) ([arXiv](https://arxiv.org/abs/1902.03334))
 - [VISP: A Software Environment for Eye-in-Hand Visual Servoing, Éric Marchand, Published in ICRA 1999, https://doi.org/10.1109/ROBOT.1999.774089](https://www.semanticscholar.org/paper/VISP%3A-A-Software-Environment-for-Eye-in-Hand-Visual-Marchand/3119401c0dd89018c653db52d058ea6bcc2271a9) ([HAL](https://hal.inria.fr/inria-00352546))
 - [6-DoF model-based tracking of arbitrarily shaped 3D objects, Pedram Azad, David Münch, Tamim Asfour, Rüdiger Dillmann, IEEE International Conference on Robotics and Automation (2011), https://doi.org/10.1109/ICRA.2011.5979950](https://www.semanticscholar.org/paper/6-DoF-model-based-tracking-of-arbitrarily-shaped-3D-Azad-M%C3%BCnch/289b94331d5bd1db7db112fcafac1a636bde5681)
-- [6-DoF Particle Filter-based Tracking ofArbitrarily Shaped Objects - Diploma Thesis, David Münch](http://davidmuench.de/DiplomaThesis.pdf)
+- [6-DoF Particle Filter-based Tracking of Arbitrarily Shaped Objects - Diploma Thesis, David Münch](http://davidmuench.de/DiplomaThesis.pdf)
 
 ### Patents
 - [Real-Time, Model-Based Object Detection And Pose Estimation](https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2016209420&recNum=50&docAn=DE2014100299)
