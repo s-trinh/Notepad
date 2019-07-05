@@ -72,3 +72,5 @@
 - [Software Occlusion Culling](https://github.com/rygorous/intel_occlusion_cull)
 - [Intel® Embree - High Performance Ray Tracing Kernels](https://www.embree.org/) ([code](https://github.com/embree/embree))
 - [Intel® OSPRay - The Open, Scalable, and Portable Ray Tracing Engine](https://www.ospray.org/) ([code](https://github.com/ospray/OSPRay))
+- [Open Shading Language](https://github.com/imageworks/OpenShadingLanguage)
+- [OpenColorIO](https://github.com/imageworks/OpenColorIO)
