@@ -5,9 +5,9 @@
 - [Best-Known-Methods for Tuning Intel® RealSense™D400 Depth Camerasfor Best Performance](https://www.intel.com/content/dam/support/us/en/documents/emerging-technologies/intel-realsense-technology/BKMs_Tuning_RealSense_D4xx_Cam.pdf)
 
 ### ROS
-- [https://github.com/intel-ros/realsense](https://github.com/intel-ros/realsense):
+- [https://github.com/intel-ros/realsense](https://github.com/intel-ros/realsense), final backslash seems important?:
 ```
-catkin_make --cmake-args -Drealsense2_DIR=<librealsense/build/install/lib/cmake/realsense2>
+catkin_make --cmake-args -Drealsense2_DIR=<librealsense/build/install/lib/cmake/realsense2/>
 ```
 - Compatibility between RealSense viewer rosbag and ROS ([issue thread](https://github.com/IntelRealSense/librealsense/issues/2619#issuecomment-433459861)):
 ```
