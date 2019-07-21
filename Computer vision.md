@@ -243,6 +243,22 @@
 - [hector_navigation](https://github.com/tu-darmstadt-ros-pkg/hector_navigation)
 - [Multithreaded Node for pose graph optimization](https://github.com/mpkuse/solve_keyframe_pose_graph)
 - [msckf_mono - Monocular MSCKF with ROS Support (Daniilidis Group)](https://github.com/daniilidis-group/msckf_mono)
+- [Direct Visual Odometry using Bit-Planes, Hatem Alismail, Brett Browning, Simon Lucey, Published in ArXiv 2016](https://www.semanticscholar.org/paper/Direct-Visual-Odometry-using-Bit-Planes-Alismail-Browning/1446e957ef5aa4786ab208243790c9dd2eedd79c)
+- [BPVO](https://github.com/halismai/bpvo)
+- [Direct Pose Estimation and Refinement, Hatem Alismail, Published 2016, PhD Thesis, CMU](https://www.semanticscholar.org/paper/Direct-Pose-Estimation-and-Refinement-Alismail/2520c3d5d114974167561591a57f80e89650f862)
+- [Hatem Alismail](https://www.cs.cmu.edu/~halismai/)
+- [Illumination change robustness in direct visual SLAM, Seonwook Park, Thomas Schöps, Marc Pollefeys, IEEE International Conference on Robotics and Automation (ICRA) (2017), https://doi.org/10.1109/ICRA.2017.7989525](https://www.semanticscholar.org/paper/Illumination-change-robustness-in-direct-visual-Park-Sch%C3%B6ps/edcfc5dcefd791ca8d6dfb35132b782932a1b535)
+- [Low-Drift Visual Odometry in Structured Environments by Decoupling Rotational and Translational Motion, Pyojin Kim, Brian Coltin, Hyoun Jin Kim, IEEE International Conference on Robotics and Automation (ICRA) (2018), https://doi.org/10.1109/icra.2018.8463207](https://www.semanticscholar.org/paper/Low-Drift-Visual-Odometry-in-Structured-by-and-Kim-Coltin/83fa3cb16a2db3a641974ee8b45234ace9d8205c)
+- [Low-Drift Visual Odometry in Structured Environments by Decoupling Rotational and Translational Motion](http://pyojinkim.me/pub/Low-Drift-Visual-Odometry-in-Structured-Environments-by-Decoupling-Rotational-and-Translational-Motion/)
+- [Visual Odometry with Drift-Free Rotation Estimation Using Indoor Scene Regularities, Pyojin Kim, Brian Coltin, Hyoun Jin Kim, Published in BMVC 2017, https://doi.org/10.5244/c.31.62](https://www.semanticscholar.org/paper/Visual-Odometry-with-Drift-Free-Rotation-Estimation-Kim-Coltin/ef07b6ff3726226826bb96463cb25522bf6eca33)
+- [Visual Odometry with Drift-Free Rotation Estimation Using Indoor Scene Regularities](http://pyojinkim.me/pub/Visual-Odometry-with-Drift-Free-Rotation-Estimation-Using-Indoor-Scene-Regularities/)
+- [Orthogonal Plane-based Visual Odometry (OPVO)](https://github.com/PyojinKim/OPVO)
+- [Linear RGB-D SLAM for Planar Environments, Pyojin Kim, Brian Coltin, Hyoun Jin Kim, Published in ECCV 2018, https://doi.org/10.1007/978-3-030-01225-0_21](https://www.semanticscholar.org/paper/Linear-RGB-D-SLAM-for-Planar-Environments-Kim-Coltin/5c6f56a8a2d1a55523ff36d4706343ed3558da8a)
+- [Linear RGB-D SLAM for Planar Environments](http://pyojinkim.me/pub/Linear-RGBD-SLAM-for-Planar-Environments/)
+- [Brian Coltin](http://brian.coltin.org/index.php/publications)
+- [Astrobee Robot Software - Flight Software repository](https://github.com/nasa/astrobee)
+- [Point-to-hyperplane ICP: fusing different metric measurements for pose estimation, Fernando I. Ireta Muñoz, Andrew I. Comport, Published in Advanced Robotics 2018, https://doi.org/10.1080/01691864.2018.1434013](https://www.semanticscholar.org/paper/Point-to-hyperplane-ICP%3A-fusing-different-metric-Mu%C3%B1oz-Comport/2cee9573829579b432a11f6a4c25c2142494ec13) ([HAL](https://hal.archives-ouvertes.fr/hal-02061500))
+- [Recent_SLAM_Research](https://github.com/YiChenCityU/Recent_SLAM_Research)
 
 ## Camera
 - [What to Expect from a Stereo Vision System](http://zone.ni.com/reference/en-XX/help/372916P-01/nivisionconceptsdita/guid-10d358bd-3dcd-4ccd-a73c-672e48aed39a/)
@@ -308,6 +324,49 @@
 - [Face tracking based on haar-like features and eigenfaces, Paulo Menezes, José Carlos Barreto, Jorge Dias](https://www.sciencedirect.com/science/article/pii/S1474667017319936)
 - [ufpa-face-detection (Face detection for Octave / Matlab)](https://github.com/aldebaro/ufpa-face-detection)
 
+## Geometric transformations
+- [Decomposition of 2D-transform matrices](http://frederic-wang.fr/decomposition-of-2d-transform-matrices.html)
+
+## Plane Fitting
+- [Fitting a plane to many points in 3D](https://www.ilikebigbits.com/2015_03_04_plane_from_points.html)
+- [Least Squares Fitting of Data by Linear or Quadratic Structures, David Eberly, Geometric Tools, Redmond WA 98052, https://www.geometrictools.com/](https://www.geometrictools.com/Documentation/LeastSquaresFitting.pdf)
+- [3D Least Squares Plane](https://stackoverflow.com/questions/1400213/3d-least-squares-plane/1400338#1400338)
+- [Fit points to a plane algorithms, how to iterpret results?](https://stackoverflow.com/questions/15959411/fit-points-to-a-plane-algorithms-how-to-iterpret-results)
+- [Best Fitting Plane given a Set of Points](https://math.stackexchange.com/questions/99299/best-fitting-plane-given-a-set-of-points)
+- [lane fitting using SVD normal vector](https://math.stackexchange.com/questions/2810048/plane-fitting-using-svd-normal-vector)
+- [Regressions et trajectoires 3D, Jean Jacquelin](https://fr.scribd.com/doc/31477970/Regressions-et-trajectoires-3D)
+- [Finding the normal to a plane](https://web.ma.utexas.edu/users/m408m/Display12-5-4.shtml)
+- [Plane Equation](http://www.songho.ca/math/plane/plane.html)
+- [Intersections of Lines and Planes](http://geomalgorithms.com/a05-_intersect-1.html)
+- [Multi-H: Efficient recovery of tangent planes in stereo images, Daniel Barath, Jiri Matas, Levente Hajder, Published in BMVC 2016, https://doi.org/10.5244/C.30.13](https://www.semanticscholar.org/paper/Multi-H%3A-Efficient-recovery-of-tangent-planes-in-Barath-Matas/bdc63c50e4134c96572a63da48a08b094f1a4b8b) ([multi-h](https://github.com/danini/multi-h))
+
+## Robust estimation
+- [Graph-Cut RANSAC, Daniel Barath, Jiri Matas, IEEE/CVF Conference on Computer Vision and Pattern Recognition (2018), https://doi.org/10.1109/cvpr.2018.00704](https://www.semanticscholar.org/paper/Graph-Cut-RANSAC-Barath-Matas/6c0f45f3f05265f72ccce3448530a84fbc7816a7) ([Graph-Cut RANSAC](https://github.com/danini/graph-cut-ransac))
+- [MAGSAC: marginalizing sample consensus, Daniel Barath, Jiri Matas, CVPR 2019](https://www.semanticscholar.org/paper/MAGSAC%3A-marginalizing-sample-consensus-Barath-Matas/b014c48b27a821a03161f4e7d7b588c94d03ea2b) ([magsac](https://github.com/danini/magsac))
+- [Multi-class Model Fitting by Energy Minimization and Mode-Seeking, Daniel Barath, Jiri Matas, Published in ECCV 2018, https://doi.org/10.1007/978-3-030-01270-0_14](https://www.semanticscholar.org/paper/Multi-class-Model-Fitting-by-Energy-Minimization-Barath-Matas/cb62c3c45b1c2bde2e0239d670a7ade375c32073) ([multi-x](https://github.com/danini/multi-x))
+
+## Tracking / 2D registration / 2D alignment
+- [Dense Subpixel Alignment of Binary Descriptors](https://www.cs.cmu.edu/~halismai/bitplanes/) ([BitPlanes](https://github.com/halismai/bitplanes))
+- [Bit-Planes: Dense Subpixel Alignment of Binary Descriptors, Hatem Alismail, Brett Browning, Simon Lucey, Published in ArXiv 2016](https://www.semanticscholar.org/paper/Bit-Planes%3A-Dense-Subpixel-Alignment-of-Binary-Alismail-Browning/99ec2aa72e29f50d7d0b7236ed6bec657d8e0983)
+
+## Matlab
+- [Digital Image Processing Using MATLAB®, Rafael C. Gonzalez, Richard E. Woods, Steven L. Eddins](https://www.academia.edu/18324189/Digital_image_processing_using_matlab_gonzalez_)
+- [Digital Image Processing Using MATLAB®, Rafael C. Gonzalez, Richard E. Woods, Steven L. Eddins](http://web.ipac.caltech.edu/staff/fmasci/home/astro_refs/Digital_Image_Processing_2ndEd.pdf)
+- [Digital Image Processing Using MATLAB®, Rafael C. Gonzalez, Richard E. Woods, Steven L. Eddins](https://github.com/ViachaslauBohdan/mgr/blob/master/Digital%20Image%20Processing%20Using%20Matlab%20-%20Gonzalez%20Woods%20%26%20Eddins.pdf)
+- [Matlab Image Processing Toolbox™ User's Guide](https://www.mathworks.com/help/pdf_doc/images/images_tb.pdf)
+- [Matlab Computer Vision Toolbox™ User's Guide](https://www.mathworks.com/help/pdf_doc/vision/vision_ug.pdf)
+
+## RGBD Sensors
+- [ZED](https://www.stereolabs.com/zed/) / [ZED Mini](https://www.stereolabs.com/zed-mini/)
+- [Intel RealSense](https://www.intelrealsense.com/)
+- [MYNT EYE D](https://www.mynteye.com/products/mynt-eye-d-order) ([MYNT EYE D SDK Documentation, Release 1.7.6](https://buildmedia.readthedocs.org/media/pdf/mynt-eye-d-sdk/latest/mynt-eye-d-sdk.pdf), [MYNT® EYE S SDK Guide](https://slightech.github.io/MYNT-EYE-S-SDK-Guide/), [https://www.myntai.com/](https://www.myntai.com/))
+- [Structure Core](https://structure.io/structure-core)
+- [https://rosindustrial.org/3d-camera-survey/](https://rosindustrial.org/3d-camera-survey/)
+- [https://stimulant.com/depth-sensor-shootout-2/](https://stimulant.com/depth-sensor-shootout-2/)
+- [Structured Lighting, Guido Gerig, CS 6320, 3D Computer Vision, Spring 2012](http://www.sci.utah.edu/~gerig/CS6320-S2013/Materials/CS6320-CV-S2012-StructuredLight.pdf)
+- [Structured Light II, Guido Gerig, CS 6320, Spring 2012](http://www.sci.utah.edu/~gerig/CS6320-S2013/Materials/CS6320-CV-S2012-StructuredLight-II.pdf)
+- [Computational Optical Imaging - Optique Numerique -- Active Light 3D -- Autumn 2015, Ivo Ihrke](http://manao.inria.fr/perso/~ihrke/wordpress/wp-content/uploads/2015/09/structured_light_and_photometric_stereo.pdf)
+
 ## Papers
 - [Minimal Problems in Computer Vision](http://cmp.felk.cvut.cz/mini/):
 > This page provides a list of papers, software, data, and evaluations for solving minimal problems in computer vision, which is concerned with finding parameters of (geometrical) models from as small (minimal) data sets by solving systems of algebraic equations.
@@ -329,42 +388,3 @@
 - [Principles of Digital Image Processing - Core Algorithms](https://www.springer.com/kr/book/9781848001947) ([link 1](http://newton.uam.mx/xgeorge/uea/Proc_Dig_Im/Burger%20W.,%20Burge%20M.J.%20Principles%20of%20digital%20image%20processing.%20Core%20algorithms%20(Springer,%202009)(ISBN%201848001940)(O)(341s)_CsIp_.pdf))
 - [Theoretical Foundation (Kwon3D)](http://www.kwon3d.com/theories.html)
 - [Pattern Classification and Machine Learning, Matthias Seeger, Probabilistic Machine Learning Laboratory, Ecole Polytechnique Fédérale de Lausanne](https://mseeger.github.io/files/pcml_notes.pdf)
-
-## Matlab
-- [Digital Image Processing Using MATLAB®, Rafael C. Gonzalez, Richard E. Woods, Steven L. Eddins](https://www.academia.edu/18324189/Digital_image_processing_using_matlab_gonzalez_)
-- [Digital Image Processing Using MATLAB®, Rafael C. Gonzalez, Richard E. Woods, Steven L. Eddins](http://web.ipac.caltech.edu/staff/fmasci/home/astro_refs/Digital_Image_Processing_2ndEd.pdf)
-- [Digital Image Processing Using MATLAB®, Rafael C. Gonzalez, Richard E. Woods, Steven L. Eddins](https://github.com/ViachaslauBohdan/mgr/blob/master/Digital%20Image%20Processing%20Using%20Matlab%20-%20Gonzalez%20Woods%20%26%20Eddins.pdf)
-- [Matlab Image Processing Toolbox™ User's Guide](https://www.mathworks.com/help/pdf_doc/images/images_tb.pdf)
-- [Matlab Computer Vision Toolbox™ User's Guide](https://www.mathworks.com/help/pdf_doc/vision/vision_ug.pdf)
-
-## RGBD Sensors
-- [ZED](https://www.stereolabs.com/zed/) / [ZED Mini](https://www.stereolabs.com/zed-mini/)
-- [Intel RealSense](https://www.intelrealsense.com/)
-- [MYNT EYE D](https://www.mynteye.com/products/mynt-eye-d-order) ([MYNT EYE D SDK Documentation, Release 1.7.6](https://buildmedia.readthedocs.org/media/pdf/mynt-eye-d-sdk/latest/mynt-eye-d-sdk.pdf), [MYNT® EYE S SDK Guide](https://slightech.github.io/MYNT-EYE-S-SDK-Guide/), [https://www.myntai.com/](https://www.myntai.com/))
-- [Structure Core](https://structure.io/structure-core)
-- [https://rosindustrial.org/3d-camera-survey/](https://rosindustrial.org/3d-camera-survey/)
-- [https://stimulant.com/depth-sensor-shootout-2/](https://stimulant.com/depth-sensor-shootout-2/)
-- [Structured Lighting, Guido Gerig, CS 6320, 3D Computer Vision, Spring 2012](http://www.sci.utah.edu/~gerig/CS6320-S2013/Materials/CS6320-CV-S2012-StructuredLight.pdf)
-- [Structured Light II, Guido Gerig, CS 6320, Spring 2012](http://www.sci.utah.edu/~gerig/CS6320-S2013/Materials/CS6320-CV-S2012-StructuredLight-II.pdf)
-- [Computational Optical Imaging - Optique Numerique -- Active Light 3D -- Autumn 2015, Ivo Ihrke](http://manao.inria.fr/perso/~ihrke/wordpress/wp-content/uploads/2015/09/structured_light_and_photometric_stereo.pdf)
-
-## Geometric transformations
-- [Decomposition of 2D-transform matrices](http://frederic-wang.fr/decomposition-of-2d-transform-matrices.html)
-
-## Plane Fitting
-- [Fitting a plane to many points in 3D](https://www.ilikebigbits.com/2015_03_04_plane_from_points.html)
-- [Least Squares Fitting of Data by Linear or Quadratic Structures, David Eberly, Geometric Tools, Redmond WA 98052, https://www.geometrictools.com/](https://www.geometrictools.com/Documentation/LeastSquaresFitting.pdf)
-- [3D Least Squares Plane](https://stackoverflow.com/questions/1400213/3d-least-squares-plane/1400338#1400338)
-- [Fit points to a plane algorithms, how to iterpret results?](https://stackoverflow.com/questions/15959411/fit-points-to-a-plane-algorithms-how-to-iterpret-results)
-- [Best Fitting Plane given a Set of Points](https://math.stackexchange.com/questions/99299/best-fitting-plane-given-a-set-of-points)
-- [lane fitting using SVD normal vector](https://math.stackexchange.com/questions/2810048/plane-fitting-using-svd-normal-vector)
-- [Regressions et trajectoires 3D, Jean Jacquelin](https://fr.scribd.com/doc/31477970/Regressions-et-trajectoires-3D)
-- [Finding the normal to a plane](https://web.ma.utexas.edu/users/m408m/Display12-5-4.shtml)
-- [Plane Equation](http://www.songho.ca/math/plane/plane.html)
-- [Intersections of Lines and Planes](http://geomalgorithms.com/a05-_intersect-1.html)
-- [Multi-H: Efficient recovery of tangent planes in stereo images, Daniel Barath, Jiri Matas, Levente Hajder, Published in BMVC 2016, https://doi.org/10.5244/C.30.13](https://www.semanticscholar.org/paper/Multi-H%3A-Efficient-recovery-of-tangent-planes-in-Barath-Matas/bdc63c50e4134c96572a63da48a08b094f1a4b8b) ([multi-h](https://github.com/danini/multi-h))
-
-## Robust estimation
-- [Graph-Cut RANSAC, Daniel Barath, Jiri Matas, IEEE/CVF Conference on Computer Vision and Pattern Recognition (2018), https://doi.org/10.1109/cvpr.2018.00704](https://www.semanticscholar.org/paper/Graph-Cut-RANSAC-Barath-Matas/6c0f45f3f05265f72ccce3448530a84fbc7816a7) ([Graph-Cut RANSAC](https://github.com/danini/graph-cut-ransac))
-- [MAGSAC: marginalizing sample consensus, Daniel Barath, Jiri Matas, CVPR 2019](https://www.semanticscholar.org/paper/MAGSAC%3A-marginalizing-sample-consensus-Barath-Matas/b014c48b27a821a03161f4e7d7b588c94d03ea2b) ([magsac](https://github.com/danini/magsac))
-- [Multi-class Model Fitting by Energy Minimization and Mode-Seeking, Daniel Barath, Jiri Matas, Published in ECCV 2018, https://doi.org/10.1007/978-3-030-01270-0_14](https://www.semanticscholar.org/paper/Multi-class-Model-Fitting-by-Energy-Minimization-Barath-Matas/cb62c3c45b1c2bde2e0239d670a7ade375c32073) ([multi-x](https://github.com/danini/multi-x))
