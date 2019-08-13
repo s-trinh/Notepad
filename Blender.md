@@ -7,6 +7,9 @@
 - [Why does part of my model disappear when I zoom in on it in the 3D Viewport?](https://blender.stackexchange.com/questions/8553/why-does-part-of-my-model-disappear-when-i-zoom-in-on-it-in-the-3d-viewport/8554#8554): set `Clip: Start / End`
 - [How can I create an Empty in Blender 3D 2.73?](https://blender.stackexchange.com/questions/26369/how-can-i-create-an-empty-in-blender-3d-2-73/26370#26370): `shift + a > Empty > Plain Axis`
 - [An easy way to remove all children in a parent-child relation?](https://blender.stackexchange.com/questions/8146/an-easy-way-to-remove-all-children-in-a-parent-child-relation/8149#8149): `shift + g > Children` (select all children), `alt + p` (remove the parent-child relationships)
+- Center view to the cursor: `alt + home`
+- [Select linked](https://blender.stackexchange.com/questions/68393/how-can-i-select-part-of-a-mesh-and-make-it-seperate/68396#68396) ([or](https://docs.blender.org/manual/en/latest/modeling/curves/selecting.html)) for meshes: `l`, `ctrl + l`
+- [Splitting pieces of a mesh into a new object](https://blender.stackexchange.com/questions/6184/splitting-pieces-of-a-mesh-into-a-new-object/6185#6185): `p > Selection`
 
 ### Tutorials
 - [https://docs.blender.org/manual/nb/dev/](https://docs.blender.org/manual/nb/dev/)
@@ -327,6 +330,33 @@ pointyobj.constraints.remove(ttc)
 - [tutorial: Blender for Robotics | Part 5 | Game Engine and the Kinect](https://web.archive.org/web/20160329033526/http://www.warp1337.com/content/blender-robotics-part-5-game-engine-and-kinect)
 - [R2D3 Robotics simulation project](https://github.com/ajnsit/r2d3)
 - [Inverse Kinematics - Blender Fundamentals](https://www.youtube.com/watch?v=DZ_ocmY8xEI)
+
+### Add Kinematic Armature (Kuka iiwa)
+- Video tutorial: [Armature Objects - Blender Fundamentals](https://www.youtube.com/watch?v=Wq7gTaTZ-yk)
+- [Kuka download center](https://www.kuka.com/fr-fr/services/téléchargements)
+- To convert from .stp to .stl: FreeCAD
+- Split the Kuka iiwa into 7 + 1 meshes (7 joints + the base)
+- To help selecting the object meshes:
+  - `b` to select from a rectangular selection
+  - `c` for circle selection
+  - no need to hold shift or a key to add meshes
+  - unclick on `Limit selection to visible` to select all meshes, useful when for instance using the orthographic view
+  - `p > Selection` to separate the selected meshes and create a new object
+- When finished separating, click on set origin to geometry?
+- Add an armature: `shift + a > Armature > Single Bone`
+- `ctrl + tab` is the hotkey to swith to pose mode
+- `w > Subdivide` to create automatically 7 bones with the correct parenting (change the number of cuts)
+- change the head / tail coordinates to adjust the bone to the real joint (in edit mode and in the bone tab)
+- to create a new bone after the current one: `e` (extrude)
+- do not forget to create a bone for the base
+- parent the objects with the bones: pose mode, right click to select the object mesh (easier in wireframe), hold shift and right click on the bone, `ctrl + p > Bone`
+- use `iTaSC` to be able to set the joint limits?
+- display bones with frames: `Armature tab > Axes` (joint limits are applied with respect to the bones frames)
+- in `Pose mode`, for the base bone, lock all the transformations (`Bone tab > Transforms Locks`) and lock the `Bone Tab > Inverse Kinematics`?
+- in `Pose mode`, for each joint set the limits by locking the other axes and by adding a limit (limit should be displayed by a circle around the axis of rotation of the current joint)
+- `shit + a > Empty > Plain Axes`
+- in `Pose mode`, add a `Bone Constraint` for the end-effector, choose the previous Empty frame as the target, set `Axis Ref` to `Target` and lock all position and rotation
+- now the IK solver should be able to make the TCP follow the Empty frame
 
 ### Misc
 - [Display debug commands](https://blender.stackexchange.com/questions/36192/how-to-translate-a-bone-with-ik-in-pose-mode-using-the-python-api/36385#36385):
