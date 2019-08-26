@@ -259,6 +259,12 @@
 - [Astrobee Robot Software - Flight Software repository](https://github.com/nasa/astrobee)
 - [Point-to-hyperplane ICP: fusing different metric measurements for pose estimation, Fernando I. Ireta Muñoz, Andrew I. Comport, Published in Advanced Robotics 2018, https://doi.org/10.1080/01691864.2018.1434013](https://www.semanticscholar.org/paper/Point-to-hyperplane-ICP%3A-fusing-different-metric-Mu%C3%B1oz-Comport/2cee9573829579b432a11f6a4c25c2142494ec13) ([HAL](https://hal.archives-ouvertes.fr/hal-02061500))
 - [Recent_SLAM_Research](https://github.com/YiChenCityU/Recent_SLAM_Research)
+- [YGZ-Stereo-Inertial](https://github.com/gaoxiang12/ygz-stereo-inertial)
+- [Odometry drifts off for stationary pose #80](https://github.com/KumarRobotics/msckf_vio/issues/80)
+- [Detecting and Dealing with Hovering Maneuvers in Vision-aided Inertial Navigation Systems, Dimitrios G. Kottas, Kejian Wu, Stergios I. Roumeliotis, IEEE/RSJ International Conference on Intelligent Robots and Systems (2013), https://doi.org/10.1109/iros.2013.6696807](https://www.semanticscholar.org/paper/Detecting-and-dealing-with-hovering-maneuvers-in-Kottas-Wu/5cd459119880ab4fe328d4fb6acdaca62cbf80cd) ([pdf](https://www-users.cs.umn.edu/~stergios/papers/IROS_2013_Hover_Dimitris_Kejian.pdf))
+- [msckf run drifting in camera with imu device #22](https://github.com/KumarRobotics/msckf_vio/issues/22)
+- [Euclid SVO 2.0 Walkthrough](https://www.euclidcommunity.intel.com/static/tutorials/pdf/svo_2/Euclid_SVO_2.pdf)
+- [A Review of Visual-Inertial Simultaneous Localization and Mapping from Filtering-Based and Optimization-Based Perspectives, Chang Chen, Hua Zhu, Menggang Li, Shaoze You, Published in Robotics 2018, https://doi.org/10.3390/robotics7030045](https://www.semanticscholar.org/paper/A-Review-of-Visual-Inertial-Simultaneous-and-from-Chen-Zhu/430a7fc90152ff725bbbfec58f7bfe7017ca1da2) ([MDPI](https://www.mdpi.com/2218-6581/7/3/45/htm))
 
 ## Camera
 - [What to Expect from a Stereo Vision System](http://zone.ni.com/reference/en-XX/help/372916P-01/nivisionconceptsdita/guid-10d358bd-3dcd-4ccd-a73c-672e48aed39a/)
@@ -348,6 +354,9 @@
 ## Tracking / 2D registration / 2D alignment
 - [Dense Subpixel Alignment of Binary Descriptors](https://www.cs.cmu.edu/~halismai/bitplanes/) ([BitPlanes](https://github.com/halismai/bitplanes))
 - [Bit-Planes: Dense Subpixel Alignment of Binary Descriptors, Hatem Alismail, Brett Browning, Simon Lucey, Published in ArXiv 2016](https://www.semanticscholar.org/paper/Bit-Planes%3A-Dense-Subpixel-Alignment-of-Binary-Alismail-Browning/99ec2aa72e29f50d7d0b7236ed6bec657d8e0983)
+
+## Homography
+- [The Homography model](http://homepages.laas.fr/bvandepo/wiki/doku.php?id=homography)
 
 ## Matlab
 - [Digital Image Processing Using MATLAB®, Rafael C. Gonzalez, Richard E. Woods, Steven L. Eddins](https://www.academia.edu/18324189/Digital_image_processing_using_matlab_gonzalez_)
