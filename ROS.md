@@ -47,6 +47,9 @@
   
 ## Use custom OpenCV version (remove ros-kinetic-opencv3)
 - Version of `ros-kinetic-opencv3`
+<details><summary>log</summary>
+<p>
+
 ```
 General configuration for OpenCV 3.3.1-dev =====================================
   Version control:               unknown
@@ -164,6 +167,10 @@ General configuration for OpenCV 3.3.1-dev =====================================
   Install to:                    /opt/ros/kinetic
 -----------------------------------------------------------------
 ```
+
+</p>
+</details>
+
 - remove ROS OpenCV using the package manager, lots of packages depend on OpenCV, especially `ros-perception`, `ros-visualization`, `ros-simulation`? Be careful to note the dependencies that will be removed.
 - `rospack depends opencv3`
 ```
@@ -190,6 +197,9 @@ cv_bridge
 stereo_image_proc
 ```
 - `rospack list`
+<details><summary>log</summary>
+<p>
+
 ```
 $ rospack list
 actionlib /opt/ros/kinetic/share/actionlib
@@ -406,7 +416,14 @@ wfov_camera_msgs /opt/ros/kinetic/share/wfov_camera_msgs
 xacro /opt/ros/kinetic/share/xacro
 xmlrpcpp /opt/ros/kinetic/share/xmlrpcpp
 ```
+
+</p>
+</details>
+
 - `apt-cache rdepends ros-kinetic-opencv3`:
+<details><summary>log</summary>
+<p>
+
 ```
 $ apt-cache rdepends ros-kinetic-opencv3
 ros-kinetic-opencv3
@@ -504,7 +521,14 @@ Reverse Depends:
   ros-kinetic-aruco-detect
 ros-kinetic-aruco
 ```
+
+</p>
+</details>
+
 - `sudo apt-get remove ros-kinetic-opencv3 `
+<details><summary>log</summary>
+<p>
+
 ```
 $ sudo apt-get remove ros-kinetic-opencv3 
 [sudo] Mot de passe de : 
@@ -605,6 +629,10 @@ Suppression de ros-kinetic-image-geometry (1.12.8-0xenial-20180809-185452-0800) 
 Suppression de ros-kinetic-opencv3 (3.3.1-5xenial-20180809-134307-0800) ...
 Traitement des actions différées (« triggers ») pour libc-bin (2.23-0ubuntu10) ...
 ```
+
+</p>
+</details>
+
 - install the needed dependencies, something like:
 ```
 git clone https://github.com/ros-perception/image_pipeline.git
@@ -616,6 +644,9 @@ git clone https://github.com/ros-visualization/rqt_image_view.git
 ```
 - build everything with the desired OpenCV build: `catkin_make VERBOSE=1 -j4 -DCMAKE_BUILD_TYPE=RelWithDebInfo --cmake-args -DVISP_DIR=visp_buid -DOpenCV_DIR=opencv_build/install/share/OpenCV 2>&1 | tee log_build_without_ROS_OpenCV.txt`
 - `rospack list`
+<details><summary>log</summary>
+<p>
+	
 ```
 $ rospack list
 actionlib /opt/ros/kinetic/share/actionlib
@@ -820,6 +851,9 @@ xacro /opt/ros/kinetic/share/xacro
 xmlrpcpp /opt/ros/kinetic/share/xmlrpcpp
 ```
 
+</p>
+</details>
+
 ## ROS
 - locate a package: `rospack find rviz`
 
@@ -843,6 +877,9 @@ docker exec -it container_id bash
 rosrun image_view image_view image=/camera/image/image_raw #use appropriate topic name
 ```
 - [docker_run](https://github.com/lakehanne/Shells/blob/master/docker_run)
+<details><summary>script</summary>
+<p>
+
 ```
 #/bin/bash
 
@@ -898,6 +935,10 @@ else [ $is_no $usb_rep ] && [ $is_no  $disp_resp ]
 	docker run -ti --rm $repo_tag
 fi
 ```
+
+</p>
+</details>
+
 - [Is it possible to run ROS (robotic operating system) inside a Docker and have X11 outputs from GUI tools?](https://www.quora.com/Is-it-possible-to-run-ROS-robotic-operating-system-inside-a-Docker-and-have-X11-outputs-from-GUI-tools)
 ```
 sudo docker run -it  --rm=true  --name <CONTAINER NAME>   -e DISPLAY  -v "/tmp/.X11-unix:/tmp/.X11-unix"  <image name>   bash
