@@ -1,3 +1,8 @@
+### Books
+- [Fundamentals of computer graphics](https://searchworks.stanford.edu/view/8606614)
+- [Fundamentals of Computer Graphics, Fourth Edition](https://www.cs.cornell.edu/~srm/fcg4/)
+- [Foundations of 3D Computer Graphics, Steven J. Gortler](https://mitpress.mit.edu/books/foundations-3d-computer-graphics)
+
 ### Courses
 - [CSCI 520 Computer Animation and Simulation, Spring 2019 (University of Southern California)](http://www-bcf.usc.edu/~jbarbic/cs520-s19/)
 - [CSE 169, Computer Animation, Winter 2017 (UC San Diego)](https://cseweb.ucsd.edu/classes/wi17/cse169-a/)
@@ -50,6 +55,8 @@
   - [Image-Based Rendering](https://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/lec/24/lec24.pdf)
   - [Guest Lecture: Jean-Francois Lalonde](https://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/lec/25/lec25.pdf)
   - [Non-Photorealistic Rendering & Visualization](https://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/lec/27/lec27.pdf)
+- [CS4620 Introduction to Computer Graphics / CS4621 Computer Graphics Practicum, Steve Marschner (Cornell)](http://www.cs.cornell.edu/courses/cs4620/2014fa/index.shtml)
+- [CS 175 Computer Graphics, Prof. Steven Gortler (Harvard)](https://sites.fas.harvard.edu/~lib175/)
 
 ### Articles
 - [http://number-none.com/product/, Jonathan Blow](http://number-none.com/product/)
