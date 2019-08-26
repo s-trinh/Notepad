@@ -124,6 +124,7 @@
 - [ECE6553 - Spring 2017, Optimal Control and Optimization, Magnus Egerstedt (Gatech)](https://magnus.ece.gatech.edu/ece6553.html)
 - [Nonlinear Control, Hassan K. Khalil](https://www.egr.msu.edu/~khalil/NonlinearControl/)
 - [AA 274: Principles of Robotic Autonomy, Winter 2019](https://stanfordasl.github.io/aa274/)
+- [CS 4610/5335: Robotics Science and Systems (Spring 2019), Robert Platt (Northeastern University)](http://www.ccs.neu.edu/home/rplatt/cs5335_spring2019/)
 
 ## Rotation interpolation and smoothing
 - [Interpolation schemes for rigid body motions, Milos Zefran and Vijay Kumar](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.25.1776&rep=rep1&type=pdf)
@@ -160,6 +161,7 @@
 - [Rodrigues' Rotation Formula, Serge Belongie](http://mathworld.wolfram.com/RodriguesRotationFormula.html)
 - [Rodrigues vectors, unit Quaternions](http://pajarito.materials.cmu.edu/rollett/27750/Rodrigues-Vectors-Seth-2Jan15.pdf)
 - [Vector Representation of Rotations, Carlo Tomasi](https://www2.cs.duke.edu/courses/fall13/compsci527/notes/rodrigues.pdf)
+- [Four different ways to represent rotation](http://www.ccs.neu.edu/home/rplatt/cs5335_fall2016/slides/euler_quaternions.pdf)
 
 ## Lie Groups
 - [An Elementary Introduction to Groups and Representations, Brian C. Hall, University of Notre Dame, Department of Mathematics](https://arxiv.org/abs/math-ph/0005032)
@@ -205,6 +207,10 @@
 - [Lecture Notes on Lie Algebras and Lie Groups, Luiz Agostinho Ferreira](http://www.ifsc.usp.br/~laf/algebra/notes.pdf)
 - [Lie groups, E.P. van den Ban, Lecture Notes, Spring 2010](https://www.staff.science.uu.nl/~ban00101/lecnotes/lie2010.pdf)
 - [Lie groups and Lie algebras, Eckhard Meinrenken, Lecture Notes, University of Toronto, Fall 2010](http://www.math.toronto.edu/mein/teaching/LectureNotes/lie.pdf)
+- [A micro Lie theory for state estimation in robotics, Joan Solà, Jérémie Deray, Dinesh Atchuthan, Published in ArXiv 2018](https://www.semanticscholar.org/paper/A-micro-Lie-theory-for-state-estimation-in-robotics-Sol%C3%A0-Deray/3a75252bab18250b8de8be28ec376db6cfc04084)
+- [manif - A small c++11 header-only library for Lie theory](https://github.com/artivis/manif)
+- [Sophus - C++ implementation of Lie Groups using Eigen](https://github.com/strasdat/Sophus)
+- [Lie groups, Lie algebras, projective geometry and optimization for 3D Geometry, Engineering and Computer Vision, Tom Drummond ](https://www.dropbox.com/s/5y3tvypzps59s29/3DGeometry.pdf) ([ Notes on Lie Groups](http://twd20g.blogspot.com/p/notes-on-lie-groups.html))
 
 ## Quaternion
 - [The Quaternionic Exponential (and beyond), Hubert HOLIN](https://www.boost.org/doc/libs/1_48_0/libs/math/quaternion/TQE.pdf)
@@ -310,6 +316,9 @@
 - [VISUAL SERVOING with applications in medical robotics, Florent Nageotte, Michel de Mathelin, Louis Pasteur University – Strasbourg, LSIIT – Control, Vision & Robotics Research Group](http://www.lirmm.fr/uee07/presentations/lecturers/Nageotte.pdf)
 - [Implementation of a Visual Servo Control in a Bi-Manual Collaborative Robot, José Agustín Aguilar Plazaola](https://upcommons.upc.edu/handle/2117/98733) ([Semantic Scholar](https://www.semanticscholar.org/paper/Implementation-of-a-Visual-Servo-Control-in-a-Robot-Plazaola-Rosell/48b04531da2132d97e8d396531cad7fb9bdb5743))
 
+## Grasping
+- [Deictic Abstractions for Robotic Manipulation, Robert Platt, Northeastern University](https://www2.ccs.neu.edu/research/helpinghands/papers/amazon_2018_6.pdf)
+
 ## Articles / Papers
 - [Vision for Robotics, Danica Kragic and Markus Vincze](https://pdfs.semanticscholar.org/1594/1d6904c641e9225bb00648d0664026d17247.pdf)
 - [http://number-none.com/product/, Jonathan Blow](http://number-none.com/product/)
@@ -335,6 +344,10 @@
   - [https://github.com/ClintLiddick/robotics_intro](https://github.com/ClintLiddick/robotics_intro)
 - [Robotics Glossary (Yaskawa)](https://www.motoman.com/en-us/about/company/robotics-glossary)
 - [Zero-Point/Home Position/Origin of Absolute Encoder: What is the Proper Name?](https://robotics.stackexchange.com/questions/15028/zero-point-home-position-origin-of-absolute-encoder-what-is-the-proper-name)
+- [Robust Legged Robot State Estimation Using Factor Graph Optimization, David Wisth, Marco Camurri, Maurice Fallon, Published in ArXiv 2019, https://doi.org/10.1109/LRA.2019.2933768](https://www.semanticscholar.org/paper/Robust-Legged-Robot-State-Estimation-Using-Factor-Wisth-Camurri/fea202e6d0883d326574ea43d792a27a11fc59ba) ([RAL](http://www.robots.ox.ac.uk/~mobile/drs/Papers/2019RAL_wisth.pdf))
+
+## Thesis
+- [Implementation of a Visual Servo Control in a Bi-Manual Collaborative Robot, José Agustín Aguilar Plazaola](https://upcommons.upc.edu/handle/2117/98733) ([Semantic Scholar](https://www.semanticscholar.org/paper/Implementation-of-a-Visual-Servo-Control-in-a-Robot-Plazaola-Rosell/48b04531da2132d97e8d396531cad7fb9bdb5743))
 
 ## Libraries / Code
 - [Rigid motions and robotics toolbox](https://www.mathworks.com/matlabcentral/fileexchange/56758-rigid-motions-and-robotics-toolbox)
@@ -354,6 +367,9 @@
 - [YARC — A universal kinematic controller for serial robots based on PMAC and MoveIt!, Yanyu Su, Yongzhuo Gao, Yan Wu, Wei Dong, Weidong Wang, Zhijiang Du, Signal and Information Processing Association Annual Summit and Conference (APSIPA),  Asia-Pacific (2014), https://doi.org/10.1109/APSIPA.2014.7041708](https://www.semanticscholar.org/paper/YARC-%E2%80%94-A-universal-kinematic-controller-for-serial-Su-Gao/6c82b29b407aa7f0f2242a5e2a31af4ef22fbe84) ([pdf](http://www.yan-wu.com/docs/su2014yarc.pdf))
 - [The Open Motion Planning Library (OMPL)](https://ompl.kavrakilab.org/)
 - [TOPP-RA (A New Approach to Time-Optimal Path Parameterization Based on Reachability Analysis)](https://github.com/hungpham2511/toppra)
+- [Modern Robotics: Mechanics, Planning, and Control - Code Library](https://github.com/NxRLab/ModernRobotics)
+- [Visual Servoing of Objects without Object Models](https://github.com/willshw/ArmVS)
+- [Visual Servoing for Object without Prior Model](https://github.com/willshw/mfvs)
 
 ## Videos
 - [Marc Raibert: Boston Dynamics | MIT Artificial Intelligence (AI) Podcast](https://www.youtube.com/watch?v=LiNSPRKHyvo)
