@@ -125,6 +125,7 @@
 - [Nonlinear Control, Hassan K. Khalil](https://www.egr.msu.edu/~khalil/NonlinearControl/)
 - [AA 274: Principles of Robotic Autonomy, Winter 2019](https://stanfordasl.github.io/aa274/)
 - [CS 4610/5335: Robotics Science and Systems (Spring 2019), Robert Platt (Northeastern University)](http://www.ccs.neu.edu/home/rplatt/cs5335_spring2019/)
+- [3D geometry basics (for robotics), lecture notes, Marc Toussaint](https://ipvs.informatik.uni-stuttgart.de/mlr/marc/notes/3d-geometry.pdf)
 
 ## Rotation interpolation and smoothing
 - [Interpolation schemes for rigid body motions, Milos Zefran and Vijay Kumar](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.25.1776&rep=rep1&type=pdf)
@@ -162,6 +163,10 @@
 - [Rodrigues vectors, unit Quaternions](http://pajarito.materials.cmu.edu/rollett/27750/Rodrigues-Vectors-Seth-2Jan15.pdf)
 - [Vector Representation of Rotations, Carlo Tomasi](https://www2.cs.duke.edu/courses/fall13/compsci527/notes/rodrigues.pdf)
 - [Four different ways to represent rotation](http://www.ccs.neu.edu/home/rplatt/cs5335_fall2016/slides/euler_quaternions.pdf)
+- [Euler-Rodrigues formula variations, quaternion conjugation and intrinsic connections, Jian Sheng Dai, Published 2015, https://doi.org/10.1016/j.mechmachtheory.2015.03.004](https://www.semanticscholar.org/paper/Euler%E2%80%93Rodrigues-formula-variations%2C-quaternion-and-Dai/a18f601f0db948928c22dd4b31068cd77748b5da) ([ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0094114X15000415))
+- [3D geometry basics (for robotics), lecture notes, Marc Toussaint](https://ipvs.informatik.uni-stuttgart.de/mlr/marc/notes/3d-geometry.pdf)
+- [Kindr Library – Kinematics and Dynamics for Robotics (cheatsheet)](https://docs.leggedrobotics.com/kindr/cheatsheet_latest.pdf)
+- [Rotations in Three-Dimensions: Euler Angles and Rotation Matrices](http://danceswithcode.net/engineeringnotes/rotations_in_3d/rotations_in_3d_part1.html) ([part2](http://danceswithcode.net/engineeringnotes/rotations_in_3d/rotations_in_3d_part2.html))
 
 ## Lie Groups
 - [An Elementary Introduction to Groups and Representations, Brian C. Hall, University of Notre Dame, Department of Mathematics](https://arxiv.org/abs/math-ph/0005032)
@@ -211,6 +216,9 @@
 - [manif - A small c++11 header-only library for Lie theory](https://github.com/artivis/manif)
 - [Sophus - C++ implementation of Lie Groups using Eigen](https://github.com/strasdat/Sophus)
 - [Lie groups, Lie algebras, projective geometry and optimization for 3D Geometry, Engineering and Computer Vision, Tom Drummond ](https://www.dropbox.com/s/5y3tvypzps59s29/3DGeometry.pdf) ([ Notes on Lie Groups](http://twd20g.blogspot.com/p/notes-on-lie-groups.html))
+- [Getting started with Lie Groups](https://math.stackexchange.com/questions/461029/getting-started-with-lie-groups)
+- [A Compact Formula for the Derivative of a 3-D Rotation in Exponential Coordinates, Guillermo Gallego, Anthony Joseph Yezzi, Published in Journal of Mathematical Imaging and Vision 2014, https://doi.org/10.1007/s10851-014-0528-x](https://www.semanticscholar.org/paper/A-Compact-Formula-for-the-Derivative-of-a-3-D-in-Gallego-Yezzi/978b6184ac4978576f56084012aa7e895558461c) ([arXiv](https://arxiv.org/abs/1312.0788))
+- [A Lie Algebraic Approach for Consistent Pose Registration for General Euclidean Motion, Motilal Agrawal, IEEE/RSJ International Conference on Intelligent Robots and Systems (2006), https://doi.org/10.1109/iros.2006.282313](https://www.semanticscholar.org/paper/A-Lie-Algebraic-Approach-for-Consistent-Pose-for-Agrawal/210465ea2b9aa8aa2a545d6aa4a7a91979f0b7eb) ([pdf](https://www.researchgate.net/publication/224685106_A_Lie_Algebraic_Approach_for_Consistent_Pose_Registration_for_General_Euclidean_Motion))
 
 ## Quaternion
 - [The Quaternionic Exponential (and beyond), Hubert HOLIN](https://www.boost.org/doc/libs/1_48_0/libs/math/quaternion/TQE.pdf)
@@ -248,6 +256,9 @@
 - [Why and How to Avoid the Flipped Quaternion Multiplication, Hannes Sommer, Igor Gilitschenski, Michael Bloesch, Stephan Weiss, Roland Siegwart, Juan I. Nieto, Published in ArXiv 2018](https://www.semanticscholar.org/paper/Why-and-How-to-Avoid-the-Flipped-Quaternion-Sommer-Gilitschenski/6e92f7101bc989f5931e9023e3ce300dcd2dfd1d)
 - [Quaternions, orientation et mouvement, Florian Monteghetti](https://hal.archives-ouvertes.fr/hal-01618257)
 - [Quaternion kinematics for the error-state Kalman filter, Joan Solà](https://arxiv.org/abs/1711.02508)
+- [Iterative Estimation of Rotation and Translation using the Quaternion, Katsushi Ikeuchi, Mark D. Wheeler, Published 1995](https://www.semanticscholar.org/paper/Iterative-Estimation-of-Rotation-and-Translation-Ikeuchi-Wheeler/073c01149cd6cb118ae470c9bec8292dcb330808)
+- [Jacobian for conversion from Euler Angles to Quaternions, Nikolas Trawny and Stergios Roumeliotis, University of Minnesota](http://mars.cs.umn.edu/tr/reports/Trawny05c.pdf)
+- [Rotation Quaternions, and How to Use Them](http://danceswithcode.net/engineeringnotes/quaternions/quaternions.html)
 
 ## Hand-Eye calibration
 - [Poor accuracy of hand eye calibration when using vanilla Tsai's method](https://robotics.stackexchange.com/questions/14135/poor-accuracy-of-hand-eye-calibration-when-using-vanilla-tsais-method)
@@ -370,6 +381,9 @@
 - [Modern Robotics: Mechanics, Planning, and Control - Code Library](https://github.com/NxRLab/ModernRobotics)
 - [Visual Servoing of Objects without Object Models](https://github.com/willshw/ArmVS)
 - [Visual Servoing for Object without Prior Model](https://github.com/willshw/mfvs)
+- [Kindr - Kinematics and Dynamics for Robotics (ETHZ)](https://github.com/ANYbotics/kindr)
+- [pytransform3d](https://github.com/rock-learning/pytransform3d) ([pytransform - Alexander Fabisch](https://alexanderfabisch.github.io/pytransform.html))
+- [MIRA - Middleware for Robotic Applications](http://www.mira-project.org/joomla-mira/)
 
 ## Videos
 - [Marc Raibert: Boston Dynamics | MIT Artificial Intelligence (AI) Podcast](https://www.youtube.com/watch?v=LiNSPRKHyvo)
