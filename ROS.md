@@ -995,6 +995,7 @@ rosrun camera_calibration cameracalibrator.py --size 9x6 --square 0.02517 image:
 - [In robot_localization, why does differential mode not use static transforms?](https://answers.ros.org/question/329146/in-robot_localization-why-does-differential-mode-not-use-static-transforms/)
 - [ROS Transformations and frames](https://linklab-uva.github.io/autonomousracing/assets/files/L11-compressed.pdf)
 - [Integrate 3D sensing in robot_localization package](https://answers.ros.org/question/330821/integrate-3d-sensing-in-robot_localization-package/)
+- [A Generalized Extended Kalman Filter Implementation for the Robot Operating System, Thomas Moore, Daniel Stouch](http://docs.ros.org/melodic/api/robot_localization/html/_downloads/robot_localization_ias13_revised.pdf)
 
 ## Visual Odometry
 - [rtabmap_ros](http://wiki.ros.org/rtabmap_ros)
