@@ -89,6 +89,25 @@
   - [Tracking and Detection in Computer Vision - Non-linear optimization and robust estimation for tracking - Slobodan Ilić, Technischen Universität München - Winter Semester 2011/2012](http://campar.in.tum.de/twiki/pub/Chair/TeachingWs11TDCV/non-linear_optm-RANSAC.pdf)
 - [Object recognition and computer vision 2015/2016, Jean Ponce, Ivan Laptev, Cordelia Schmid and Josef Sivic](https://www.di.ens.fr/willow/teaching/recvis15/)
 - [Undergraduate course - Visual Localization & Perception (EE382), Shanghai Jiao Tong University](http://drone.sjtu.edu.cn/dpzou/teaching.php)
+- [EE267: Virtual Reality - Spring 2019, Gordon Wetzstein (Stanford)](https://stanford.edu/class/ee267/)
+  - [Lecture 1 - Introduction to VR and AR](https://stanford.edu/class/ee267/lectures/lecture1.pdf)
+  - [Lecture 2 - The Graphics Pipeline and OpenGL I: Overview and Transformations](https://stanford.edu/class/ee267/lectures/lecture2.pdf)
+  - [Lecture 3 - The Graphics Pipeline and OpenGL II: Lighting and Shading](https://stanford.edu/class/ee267/lectures/lecture3.pdf)
+  - [Lecture 4 - The Graphics Pipeline and OpenGL III: OpenGL Shading Language (GLSL)](https://stanford.edu/class/ee267/lectures/lecture4.pdf)
+  - [Lecture 5 - Human visual system](https://stanford.edu/class/ee267/lectures/lecture5.pdf)
+  - [Lecture 6 - The Graphics Pipeline and OpenGL IV: Stereo Rendering](https://stanford.edu/class/ee267/lectures/lecture6.pdf)
+  - [Lecture 7 - Head Mounted Display Optics I](https://stanford.edu/class/ee267/lectures/lecture7.pdf)
+  - [Lecture 8 - Head Mounted Display Optics II](https://stanford.edu/class/ee267/lectures/lecture8.pdf)
+  - [Lecture 9 - Interial Measurement Units I](https://stanford.edu/class/ee267/lectures/lecture9.pdf)
+  - [Lecture 10 - Interial Measurement Units II](https://stanford.edu/class/ee267/lectures/lecture10.pdf)
+  - [Lecture 11 - Pose Tracking I](https://stanford.edu/class/ee267/lectures/lecture11.pdf)
+  - [Lecture 12 - Pose Tracking II](https://stanford.edu/class/ee267/lectures/lecture12.pdf)
+  - [Lecture 13 - Panoramic Imaging and Cinematic VR](https://stanford.edu/class/ee267/lectures/lecture13.pdf)
+  - [Lecture 14 - Spatial Sound and the Vestibular System](https://stanford.edu/class/ee267/lectures/lecture14.pdf)
+  - [Lecture 15 - VR Engines and Other Aspects of VR](https://stanford.edu/class/ee267/lectures/lecture15.pdf)
+  - [Course Notes on Transformations](https://stanford.edu/class/ee267/notes/ee267_notes_graphicspipeline.pdf)
+  - [Course Notes on IMUs](https://stanford.edu/class/ee267/notes/ee267_notes_imu.pdf)
+  - [Course Notes on Tracking](https://stanford.edu/class/ee267/notes/ee267_notes_tracking.pdf)
 
 ## Workshop
 - [Bay Area Vision Meeting 2014 - Hosted by Computational Vision and Geometry Lab](http://cvgl.stanford.edu/BAVM14/) ([Index Of](http://cvgl.stanford.edu/BAVM14/slides/))
@@ -115,6 +134,7 @@
 - [The Evaluation of CloudCompare Software in the Process of TLS Point Clouds Registration](http://revcad.uab.ro/upload/40_540_16Oniga_Savu_Negrila.pdf)
 - [3-D Mapping With an RGB-D Camera, Felix Endres, Jürgen Hess, Jürgen Sturm, Daniel Cremers, Wolfram Burgard, Published in IEEE Transactions on Robotics 2014, https://doi.org/10.1109/TRO.2013.2279412](https://www.semanticscholar.org/paper/3-D-Mapping-With-an-RGB-D-Camera-Endres-Hess/3e1d0ab3cf13c62a2ffe238219d463a896d6f5d3) ([pdf](http://www2.informatik.uni-freiburg.de/~endres/files/publications/endres13tro.pdf))
 - [State of the Art on 3D Reconstruction with RGB-D Cameras, Michael Zollhöfer, Patrick Stotko, Andreas Görlitz, Christian Theobalt, Matthias Nießner, Reinhard Klein, Andreas Kolb, Published in Comput. Graph. Forum 2018, https://doi.org/10.1111/cgf.13386](https://www.semanticscholar.org/paper/State-of-the-Art-on-3D-Reconstruction-with-RGB-D-Zollh%C3%B6fer-Stotko/484024a91c1cb97b358c2cabd9fa427fcc6d52e3) ([pdf](https://web.stanford.edu/~zollhoef/papers/EG18_RecoSTAR/paper.pdf))
+- [A Tutorial on Rigid Registration - Iterative Closed Point (ICP), Shireen Elhabian, Amal Farag, Aly Farag](http://www.sci.utah.edu/~shireen/pdfs/tutorials/Elhabian_ICP09.pdf)
 
 ## PnP
 - [Lecture 23: 3-D Pose Object Recognition](http://users.umiacs.umd.edu/~ramani/cmsc426/Lecture23_3Dpose.pdf)
@@ -265,6 +285,7 @@
 - [msckf run drifting in camera with imu device #22](https://github.com/KumarRobotics/msckf_vio/issues/22)
 - [Euclid SVO 2.0 Walkthrough](https://www.euclidcommunity.intel.com/static/tutorials/pdf/svo_2/Euclid_SVO_2.pdf)
 - [A Review of Visual-Inertial Simultaneous Localization and Mapping from Filtering-Based and Optimization-Based Perspectives, Chang Chen, Hua Zhu, Menggang Li, Shaoze You, Published in Robotics 2018, https://doi.org/10.3390/robotics7030045](https://www.semanticscholar.org/paper/A-Review-of-Visual-Inertial-Simultaneous-and-from-Chen-Zhu/430a7fc90152ff725bbbfec58f7bfe7017ca1da2) ([MDPI](https://www.mdpi.com/2218-6581/7/3/45/htm))
+- [Odometry from RGB-D Cameras for Autonomous Quadcopters](http://vision.in.tum.de/_media/spezial/bib/kerl2012msc.pdf)
 
 ## Camera
 - [What to Expect from a Stereo Vision System](http://zone.ni.com/reference/en-XX/help/372916P-01/nivisionconceptsdita/guid-10d358bd-3dcd-4ccd-a73c-672e48aed39a/)
@@ -281,6 +302,7 @@
 - [How to Project 3D Covariance Matrix to a given Image Plan (Pose)](https://stackoverflow.com/questions/49239473/how-to-project-3d-covariance-matrix-to-a-given-image-plan-pose/49614280#49614280)
 - [Calibration hints (DLR CalDe/CalLab)](https://www.dlr.de/rm/en/desktopdefault.aspx/tabid-3925/6084_read-9196/)
 - [Calibration Wizard: A Guidance System for Camera Calibration, Songyou Peng, Peter Sturm](https://arxiv.org/abs/1811.03264)
+- [Hands-on Camera Calibration, By Shireen Y. Elhabian, February 2008](http://www.sci.utah.edu/~shireen/pdfs/tutorials/Elhabian_Calibration08.pdf)
 
 ## Stereo Matching / Stereo Vision
 - [Segment-based Disparity Refinement with Occlusion Handling for Stereo Matching](https://github.com/TingmanYan/SDR) ([IEEE Xplore](https://ieeexplore.ieee.org/document/8661596))
@@ -397,3 +419,4 @@
 - [Principles of Digital Image Processing - Core Algorithms](https://www.springer.com/kr/book/9781848001947) ([link 1](http://newton.uam.mx/xgeorge/uea/Proc_Dig_Im/Burger%20W.,%20Burge%20M.J.%20Principles%20of%20digital%20image%20processing.%20Core%20algorithms%20(Springer,%202009)(ISBN%201848001940)(O)(341s)_CsIp_.pdf))
 - [Theoretical Foundation (Kwon3D)](http://www.kwon3d.com/theories.html)
 - [Pattern Classification and Machine Learning, Matthias Seeger, Probabilistic Machine Learning Laboratory, Ecole Polytechnique Fédérale de Lausanne](https://mseeger.github.io/files/pcml_notes.pdf)
+- [Virtual Reality, Steven M. LaValle](http://vr.cs.uiuc.edu/)
