@@ -827,61 +827,6 @@ xmlrpcpp /opt/ros/kinetic/share/xmlrpcpp
 - Rename `~/catkin_ws/src/CMakeLists.txt` to `~/catkin_ws/src/CMakeLists.txt.symlink`
 - Copy the content of the file (`/opt/ros/kinetic/share/catkin/cmake/toplevel.cmake`) pointed in `~/catkin_ws/src/CMakeLists.txt.symlink` into a new `~/catkin_ws/src/CMakeLists.txt`
 - In a bash terminal with `source devel/setup.bash` set, launch QtCreator `~/Qt/Tools/QtCreator/bin/qtcreator &`
-
-## Misc
-- message generation issue with `Float64`:
-```
-CMake Error at /home/user/catkin_ws/build/project/cmake/project-genmsg.cmake:3 (message):
-  Could not find messages which
-  '/home/user/catkin_ws/src/project/msg/Float64ArrayStamped.msg' depends
-  on.  Did you forget to specify generate_messages(DEPENDENCIES ...)?
-
-  Cannot locate message [Float64] in package [project] with paths
-  [['/home/user/catkin_ws/src/project/msg']]
-Call Stack (most recent call first):
-  /opt/ros/kinetic/share/genmsg/cmake/genmsg-extras.cmake:307 (include)
-  mascot_ros/CMakeLists.txt:29 (generate_messages)
-```
-- just declare in `Float64ArrayStamped.msg` `Float64` as `std_msgs/Float64`
-- some info about message delays, ...:
-  - [Image subscriber lag (despite queue = 1)](https://answers.ros.org/question/220502/image-subscriber-lag-despite-queue-1/?answer=220505#post-id-220505)
-  - [How to force the subscriber to read the latest message in a topic?](https://answers.ros.org/question/278405/how-to-force-the-subscriber-to-read-the-latest-message-in-a-topic/?answer=278554#post-id-278554)
-  - [ROS publish/subscribe queues](https://answers.ros.org/question/277613/ros-publishsubscribe-queues/)
-- rosrun with parameters from command line:
-  - [http://wiki.ros.org/Remapping%20Arguments](http://wiki.ros.org/Remapping%20Arguments):
-  > You can assign private parameters for a node directly from the command-line using a single underscore _ as a prefix. For example,
-  >
-  > `rosrun rospy_tutorials talker _param:=1.0`
-  - [http://wiki.ros.org/Parameter%20Server#Private_Parameters](http://wiki.ros.org/Parameter%20Server#Private_Parameters):
-  > The ROS naming convention refers to ~name as a private name. These private names primarily are for parameters specific to a single Node. The ~ prefix prepends the Node's name to use it as a semi-private namespace -- they are still accessible from other parts of the system, but they are generally protected from accidental name collisions.
-  >
-  > You can use remapping arguments to specify node parameters on the command line by changing the tilde ~ to an underscore _, e.g.:
-  >
-  > `rosrun rospy_tutorials talker _param:=1.0`
-  - example code:
-  ```
-  #include <ros/ros.h>
-
-  int main(int argc, char *argv[]) {
-    ros::init(argc, argv, "rosrun_parameters_cmd_line_node");
-    ros::NodeHandle nh("~");
-
-    double param_dbl = nh.param("param_dbl", 10.0);
-    std::cout << "param_dbl: " << param_dbl << std::endl;
-
-    int param_int = 50;
-    nh.getParam("param_int", param_int);
-    std::cout << "param_int: " << param_int << std::endl;
-
-    bool param_bool = nh.param("param_bool", true);
-    std::cout << "param_bool: " << param_bool << std::endl;
-
-    std::string param_str = nh.param<std::string>("param_str", "default string");
-    std::cout << "param_str: " << param_str << std::endl;
-
-    return 0;
-  }
-  ```
   
 ## Docker
 - [How to use Docker (with ROS)](https://github.com/alecGraves/wiki/wiki/How-to-use-Docker-(with-ROS))
@@ -1001,3 +946,103 @@ rosrun usb_cam usb_cam_node
 rosrun camera_calibration cameracalibrator.py --size 9x6 --square 0.02517 image:=/usb_cam/image_raw camera:=/usb_cam --no-service-check
 ```
 - [camera_calibration](http://wiki.ros.org/camera_calibration)
+
+## ROS robot_localization
+- [robot_localization wiki](http://docs.ros.org/kinetic/api/robot_localization/html/)
+- [Working with the robot_localization Package](https://roscon.ros.org/2015/presentations/robot_localization.pdf)
+- [Relationsship between map, odom and base_link coordinate frames](https://answers.ros.org/question/329980/relationsship-between-map-odom-and-base_link-coordinate-frames/)
+- [In robot_localization, why does differential mode not use static transforms?](https://answers.ros.org/question/329146/in-robot_localization-why-does-differential-mode-not-use-static-transforms/)
+- [ROS Transformations and frames](https://linklab-uva.github.io/autonomousracing/assets/files/L11-compressed.pdf)
+- [Integrate 3D sensing in robot_localization package](https://answers.ros.org/question/330821/integrate-3d-sensing-in-robot_localization-package/)
+
+## Visual Odometry
+- [rtabmap_ros](http://wiki.ros.org/rtabmap_ros)
+- [viso2_ros](http://wiki.ros.org/viso2_ros)
+
+## Fiducial markers
+- [ar_track_alvar](http://wiki.ros.org/ar_track_alvar)
+
+## Misc
+- message generation issue with `Float64`:
+```
+CMake Error at /home/user/catkin_ws/build/project/cmake/project-genmsg.cmake:3 (message):
+  Could not find messages which
+  '/home/user/catkin_ws/src/project/msg/Float64ArrayStamped.msg' depends
+  on.  Did you forget to specify generate_messages(DEPENDENCIES ...)?
+
+  Cannot locate message [Float64] in package [project] with paths
+  [['/home/user/catkin_ws/src/project/msg']]
+Call Stack (most recent call first):
+  /opt/ros/kinetic/share/genmsg/cmake/genmsg-extras.cmake:307 (include)
+  mascot_ros/CMakeLists.txt:29 (generate_messages)
+```
+- just declare in `Float64ArrayStamped.msg` `Float64` as `std_msgs/Float64`
+- some info about message delays, ...:
+  - [Image subscriber lag (despite queue = 1)](https://answers.ros.org/question/220502/image-subscriber-lag-despite-queue-1/?answer=220505#post-id-220505)
+  - [How to force the subscriber to read the latest message in a topic?](https://answers.ros.org/question/278405/how-to-force-the-subscriber-to-read-the-latest-message-in-a-topic/?answer=278554#post-id-278554)
+  - [ROS publish/subscribe queues](https://answers.ros.org/question/277613/ros-publishsubscribe-queues/)
+- rosrun with parameters from command line:
+  - [http://wiki.ros.org/Remapping%20Arguments](http://wiki.ros.org/Remapping%20Arguments):
+  > You can assign private parameters for a node directly from the command-line using a single underscore _ as a prefix. For example,
+  >
+  > `rosrun rospy_tutorials talker _param:=1.0`
+  - [http://wiki.ros.org/Parameter%20Server#Private_Parameters](http://wiki.ros.org/Parameter%20Server#Private_Parameters):
+  > The ROS naming convention refers to ~name as a private name. These private names primarily are for parameters specific to a single Node. The ~ prefix prepends the Node's name to use it as a semi-private namespace -- they are still accessible from other parts of the system, but they are generally protected from accidental name collisions.
+  >
+  > You can use remapping arguments to specify node parameters on the command line by changing the tilde ~ to an underscore _, e.g.:
+  >
+  > `rosrun rospy_tutorials talker _param:=1.0`
+  - example code:
+  ```
+  #include <ros/ros.h>
+
+  int main(int argc, char *argv[]) {
+    ros::init(argc, argv, "rosrun_parameters_cmd_line_node");
+    ros::NodeHandle nh("~");
+
+    double param_dbl = nh.param("param_dbl", 10.0);
+    std::cout << "param_dbl: " << param_dbl << std::endl;
+
+    int param_int = 50;
+    nh.getParam("param_int", param_int);
+    std::cout << "param_int: " << param_int << std::endl;
+
+    bool param_bool = nh.param("param_bool", true);
+    std::cout << "param_bool: " << param_bool << std::endl;
+
+    std::string param_str = nh.param<std::string>("param_str", "default string");
+    std::cout << "param_str: " << param_str << std::endl;
+
+    return 0;
+  }
+  ```
+- [Debugging tf problems](http://wiki.ros.org/tf/Tutorials/Debugging%20tf%20problems) ([tf package](http://wiki.ros.org/tf), [     tf/Debugging tools](http://wiki.ros.org/tf/Debugging%20tools)):
+```
+# echo tf
+ $ rosrun tf tf_echo turtle3 turtle1
+# show tf tree
+$ rosrun tf view_frames
+$ evince frames.pdf
+# show tf tree
+$ rosrun rqt_tf_tree rqt_tf_tree
+# checking the timestamps
+$ rosrun tf tf_monitor turtle2 turtle1
+# roswtf
+$ roswtf
+```
+- [Run RViz with configuration file from .launch file](https://answers.ros.org/question/287670/run-rviz-with-configuration-file-from-launch-file/?answer=287673#post-id-287673):
+```
+<launch>
+  <node type="rviz" name="rviz" pkg="rviz" args="-d $(find package_name)/rviz/config_file.rviz" />
+</launch>
+```
+- [How can I stop Rtabmap from publishing transform data on /tf topic?](https://answers.ros.org/question/292835/how-can-i-stop-rtabmap-from-publishing-transform-data-on-tf-topic/?answer=292869#post-id-292869):
+```
+<node pkg="rtabmap_ros" type="rgbd_odometry" name="rgbd_odometry" output="screen">
+  <remap from="rgb/image"       to="/camera/rgb/image_rect_color"/>
+  <remap from="depth/image"     to="/camera/depth_registered/image_raw"/>
+  <remap from="rgb/camera_info" to="/camera/rgb/camera_info"/>
+  <param name="frame_id"    type="string" value="camera_link"/>
+  <param name="publish_tf"  type="bool"   value="false"/>
+</node>
+```
