@@ -1,5 +1,6 @@
 ## catkin_make
 - `catkin_make VERBOSE=1 -j4 --pkg my_package -DCMAKE_BUILD_TYPE=RelWithDebInfo --cmake-args -DVISP_DIR=path_to_visp`
+- [ref1](https://www.mankier.com/1/catkin_tools#Migrating_from_Catkin_make-1._Verify_that_your_packages_already_build_with_catkin_make), [ref2](https://answers.ros.org/question/303945/cannot-override-a-cmake-variable-via-catkin_make/?answer=303967#post-id-303967)
 
 ## Use custom OpenCV version
 - [How to specify my own OpenCV3 for cv_bridge](https://answers.ros.org/question/289090/how-to-specify-my-own-opencv3-for-cv_bridge/?answer=289155#post-id-289155):
