@@ -996,6 +996,8 @@ rosrun camera_calibration cameracalibrator.py --size 9x6 --square 0.02517 image:
 - [ROS Transformations and frames](https://linklab-uva.github.io/autonomousracing/assets/files/L11-compressed.pdf)
 - [Integrate 3D sensing in robot_localization package](https://answers.ros.org/question/330821/integrate-3d-sensing-in-robot_localization-package/)
 - [A Generalized Extended Kalman Filter Implementation for the Robot Operating System, Thomas Moore, Daniel Stouch](http://docs.ros.org/melodic/api/robot_localization/html/_downloads/robot_localization_ias13_revised.pdf)
+- [RealSense D435 + rtabmap + Pixhawk (IMU) + robot_localization](https://answers.ros.org/question/317419/realsense-d435-rtabmap-pixhawk-imu-robot_localization/)
+- [fuse (Sensor Fusion)](https://github.com/locusrobotics/fuse)
 
 ## Visual Odometry
 - [rtabmap_ros](http://wiki.ros.org/rtabmap_ros)
