@@ -169,6 +169,10 @@
 - [Backtracking Regression Forests for Accurate Camera Relocalization](https://github.com/lood339/btrf) ([paper](https://www.cs.ubc.ca/~jhchen14/btrf/2017_backtracking_regression_forests_for_accurate_camera_relocalization.pdf))
 - [Object pose alignment](https://github.com/tensorflow/graphics/blob/master/tensorflow_graphics/notebooks/6dof_alignment.ipynb) ([Colab](https://colab.research.google.com/github/tensorflow/graphics/blob/master/tensorflow_graphics/notebooks/6dof_alignment.ipynb))
 - [Fast 3D object detection and pose estimation for augmented reality systems, Seyed Hesameddin Najafi Shoushtari, Published 2006](https://www.semanticscholar.org/paper/Fast-3D-object-detection-and-pose-estimation-for-Shoushtari/2ae3e5a47b22df6c029aa696bf6b51f5a4845750) ([dissertation](https://mediatum.ub.tum.de/doc/604471/604471.pdf))
+- [Pose Estimation of a Camera using Newton Optimization on the Manifold, Klaus Diepold, Technical Report, TUM](https://mediatum.ub.tum.de/doc/655931/694156.pdf)
+- [Pose Estimation via Gauss-Newton-on-manifold, Pei Yean Lee, John B. Moore, Published 2004](https://www.semanticscholar.org/paper/Pose-Estimation-via-Gauss-Newton-on-manifold-Lee-Moore/d83fcfd1ec26c164b189ae7afa3e28beb582fb70)
+- [A monocular pose estimation system based on infrared LEDs, Matthias Faessler, Elias Mueggler, Karl Schwabe, Davide Scaramuzza, IEEE International Conference on Robotics and Automation (ICRA) (2014), https://doi.org/10.1109/icra.2014.6906962](https://www.semanticscholar.org/paper/A-monocular-pose-estimation-system-based-on-LEDs-Faessler-Mueggler/960e4fcb417a2b2679adb14ef0f9e600fc655367) ([pdf](http://rpg.ifi.uzh.ch/docs/ICRA14_Faessler.pdf))
+- [Localization from visual landmarks on a free-flying robot, Brian Coltin, Jesse Fusco, Zachary Moratto, Oleg Alexandrov, Robert Nakamura, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) (2016), https://doi.org/10.1109/iros.2016.7759644](https://www.semanticscholar.org/paper/Localization-from-visual-landmarks-on-a-free-flying-Coltin-Fusco/3b495380234038a1597a9127eb2b5883589b022d) ([pdf](https://www.nasa.gov/sites/default/files/atoms/files/coltin2016localization.pdf))
 
 ## Fiducial Tags
 - [Robust identification of fiducial markers in challenging conditions, DOI: 10.1016/j.eswa.2017.10.032](https://www.researchgate.net/publication/320439756_Robust_identification_of_fiducial_markers_in_challenging_conditions)
@@ -182,6 +186,7 @@
 - [CCTag library](https://github.com/alicevision/CCTag)
 - [LightDenseYOLO: A Fast and Accurate Marker Tracker for Autonomous UAV Landing by Visible Light Camera Sensor on Drone, Phong Ha Nguyen, Muhammad Arsalan, Ja Hyung Koo, Rizwan Ali Naqvi, Noi Quang Truong, Kang Ryoung Park, Published in Sensors 2018, https://doi.org/10.3390/s18061703](https://www.semanticscholar.org/paper/LightDenseYOLO%3A-A-Fast-and-Accurate-Marker-Tracker-Nguyen-Arsalan/fb1732a1476798c42a0123aaf127036bf8daef09) ([lightDenseYOLO](https://github.com/phongnhhn92/lightDenseYOLO))
 - [Deep ChArUco: Dark ChArUco Marker Pose Estimation, Danying Hu, Daniel DeTone, Vikram Singh Chauhan, Igor Spivak, Tomasz Malisiewicz, Published in ArXiv 2018](https://www.semanticscholar.org/paper/Deep-ChArUco%3A-Dark-ChArUco-Marker-Pose-Estimation-Hu-DeTone/6ba62e04ae965861e9de364de514444e82e99cfa) ([arXiv](https://arxiv.org/abs/1812.03247), [GroundAI](https://www.groundai.com/project/deep-charuco-dark-charuco-marker-pose-estimation/))
+- [ChromaTags: An Accurate, Robust, and Fast Visual Fiducial System (blog)](https://austingwalters.com/chromatags/) ([code](https://github.com/lettergram/chromatag))
 
 ## SLAM / Visual Odometry
 - [Direct Visual-Inertial Odometry with Stereo Cameras, Vladyslav C. Usenko, Jakob Engel, Jörg Stückler, Daniel Cremers, IEEE International Conference on Robotics and Automation (ICRA) 2016, DOI:10.1109/ICRA.2016.7487335](https://www.semanticscholar.org/paper/Direct-visual-inertial-odometry-with-stereo-cameras-Usenko-Engel/2cbc2797efe322f8ac286d90cbc2c4852f0f6bde)
@@ -286,6 +291,9 @@
 - [Euclid SVO 2.0 Walkthrough](https://www.euclidcommunity.intel.com/static/tutorials/pdf/svo_2/Euclid_SVO_2.pdf)
 - [A Review of Visual-Inertial Simultaneous Localization and Mapping from Filtering-Based and Optimization-Based Perspectives, Chang Chen, Hua Zhu, Menggang Li, Shaoze You, Published in Robotics 2018, https://doi.org/10.3390/robotics7030045](https://www.semanticscholar.org/paper/A-Review-of-Visual-Inertial-Simultaneous-and-from-Chen-Zhu/430a7fc90152ff725bbbfec58f7bfe7017ca1da2) ([MDPI](https://www.mdpi.com/2218-6581/7/3/45/htm))
 - [Odometry from RGB-D Cameras for Autonomous Quadcopters](http://vision.in.tum.de/_media/spezial/bib/kerl2012msc.pdf)
+- [Good Feature Selection for Least Squares Pose Optimization in VO/VSLAM, Yipu Zhao, Patricio A. Vela, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) (2018), https://doi.org/10.1109/iros.2018.8593641](https://www.semanticscholar.org/paper/Good-Feature-Selection-for-Least-Squares-Pose-in-Zhao-Vela/2abd816f1b5a4c6d9a477a7671f4b12bd0c6e88d)
+- [On robotics, augmented reality and localization.](https://pkok.github.io/2015/01/19/)
+- [Fusion of IMU and Vision for Absolute Scale Estimation in Monocular SLAM, Gabriel Nützi, Stephan Weiss, Davide Scaramuzza, Roland Siegwart, Published in Journal of Intelligent and Robotic Systems 2011, https://doi.org/10.1007/s10846-010-9490-z](https://www.semanticscholar.org/paper/Fusion-of-IMU-and-Vision-for-Absolute-Scale-in-SLAM-N%C3%BCtzi-Weiss/b56ef8e5791a3852864c787ae013b77b10ea1998) ([pdf](http://rpg.ifi.uzh.ch/docs/JIRS11_nutzi.pdf))
 
 ## Camera
 - [What to Expect from a Stereo Vision System](http://zone.ni.com/reference/en-XX/help/372916P-01/nivisionconceptsdita/guid-10d358bd-3dcd-4ccd-a73c-672e48aed39a/)
@@ -293,6 +301,7 @@
 - [Exposure Calculator to Compare Any Two Camera Exposures](https://www.scantips.com/lights/exposurecalc.html)
 - [Lens Selector (Basler)](https://www.baslerweb.com/en/products/tools/lens-selector/)
 - [Lens Calculator (FLIR)](https://www.flir.eu/iis/machine-vision/lens-calculator/)
+- [Is it better to shoot with a higher ISO, or use lower ISO and raise the exposure in post-processing?](https://photo.stackexchange.com/questions/35136/is-it-better-to-shoot-with-a-higher-iso-or-use-lower-iso-and-raise-the-exposure)
 
 ## Camera Calibration
 - [Single Camera Calibrator App (Matlab)](https://www.mathworks.com/help/vision/ug/single-camera-calibrator-app.html)
@@ -303,6 +312,10 @@
 - [Calibration hints (DLR CalDe/CalLab)](https://www.dlr.de/rm/en/desktopdefault.aspx/tabid-3925/6084_read-9196/)
 - [Calibration Wizard: A Guidance System for Camera Calibration, Songyou Peng, Peter Sturm](https://arxiv.org/abs/1811.03264)
 - [Hands-on Camera Calibration, By Shireen Y. Elhabian, February 2008](http://www.sci.utah.edu/~shireen/pdfs/tutorials/Elhabian_Calibration08.pdf)
+- [LAUCalTagWidget](https://github.com/drhalftone/LAUCalTagWidget)
+- [CALTag (Matlab)](https://github.com/brada/caltag) ([project page](http://www.cs.ubc.ca/labs/imager/tr/2010/Atcheson_VMV2010_CALTag/))
+- [CALTag: High Precision Fiducial Markers for Camera Calibration, Bradley Atcheson, Felix Heide, Wolfgang Heidrich, Published in VMV 2010, https://doi.org/10.2312/PE%2FVMV%2FVMV10%2F041-048](https://www.semanticscholar.org/paper/CALTag%3A-High-Precision-Fiducial-Markers-for-Camera-Atcheson-Heide/2dbae046717b058382a5a04f800405f92d040200) ([pdf](http://www.cs.ubc.ca/labs/imager/tr/2010/Atcheson_VMV2010_CALTag/files/caltag.pdf))
+- [Zhang's camera calibration (Matlab)](https://github.com/brada/zhang)
 
 ## Stereo Matching / Stereo Vision
 - [Segment-based Disparity Refinement with Occlusion Handling for Stereo Matching](https://github.com/TingmanYan/SDR) ([IEEE Xplore](https://ieeexplore.ieee.org/document/8661596))
@@ -318,6 +331,16 @@
 - [Stereo Calibration](https://jayrambhia.com/blog/stereo-calibration)
 - [Single View Stereo](http://www.bauva.com/blog/Single-View-Stereo/)
 - [Stereo Camera](https://walchko.github.io/blog/Vision/stereo-vision/stereo.html)
+
+## Underwater
+- [Fast Underwater Image Enhancement for Improved Visual Perception, Md Jahidul Islam, Youya Xia, Junaed Sattar, Published in ArXiv 2019](https://www.semanticscholar.org/paper/Fast-Underwater-Image-Enhancement-for-Improved-Islam-Xia/66fe41a19f8c46fe06864a4427e176a78450d6af)
+- [Improvement of visual servoing tasks by underwater image enhancement, Diego César, Sylvain Joyeux, Marco Reis, André Gustavo S. Conceição, Jan C. Albiez, Published in OCEANS – Anchorage 2017](https://www.semanticscholar.org/paper/Improvement-of-visual-servoing-tasks-by-underwater-C%C3%A9sar-Joyeux/84172d2cd8bee7d3a4d19e13103d7ab39b85efce)
+- [An Inertial-Aided Homography-Based Visual Servo Control Approach for (Almost) Fully Actuated Autonomous Underwater Vehicles, Szymon Krupinski, Guillaume Allibert, Minh-Duc Hua, Tarek Hamel, Published in IEEE Transactions on Robotics 2017, https://doi.org/10.1109/tro.2017.2700010](https://www.semanticscholar.org/paper/An-Inertial-Aided-Homography-Based-Visual-Servo-for-Krupinski-Allibert/5081f4aeec240aa31421f4ef198c2d4136e1d18b) ([pdf](http://www.i3s.unice.fr/~allibert/Publis/TRO17.pdf))
+- [Detecting Square Markers in Underwater Environments, Jan Čejka, Fabio Bruno, Dimitrios Skarlatos, Fotis Liarokapis, Published in Remote Sensing 2019, https://doi.org/10.3390/rs11040459](https://www.semanticscholar.org/paper/Detecting-Square-Markers-in-Underwater-Environments-%C4%8Cejka-Bruno/3f41bd230121248f063cc7c5f2c4781e4a065e13)
+- [Impact of Dehazing on Underwater Marker Detection for Augmented Reality, Marek Zuzi, Jan Čejka, Fabio Bruno, Dimitrios Skarlatos, Fotis Liarokapis, Published in Front. Robot. AI 2018, https://doi.org/10.3389/frobt.2018.00092](https://www.semanticscholar.org/paper/Impact-of-Dehazing-on-Underwater-Marker-Detection-Zuzi-%C4%8Cejka/b1173b5df60cf4cd2c760420f83a61bf4756e3e7) ([full article](https://www.frontiersin.org/articles/10.3389/frobt.2018.00092/full))
+- [Improving Marker-Based Tracking for Augmented Reality in Underwater Environments, Jan Čejka, Marek Zuzi, Panagiotis Agrafiotis, Dimitrios Skarlatos, Fabio Bruno, Fotis Liarokapis, Published in GCH 2018, https://doi.org/10.2312/gch.20181337](https://www.semanticscholar.org/paper/Improving-Marker-Based-Tracking-for-Augmented-in-%C4%8Cejka-Zuzi/1799cac1fedf35e496bac7954e0d27b2d6f86a4e) ([project](https://diglib.eg.org/handle/10.2312/gch20181337), [pdf](https://www.cg.tuwien.ac.at/events/gch2018/pdf/021-030.pdf))
+- [Robust Continuous System Integration for Critical Deep-Sea Robot Operations Using Knowledge-Enabled Simulation in the Loop, Christian A. Mueller, Tobias Doernbach, Arturo Gomez Chavez, Daniel Köhntopp, Andreas Birk, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) (2018), https://doi.org/10.1109/IROS.2018.8594392](https://www.semanticscholar.org/paper/Robust-Continuous-System-Integration-for-Critical-Mueller-Doernbach/7f01afc7d816ccf6ee4f9b2263f5255ae615504b) ([Univ project](http://www.cosyp.eu/node/377))
+- [An evaluation of artificial fiducial markers in underwater environments, Diego Brito dos Santos Cesar, Christopher Gaudig, Martin Fritsche, Marco A. dos Reis, Frank Kirchner, Published in OCEANS  - Genova 2015, https://doi.org/10.1109/oceans-genova.2015.7271491](https://www.semanticscholar.org/paper/An-evaluation-of-artificial-fiducial-markers-in-Cesar-Gaudig/b693efd871e39a6b778980fff4e448be63709684) ([pdf](https://www.researchgate.net/publication/303752217_An_evaluation_of_artificial_fiducial_markers_in_underwater_environments))
 
 ## Ellipse detection
 - [Arc-support Line Segments Revisited: An Efficient and High-quality Ellipse Detection](https://github.com/AlanLuSun/High-quality-ellipse-detection) ([arXiv](https://arxiv.org/abs/1810.03243v4))
@@ -420,3 +443,4 @@
 - [Theoretical Foundation (Kwon3D)](http://www.kwon3d.com/theories.html)
 - [Pattern Classification and Machine Learning, Matthias Seeger, Probabilistic Machine Learning Laboratory, Ecole Polytechnique Fédérale de Lausanne](https://mseeger.github.io/files/pcml_notes.pdf)
 - [Virtual Reality, Steven M. LaValle](http://vr.cs.uiuc.edu/)
+- [Visual Analysis of Humans - Looking at People, Thomas B. Moeslund, A. Hilton, Volker Krüger, Leonid Sigal, Published 2011, https://doi.org/10.1007/978-0-85729-997-0](https://www.semanticscholar.org/paper/Visual-Analysis-of-Humans-Looking-at-People-Moeslund-Hilton/0c5f6a44458c8927efaf5a5e5b04eb8ec6c699e8) ([Springer](https://link.springer.com/book/10.1007/978-0-85729-997-0))
