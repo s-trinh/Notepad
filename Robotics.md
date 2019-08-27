@@ -126,6 +126,8 @@
 - [AA 274: Principles of Robotic Autonomy, Winter 2019](https://stanfordasl.github.io/aa274/)
 - [CS 4610/5335: Robotics Science and Systems (Spring 2019), Robert Platt (Northeastern University)](http://www.ccs.neu.edu/home/rplatt/cs5335_spring2019/)
 - [3D geometry basics (for robotics), lecture notes, Marc Toussaint](https://ipvs.informatik.uni-stuttgart.de/mlr/marc/notes/3d-geometry.pdf)
+- [CS 287: Advanced Robotics, Fall 2013, Pieter Abbeel (Berkeley)](https://people.eecs.berkeley.edu/~pabbeel/cs287-fa13/)
+- [Advanced Robotics Laboratory, 034401, SPRING 2019, Moshe Shoham (Technion)](http://robotics.technion.ac.il/courses/Advanced_Laboratory/)
 
 ## Rotation interpolation and smoothing
 - [Interpolation schemes for rigid body motions, Milos Zefran and Vijay Kumar](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.25.1776&rep=rep1&type=pdf)
@@ -167,6 +169,9 @@
 - [3D geometry basics (for robotics), lecture notes, Marc Toussaint](https://ipvs.informatik.uni-stuttgart.de/mlr/marc/notes/3d-geometry.pdf)
 - [Kindr Library – Kinematics and Dynamics for Robotics (cheatsheet)](https://docs.leggedrobotics.com/kindr/cheatsheet_latest.pdf)
 - [Rotations in Three-Dimensions: Euler Angles and Rotation Matrices](http://danceswithcode.net/engineeringnotes/rotations_in_3d/rotations_in_3d_part1.html) ([part2](http://danceswithcode.net/engineeringnotes/rotations_in_3d/rotations_in_3d_part2.html))
+- [Model-Based Pose Estimation, Gerard Pons-Moll, Bodo Rosenhahn, Published in Visual Analysis of Humans 2011, https://doi.org/10.1007/978-0-85729-997-0_9](https://www.semanticscholar.org/paper/Model-Based-Pose-Estimation-Pons-Moll-Rosenhahn/7caf76557b5de6b3b53e8491850195908fae8391) ([pdf](https://virtualhumans.mpi-inf.mpg.de/papers/ponsmollModelBased/ponsmollModelBased.pdf))
+- [Derivative of Rotation Matrix Direct Matrix Derivation of Well Known Formula, Fumio Hamano, Published in ArXiv 2013](https://www.semanticscholar.org/paper/Derivative-of-Rotation-Matrix-Direct-Matrix-of-Well-Hamano/d63cb50184de33ebf949a2659bb62605b51a6385)
+- [Representing Robot Pose: The good, the bad, and the ugly.](http://paulfurgale.info/news/2014/6/9/representing-robot-pose-the-good-the-bad-and-the-ugly)
 
 ## Lie Groups
 - [An Elementary Introduction to Groups and Representations, Brian C. Hall, University of Notre Dame, Department of Mathematics](https://arxiv.org/abs/math-ph/0005032)
@@ -219,6 +224,7 @@
 - [Getting started with Lie Groups](https://math.stackexchange.com/questions/461029/getting-started-with-lie-groups)
 - [A Compact Formula for the Derivative of a 3-D Rotation in Exponential Coordinates, Guillermo Gallego, Anthony Joseph Yezzi, Published in Journal of Mathematical Imaging and Vision 2014, https://doi.org/10.1007/s10851-014-0528-x](https://www.semanticscholar.org/paper/A-Compact-Formula-for-the-Derivative-of-a-3-D-in-Gallego-Yezzi/978b6184ac4978576f56084012aa7e895558461c) ([arXiv](https://arxiv.org/abs/1312.0788))
 - [A Lie Algebraic Approach for Consistent Pose Registration for General Euclidean Motion, Motilal Agrawal, IEEE/RSJ International Conference on Intelligent Robots and Systems (2006), https://doi.org/10.1109/iros.2006.282313](https://www.semanticscholar.org/paper/A-Lie-Algebraic-Approach-for-Consistent-Pose-for-Agrawal/210465ea2b9aa8aa2a545d6aa4a7a91979f0b7eb) ([pdf](https://www.researchgate.net/publication/224685106_A_Lie_Algebraic_Approach_for_Consistent_Pose_Registration_for_General_Euclidean_Motion))
+- [On the minimization over SO (3) Manifolds, Frank O. Kuehnel, Published 2003](https://www.semanticscholar.org/paper/On-the-minimization-over-SO-(-3-)-Manifolds-Kuehnel/13f73d71e6f512ae14385b07b593d06ed64f4e9e)
 
 ## Quaternion
 - [The Quaternionic Exponential (and beyond), Hubert HOLIN](https://www.boost.org/doc/libs/1_48_0/libs/math/quaternion/TQE.pdf)
@@ -259,6 +265,13 @@
 - [Iterative Estimation of Rotation and Translation using the Quaternion, Katsushi Ikeuchi, Mark D. Wheeler, Published 1995](https://www.semanticscholar.org/paper/Iterative-Estimation-of-Rotation-and-Translation-Ikeuchi-Wheeler/073c01149cd6cb118ae470c9bec8292dcb330808)
 - [Jacobian for conversion from Euler Angles to Quaternions, Nikolas Trawny and Stergios Roumeliotis, University of Minnesota](http://mars.cs.umn.edu/tr/reports/Trawny05c.pdf)
 - [Rotation Quaternions, and How to Use Them](http://danceswithcode.net/engineeringnotes/quaternions/quaternions.html)
+- [the exponential map in the quaternion #19](https://github.com/KieranWynn/pyquaternion/issues/19)
+
+## IMU
+- [Non-linear Complementary Filters on the Special Orthogonal Group, Robert E. Mahony, Tarek Hamel, Jean Michel Pflimlin, Published in IEEE Transactions on Automatic Control 2008, https://doi.org/10.1109/tac.2008.923738](https://www.semanticscholar.org/paper/Nonlinear-Complementary-Filters-on-the-Special-Mahony-Hamel/b26c3142bc296b7642a5e5300cd53b5adf000f84) ([HAL](https://hal.archives-ouvertes.fr/hal-00488376))
+- [An efficient orientation filter for inertial and inertial / magnetic sensor arrays, Sebastian O. H. Madgwick, Published 2010](https://www.semanticscholar.org/paper/An-efficient-orientation-filter-for-inertial-and-%2F-Madgwick/bfb456caf5e71d426bd3e2fd529ee833a6c3b7e7) ([pdf](http://x-io.co.uk/res/doc/madgwick_internal_report.pdf))
+- [Open source IMU and AHRS algorithms, x-io Technologies](https://x-io.co.uk/open-source-imu-and-ahrs-algorithms/) ([Madgwick Library (Arduino)](https://github.com/arduino-libraries/MadgwickAHRS))
+- [Camera and Inertial Sensor Fusion, David Zhang](https://www.cougarrobotics.com/wp-content/uploads/2016/11/Sensor-fusion-2018.pdf)
 
 ## Hand-Eye calibration
 - [Poor accuracy of hand eye calibration when using vanilla Tsai's method](https://robotics.stackexchange.com/questions/14135/poor-accuracy-of-hand-eye-calibration-when-using-vanilla-tsais-method)
@@ -326,6 +339,10 @@
 - [Relative end-effector control using Cartesian position based visual servoing, William J. Wilson, Carol Hulls, G. S. Bell, Published in IEEE Trans. Robotics and Automation 1996, DOI:10.1109/70.538974](https://www.semanticscholar.org/paper/Relative-end-effector-control-using-Cartesian-based-Wilson-Hulls/b8fb5e5c81624ed62079ab342e719ea24d0b29ed)
 - [VISUAL SERVOING with applications in medical robotics, Florent Nageotte, Michel de Mathelin, Louis Pasteur University – Strasbourg, LSIIT – Control, Vision & Robotics Research Group](http://www.lirmm.fr/uee07/presentations/lecturers/Nageotte.pdf)
 - [Implementation of a Visual Servo Control in a Bi-Manual Collaborative Robot, José Agustín Aguilar Plazaola](https://upcommons.upc.edu/handle/2117/98733) ([Semantic Scholar](https://www.semanticscholar.org/paper/Implementation-of-a-Visual-Servo-Control-in-a-Robot-Plazaola-Rosell/48b04531da2132d97e8d396531cad7fb9bdb5743))
+- [Dynamic visual servoing of robot manipulators: optimal framework with dynamic perceptibility and chaos compensation, Javier Pérez Alepuz (Universidad de Alicante)](http://rua.ua.es/dspace/handle/10045/72433)
+- [Visual Servoing: Theory and Applications, Farrokh Janabi-Sharifi, Published 2002, https://doi.org/10.1201/9781420040692.ch15](https://www.semanticscholar.org/paper/Visual-Servoing%3A-Theory-and-Applications-Janabi-Sharifi/ce961fe7095e3d0bc5cd0bd9f8c3095a025513ca) ([pdf](https://www.ryerson.ca/~rmal/Books/1162_C15.pdf))
+- [Visual Servoing Based on Theory of Transformation Group, V.Makarychev, https://doi.org/10.1016/j.procs.2017.01.054](https://www.sciencedirect.com/science/article/pii/S1877050917300558)
+- [6D Visual Servoing for Industrial Manipulators applied to Human-Robot Interaction Scenarios, Caixia Cai, Published 2017](https://www.semanticscholar.org/paper/6D-Visual-Servoing-for-Industrial-Manipulators-to-Cai/7a9c3762bb5d1cd8e603a3cd7c268c18aad40e83) ([pdf1](http://www.i6.in.tum.de/Main/Publications/Cai2017a.pdf), [pdf2](https://mediatum.ub.tum.de/doc/1430187/466982.pdf))
 
 ## Grasping
 - [Deictic Abstractions for Robotic Manipulation, Robert Platt, Northeastern University](https://www2.ccs.neu.edu/research/helpinghands/papers/amazon_2018_6.pdf)
@@ -356,6 +373,8 @@
 - [Robotics Glossary (Yaskawa)](https://www.motoman.com/en-us/about/company/robotics-glossary)
 - [Zero-Point/Home Position/Origin of Absolute Encoder: What is the Proper Name?](https://robotics.stackexchange.com/questions/15028/zero-point-home-position-origin-of-absolute-encoder-what-is-the-proper-name)
 - [Robust Legged Robot State Estimation Using Factor Graph Optimization, David Wisth, Marco Camurri, Maurice Fallon, Published in ArXiv 2019, https://doi.org/10.1109/LRA.2019.2933768](https://www.semanticscholar.org/paper/Robust-Legged-Robot-State-Estimation-Using-Factor-Wisth-Camurri/fea202e6d0883d326574ea43d792a27a11fc59ba) ([RAL](http://www.robots.ox.ac.uk/~mobile/drs/Papers/2019RAL_wisth.pdf))
+- [Generating uniformly distributed numbers on a sphere, Cory Simon](http://corysimon.github.io/articles/uniformdistn-on-sphere/)
+- [How to generate equidistributed points on the surface of a sphere, Markus Deserno](https://www.cmu.edu/biolphys/deserno/pdf/sphere_equi.pdf) ([gist code](https://gist.github.com/dinob0t/9597525))
 
 ## Thesis
 - [Implementation of a Visual Servo Control in a Bi-Manual Collaborative Robot, José Agustín Aguilar Plazaola](https://upcommons.upc.edu/handle/2117/98733) ([Semantic Scholar](https://www.semanticscholar.org/paper/Implementation-of-a-Visual-Servo-Control-in-a-Robot-Plazaola-Rosell/48b04531da2132d97e8d396531cad7fb9bdb5743))
