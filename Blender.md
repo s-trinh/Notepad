@@ -373,3 +373,7 @@ pointyobj.constraints.remove(ttc)
 - [BlenSor](https://www.blensor.org/): Free Open Source Simulation Package for Light Detection and Ranging (LIDAR/LADAR) and Kinect sensors
 - [Creating animation in Blender using Python](http://danielhnyk.cz/creating-animation-blender-using-python/)
 - [How to move a camera in Blender 2.61 with Python](https://stackoverflow.com/questions/8865672/how-to-move-a-camera-in-blender-2-61-with-python)
+- [How to find image coordinates of the rendered vertex?](https://blender.stackexchange.com/questions/882/how-to-find-image-coordinates-of-the-rendered-vertex)
+- [How can I get vertex positions from a mesh?](https://blender.stackexchange.com/questions/1311/how-can-i-get-vertex-positions-from-a-mesh)
+- [rendering and saving images through Blender python](https://stackoverflow.com/questions/14982836/rendering-and-saving-images-through-blender-python)
+- [Pointing the camera in a particular direction programmatically](https://blender.stackexchange.com/questions/5210/pointing-the-camera-in-a-particular-direction-programmatically)
