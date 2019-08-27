@@ -272,6 +272,7 @@
 - [An efficient orientation filter for inertial and inertial / magnetic sensor arrays, Sebastian O. H. Madgwick, Published 2010](https://www.semanticscholar.org/paper/An-efficient-orientation-filter-for-inertial-and-%2F-Madgwick/bfb456caf5e71d426bd3e2fd529ee833a6c3b7e7) ([pdf](http://x-io.co.uk/res/doc/madgwick_internal_report.pdf))
 - [Open source IMU and AHRS algorithms, x-io Technologies](https://x-io.co.uk/open-source-imu-and-ahrs-algorithms/) ([Madgwick Library (Arduino)](https://github.com/arduino-libraries/MadgwickAHRS))
 - [Camera and Inertial Sensor Fusion, David Zhang](https://www.cougarrobotics.com/wp-content/uploads/2016/11/Sensor-fusion-2018.pdf)
+- [IMU Preintegration on Manifold for Efficient Visual-Inertial Maximum-a-Posteriori Estimation, Christian Forster, Luca Carlone, Frank Dellaert, Davide Scaramuzza, Published in Robotics: Science and Systems 2015, https://doi.org/10.15607/rss.2015.xi.006](https://www.semanticscholar.org/paper/IMU-Preintegration-on-Manifold-for-Efficient-Forster-Carlone/25e26d4db49e280669e26cd05305d27f35a0791a) ([RSS pdf](http://www.roboticsproceedings.org/rss11/p06.pdf))
 
 ## Hand-Eye calibration
 - [Poor accuracy of hand eye calibration when using vanilla Tsai's method](https://robotics.stackexchange.com/questions/14135/poor-accuracy-of-hand-eye-calibration-when-using-vanilla-tsais-method)
@@ -316,6 +317,7 @@
 - [On the Covariance of X in AX = XB, Huy Nguyen, Quang-Cuong Pham, Published in IEEE Trans. Robotics 2018, https://doi.org/10.1109/TRO.2018.2861905](https://www.semanticscholar.org/paper/On-the-Covariance-of-X-in-AX-%3D-XB-Nguyen-Pham/26441ffb0a995c2e5f5f04db0caed08bd96c95c3) ([arXiv](https://arxiv.org/abs/1706.03498))
 - [Covariance-Based Pose Estimation (COPE)](https://github.com/dinhhuy2109/python-cope)
 - [handeye (Nanyang Technological University, Singapore)](https://github.com/crigroup/handeye)
+- [Robot-to-Camera Calibration: A Generic Approach Using 6D Detections, Christian Nissler, Zoltan-Csaba Marton, First IEEE International Conference on Robotic Computing (IRC), https://doi.org/10.1109/irc.2017.66](https://www.semanticscholar.org/paper/Robot-to-Camera-Calibration%3A-A-Generic-Approach-6D-Nissler-Marton/f30c53796b4a78e923c5dcbf6d5acdeecaa70010) ([pdf](https://elib.dlr.de/113189/1/root.pdf))
 
 ## Kinematics
 - [Inverse Kinematics with Quaternion Joint Limits](http://number-none.com/product/IK%20with%20Quaternion%20Joint%20Limits/)
