@@ -67,7 +67,7 @@
 - [How to implement a YOLO (v3) object detector from scratch in PyTorch: Part 4](https://blog.paperspace.com/how-to-implement-a-yolo-v3-object-detector-from-scratch-in-pytorch-part-4/)
 - [How to implement a YOLO (v3) object detector from scratch in PyTorch: Part 5](https://blog.paperspace.com/how-to-implement-a-yolo-v3-object-detector-from-scratch-in-pytorch-part-5/)
 
-## Deep learning accelerators
+## Deep learning hardware accelerators
 - [A List of Chip/IP for Deep Learning](https://medium.com/@shan.tang.g/a-list-of-chip-ip-for-deep-learning-48d05f1759ae)
 - [FPGAs and AI processors: DNN and CNN for all](https://meanderful.blogspot.com/2017/06/fpgas-and-ai-processors-dnn-and-cnn-for.html)
 - [AI/ML/DL ICs and IPs](https://github.com/basicmi/Deep-Learning-Processor-List)
@@ -82,6 +82,14 @@
 - [Syntiant](https://www.syntiant.com/)
 - [Xnor.ai](https://www.xnor.ai/)
 - [NovuMind](https://www.novumind.com/)
+
+## Deep learning optimization
+- [Optimizing CNN Model Inference on CPUs, Yizhi Liu, Yao Wang, Ruofei Yu, Mu Li, Vin Sharma, Yida Wang, Published in USENIX Annual Technical Conference 2018](https://www.semanticscholar.org/paper/Optimizing-CNN-Model-Inference-on-CPUs-Liu-Wang/9d60ea2461172d30487743fa6ef8788db4b53759) ([pdf](https://www.usenix.org/system/files/atc19-liu-yizhi.pdf), [presentation](https://www.usenix.org/conference/atc19/presentation/liu-yizhi))
+- [TVM and Deep Learning Compiler Conference](https://sampl.cs.washington.edu/tvmconf/)
+- [Deep Learning Compiler](https://sampl.cs.washington.edu/tvmconf/slides/Yida-Wang-TVM-AWS.pdf)
+- [TVM Stack Overview](https://sampl.cs.washington.edu/tvmconf/slides/Tianqi-Chen-TVM-Stack-Overview.pdf)
+- [Supporting TVM on RISC-V Architectures](https://sampl.cs.washington.edu/tvmconf/slides/07-Jenq-Kuen-Lee.pdf)
+- [Deep Learning Inference in Facebook Data Centers: Characterization, Performance Optimizations and Hardware Implications, Published in ArXiv 2018](https://www.semanticscholar.org/paper/Deep-Learning-Inference-in-Facebook-Data-Centers%3A-Park-Naumov/611e0bd5d466668989df04d642104428d03eaeb6)
 
 ## Transfer learning
 - [Transfer Learning (CS231n)](https://cs231n.github.io/transfer-learning/)
@@ -107,6 +115,11 @@
 - [Deep Learning book](http://www.deeplearningbook.org/)
 - [Reinforcement Learning: An Introduction, Richard S. Sutton and Andrew G. Barto, Second Edition, MIT Press, Cambridge, MA, 2018](http://incompleteideas.net/book/the-book-2nd.html) ([pdf](http://incompleteideas.net/book/RLbook2018.pdf), [Google Drive](https://drive.google.com/file/d/1opPSz5AZ_kVa1uWOdOiveNiBFiEOHjkG/view))
 
+## Articles
+- [Benchmarking Machine Learning on the New Raspberry Pi 4, Model B](https://blog.hackster.io/benchmarking-machine-learning-on-the-new-raspberry-pi-4-model-b-88db9304ce4)
+- [Benchmarking Edge Computing](https://medium.com/@aallan/benchmarking-edge-computing-ce3f13942245)
+- [Benchmarking the Intel Neural Compute Stick on the New Raspberry Pi 4, Model B](https://blog.hackster.io/benchmarking-the-intel-neural-compute-stick-on-the-new-raspberry-pi-4-model-b-e419393f2f97)
+
 ## Papers
 - [Deep Learning Resources (DL4J)](https://deeplearning4j.org/cn/deeplearningpapers)
 - [Deep Multi-modal Object Detection and Semantic Segmentation for Autonomous Driving: Datasets, Methods, and Challenges, Di Feng, Christian Haase-Schuetz, Lars Rosenbaum, Heinz Hertlein, Fabian Duffhauss, Claudius Gläser, Werner Wiesbeck, Klaus C. J. Dietmayer, Published in ArXiv 2019](https://www.semanticscholar.org/paper/Deep-Multi-modal-Object-Detection-and-Semantic-for-Feng-Haase-Schuetz/641e8208f7a1a5510ab167b18daeb7e81efdd83b) ([arXiv](https://arxiv.org/abs/1902.07830))
@@ -118,13 +131,18 @@
 - [Zero-Shot Semantic Segmentation](https://github.com/RohanDoshi2018/ZeroshotSemanticSegmentation)
 - [Learning SO(3) Equivariant Representations with Spherical CNNs, Carlos Esteves, Christine Allen-Blanchette, Ameesh Makadia, Kostas Daniilidis, Published in ECCV 2018, https://doi.org/10.1007/978-3-030-01261-8_4](https://www.semanticscholar.org/paper/Learning-SO(3)-Equivariant-Representations-with-Esteves-Allen-Blanchette/1ec575e06a69e0c04961c2caab9d90c26c931703) ([code](https://github.com/daniilidis-group/spherical-cnn))
 - [SuperPoint: Self-Supervised Interest Point Detection and Description, Daniel DeTone, Tomasz Malisiewicz, Andrew Rabinovich, IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW) (2018), https://doi.org/10.1109/CVPRW.2018.00060](https://www.semanticscholar.org/paper/SuperPoint%3A-Self-Supervised-Interest-Point-and-DeTone-Malisiewicz/a62bdda9ae6f86fc06d7edf5d3b429eda3a6640e) ([SuperPointPretrainedNetwork](https://github.com/MagicLeapResearch/SuperPointPretrainedNetwork), [SuperPoint](https://github.com/rpautrat/SuperPoint))
+- [Catastrophic interference in connectionist networks: The sequential learning problem" The Psychology, M. Mccloskey, Published 1989, https://doi.org/10.1016/s0079-7421%2808%2960536-8](https://www.semanticscholar.org/paper/Catastrophic-interference-in-connectionist-The-The-Mccloskey/c213af6582c0d518a6e8e14217611c733eeb1ef1)
+- [Continual lifelong learning with neural networks: A review, German Ignacio Parisi, Ronald Kemker, Jose L. Part, Christopher Kanan, Stefan Wermter, Published in Neural Networks 2019, https://doi.org/10.1016/j.neunet.2019.01.012](https://www.semanticscholar.org/paper/Continual-lifelong-learning-with-neural-networks%3A-A-Parisi-Kemker/867f85cbae54a1d17a39182063aebf8319fc2597) ([full access](https://www.sciencedirect.com/science/article/pii/S0893608019300231))
+- [Incremental learning algorithms and applications, Alexander Gepperth, Barbara Hammer, Published in ESANN 2016](https://www.semanticscholar.org/paper/Incremental-learning-algorithms-and-applications-Gepperth-Hammer/5a34bd8a6a992f3e5d60256ed055d9da80a0239f) ([HAL](https://hal.inria.fr/hal-01418129))
+- [Deep learning in neural networks: An overview, Jürgen Schmidhuber, Published in Neural Networks 2015, https://doi.org/10.1016/j.neunet.2014.09.003](https://www.semanticscholar.org/paper/Deep-learning-in-neural-networks%3A-An-overview-Schmidhuber/126df9f24e29feee6e49e135da102fbbd9154a48)
 
-## Code
+## Code / Library
 - [Convolutional Neural Network (CNN), 5KK73 GPU Assignment 2013](https://sites.google.com/site/5kk73gpu2013/assignment/cnn)
 - [OverFeat](https://github.com/sermanet/OverFeat)
 - [SRmeetsPS (Depth Super-Resolution Meets Uncalibrated Photometric Stereo)](https://github.com/pengsongyou/SRmeetsPS)
+- [JAX: Autograd and XLA](https://github.com/google/jax)
 
-## Libraries
+## Libraries presentation
 - [Tensor Comprehensions: Framework-Agnostic High-Performance Machine Learning Abstractions, Nicolas Vasilache, Oleksandr Zinenko, Theodoros Theodoridis, Priya Goyal, Zach DeVito, William S. Moses, Sven Verdoolaege, Andrew Adams, Albert Cohen, Published in ArXiv 2018](https://www.semanticscholar.org/paper/Tensor-Comprehensions%3A-Framework-Agnostic-Machine-Vasilache-Zinenko/cae9d90524cccac5081666985d5d055b71697cee) ([arXiv](https://arxiv.org/abs/1802.04730))
 - [From Research to Production With PyTorch 1.0, Peter Goldsborough](https://www.socallinuxexpo.org/sites/default/files/presentations/pytorch.pdf)
 - [What is PyTorch?](https://developer.download.nvidia.com/video/gputechconf/gtc/2019/presentation/s9830-training-ai-models-faster-with-distributed-training-in-pytorch-part1.pdf)
@@ -137,3 +155,5 @@
 ## Misc
 - [Patrick Pérez](https://ptrckprz.github.io/)
 - [Andrei Bursuc](https://abursuc.github.io/)
+- [Are neural networks prone to catastrophic forgetting?](https://ai.stackexchange.com/questions/13289/are-neural-networks-prone-to-catastrophic-forgetting)
+- [Continual learning Workshop NeurIPS 2018](https://sites.google.com/view/continual2018)
