@@ -70,7 +70,7 @@
   - Faster Triangle-Triangle Intersection Tests (2006), O. Devillers et al. [[pdf](https://hal.inria.fr/inria-00072100/document), [code](https://github.com/CGAL/cgal/blob/076c982dbf37cc244206fd7962e73360fb17ea47/Intersections_3/include/CGAL/Triangle_3_Triangle_3_do_intersect.h)]
   - A Fast Triangle-Triangle Intersecion Test (1997), T. Muller. [[pdf](http://web.stanford.edu/class/cs277/resources/papers/Moller1997b.pdf), [code](https://github.com/erich666/jgt-code/blob/master/Volume_02/Number_2/Moller1997b/tritri_isectline.c)]
 
-### Codes
+### Codes / Libraries
 - [Flavors of SIMD](https://zeux.io/2019/02/17/flavors-of-simd/), [simplifier.cpp](https://gist.github.com/zeux/1171b770c105b11c3bde128e1d3a16ec)
 - [Optimizing slerp](https://zeux.io/2016/05/05/optimizing-slerp/), [nlerpsimd.cpp](https://gist.github.com/zeux/1935b5f6d1c8c311e68bbd4a13955dfa)
 - [Code for the "Graphics Gems" book series](https://github.com/erich666/GraphicsGems)
@@ -81,3 +81,6 @@
 - [Intel® OSPRay - The Open, Scalable, and Portable Ray Tracing Engine](https://www.ospray.org/) ([code](https://github.com/ospray/OSPRay))
 - [Open Shading Language](https://github.com/imageworks/OpenShadingLanguage)
 - [OpenColorIO](https://github.com/imageworks/OpenColorIO)
+- [Polymer: A Prototyping Framework for Spatial Computing](https://github.com/ddiakopoulos/polymer)
+- [cocos2d-x](https://github.com/cocos2d/cocos2d-x)
+- [appleseed (open source, physically-based global illumination rendering engine)](https://appleseedhq.net/)
