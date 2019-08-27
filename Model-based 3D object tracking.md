@@ -36,6 +36,7 @@
 - [6-DoF Particle Filter-based Tracking of Arbitrarily Shaped Objects - Diploma Thesis, David Münch](http://davidmuench.de/DiplomaThesis.pdf)
 - [Low-Drift Visual Odometry in Structured Environments by Decoupling Rotational and Translational Motion, Pyojin Kim, Brian Coltin, Hyoun Jin Kim, IEEE International Conference on Robotics and Automation (ICRA) (2018), https://doi.org/10.1109/icra.2018.8463207](https://www.semanticscholar.org/paper/Low-Drift-Visual-Odometry-in-Structured-by-and-Kim-Coltin/83fa3cb16a2db3a641974ee8b45234ace9d8205c)
 - [Point-to-hyperplane ICP: fusing different metric measurements for pose estimation, Fernando I. Ireta Muñoz, Andrew I. Comport, Published in Advanced Robotics 2018, https://doi.org/10.1080/01691864.2018.1434013](https://www.semanticscholar.org/paper/Point-to-hyperplane-ICP%3A-fusing-different-metric-Mu%C3%B1oz-Comport/2cee9573829579b432a11f6a4c25c2142494ec13) ([HAL](https://hal.archives-ouvertes.fr/hal-02061500))
+- [An Improved Tracking using IMU and Vision Fusion for Mobile Augmented Reality Applications, Kriti Kumar, Ashley Varghese, Pavan K. Reddy, N. Narendra, Prashanth Swamy, Mariswamy Girish Chandra, P. Balamuralidhar, Published in ArXiv 2014, https://doi.org/10.5121/ijma.2014.6502](https://www.semanticscholar.org/paper/An-Improved-Tracking-using-IMU-and-Vision-Fusion-Kumar-Varghese/2d0692dfd6ed24368a86cbe2ef65b305027f2d60)
 
 ### Patents
 - [Real-Time, Model-Based Object Detection And Pose Estimation](https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2016209420&recNum=50&docAn=DE2014100299)
