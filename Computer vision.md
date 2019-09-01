@@ -347,6 +347,7 @@
 - [Stereo Calibration](https://jayrambhia.com/blog/stereo-calibration)
 - [Single View Stereo](http://www.bauva.com/blog/Single-View-Stereo/)
 - [Stereo Camera](https://walchko.github.io/blog/Vision/stereo-vision/stereo.html)
+- [3D Scene Reconstruction with Multi-layer Depth and Epipolar Transformers, Daeyun Shin, Zhile Ren, Erik Sudderth, Charless Fowlkes, University of California, Irvine, In ICCV, 2019](https://research.dshin.org/iccv19/multi-layer-depth/)
 
 ## Underwater
 - [Fast Underwater Image Enhancement for Improved Visual Perception, Md Jahidul Islam, Youya Xia, Junaed Sattar, Published in ArXiv 2019](https://www.semanticscholar.org/paper/Fast-Underwater-Image-Enhancement-for-Improved-Islam-Xia/66fe41a19f8c46fe06864a4427e176a78450d6af)
