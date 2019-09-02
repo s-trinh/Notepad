@@ -4,10 +4,13 @@
 - [Least Squares Data Fitting with Applications, Per Christian Hansen, Victor Pereyra, and Godela Scherer](http://www.imm.dtu.dk/~pcha/LSDF/)
   - [Data Fitting and Linear Least-Squares Problems](http://www.imm.dtu.dk/~pcha/LSDF/LinDataFit.pdf)
   - [Nonlinear least squares problems](http://www.imm.dtu.dk/~pcha/LSDF/NonlinDataFit.pdf)
+- [Numerical Recipes, Third Edition](https://e-maxx.ru/bookz/files/numerical_recipes.pdf)
+- [Numerical Recipes in C - The Art of Scientific Computing - Second Edition](http://apps.nrbook.com/c/index.html)
 
 ## Papers
 - [Gauss-Newton / Levenberg-Marquardt Optimization - Ethan Eade - Updated March 20, 2013](http://ethaneade.com/optimization.pdf)
 - [Methods for Non-Linear Least Squares Problems (2nd ed.), Kaj Madsen, Hans Bruun Nielsen, Ole Tingleff](http://www2.imm.dtu.dk/pubdb/views/publication_details.php?id=3215) ([pdf](http://www2.imm.dtu.dk/pubdb/views/edoc_download.php/3215/pdf/imm3215.pdf))
+- [Regularized parameter estimation through iterative rescaling (PETIR): an alternative to Levenberg-Marquardt's algorithm, Maillet Denis, Stéphane André, Rémy Benjamin, Degiovanni Alain, Published 2013](https://www.semanticscholar.org/paper/Regularized-parameter-estimation-through-iterative-Denis-Andre%CC%81/9d84d824c0a3d4cd9906900545b9dfe4cd2b9797) ([HAL](https://hal.archives-ouvertes.fr/hal-00867608))
 
 ## Courses
 - [Tracking and Detection in Computer Vision - Non-linear optimization and robust estimation for tracking - Slobodan Ilić, Technischen Universität München - Winter Semester 2011/2012](http://campar.in.tum.de/twiki/pub/Chair/TeachingWs11TDCV/non-linear_optm-RANSAC.pdf)
@@ -44,6 +47,7 @@
 ## Code
 - [Levenberg Marquardt](https://github.com/ydsf16/LevenbergMarquardt)
 - [General Norm Minimization Solver](https://github.com/yasumat/NormMinimization)
+- [lmfit (C library for Levenberg-Marquardt least-squares minimization and curve fitting)](https://jugit.fz-juelich.de/mlz/lmfit)
 
 ## Misc
 - [Relation between Covariance matrix and Jacobian in Nonlinear Least Squares](https://stats.stackexchange.com/questions/231868/relation-between-covariance-matrix-and-jacobian-in-nonlinear-least-squares/231886#231886)
