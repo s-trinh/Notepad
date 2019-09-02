@@ -135,6 +135,7 @@
 - [3-D Mapping With an RGB-D Camera, Felix Endres, Jürgen Hess, Jürgen Sturm, Daniel Cremers, Wolfram Burgard, Published in IEEE Transactions on Robotics 2014, https://doi.org/10.1109/TRO.2013.2279412](https://www.semanticscholar.org/paper/3-D-Mapping-With-an-RGB-D-Camera-Endres-Hess/3e1d0ab3cf13c62a2ffe238219d463a896d6f5d3) ([pdf](http://www2.informatik.uni-freiburg.de/~endres/files/publications/endres13tro.pdf))
 - [State of the Art on 3D Reconstruction with RGB-D Cameras, Michael Zollhöfer, Patrick Stotko, Andreas Görlitz, Christian Theobalt, Matthias Nießner, Reinhard Klein, Andreas Kolb, Published in Comput. Graph. Forum 2018, https://doi.org/10.1111/cgf.13386](https://www.semanticscholar.org/paper/State-of-the-Art-on-3D-Reconstruction-with-RGB-D-Zollh%C3%B6fer-Stotko/484024a91c1cb97b358c2cabd9fa427fcc6d52e3) ([pdf](https://web.stanford.edu/~zollhoef/papers/EG18_RecoSTAR/paper.pdf))
 - [A Tutorial on Rigid Registration - Iterative Closed Point (ICP), Shireen Elhabian, Amal Farag, Aly Farag](http://www.sci.utah.edu/~shireen/pdfs/tutorials/Elhabian_ICP09.pdf)
+- [Bundle Adjustment - A Modern Synthesis, Bill Triggs, Philip F. McLauchlan, Richard I. Hartley, Andrew W. Fitzgibbon, Published in Workshop on Vision Algorithms 1999, https://doi.org/10.1007/3-540-44480-7_21](https://www.semanticscholar.org/paper/Bundle-Adjustment-A-Modern-Synthesis-Triggs-McLauchlan/1cf6c415f598273ff4b3c03a1597e30402800a99) ([pdf](https://lear.inrialpes.fr/pubs/2000/TMHF00/Triggs-va99.pdf))
 
 ## PnP
 - [Lecture 23: 3-D Pose Object Recognition](http://users.umiacs.umd.edu/~ramani/cmsc426/Lecture23_3Dpose.pdf)
@@ -162,6 +163,9 @@
 - [Mobile_Marker_Based_Navigation](https://github.com/EgalYue/Mobile_Marker_Based_Navigation)
 - [CoplanarPosit.cs (AForge.NET)](https://github.com/andrewkirillov/AForge.NET/blob/master/Sources/Math/Geometry/CoplanarPosit.cs) ([article](http://www.aforgenet.com/articles/posit/))
 - [CoplanarPosit.java](https://github.com/Harium/keel/blob/master/src/main/java/com/harium/keel/modifier/posit/CoplanarPosit.java)
+- [Revisiting the PnP Problem: A Fast, General and Optimal Solution, Yinqiang Zheng, Yubin Kuang, Shigeki Sugimoto, Kalle Åström, Masatoshi Okutomi, Published in IEEE International Conference on Computer Vision 2013, https://doi.org/10.1109/iccv.2013.291](https://www.semanticscholar.org/paper/Revisiting-the-PnP-Problem%3A-A-Fast%2C-General-and-Zheng-Kuang/0742676f24dc29df783905fa8d5d48cbfed7a253) ([pdf](http://www1.maths.lth.se/matematiklth/vision/publdb/reports/pdf/zheng-kuang-etal-iiccvi-13.pdf))
+- [Leveraging Feature Uncertainty in the PnP Problem, Luis Ferraz, Xavier Binefa, Francesc Moreno-Noguer, Published in BMVC 2014, https://doi.org/10.5244/c.28.83](https://www.semanticscholar.org/paper/Leveraging-Feature-Uncertainty-in-the-PnP-Problem-Ferraz-Binefa/5717266e0c320414ab7946ab9a59b0f3e0321e27) ([pdf](http://www.iri.upc.edu/files/scidoc/1588-Leveraging-Feature-Uncertainty-in-the-PnP-Problem.pdf))
+- [3D Pose Estimation Based on Coplanar POSIT Algorithm, Hao Wu](http://www.haowuhw.com/pose/report.pdf)
 
 ## Pose estimation
 - [DenseFusion: 6D Object Pose Estimation by Iterative Dense Fusion, Chen Wang, Danfei Xu, Yuke Zhu, Roberto Martín-Martín, Cewu Lu, Li Fei-Fei, Silvio Savarese](https://arxiv.org/abs/1901.04780)
@@ -175,6 +179,9 @@
 - [Localization from visual landmarks on a free-flying robot, Brian Coltin, Jesse Fusco, Zachary Moratto, Oleg Alexandrov, Robert Nakamura, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) (2016), https://doi.org/10.1109/iros.2016.7759644](https://www.semanticscholar.org/paper/Localization-from-visual-landmarks-on-a-free-flying-Coltin-Fusco/3b495380234038a1597a9127eb2b5883589b022d) ([pdf](https://www.nasa.gov/sites/default/files/atoms/files/coltin2016localization.pdf))
 - [A probabilistic framework for next best view estimation in a cluttered environment, Christian Potthast, Gaurav S. Sukhatme, Published in J. Visual Communication and Image Representation 2014, https://doi.org/10.1016/j.jvcir.2013.07.006](https://www.semanticscholar.org/paper/A-probabilistic-framework-for-next-best-view-in-a-Potthast-Sukhatme/600aa5799b50912f2a7f037b59d57e144a11d2ea) ([pdf](http://robotics.usc.edu/~potthast/potthast_vua2014.pdf))
 - [SolvePnP sensitivity to noise, distance and diameter [ArUco Experiments 2] (YT)](https://www.youtube.com/watch?v=dsRzU5a5YLc) ([data](https://www.dropbox.com/sh/vhbuta0wodje8h3/AABQ_AJJL8es41eHFfmo1Z0Ma?dl=0), [data2](https://www.dropbox.com/sh/5uzuktqdqq9sksz/AADoz-E9bZe2MIi-PZXdpVN-a?dl=0))
+- [6DoF Pose Estimation for Industrial Manipulation based on Synthetic Data, Manuel Brucker, Maximilian Durner, Zoltan-Csaba Marton, Bálint-Benczédi Ferenc, Martin Sundermeyer, Rudolph Triebel, Published 2018](https://www.semanticscholar.org/paper/6DoF-Pose-Estimation-for-Industrial-Manipulation-on-Brucker-Durner/7f67b4a5bf2d2b81ce677aaaf42ac700a704d030)
+- [End-to-End 6-DoF Object Pose Estimation Through Differentiable Rasterization, Andrea Palazzi, Luca Bergamini, Simone Calderara, Rita Cucchiara, Published in ECCV Workshops 2018, https://doi.org/10.1007/978-3-030-11015-4_53](https://www.semanticscholar.org/paper/End-to-End-6-DoF-Object-Pose-Estimation-Through-Palazzi-Bergamini/95c9cc124e961236bcfb6954523ddcd3aa657a76) ([pdf](https://iris.unimore.it/retrieve/handle/11380/1167726/205862/palazzi_eccvw.pdf))
+- [Direct pose estimation for planar objects, Po-Chen Wu, Hung-Yu Tseng, Ming-Hsuan Yang, Shao-Yi Chien, Published in Computer Vision and Image Understanding 2018, https://doi.org/10.1016/j.cviu.2018.03.006](https://www.semanticscholar.org/paper/Direct-pose-estimation-for-planar-objects-Wu-Tseng/665acd12a050821b5d629df94f7d28216ebeacc3) ([code](https://github.com/pcwu0329/DPE), [project](http://media.ee.ntu.edu.tw/research/DPE/), [pdf](http://media.ee.ntu.edu.tw/personal/pcwu/research/cviu2018_dpe/cviu2018_dpe.pdf))
 
 ## Fiducial Tags
 - [Robust identification of fiducial markers in challenging conditions, DOI: 10.1016/j.eswa.2017.10.032](https://www.researchgate.net/publication/320439756_Robust_identification_of_fiducial_markers_in_challenging_conditions)
@@ -308,6 +315,7 @@
 - [A Benchmark Comparison of Monocular Visual-Inertial Odometry Algorithms for Flying Robots](https://www.youtube.com/watch?v=ymI3FmwU9AY)
 - [Robust, Visual-Inertial State Estimation: from Frame-based to Event-based Cameras](https://www.youtube.com/watch?v=5-fqEGgt-b8)
 - [GSoC 2019: Integration of ArduPilot and VIO tracking camera for GPS-less localization and navigation](https://discuss.ardupilot.org/t/gsoc-2019-integration-of-ardupilot-and-vio-tracking-camera-for-gps-less-localization-and-navigation/42394)
+- [Performance evaluation of 1-point-RANSAC visual odometry, Davide Scaramuzza, Published in J. Field Robotics 2011, https://doi.org/10.1002/rob.20411](https://www.semanticscholar.org/paper/Performance-evaluation-of-1-point-RANSAC-visual-Scaramuzza/de6ce22f9a24f6d46217222336f362b21b484102)
 
 ## Camera
 - [What to Expect from a Stereo Vision System](http://zone.ni.com/reference/en-XX/help/372916P-01/nivisionconceptsdita/guid-10d358bd-3dcd-4ccd-a73c-672e48aed39a/)
@@ -392,6 +400,12 @@
 - [Face tracking based on haar-like features and eigenfaces, Paulo Menezes, José Carlos Barreto, Jorge Dias](https://www.sciencedirect.com/science/article/pii/S1474667017319936)
 - [ufpa-face-detection (Face detection for Octave / Matlab)](https://github.com/aldebaro/ufpa-face-detection)
 
+## Object Recognition
+- [CVPR 2014 - Tutorial on Large-Scale Visual Recognition](https://sites.google.com/site/lsvrtutorialcvpr14/) ([CVPR 2014 Accepted Tutorials](http://www.pamitc.org/cvpr14/tutorials.php))
+- [Bundle min-hashing for logo recognition, Stefan Romberg, Rainer Lienhart, Published in ICMR 2013, https://doi.org/10.1145/2461466.2461486](https://www.semanticscholar.org/paper/Bundle-min-hashing-for-logo-recognition-Romberg-Lienhart/10597d2fc51e848a6ef7785e2cd7ef389f72d44a) ([presentation](http://www.multimedia-computing.de/mediawiki/images/archive/9/93/20130905123049!BundleMinHashing_ICMR2013_web.pdf), [pdf](http://www.multimedia-computing.de/mediawiki/images/d/da/Bundle_Min-Hashing_for_Logo_Recognition_-_ICMR2013.pdf), [code](https://github.com/ankitnayan/bundle_min_hashing_source))
+- [Speeded-up, relaxed spatial matching, Giorgos Tolias, Yannis Avrithis, Published in International Conference on Computer Vision 2011, https://doi.org/10.1109/iccv.2011.6126427](https://www.semanticscholar.org/paper/Speeded-up%2C-relaxed-spatial-matching-Tolias-Avrithis/a4feed266d56bebcb496a17041ee3cf8e2d4866f) ([pdf](https://avrithis.net/data/pub/pdf/conf/C089.iccv11a.hpm.pdf))
+- [Object retrieval with large vocabularies and fast spatial matching, Paper by: J. Philbin, O. Chum, M. Isard, J. Sivic and A. Zisserman, Presented by Jimmy Drogtrop](http://press.liacs.nl/students.mir/MIR2019.Slides/JimmyDrogtrop.pdf)
+
 ## Geometric transformations
 - [Decomposition of 2D-transform matrices](http://frederic-wang.fr/decomposition-of-2d-transform-matrices.html)
 
@@ -407,6 +421,7 @@
 - [Plane Equation](http://www.songho.ca/math/plane/plane.html)
 - [Intersections of Lines and Planes](http://geomalgorithms.com/a05-_intersect-1.html)
 - [Multi-H: Efficient recovery of tangent planes in stereo images, Daniel Barath, Jiri Matas, Levente Hajder, Published in BMVC 2016, https://doi.org/10.5244/C.30.13](https://www.semanticscholar.org/paper/Multi-H%3A-Efficient-recovery-of-tangent-planes-in-Barath-Matas/bdc63c50e4134c96572a63da48a08b094f1a4b8b) ([multi-h](https://github.com/danini/multi-h))
+- [Use of the Singular Value Decomposition in Regression Analysis, John Mandel, Published 1982, https://doi.org/10.1080/00031305.1982.10482771](https://www.semanticscholar.org/paper/Use-of-the-Singular-Value-Decomposition-in-Analysis-Mandel/aef268c21be034bfd6228bf3946cb46e3c62cdb1)
 
 ## Robust estimation
 - [Graph-Cut RANSAC, Daniel Barath, Jiri Matas, IEEE/CVF Conference on Computer Vision and Pattern Recognition (2018), https://doi.org/10.1109/cvpr.2018.00704](https://www.semanticscholar.org/paper/Graph-Cut-RANSAC-Barath-Matas/6c0f45f3f05265f72ccce3448530a84fbc7816a7) ([Graph-Cut RANSAC](https://github.com/danini/graph-cut-ransac))
@@ -421,6 +436,10 @@
 - [The Homography model](http://homepages.laas.fr/bvandepo/wiki/doku.php?id=homography)
 - [Preconditioning a (DLT) Direct Linear Transform problem](https://math.stackexchange.com/questions/2343490/preconditioning-a-dlt-direct-linear-transform-problem)
 - [Homography Estimation, Elan Dubrofsky (Master Thesis)](https://www.cs.ubc.ca/grads/resources/thesis/May09/Dubrofsky_Elan.pdf)
+
+## Halide
+- [An introductionto Halide](https://halide-lang.org/assets/lectures/Halide_CVPR_intro.pdf)
+- [Recursive filtering in Halide](https://halide-lang.org/assets/lectures/CVPR_Halide_RecursiveFiltering.pdf)
 
 ## Matlab
 - [Digital Image Processing Using MATLAB®, Rafael C. Gonzalez, Richard E. Woods, Steven L. Eddins](https://www.academia.edu/18324189/Digital_image_processing_using_matlab_gonzalez_)
@@ -455,6 +474,8 @@
 - ["Introduction to Optics for Embedded Vision," a Presentation from Edmund Optics](https://www.embedded-vision.com/platinum-members/embedded-vision-alliance/embedded-vision-training/videos/pages/may-2018-embedded-vision-summit-gehlhar)
 - ["Think Like an Amateur, Do As an Expert: Lessons from a Career in Computer Vision," a Keynote Presentation from Dr. Takeo Kanade](https://www.embedded-vision.com/platinum-members/embedded-vision-alliance/embedded-vision-training/videos/pages/may-2018-embedded-vision-summit-kanade)
 - [https://www.geometrictools.com/](https://www.geometrictools.com/)
+- [Image Component Library (ICL)](https://iclcv.github.io/)
+- [Page dewarping](https://mzucker.github.io/2016/08/15/page-dewarping.html) ([code](https://github.com/mzucker/page_dewarp))
 
 ## Books
 - [Computer Vision: A Modern Approach, David A. Forsyth, Jean Ponce](https://www.pearson.com/us/higher-education/program/Forsyth-Computer-Vision-A-Modern-Approach-2nd-Edition/PGM111082.html) ([link 1](http://cmuems.com/excap/readings/forsyth-ponce-computer-vision-a-modern-approach.pdf), [link 2](http://newton.uam.mx/xgeorge/uea/Proc_Dig_Im/Computer%20Vision%20A%20Modern%20Approach%20-%20Forsyth%20,%20Ponce.pdf))
@@ -463,3 +484,4 @@
 - [Pattern Classification and Machine Learning, Matthias Seeger, Probabilistic Machine Learning Laboratory, Ecole Polytechnique Fédérale de Lausanne](https://mseeger.github.io/files/pcml_notes.pdf)
 - [Virtual Reality, Steven M. LaValle](http://vr.cs.uiuc.edu/)
 - [Visual Analysis of Humans - Looking at People, Thomas B. Moeslund, A. Hilton, Volker Krüger, Leonid Sigal, Published 2011, https://doi.org/10.1007/978-0-85729-997-0](https://www.semanticscholar.org/paper/Visual-Analysis-of-Humans-Looking-at-People-Moeslund-Hilton/0c5f6a44458c8927efaf5a5e5b04eb8ec6c699e8) ([Springer](https://link.springer.com/book/10.1007/978-0-85729-997-0))
+- [Pattern Classification and Machine Learning, Matthias Seeger, Ecole Polytechnique F ́ed ́erale de Lausanne](https://mseeger.github.io/files/pcml_notes.pdf)
