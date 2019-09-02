@@ -136,6 +136,8 @@
 - [State of the Art on 3D Reconstruction with RGB-D Cameras, Michael Zollhöfer, Patrick Stotko, Andreas Görlitz, Christian Theobalt, Matthias Nießner, Reinhard Klein, Andreas Kolb, Published in Comput. Graph. Forum 2018, https://doi.org/10.1111/cgf.13386](https://www.semanticscholar.org/paper/State-of-the-Art-on-3D-Reconstruction-with-RGB-D-Zollh%C3%B6fer-Stotko/484024a91c1cb97b358c2cabd9fa427fcc6d52e3) ([pdf](https://web.stanford.edu/~zollhoef/papers/EG18_RecoSTAR/paper.pdf))
 - [A Tutorial on Rigid Registration - Iterative Closed Point (ICP), Shireen Elhabian, Amal Farag, Aly Farag](http://www.sci.utah.edu/~shireen/pdfs/tutorials/Elhabian_ICP09.pdf)
 - [Bundle Adjustment - A Modern Synthesis, Bill Triggs, Philip F. McLauchlan, Richard I. Hartley, Andrew W. Fitzgibbon, Published in Workshop on Vision Algorithms 1999, https://doi.org/10.1007/3-540-44480-7_21](https://www.semanticscholar.org/paper/Bundle-Adjustment-A-Modern-Synthesis-Triggs-McLauchlan/1cf6c415f598273ff4b3c03a1597e30402800a99) ([pdf](https://lear.inrialpes.fr/pubs/2000/TMHF00/Triggs-va99.pdf))
+- [Estimating Pose and Motion Using Bundle Adjustment and Digital Elevation Model Constraints, Gil Briskin, Amir Geva, Ehud Rivlin, Héctor Rotstein, IEEE Transactions on Aerospace and Electronic Systems (2017), https://doi.org/10.1109/taes.2017.2667819](https://www.semanticscholar.org/paper/Estimating-Pose-and-Motion-Using-Bundle-Adjustment-Briskin-Geva/77a0d7d38d174ee5dfe2b017b7dc3c6a1e9ec8d6) ([pdf](http://www.cs.technion.ac.il/users/wwwb/cgi-bin/tr-get.cgi/2014/MSC/MSC-2014-16.pdf))
+- [Least-Squares Fitting of Two 3-D Point Sets, K. S. Arun, Thomas S. Huang, Steven D. Blostein, IEEE Transactions on Pattern Analysis and Machine Intelligence (1987), https://doi.org/10.1109/TPAMI.1987.4767965](https://www.semanticscholar.org/paper/Least-Squares-Fitting-of-Two-3-D-Point-Sets-Arun-Huang/691d0a287a2515ebe5019cda498dcb6d24dfd5a4) ([pdf](http://post.queensu.ca/~sdb2/PAPERS/PAMI-3DLS-1987.pdf))
 
 ## PnP
 - [Lecture 23: 3-D Pose Object Recognition](http://users.umiacs.umd.edu/~ramani/cmsc426/Lecture23_3Dpose.pdf)
@@ -182,6 +184,13 @@
 - [6DoF Pose Estimation for Industrial Manipulation based on Synthetic Data, Manuel Brucker, Maximilian Durner, Zoltan-Csaba Marton, Bálint-Benczédi Ferenc, Martin Sundermeyer, Rudolph Triebel, Published 2018](https://www.semanticscholar.org/paper/6DoF-Pose-Estimation-for-Industrial-Manipulation-on-Brucker-Durner/7f67b4a5bf2d2b81ce677aaaf42ac700a704d030)
 - [End-to-End 6-DoF Object Pose Estimation Through Differentiable Rasterization, Andrea Palazzi, Luca Bergamini, Simone Calderara, Rita Cucchiara, Published in ECCV Workshops 2018, https://doi.org/10.1007/978-3-030-11015-4_53](https://www.semanticscholar.org/paper/End-to-End-6-DoF-Object-Pose-Estimation-Through-Palazzi-Bergamini/95c9cc124e961236bcfb6954523ddcd3aa657a76) ([pdf](https://iris.unimore.it/retrieve/handle/11380/1167726/205862/palazzi_eccvw.pdf))
 - [Direct pose estimation for planar objects, Po-Chen Wu, Hung-Yu Tseng, Ming-Hsuan Yang, Shao-Yi Chien, Published in Computer Vision and Image Understanding 2018, https://doi.org/10.1016/j.cviu.2018.03.006](https://www.semanticscholar.org/paper/Direct-pose-estimation-for-planar-objects-Wu-Tseng/665acd12a050821b5d629df94f7d28216ebeacc3) ([code](https://github.com/pcwu0329/DPE), [project](http://media.ee.ntu.edu.tw/research/DPE/), [pdf](http://media.ee.ntu.edu.tw/personal/pcwu/research/cviu2018_dpe/cviu2018_dpe.pdf))
+- [Object Pose Estimation in Robotics Using a Low-Cost RGB-D Camera, Alexander Ganslandt & Andreas Svensson](http://fileadmin.cs.lth.se/cs/Education/edan70/AIProjects/2017/slides/GranslandtSvensson.pdf)
+- [A Benchmark Dataset for 6DoF Object Pose Tracking, Po-Chen Wu, Yueh-Ying Lee, Hung-Yu Tseng, Hsuan-I Ho, Ming-Hsuan Yang, Shao-Yi Chien, IEEE International Symposium on Mixed and Augmented Reality (ISMAR-Adjunct) (2017), https://doi.org/10.1109/ismar-adjunct.2017.62](https://www.semanticscholar.org/paper/%5BPOSTER%5D-A-Benchmark-Dataset-for-6DoF-Object-Pose-Wu-Lee/26a5b03b8584541776e129a48770b76bfc9a92a8)
+
+## Rendezvous / Docking
+- [Monocular Pose and Shape Estimation of Moving Targets, for Autonomous Rendezvous and Docking, Sean Augenstein (PhD Thesis)](https://web.stanford.edu/group/arl/publications/monocular-pose-and-shape-estimation-moving-targets-autonomous-rendezvous-and-docking) ([pdf](https://web.stanford.edu/group/arl/cgi-bin/drupal/sites/default/files/public/publications/Augenstein%202011.pdf))
+- [Stereo-Vision-Based Relative Pose Estimation for the Rendezvous and Docking of Noncooperative Satellites, Fengxu Yu, Z. H. He, Bing Qiao, Xiaoting Yu, Published 2014, https://doi.org/10.1155/2014%2F461283](https://www.semanticscholar.org/paper/Stereo-Vision-Based-Relative-Pose-Estimation-for-of-Yu-He/e50aaf75ec8d11918bbf587960a0a4ec28d7490e) ([online](https://www.hindawi.com/journals/mpe/2014/461283/))
+- [Automated rover positioning and instrument placement, Paul G. Backes, Antonio Diaz-Calderon, Matt Robinson, Max Bajracharya, Daniel M. Helmick, Published in IEEE Aerospace Conference 2005, https://doi.org/10.1109/aero.2005.1559299](https://www.semanticscholar.org/paper/Automated-rover-positioning-and-instrument-Backes-Diaz-Calderon/9eee7fbd6bea7c802e89bd54ce3c14a1d5b846a0) ([pdf](https://www-robotics.jpl.nasa.gov/publications/Antonio_Diaz-Calderon/backes1486-2.pdf))
 
 ## Fiducial Tags
 - [Robust identification of fiducial markers in challenging conditions, DOI: 10.1016/j.eswa.2017.10.032](https://www.researchgate.net/publication/320439756_Robust_identification_of_fiducial_markers_in_challenging_conditions)
@@ -202,6 +211,9 @@
 - [Accuracy analysis of marker-based 3 D visual localization, Alberto López-Cerón, Published 2016](https://www.semanticscholar.org/paper/Accuracy-analysis-of-marker-based-3-D-visual-L%C3%B3pez-Cer%C3%B3n/35b5c1d32a81e867ae95b9d4952e681d5c293b2b) ([pdf](https://gsyc.urjc.es/jmplaza/papers/jornadasautomatica2016-pnp.pdf))
 - [Subpixel Accuracy in corner Detection. Which is the best approach? (Aruco, YT)](https://www.youtube.com/watch?v=OhpLCoZ4PtA&list=PL7EOs-8ZXfMb2qRog9wOa3Ar-EyvRYdrp&index=8)
 - [Indoor non-GPS flight using AprilTags (ROS-based)](https://discuss.ardupilot.org/t/indoor-non-gps-flight-using-apriltags-ros-based/42878)
+- [STag: A Stable Fiducial Marker System, Burak Benligiray, Cihan Topal, Cuneyt Akinlar, Published in ArXiv 2017, https://doi.org/10.1016/j.imavis.2019.06.007](https://www.semanticscholar.org/paper/STag%3A-A-Stable-Fiducial-Marker-System-Benligiray-Topal/718e64e91803130ed7784c0210712dd145fb8103)
+- [A Low Cost Vision Based Hybrid Fiducial Mark Tracking Technique for Mobile Industrial Robots (arXiv)](https://arxiv.org/pdf/1210.0153.pdf)
+- [ARTag, AprilTag and CALTag Fiducial Marker Systems: Comparison in a Presence of Partial Marker Occlusion and Rotation, Artur Sagitov, Ksenia Shabalina, Leysan Sabirova, Hongbing Li, Evgeni Magid, Published in ICINCO 2017, https://doi.org/10.5220/0006478901820191](https://www.semanticscholar.org/paper/ARTag%2C-AprilTag-and-CALTag-Fiducial-Marker-Systems%3A-Sagitov-Shabalina/4b31a78ff17b43b27afbddc63e0eede94bcec334) ([pdf](https://www.scitepress.org/papers/2017/64789/64789.pdf))
 
 ## SLAM / Visual Odometry
 - [Direct Visual-Inertial Odometry with Stereo Cameras, Vladyslav C. Usenko, Jakob Engel, Jörg Stückler, Daniel Cremers, IEEE International Conference on Robotics and Automation (ICRA) 2016, DOI:10.1109/ICRA.2016.7487335](https://www.semanticscholar.org/paper/Direct-visual-inertial-odometry-with-stereo-cameras-Usenko-Engel/2cbc2797efe322f8ac286d90cbc2c4852f0f6bde)
@@ -317,6 +329,9 @@
 - [GSoC 2019: Integration of ArduPilot and VIO tracking camera for GPS-less localization and navigation](https://discuss.ardupilot.org/t/gsoc-2019-integration-of-ardupilot-and-vio-tracking-camera-for-gps-less-localization-and-navigation/42394)
 - [Performance evaluation of 1-point-RANSAC visual odometry, Davide Scaramuzza, Published in J. Field Robotics 2011, https://doi.org/10.1002/rob.20411](https://www.semanticscholar.org/paper/Performance-evaluation-of-1-point-RANSAC-visual-Scaramuzza/de6ce22f9a24f6d46217222336f362b21b484102)
 
+## Visual Localization
+- [A survey on Visual-Based Localization: On the benefit of heterogeneous data, Nathan Piasco, Desire Sidibé, Cédric Demonceaux, Valérie Gouet-Brunet, Published in Pattern Recognition 2018, https://doi.org/10.1016/j.patcog.2017.09.013](https://www.semanticscholar.org/paper/A-survey-on-Visual-Based-Localization%3A-On-the-of-Piasco-Sidib%C3%A9/c48053ef7c811d1a0c62d259931f25daa97d8665) ([HAL](https://hal.archives-ouvertes.fr/hal-01744680))
+
 ## Camera
 - [What to Expect from a Stereo Vision System](http://zone.ni.com/reference/en-XX/help/372916P-01/nivisionconceptsdita/guid-10d358bd-3dcd-4ccd-a73c-672e48aed39a/)
 - [Camera Exposure](https://www.cambridgeincolour.com/tutorials/camera-exposure.htm)
@@ -340,6 +355,9 @@
 - [Zhang's camera calibration (Matlab)](https://github.com/brada/zhang)
 - [Efficient Pose Selection for Interactive Camera Calibration, Pavel Rojtberg, Arjan Kuijper, IEEE International Symposium on Mixed and Augmented Reality (ISMAR) (2017), https://doi.org/10.1109/ISMAR-Adjunct.2017.60](https://www.semanticscholar.org/paper/Efficient-Pose-Selection-for-Interactive-Camera-Rojtberg-Kuijper/7c421b97649d2ec04755bd1807fc796e181aca35) ([code](https://github.com/paroj/pose_calib))
 - [Camera pose and calibration from 4 or 5 known 3D points, Bill Triggs, Proceedings of the Seventh IEEE International Conference on Computer Vision (1999), https://doi.org/10.1109/ICCV.1999.791231](https://www.semanticscholar.org/paper/Camera-pose-and-calibration-from-4-or-5-known-3D-Triggs/4afb49057f64b873ac13db88875cf4bfca314dee) ([publication page](http://www-ljk.imag.fr/Publications/Basilic/com.lmc.publi.PUBLI_Inproceedings@1176ddd04d5_1b01047/))
+- [A New Formulation for Non-Linear Camera Calibration Using Virtual Visual Servoing, Eric A. Marchand, François Chaumette, Published 2001](https://www.semanticscholar.org/paper/A-New-Formulation-for-Non-Linear-Camera-Calibration-Marchand-Chaumette/ede2076d09cdd94adfc554261c511fc5ae85fffb) ([HAL](https://hal.inria.fr/inria-00072535))
+- [MixCam (Inria)](http://perception.inrialpes.fr/MixCam/)
+- [Calibration between depth and color sensors for commodity depth cameras, Cha Zhang, Zhengyou Zhang, IEEE International Conference on Multimedia and Expo (2011), https://doi.org/10.1109/icme.2011.6012191](https://www.semanticscholar.org/paper/Calibration-between-depth-and-color-sensors-for-Zhang-Zhang/5a74ac9c79a60265cc67bc354ef7b08a4a3eca35) ([pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.221.5181&rep=rep1&type=pdf))
 
 ## Stereo Matching / Stereo Vision
 - [Segment-based Disparity Refinement with Occlusion Handling for Stereo Matching](https://github.com/TingmanYan/SDR) ([IEEE Xplore](https://ieeexplore.ieee.org/document/8661596))
@@ -422,6 +440,7 @@
 - [Intersections of Lines and Planes](http://geomalgorithms.com/a05-_intersect-1.html)
 - [Multi-H: Efficient recovery of tangent planes in stereo images, Daniel Barath, Jiri Matas, Levente Hajder, Published in BMVC 2016, https://doi.org/10.5244/C.30.13](https://www.semanticscholar.org/paper/Multi-H%3A-Efficient-recovery-of-tangent-planes-in-Barath-Matas/bdc63c50e4134c96572a63da48a08b094f1a4b8b) ([multi-h](https://github.com/danini/multi-h))
 - [Use of the Singular Value Decomposition in Regression Analysis, John Mandel, Published 1982, https://doi.org/10.1080/00031305.1982.10482771](https://www.semanticscholar.org/paper/Use-of-the-Singular-Value-Decomposition-in-Analysis-Mandel/aef268c21be034bfd6228bf3946cb46e3c62cdb1)
+- [Using SVD for some fitting problems, Inge Soderkvist, 090921](https://www.ltu.se/cms_fs/1.51590!/svd-fitting.pdf)
 
 ## Robust estimation
 - [Graph-Cut RANSAC, Daniel Barath, Jiri Matas, IEEE/CVF Conference on Computer Vision and Pattern Recognition (2018), https://doi.org/10.1109/cvpr.2018.00704](https://www.semanticscholar.org/paper/Graph-Cut-RANSAC-Barath-Matas/6c0f45f3f05265f72ccce3448530a84fbc7816a7) ([Graph-Cut RANSAC](https://github.com/danini/graph-cut-ransac))
@@ -458,11 +477,21 @@
 - [Structured Lighting, Guido Gerig, CS 6320, 3D Computer Vision, Spring 2012](http://www.sci.utah.edu/~gerig/CS6320-S2013/Materials/CS6320-CV-S2012-StructuredLight.pdf)
 - [Structured Light II, Guido Gerig, CS 6320, Spring 2012](http://www.sci.utah.edu/~gerig/CS6320-S2013/Materials/CS6320-CV-S2012-StructuredLight-II.pdf)
 - [Computational Optical Imaging - Optique Numerique -- Active Light 3D -- Autumn 2015, Ivo Ihrke](http://manao.inria.fr/perso/~ihrke/wordpress/wp-content/uploads/2015/09/structured_light_and_photometric_stereo.pdf)
+- [RGB-D datasets using microsoft kinect or similar sensors: a survey, Ziyun Cai, Jungong Han, Li Liu, Ling Shao, Published in Multimedia Tools and Applications 2016, https://doi.org/10.1007/s11042-016-3374-6](https://www.semanticscholar.org/paper/RGB-D-datasets-using-microsoft-kinect-or-similar-a-Cai-Han/c200e8f4b171777673cd543f017368629e4ff69c) ([online](https://link.springer.com/article/10.1007/s11042-016-3374-6))
+- [Time-of-Flight Cameras and Microsoft Kinect, Carlo Dal Mutto, Pietro Zanuttigh, Guido M. Cortelazzo, Springer Briefs in Electrical and Computer Engineering (2012), https://doi.org/10.1007/978-1-4614-3807-6](https://www.semanticscholar.org/paper/Time-of-Flight-Cameras-and-Microsoft-Kinect%C2%99-Mutto-Zanuttigh/5df66f0f961384c853ee93aa9f1e4a15edb21e31) ([pdf](https://lttm.dei.unipd.it//nuovo/Papers/ToF-Kinect-book.pdf))
+- [Three Dimensional Sensors (3DS), Radu Horaud](http://perception.inrialpes.fr/people/Horaud/Courses/3DS_2013.html)
+- [A Short Tutorial on Three-Dimensional Cameras, Radu Horaud](http://perception.inrialpes.fr/~Horaud/Courses/pdf/Horaud_3Dcameras_tutorial.pdf)
+- [Kinect Range Sensing: Structured-Light versus Time-of-Flight Kinect, Hamed Sarbolandi, Damien Lefloch, Andreas Kolb, Published in Computer Vision and Image Understanding 2015, https://doi.org/10.1016/j.cviu.2015.05.006](https://www.semanticscholar.org/paper/Kinect-Range-Sensing%3A-Structured-Light-versus-Sarbolandi-Lefloch/fbbeb2b7b70ffa50a20c75e6f7c428925aa5fbd1)
+- [An overview of depth cameras and range scanners based on time-of-flight technologies, Radu Horaud, Miles E. Hansard, Georgios Dimitrios Evangelidis, Clément Ménier, Published in Machine Vision and Applications 2016, https://doi.org/10.1007/s00138-016-0784-4](https://www.semanticscholar.org/paper/An-overview-of-depth-cameras-and-range-scanners-on-Horaud-Hansard/a3b4fc4e18d3762f4ff7ff443442c4af5e01b6de) ([HAL](https://hal.inria.fr/hal-01325045))
 
 ## Papers
 - [Minimal Problems in Computer Vision](http://cmp.felk.cvut.cz/mini/):
 > This page provides a list of papers, software, data, and evaluations for solving minimal problems in computer vision, which is concerned with finding parameters of (geometrical) models from as small (minimal) data sets by solving systems of algebraic equations.
 - [Lie-X: Depth Image Based Articulated Object PoseEstimation, Tracking, and Action Recognition on Lie Groups, Chi Xu, Lakshmi Narasimhan Govindarajan, Yu Zhang, Li Cheng, Published in International Journal of Computer Vision 2017, https://doi.org/10.1007/s11263-017-0998-6](https://www.semanticscholar.org/paper/Lie-X%3A-Depth-Image-Based-Articulated-Object-Pose-on-Xu-Govindarajan/3f5158ea65bb483c6797462faffa16fea9f0b004) ([paper](https://web.bii.a-star.edu.sg/~chengli/papers/XuEtAl_IJCV17.pdf), [project page](https://web.bii.a-star.edu.sg/archive/machine_learning/Projects/behaviorAnalysis/Lie-X/Lie-X.html))
+- [Singular Value Decomposition, Eigenfaces, and 3D Reconstructions, Neil Muller, Lourenço Magaia, Ben M. Herbst, Published in SIAM Review 2004, https://doi.org/10.1137/s0036144501387517](https://www.semanticscholar.org/paper/Singular-Value-Decomposition%2C-Eigenfaces%2C-and-3D-Muller-Magaia/6aa7311d5cf6a211cf72748ac026dac3601fdc2c) ([pdf](https://epubs.siam.org/doi/pdf/10.1137/S0036144501387517))
+
+## Thesis
+- [Marker-free human motion capture in dynamic cluttered environments from a single view-point, Daniel Grest](https://macau.uni-kiel.de/receive/dissertation_diss_00002827) ([pdf](https://macau.uni-kiel.de/servlets/MCRFileNodeServlet/dissertation_derivate_00002379/thesisDanielGrest.pdf))
 
 ## Misc / Code / Libraries
 - [https://paperswithcode.com/](https://paperswithcode.com/)
