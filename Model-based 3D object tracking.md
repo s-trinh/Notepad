@@ -39,6 +39,10 @@
 - [An Improved Tracking using IMU and Vision Fusion for Mobile Augmented Reality Applications, Kriti Kumar, Ashley Varghese, Pavan K. Reddy, N. Narendra, Prashanth Swamy, Mariswamy Girish Chandra, P. Balamuralidhar, Published in ArXiv 2014, https://doi.org/10.5121/ijma.2014.6502](https://www.semanticscholar.org/paper/An-Improved-Tracking-using-IMU-and-Vision-Fusion-Kumar-Varghese/2d0692dfd6ed24368a86cbe2ef65b305027f2d60)
 - [Survey of Appearance-Based Methods for Object Recognition, Peter M. Roth, Martin Alexander Winter, Published 2008](https://www.semanticscholar.org/paper/SURVEY-OF-APPEARANCE-BASED-METHODS-FOR-OBJECT-Roth-Winter/81b589062943f39f787c2a4cdc24bba75a76e472)
 - [Combining Appearance-based and Model-based Methods for Real-Time Object Recognition and 6D Localization, Pedram Azad, Tamim Asfour, Rüdiger Dillmann, IEEE/RSJ International Conference on Intelligent Robots and Systems (2006), https://doi.org/10.1109/iros.2006.282094](https://www.semanticscholar.org/paper/Combining-Appearance-based-and-Model-based-Methods-Azad-Asfour/8a1c05d6f5a3535943e3c2a77949d0904fbbbfe0) ([pdf](https://his.anthropomatik.kit.edu/pdf_humanoids/Azad2006.pdf))
+- [Virtual Visual Servoing: a framework for real-time augmented reality, Éric Marchand, François Chaumette, Published in Comput. Graph. Forum 2001, https://doi.org/10.1111/1467-8659.t01-1-00588](https://www.semanticscholar.org/paper/Virtual-Visual-Servoing%3A-a-framework-for-real-time-Marchand-Chaumette/a54d2044b484dd136d59c6d178062a3ba554810b) ([HAL](https://hal.inria.fr/inria-00352096))
+
+### Thesis
+- [Visual Tracking and Motion Estimation for an On-orbit Servicing of a Satellite, Nassir W. Oumer, Published 2016](https://www.semanticscholar.org/paper/Visual-Tracking-and-Motion-Estimation-for-an-of-a-Oumer/0cc829cc606353c070c1770479fc01fce9ff9b6c) ([pdf](https://elib.dlr.de/109646/1/thesis_oumer.pdf))
 
 ### Patents
 - [Real-Time, Model-Based Object Detection And Pose Estimation](https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2016209420&recNum=50&docAn=DE2014100299)
@@ -47,6 +51,7 @@
 ### Courses
 - [Model-based 3D tracking, Prof. Didier Stricker, Doz. Gabriele Bleser](https://ags.cs.uni-kl.de/fileadmin/inf_ags/opt-ss12/lec06_opt.pdf) ([Prof. Dr. Didier Stricker](https://av.dfki.de/members/stricker/))
 - [Object Pose Estimation in Robotics Using a Low-Cost RGB-D Camera, Alexander Ganslandt & Andreas Svensson](http://fileadmin.cs.lth.se/cs/Education/edan70/AIProjects/2017/slides/GranslandtSvensson.pdf)
+- [VU Augmented Reality on Mobile Devices](https://www.cg.tuwien.ac.at/courses/ARMD/slides/ARMD2011-Lecture07.pdf)
 
 ### Code
 - [Edge Based Tracking library](https://github.com/CogRob/object_tracking_2D)
