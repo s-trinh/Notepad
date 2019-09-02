@@ -34,6 +34,7 @@
   - [Robust regression, Patrick Breheny](https://web.as.uky.edu/statistics/users/pbreheny/764-F11/notes/12-1.pdf)
 - [Statistiques robustes](http://lagis-vi.univ-lille1.fr/~lm/classpec/reunion_31_10_07/Statistiques_robustes_dh.pdf)
 - [Least Squares Adjustment:Linear and Nonlinear Weighted Regression Analysis, Allan Aasbjerg Nielsen, Technical University of Denmark](http://www2.imm.dtu.dk/pubdb/views/edoc_download.php/2804/pdf/imm2804.pdf)
+- [ECE236C - Optimization Methods for Large-Scale Systems (Spring 2019), Prof. L. Vandenberghe, UCLA](http://www.seas.ucla.edu/~vandenbe/236C/)
 
 ## Matlab
 - [Matlab Optimization Toolbox™ User's Guide](https://www.mathworks.com/help/pdf_doc/optim/optim_tb.pdf)
