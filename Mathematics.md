@@ -7,3 +7,5 @@
 - [Python Sympy Pretty Output of Matrix](https://stackoverflow.com/questions/28594618/python-sympy-pretty-output-of-matrix)
 - [Fast method to check if a Matrix is singular? (non-invertible, det = 0)](https://stackoverflow.com/questions/10826816/fast-method-to-check-if-a-matrix-is-singular-non-invertible-det-0)
 - [Condition Number](https://en.wikipedia.org/wiki/Condition_number)
+- [Low-Rank Approximation - Algorithms, Implementation, Applications, Ivan Markovsky, January 19, 2018](http://homepages.vub.ac.be/~imarkovs/book/book2e-2x1.pdf)
+- [Exact and Approximate Modeling of Linear Systems: A Behavioral Approach, Ivan Markovsky, Jan C. Willems, Sabine Van Huffel, Bart De Moor](http://homepages.vub.ac.be/~imarkovs/siam-book.pdf)
