@@ -133,6 +133,7 @@
 - [Robotic Autonomy Summer Course (2002)](http://www.cs.cmu.edu/~rasc/)
 - [Control Methods for Robotics Applications: Fall 2008, Umeå University](http://www8.tfe.umu.se/courses/elektro/RobotControl/)
 - [16-311 Introduction to Robotics (CMU)](https://www.cs.cmu.edu/afs/cs.cmu.edu/academic/class/16311/www/s16/)
+- [C4B - Mobile Robotics, Paul Michael Newman, October 2003, Version 1.00](http://www.isir.upmc.fr/UserFiles/File/clady_homepage/M2/C4BMobileRobots.pdf)
 
 ## Rotation interpolation and smoothing
 - [Interpolation schemes for rigid body motions, Milos Zefran and Vijay Kumar](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.25.1776&rep=rep1&type=pdf)
@@ -325,12 +326,33 @@
 - [handeye (Nanyang Technological University, Singapore)](https://github.com/crigroup/handeye)
 - [Robot-to-Camera Calibration: A Generic Approach Using 6D Detections, Christian Nissler, Zoltan-Csaba Marton, First IEEE International Conference on Robotic Computing (IRC), https://doi.org/10.1109/irc.2017.66](https://www.semanticscholar.org/paper/Robot-to-Camera-Calibration%3A-A-Generic-Approach-6D-Nissler-Marton/f30c53796b4a78e923c5dcbf6d5acdeecaa70010) ([pdf](https://elib.dlr.de/113189/1/root.pdf))
 
+## Camera - LIDAR Extrinsic calibration
+- [Automated extrinsic laser and camera inter-calibration using triangular targets, Stefano Debattisti, Luca Mazzei, Matteo Panciroli, Published in IEEE Intelligent Vehicles Symposium (IV) 2013, https://doi.org/10.1109/ivs.2013.6629548](https://www.semanticscholar.org/paper/Automated-extrinsic-laser-and-camera-using-targets-Debattisti-Mazzei/3907908b194983965a446add56942f46ea00823f) ([pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.587.4275&rep=rep1&type=pdf))
+- [A lasers and cameras calibration procedure for VIAC multi-sensorized vehicles, Luca Mazzei, Paolo Medici, Matteo Panciroli, Published in IEEE Intelligent Vehicles Symposium 2012, https://doi.org/10.1109/ivs.2012.6232214](https://www.semanticscholar.org/paper/A-lasers-and-cameras-calibration-procedure-for-VIAC-Mazzei-Medici/ef52fbae0d5d8d5b32fde32abe60035afd9314b9) ([pdf](https://www.researchgate.net/profile/Matteo_Panciroli/publication/230707150_A_Lasers_and_Cameras_Calibration_Procedure_for_VIAC_Multi-Sensorized_Vehicles/links/09e415034819e2b10d000000.pdf))
+- [Calibration between Color Camera and 3D LIDAR Instruments with a Polygonal Planar Board, Yoonsu Park, Seok Min Yun, Chee Sun Won, Kyungeun Cho, Kyhyun Um, Sungdae Sim, Published in Sensors 2014, https://doi.org/10.3390/s140305333](https://www.semanticscholar.org/paper/Calibration-between-Color-Camera-and-3D-LIDAR-with-Park-Yun/4479f57a82af8fa2ff502a49a5e9b56edd7fcf85) ([html](https://www.mdpi.com/1424-8220/14/3/5333/htm))
+- [Automatic extrinsic calibration for lidar-stereo vehicle sensor setups, Carlos Guindel, Jorge Beltrán, David Martín, Fernando García, IEEE 20th International Conference on Intelligent Transportation Systems (ITSC), https://doi.org/10.1109/ITSC.2017.8317829](https://www.semanticscholar.org/paper/Automatic-extrinsic-calibration-for-lidar-stereo-Guindel-Beltr%C3%A1n/820e087911004b5b9a2d5d6113a7a88aa0415290) ([arXiv](https://arxiv.org/abs/1705.04085))
+- [Calibration of RGB camera with velodyne LiDAR, Martin Velas, Michal Spanel, Zdenek Materna, Adam Herout, Published 2014](https://www.semanticscholar.org/paper/Calibration-of-RGB-camera-with-velodyne-LiDAR-Velas-Spanel/8f242985963caaf265e921275f7ecc43d3381c89) ([pdf](https://otik.uk.zcu.cz/bitstream/11025/26408/1/Velas.pdf))
+- ///
+- [3D LIDAR-camera intrinsic and extrinsic calibration: Identifiability and analytical least-squares-based initialization, Faraz M. Mirzaei, Dimitrios G. Kottas, Stergios I. Roumeliotis, Published in I. J. Robotics Res. 2012, https://doi.org/10.1177/0278364911435689](https://www.semanticscholar.org/paper/3D-LIDAR-camera-intrinsic-and-extrinsic-and-Mirzaei-Kottas/4b70507f187ecb13a90322fa9647c9da75a764a9) ([pdf](https://www-users.cs.umn.edu/~stergios/papers/IJRR-2012-LidarCameraCalib.pdf))
+- [Automatic Extrinsic Calibration of a Camera and a 3D LiDAR Using Line and Plane Correspondences, Lipu Zhou, Zimo Li, Michael Kaess, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) (2018), https://doi.org/10.1109/iros.2018.8593660](https://www.semanticscholar.org/paper/Automatic-Extrinsic-Calibration-of-a-Camera-and-a-Zhou-Li/6162ae2cb64b5d328999f4858bc1b434ede20fe0) ([pdf](http://www.cs.cmu.edu/~kaess/pub/Zhou18iros.pdf))
+- [Extrinsic calibration between a multi-layer lidar and a camera, Sergio Alberto Rodriguez Florez, Vincent Frémont, Philippe Bonnifait, IEEE International Conference on Multisensor Fusion and Integration for Intelligent Systems (2008), https://doi.org/10.1109/mfi.2008.4648067](https://www.semanticscholar.org/paper/Extrinsic-calibration-between-a-multi-layer-lidar-a-Florez-Fr%C3%A9mont/dd470e13fdf0f85ca79d00d4c30205c64b66e498) ([HAL](https://hal.archives-ouvertes.fr/hal-00444112))
+
 ## Kinematics
 - [Inverse Kinematics with Quaternion Joint Limits](http://number-none.com/product/IK%20with%20Quaternion%20Joint%20Limits/)
 - [IKBT](https://github.com/uw-biorobotics/IKBT)
 - [Simulate Robot Applications](https://robodk.com/)
 - [KUKA robots](https://robodk.com/doc/en/Robots-KUKA.html)
 - [Simple kinematics for mobile robot](https://husarion.com/tutorials/ros-tutorials/3-simple-kinematics-for-mobile-robot/)
+- [New Strategy to Approach the Inverse Kinematics Model for Manipulators with Rotational Joints, José-Emilio Vargas-Soto, Efren Gorrostieta-Hurtado, Saúl Tovar-Arriaga, Jesus Carlos Pedraza-Ortega, Juan-Manuel Ramos-Arreguin, Published 2016, https://doi.org/10.5772/63541](https://www.semanticscholar.org/paper/New-Strategy-to-Approach-the-Inverse-Kinematics-for-Vargas-Soto-Gorrostieta-Hurtado/0b29433226a62c061f88bf8259f7578337868efa) ([book chapter](https://www.intechopen.com/books/automation-and-control-trends/new-strategy-to-approach-the-inverse-kinematics-model-for-manipulators-with-rotational-joints))
+
+## Control
+- [Six-DOF impedance control based on angle/axis representations, Fabrizio Caccavale, Ciro Natale, Bruno Siciliano, Luigi Villani, Published in IEEE Trans. Robotics and Automation 1999, https://doi.org/10.1109/70.760350](https://www.semanticscholar.org/paper/Six-DOF-impedance-control-based-on-angle%2Faxis-Caccavale-Natale/02d3ebdc572a74d5a5094ca0e462543b214ad9b7)
+- [Towards versatile legged robots through active impedance control, Claudio Semini, Victor Barasuol, Thiago Boaventura Cunha, Marco Frigerio, Michele Focchi, Darwin G. Caldwell, Jonas Buchli, Published in I. J. Robotics Res. 2015, https://doi.org/10.1177/0278364915578839](https://www.semanticscholar.org/paper/Towards-versatile-legged-robots-through-active-Semini-Barasuol/bcc5c54f86554ed50b9cc9ce54d780785d9e4cac) ([pdf](http://www.semini.ch/wp-content/uploads/semini15ijrr_preprint.pdf))
+- [Cartesian impedance control techniques for torque controlled light-weight robots, Alin Albu-Schäffer, Gerd Hirzinger, Proceedings IEEE International Conference on Robotics and Automation (2002), https://doi.org/10.1109/ROBOT.2002.1013433](https://www.semanticscholar.org/paper/Cartesian-impedance-control-techniques-for-torque-Albu-Sch%C3%A4ffer-Hirzinger/0f4638e2e84fb096db7c3e4b9200efb8663e88c5)
+- [Quadcopter Dynamics, Simulation, and Control](http://andrew.gibiansky.com/downloads/pdf/Quadcopter%20Dynamics,%20Simulation,%20and%20Control.pdf)
+- [Force and Visual Control forSafe Human−Robot Interaction, Bruno Siciliano](http://www.isir.upmc.fr/UserFiles/File/seminaire/Force_and_Visual_Control_for_Safe_Human%E2%88%92Robot_Interaction.pdf)
+- [Motion Control and Interaction Control inMedical Robotics, Philippe Poignet](https://www.lirmm.fr/uee09/doc/Lecturers/Poignet.pdf)
+- [Robot Control, Bruno Siciliano](https://project.inria.fr/roboticsprincipia/files/2019/01/Siciliano_Control.pdf)
 
 ## Path Planning
 - [MoveIt](https://moveit.ros.org/documentation/concepts/)
@@ -351,10 +373,13 @@
 - [Visual Servoing: Theory and Applications, Farrokh Janabi-Sharifi, Published 2002, https://doi.org/10.1201/9781420040692.ch15](https://www.semanticscholar.org/paper/Visual-Servoing%3A-Theory-and-Applications-Janabi-Sharifi/ce961fe7095e3d0bc5cd0bd9f8c3095a025513ca) ([pdf](https://www.ryerson.ca/~rmal/Books/1162_C15.pdf))
 - [Visual Servoing Based on Theory of Transformation Group, V.Makarychev, https://doi.org/10.1016/j.procs.2017.01.054](https://www.sciencedirect.com/science/article/pii/S1877050917300558)
 - [6D Visual Servoing for Industrial Manipulators applied to Human-Robot Interaction Scenarios, Caixia Cai, Published 2017](https://www.semanticscholar.org/paper/6D-Visual-Servoing-for-Industrial-Manipulators-to-Cai/7a9c3762bb5d1cd8e603a3cd7c268c18aad40e83) ([pdf1](http://www.i6.in.tum.de/Main/Publications/Cai2017a.pdf), [pdf2](https://mediatum.ub.tum.de/doc/1430187/466982.pdf))
+- [Visual Servo Control, Roel Pieters, Eindhoven University of Technology](http://www.es.ele.tue.nl/~heco/courses/EmbeddedVisualControl/visual-servo-control.pdf)
+- [Toward image based visual servoing for aerial grasping and perching, Justin Thomas, Giuseppe Loianno, Koushil Sreenath, V. S. Anil Kumar, IEEE International Conference on Robotics and Automation (ICRA) (2014), https://doi.org/10.1109/icra.2014.6907149](https://www.semanticscholar.org/paper/Toward-image-based-visual-servoing-for-aerial-and-Thomas-Loianno/1323eeaf4196392d7614e689261f93886b0c9294) ([pdf](http://www.jtwebs.net/wp-content/uploads/2014/03/icra2014.pdf))
 
 ## Grasping
 - [Deictic Abstractions for Robotic Manipulation, Robert Platt, Northeastern University](https://www2.ccs.neu.edu/research/helpinghands/papers/amazon_2018_6.pdf)
 - [Robotic Grasp Detection](https://docs.google.com/presentation/d/1Zc9-iR1eVz-zysinwb7bzLGC2no2ZiaD897_14dGbhw/edit#slide=id.p)
+- [A Probabilistic Planning Framework for Planar Grasping Under Uncertainty, Jiaji Zhou, Robert Paolini, Aaron M. Johnson, J. Andrew Bagnell, Matthew T. Mason, Published in IEEE Robotics and Automation Letters 2017, https://doi.org/10.1109/lra.2017.2720845](https://www.semanticscholar.org/paper/A-Probabilistic-Planning-Framework-for-Planar-Under-Zhou-Paolini/7bd3fb25a5ac2eec9489dc6f9b6868a804032bbf) ([pdf](https://par.nsf.gov/servlets/purl/10045987))
 
 ## Articles / Papers
 - [Vision for Robotics, Danica Kragic and Markus Vincze](https://pdfs.semanticscholar.org/1594/1d6904c641e9225bb00648d0664026d17247.pdf)
@@ -414,9 +439,13 @@
 - [Kindr - Kinematics and Dynamics for Robotics (ETHZ)](https://github.com/ANYbotics/kindr)
 - [pytransform3d](https://github.com/rock-learning/pytransform3d) ([pytransform - Alexander Fabisch](https://alexanderfabisch.github.io/pytransform.html))
 - [MIRA - Middleware for Robotic Applications](http://www.mira-project.org/joomla-mira/)
+- [Kinematics Toolbox (Matlab)](https://www.mathworks.com/matlabcentral/fileexchange/24589-kinematics-toolbox)
 
 ## Spatial Robotics
 - [Sourish Ghosh](https://sourishghosh.com/research/) ([My NASA-JPL Internship Story](https://sourishghosh.com/2017/my-nasa-jpl-internship-story/))
+- [System of systems for space construction, Terrance L. Huntsberger, Ashley W. Stroupe, Brett Kennedy, IEEE International Conference on Systems, Man and Cybernetics (2005), https://doi.org/10.1109/icsmc.2005.1571634](https://www.semanticscholar.org/paper/System-of-systems-for-space-construction-Huntsberger-Stroupe/96244d0ea6cc266e2a5a5da04e21d1616fa4d3e6) ([pdf](https://www.researchgate.net/publication/4210689_System_of_systems_for_space_construction))
+- [The OOS-SIM: An on-ground simulation facility for on-orbit servicing robotic operations, IEEE International Conference on Robotics and Automation (ICRA) (2015), https://doi.org/10.1109/icra.2015.7139588](https://www.semanticscholar.org/paper/The-OOS-SIM%3A-An-on-ground-simulation-facility-for-Artigas-Stefano/0e0262b29c3df61c4f061f23ae10bdbf7b25875a) ([pdf](https://elib.dlr.de/97179/1/Artigas_OOSSIM_icra15.pdf))
+- [Visual Servoing of Space Robot for Autonomous Satellite Capture, Noriyasu Inaba, Mitsushige Oda, Masato Hayashi, Published 2003, https://doi.org/10.2322/tjsass.46.173](https://www.semanticscholar.org/paper/Visual-Servoing-of-Space-Robot-for-Autonomous-Inaba-Oda/87f0475446aa6cce05ac97c107a1ce6a409d37d5) ([pdf](https://www.jstage.jst.go.jp/article/tjsass/46/153/46_153_173/_pdf/-char/en))
 
 ## Videos
 - [Marc Raibert: Boston Dynamics | MIT Artificial Intelligence (AI) Podcast](https://www.youtube.com/watch?v=LiNSPRKHyvo)
