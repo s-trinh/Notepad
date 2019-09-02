@@ -135,6 +135,10 @@
 - [Continual lifelong learning with neural networks: A review, German Ignacio Parisi, Ronald Kemker, Jose L. Part, Christopher Kanan, Stefan Wermter, Published in Neural Networks 2019, https://doi.org/10.1016/j.neunet.2019.01.012](https://www.semanticscholar.org/paper/Continual-lifelong-learning-with-neural-networks%3A-A-Parisi-Kemker/867f85cbae54a1d17a39182063aebf8319fc2597) ([full access](https://www.sciencedirect.com/science/article/pii/S0893608019300231))
 - [Incremental learning algorithms and applications, Alexander Gepperth, Barbara Hammer, Published in ESANN 2016](https://www.semanticscholar.org/paper/Incremental-learning-algorithms-and-applications-Gepperth-Hammer/5a34bd8a6a992f3e5d60256ed055d9da80a0239f) ([HAL](https://hal.inria.fr/hal-01418129))
 - [Deep learning in neural networks: An overview, Jürgen Schmidhuber, Published in Neural Networks 2015, https://doi.org/10.1016/j.neunet.2014.09.003](https://www.semanticscholar.org/paper/Deep-learning-in-neural-networks%3A-An-overview-Schmidhuber/126df9f24e29feee6e49e135da102fbbd9154a48)
+- [Automatic Full Compilation of Julia Programs and ML Models to Cloud TPUs, Keno Fischer, Elliot Saba, Published in ArXiv 2018](https://www.semanticscholar.org/paper/Automatic-Full-Compilation-of-Julia-Programs-and-ML-Fischer-Saba/3c07aa4b70ee763b1c2f4b1e745deb5444dc6de5)
+
+## Presentations
+- [Tensor Comprehensions: Framework-Agnostic High-Performance Machine Learning Abstractions, Jiazheng Yuan](https://andreask.cs.illinois.edu/cs598apk-f18/talks/jyuan18.pdf) ([index of](https://andreask.cs.illinois.edu/cs598apk-f18/talks/))
 
 ## Code / Library
 - [Convolutional Neural Network (CNN), 5KK73 GPU Assignment 2013](https://sites.google.com/site/5kk73gpu2013/assignment/cnn)
