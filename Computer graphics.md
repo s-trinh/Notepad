@@ -85,3 +85,5 @@
 - [Polymer: A Prototyping Framework for Spatial Computing](https://github.com/ddiakopoulos/polymer)
 - [cocos2d-x](https://github.com/cocos2d/cocos2d-x)
 - [appleseed (open source, physically-based global illumination rendering engine)](https://appleseedhq.net/)
+- [glMatrix - Javascript Matrix and Vector library for High Performance WebGL apps](https://github.com/toji/gl-matrix)
+- [Boost.Compute](https://github.com/boostorg/compute)
