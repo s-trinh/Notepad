@@ -263,3 +263,10 @@ inline Eigen::Matrix<T,6,6> quaternionCovToYawPitchRollCov(
 - [EE 267 Virtual Reality - Course Notes: 6-DOF Pose Tracking with the VRduino, Gordon Wetzstein](https://stanford.edu/class/ee267/notes/ee267_notes_tracking.pdf)
 - [Pose Tracking I, Gordon Wetzstein, Stanford University](https://stanford.edu/class/ee267/lectures/lecture11.pdf)
 - [Pose Tracking II, Gordon Wetzstein, Stanford University](https://stanford.edu/class/ee267/lectures/lecture12.pdf)
+
+### Papers
+- [Computation of Covariance Matrices for Constrained Parameter Estimation Problem Using LSQR, Ekaterina A. Kostina, Michael A. Saunders, Inga Schierle, Published 2009](https://www.semanticscholar.org/paper/COMPUTATION-OF-COVARIANCE-MATRICES-FOR-CONSTRAINED-Kostina-Saunders/693303eb1027817e4fc999bd00cdfdb0e01626f2) ([pdf](https://web.stanford.edu/group/SOL/reports/SOL-2009-1.pdf))
+- [Asymptotic Properties of Non-Linear Least Squares Estimators, Robert I. Jennrich, Published 1969, https://doi.org/10.1214/aoms%2F1177697731](https://www.semanticscholar.org/paper/Asymptotic-Properties-of-Non-Linear-Least-Squares-Jennrich/94d6a5ed17042dfac7a756202bfb019ff84080fb) ([pdf](https://projecteuclid.org/download/pdf_1/euclid.aoms/1177697731))
+
+### Codes
+- [Linear Least-Squares Fitting - GSL](https://www.gnu.org/software/gsl/doc/html/lls.html)
