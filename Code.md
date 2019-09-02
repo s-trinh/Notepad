@@ -25,9 +25,23 @@
 ## Presentations
 - [Parallelization and Characterization of SIFT on Multi-Core Systems, Hao Feng, Eric Li, Yurong Chen, Yimin Zhang](http://www.iiswc.org/iiswc2008/sildes/1-2.pdf)
 
+## C++
+- [C++ 11: Move Semantics, Sandy Engelhardt, MITK BugsquashingSeminar, March 2016](http://mitk.org/images/c/ca/MoveConstructor.pdf)
+- [Conditions for automatic generation of default/copy/move ctor and copy/move assignment operator?](https://stackoverflow.com/questions/4943958/conditions-for-automatic-generation-of-default-copy-move-ctor-and-copy-move-assi)
+- [10.7 — std::initializer_list](https://www.learncpp.com/cpp-tutorial/10-7-stdinitializer_list/)
+- [Initialization in C++ is bonkers](https://blog.tartanllama.xyz/initialization-is-bonkers/)
+- [You may use braced initializer lists](https://www.jarchitect.com/QACenter/index.php?qa=77&qa_1=you-may-use-braced-initializer-lists)
+
 ## Articles
 - [Adventures in JIT compilation: Part 2 - an x64 JIT, Eli Bendersky](https://eli.thegreenplace.net/2017/adventures-in-jit-compilation-part-2-an-x64-jit/)
 - [SIMD approaches in C++ – comparison](https://gain-performance.com/2017/10/22/simd-approaches-in-c-comparison/)
+
+## Floating-point representation
+- [Sample single precision floating-point values for IEEE 754 arithmetic](http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.dui0475g/BABFGDBH.html)
+- [`std::fixed`](https://en.cppreference.com/w/cpp/io/manip/fixed)
+- [Convert Double to Hex String?](https://stackoverflow.com/questions/22668797/convert-double-to-hex-string)
+- [C/C++ Initialise double with hex](https://stackoverflow.com/questions/25923238/c-c-initialise-double-with-hex)
+- [Negative infinity](https://stackoverflow.com/questions/20016600/negative-infinity)
 
 ## Docs
 - [MATLAB array manipulation tips and tricks](https://www.ee.columbia.edu/~marios/matlab/mtt.pdf)
