@@ -119,6 +119,7 @@
 - [Benchmarking Machine Learning on the New Raspberry Pi 4, Model B](https://blog.hackster.io/benchmarking-machine-learning-on-the-new-raspberry-pi-4-model-b-88db9304ce4)
 - [Benchmarking Edge Computing](https://medium.com/@aallan/benchmarking-edge-computing-ce3f13942245)
 - [Benchmarking the Intel Neural Compute Stick on the New Raspberry Pi 4, Model B](https://blog.hackster.io/benchmarking-the-intel-neural-compute-stick-on-the-new-raspberry-pi-4-model-b-e419393f2f97)
+- [A 2017 Guide to Semantic Segmentation with Deep Learning, Sasank Chilamkurthy, July 5, 2017](http://blog.qure.ai/notes/semantic-segmentation-deep-learning-review)
 
 ## Papers
 - [Deep Learning Resources (DL4J)](https://deeplearning4j.org/cn/deeplearningpapers)
@@ -140,6 +141,7 @@
 
 ## Presentations
 - [Tensor Comprehensions: Framework-Agnostic High-Performance Machine Learning Abstractions, Jiazheng Yuan](https://andreask.cs.illinois.edu/cs598apk-f18/talks/jyuan18.pdf) ([index of](https://andreask.cs.illinois.edu/cs598apk-f18/talks/))
+- [Fast R-CNN, Ross Girshick](http://www.robots.ox.ac.uk/~tvg/publications/talks/fast-rcnn-slides.pdf)
 
 ## Code / Library
 - [Convolutional Neural Network (CNN), 5KK73 GPU Assignment 2013](https://sites.google.com/site/5kk73gpu2013/assignment/cnn)
@@ -156,6 +158,9 @@
 - [Intel Math Kernel Library for Deep Neural Networks (Intel MKL-DNN)](https://www.alcf.anl.gov/files/Gouicem_ALCF_SDL_2018_MKLDNN_presentation.pdf)
 - [Intel Nervana software stack](https://www.microsigma.fr/media/seminaire/Intel-TCAI-Workshop-slides-Nov-2017/Day02-03-Nervana_Software_Stack-Fayard.pdf)
 - [Anatomy of High-Performance Deep Learning Convolutions on SIMD Architectures, Evangelos Georganas, Sasikanth Avancha, Kunal Banerjee, Dhiraj D. Kalamkar, Greg Henry, Hans Pabst, Alexander Heinecke, SC18: International Conference for High Performance Computing, Networking, Storage and Analysis (2018)](https://www.semanticscholar.org/paper/Anatomy-of-High-Performance-Deep-Learning-on-SIMD-Georganas-Avancha/96b45f52832aec44326a0b944df411f7b2d67926) ([arXiv](https://arxiv.org/abs/1808.05567))
+
+## Cloud API
+- [The Machine Learning API](https://nanonets.com/)
 
 ## Misc
 - [Patrick Pérez](https://ptrckprz.github.io/)
