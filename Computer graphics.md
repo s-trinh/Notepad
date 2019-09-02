@@ -2,6 +2,7 @@
 - [Fundamentals of computer graphics](https://searchworks.stanford.edu/view/8606614)
 - [Fundamentals of Computer Graphics, Fourth Edition](https://www.cs.cornell.edu/~srm/fcg4/)
 - [Foundations of 3D Computer Graphics, Steven J. Gortler](https://mitpress.mit.edu/books/foundations-3d-computer-graphics)
+- [Real-Time Rendering Resources](http://www.realtimerendering.com/)
 
 ### Courses
 - [CSCI 520 Computer Animation and Simulation, Spring 2019 (University of Southern California)](http://www-bcf.usc.edu/~jbarbic/cs520-s19/)
