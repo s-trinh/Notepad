@@ -12,6 +12,7 @@
 - [Les robots parallèles (Jean-Pierre Merlet)](https://www.eyrolles.com/Sciences/Livre/les-robots-paralleles-9782866015992/) (70.00€)
 - [Robot Modeling and Control, Mark W. Spong, Seth Hutchinson, and M. Vidyasagar, Wiley, 2005 ](http://bcs.wiley.com/he-bcs/Books?action=index&itemId=0471649902&bcsId=2888)
 - [Modern Robotics: Mechanics, Planning, and Control, Kevin M. Lynch, Frank C. Park, Cambridge University Press, 2017 ](http://hades.mech.northwestern.edu/index.php/Modern_Robotics) (£ 59.99) ([preprint](http://hades.mech.northwestern.edu/images/7/7f/MR.pdf))
+- [Appendix E - Linear Algebra Review](http://hades.mech.northwestern.edu/images/f/ff/AppendixE-linear-algebra-review-July16-2019.pdf)
 - [Principles of Robot Motion, Howie Choset, Kevin M. Lynch, Seth Hutchinson, George A. Kantor, Wolfram Burgard, Lydia E. Kavraki, and Sebastian Thrun, MIT Press, 2005 ](http://mitpress.mit.edu/books/principles-robot-motion) ($85.00)
 - [Robot Manipulator Control - Theory and Practice](https://www.crcpress.com/Robot-Manipulator-Control-Theory-and-Practice/Lewis-Dawson-Abdallah/p/book/9780824740726) ([#1](http://www.robot.bmstu.ru/files/books/Robot%20Manipulator%20Control%20Theory%20and%20Practice%20-%20Frank%20L.Lewis.pdf), [#2](http://www.uta.edu/utari/acs/FL%20books/Robot_Manipulator_Control_Theory_and_Practice_-_Frank_L.Lewis-%20small.pdf))
 - [Robot Dynamics Lecture Notes](https://www.ethz.ch/content/dam/ethz/special-interest/mavt/robotics-n-intelligent-systems/rsl-dam/documents/RobotDynamics2016/RD2016script.pdf)
@@ -128,6 +129,10 @@
 - [3D geometry basics (for robotics), lecture notes, Marc Toussaint](https://ipvs.informatik.uni-stuttgart.de/mlr/marc/notes/3d-geometry.pdf)
 - [CS 287: Advanced Robotics, Fall 2013, Pieter Abbeel (Berkeley)](https://people.eecs.berkeley.edu/~pabbeel/cs287-fa13/)
 - [Advanced Robotics Laboratory, 034401, SPRING 2019, Moshe Shoham (Technion)](http://robotics.technion.ac.il/courses/Advanced_Laboratory/)
+- [cos 495 - Autonomous Robot Navigation, Christopher Clark (Princeton)](https://www.cs.princeton.edu/courses/archive/fall11/cos495/)
+- [Robotic Autonomy Summer Course (2002)](http://www.cs.cmu.edu/~rasc/)
+- [Control Methods for Robotics Applications: Fall 2008, Umeå University](http://www8.tfe.umu.se/courses/elektro/RobotControl/)
+- [16-311 Introduction to Robotics (CMU)](https://www.cs.cmu.edu/afs/cs.cmu.edu/academic/class/16311/www/s16/)
 
 ## Rotation interpolation and smoothing
 - [Interpolation schemes for rigid body motions, Milos Zefran and Vijay Kumar](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.25.1776&rep=rep1&type=pdf)
@@ -172,6 +177,7 @@
 - [Model-Based Pose Estimation, Gerard Pons-Moll, Bodo Rosenhahn, Published in Visual Analysis of Humans 2011, https://doi.org/10.1007/978-0-85729-997-0_9](https://www.semanticscholar.org/paper/Model-Based-Pose-Estimation-Pons-Moll-Rosenhahn/7caf76557b5de6b3b53e8491850195908fae8391) ([pdf](https://virtualhumans.mpi-inf.mpg.de/papers/ponsmollModelBased/ponsmollModelBased.pdf))
 - [Derivative of Rotation Matrix Direct Matrix Derivation of Well Known Formula, Fumio Hamano, Published in ArXiv 2013](https://www.semanticscholar.org/paper/Derivative-of-Rotation-Matrix-Direct-Matrix-of-Well-Hamano/d63cb50184de33ebf949a2659bb62605b51a6385)
 - [Representing Robot Pose: The good, the bad, and the ugly.](http://paulfurgale.info/news/2014/6/9/representing-robot-pose-the-good-the-bad-and-the-ugly)
+- [Calculate Rotation Matrix to align Vector A to Vector B in 3d?](https://math.stackexchange.com/questions/180418/calculate-rotation-matrix-to-align-vector-a-to-vector-b-in-3d)
 
 ## Lie Groups
 - [An Elementary Introduction to Groups and Representations, Brian C. Hall, University of Notre Dame, Department of Mathematics](https://arxiv.org/abs/math-ph/0005032)
@@ -348,6 +354,7 @@
 
 ## Grasping
 - [Deictic Abstractions for Robotic Manipulation, Robert Platt, Northeastern University](https://www2.ccs.neu.edu/research/helpinghands/papers/amazon_2018_6.pdf)
+- [Robotic Grasp Detection](https://docs.google.com/presentation/d/1Zc9-iR1eVz-zysinwb7bzLGC2no2ZiaD897_14dGbhw/edit#slide=id.p)
 
 ## Articles / Papers
 - [Vision for Robotics, Danica Kragic and Markus Vincze](https://pdfs.semanticscholar.org/1594/1d6904c641e9225bb00648d0664026d17247.pdf)
@@ -377,6 +384,8 @@
 - [Robust Legged Robot State Estimation Using Factor Graph Optimization, David Wisth, Marco Camurri, Maurice Fallon, Published in ArXiv 2019, https://doi.org/10.1109/LRA.2019.2933768](https://www.semanticscholar.org/paper/Robust-Legged-Robot-State-Estimation-Using-Factor-Wisth-Camurri/fea202e6d0883d326574ea43d792a27a11fc59ba) ([RAL](http://www.robots.ox.ac.uk/~mobile/drs/Papers/2019RAL_wisth.pdf))
 - [Generating uniformly distributed numbers on a sphere, Cory Simon](http://corysimon.github.io/articles/uniformdistn-on-sphere/)
 - [How to generate equidistributed points on the surface of a sphere, Markus Deserno](https://www.cmu.edu/biolphys/deserno/pdf/sphere_equi.pdf) ([gist code](https://gist.github.com/dinob0t/9597525))
+- [Toward fully autonomous mobile manipulation for industrial environments, Andreas Dömel, Simon Kriegel, Michael Kassecker, Manuel Brucker, Tim Bodenmüller, Michael Suppa, Published 2017, https://doi.org/10.1177/1729881417718588](https://www.semanticscholar.org/paper/Toward-fully-autonomous-mobile-manipulation-for-D%C3%B6mel-Kriegel/a07a0eb0b31abab1cc721dc1a06cb037d92289e7) ([SagePub](https://journals.sagepub.com/doi/full/10.1177/1729881417718588))
+- [Scaled unscented transform Gaussian sum filter: Theory and application, Xiaodong Luo, Irene M. Moroz, Ibrahim Hoteit, Published 2010, https://doi.org/10.1016/j.physd.2010.01.022](https://www.semanticscholar.org/paper/Scaled-unscented-transform-Gaussian-sum-filter%3A-and-Luo-Moroz/390640d2f52bf29cb13f41e361d41dcf9f0622a9)
 
 ## Thesis
 - [Implementation of a Visual Servo Control in a Bi-Manual Collaborative Robot, José Agustín Aguilar Plazaola](https://upcommons.upc.edu/handle/2117/98733) ([Semantic Scholar](https://www.semanticscholar.org/paper/Implementation-of-a-Visual-Servo-Control-in-a-Robot-Plazaola-Rosell/48b04531da2132d97e8d396531cad7fb9bdb5743))
@@ -405,6 +414,9 @@
 - [Kindr - Kinematics and Dynamics for Robotics (ETHZ)](https://github.com/ANYbotics/kindr)
 - [pytransform3d](https://github.com/rock-learning/pytransform3d) ([pytransform - Alexander Fabisch](https://alexanderfabisch.github.io/pytransform.html))
 - [MIRA - Middleware for Robotic Applications](http://www.mira-project.org/joomla-mira/)
+
+## Spatial Robotics
+- [Sourish Ghosh](https://sourishghosh.com/research/) ([My NASA-JPL Internship Story](https://sourishghosh.com/2017/my-nasa-jpl-internship-story/))
 
 ## Videos
 - [Marc Raibert: Boston Dynamics | MIT Artificial Intelligence (AI) Podcast](https://www.youtube.com/watch?v=LiNSPRKHyvo)
