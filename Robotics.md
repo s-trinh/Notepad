@@ -7,13 +7,13 @@
 - [Robotics - Modelling, Planning and Control (Siciliano, B., Sciavicco, L., Villani, L., Oriolo, G.)](https://www.springer.com/us/book/9781846286414) ($79.99 / $119.99)
 - [Robotics, Vision and Control - Fundamental Algorithms In MATLAB® Second, Completely Revised, Extended And Updated Edition (Corke, Peter)](https://www.springer.com/us/book/9783319544120) ($59.99 / $79.99)
 - [Robot Force Control (Siciliano, Bruno, Villani, Luigi)](https://www.researchgate.net/profile/Khalil_Mokhtari/post/I_need_any_good_publication_book_or_resources_about_my_master_thesis/attachment/59d6234979197b80779819e8/AS%3A306570599043072%401450103534222/download/Robot_Force_Control.pdf)
-- [Modeling, Identification and Control of Robots (W Khalil and E Dombre)](https://www.sciencedirect.com/book/9781903996669/modeling-identification-and-control-of-robots) ($84.75 / $138.60)
+- [Modeling, Identification and Control of Robots (W Khalil and E Dombre)](https://www.sciencedirect.com/book/9781903996669/modeling-identification-and-control-of-robots) ($84.75 / $138.60) ([pdf](http://home.elka.pw.edu.pl/~ptrojane/books/Modeling,%20Identification%20and%20Control%20of%20Robots.pdf))
 - [Dynamics of Parallel Robots - From Rigid Bodies to Flexible Elements (Briot, Sébastien, Khalil, Wisama)](https://www.springer.com/fr/book/9783319197876) ($86.86 / $147.69)
 - [Les robots parallèles (Jean-Pierre Merlet)](https://www.eyrolles.com/Sciences/Livre/les-robots-paralleles-9782866015992/) (70.00€)
 - [Robot Modeling and Control, Mark W. Spong, Seth Hutchinson, and M. Vidyasagar, Wiley, 2005 ](http://bcs.wiley.com/he-bcs/Books?action=index&itemId=0471649902&bcsId=2888)
 - [Modern Robotics: Mechanics, Planning, and Control, Kevin M. Lynch, Frank C. Park, Cambridge University Press, 2017 ](http://hades.mech.northwestern.edu/index.php/Modern_Robotics) (£ 59.99) ([preprint](http://hades.mech.northwestern.edu/images/7/7f/MR.pdf))
 - [Appendix E - Linear Algebra Review](http://hades.mech.northwestern.edu/images/f/ff/AppendixE-linear-algebra-review-July16-2019.pdf)
-- [Principles of Robot Motion, Howie Choset, Kevin M. Lynch, Seth Hutchinson, George A. Kantor, Wolfram Burgard, Lydia E. Kavraki, and Sebastian Thrun, MIT Press, 2005 ](http://mitpress.mit.edu/books/principles-robot-motion) ($85.00)
+- [Principles of Robot Motion, Howie Choset, Kevin M. Lynch, Seth Hutchinson, George A. Kantor, Wolfram Burgard, Lydia E. Kavraki, and Sebastian Thrun, MIT Press, 2005 ](http://mitpress.mit.edu/books/principles-robot-motion) ($85.00) ([book site](http://biorobotics.ri.cmu.edu/book/), [pdf](https://github.com/yangmingustb/planning_books_1/blob/master/Principles%20of%20Robot%20Motion%20Theory%2C%20Algorithms%2C%20and%20Implementations.pdf))
 - [Robot Manipulator Control - Theory and Practice](https://www.crcpress.com/Robot-Manipulator-Control-Theory-and-Practice/Lewis-Dawson-Abdallah/p/book/9780824740726) ([#1](http://www.robot.bmstu.ru/files/books/Robot%20Manipulator%20Control%20Theory%20and%20Practice%20-%20Frank%20L.Lewis.pdf), [#2](http://www.uta.edu/utari/acs/FL%20books/Robot_Manipulator_Control_Theory_and_Practice_-_Frank_L.Lewis-%20small.pdf))
 - [Robot Dynamics Lecture Notes](https://www.ethz.ch/content/dam/ethz/special-interest/mavt/robotics-n-intelligent-systems/rsl-dam/documents/RobotDynamics2016/RD2016script.pdf)
 - [Unmanned Rotorcraft Systems](https://link.springer.com/book/10.1007/978-0-85729-635-1)
@@ -134,6 +134,7 @@
 - [Control Methods for Robotics Applications: Fall 2008, Umeå University](http://www8.tfe.umu.se/courses/elektro/RobotControl/)
 - [16-311 Introduction to Robotics (CMU)](https://www.cs.cmu.edu/afs/cs.cmu.edu/academic/class/16311/www/s16/)
 - [C4B - Mobile Robotics, Paul Michael Newman, October 2003, Version 1.00](http://www.isir.upmc.fr/UserFiles/File/clady_homepage/M2/C4BMobileRobots.pdf)
+- [ECE 5463 Introduction to Robotics, Wei Zhang (The Ohio State University)](http://www2.ece.ohio-state.edu/~zhang/RoboticsClass/)
 
 ## Rotation interpolation and smoothing
 - [Interpolation schemes for rigid body motions, Milos Zefran and Vijay Kumar](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.25.1776&rep=rep1&type=pdf)
@@ -381,10 +382,8 @@
 - [Robotic Grasp Detection](https://docs.google.com/presentation/d/1Zc9-iR1eVz-zysinwb7bzLGC2no2ZiaD897_14dGbhw/edit#slide=id.p)
 - [A Probabilistic Planning Framework for Planar Grasping Under Uncertainty, Jiaji Zhou, Robert Paolini, Aaron M. Johnson, J. Andrew Bagnell, Matthew T. Mason, Published in IEEE Robotics and Automation Letters 2017, https://doi.org/10.1109/lra.2017.2720845](https://www.semanticscholar.org/paper/A-Probabilistic-Planning-Framework-for-Planar-Under-Zhou-Paolini/7bd3fb25a5ac2eec9489dc6f9b6868a804032bbf) ([pdf](https://par.nsf.gov/servlets/purl/10045987))
 
-## Articles / Papers
+## Papers
 - [Vision for Robotics, Danica Kragic and Markus Vincze](https://pdfs.semanticscholar.org/1594/1d6904c641e9225bb00648d0664026d17247.pdf)
-- [http://number-none.com/product/, Jonathan Blow](http://number-none.com/product/)
-- [Jonathan Blow's home page](http://number-none.com/blow/)
 - [End-Effector Pose Correction for Versatile Large-Scale Multi-Robotic Systems, Lukas Stadelmann, Timothy Sandy, Andreas Thoma, Jonas Buchli, Published in IEEE Robotics and Automation Letters 2019, DOI:10.1109/lra.2019.2891499](https://www.semanticscholar.org/paper/End-Effector-Pose-Correction-for-Versatile-Systems-Stadelmann-Sandy/bfd0269b6737efe94807c0a4b94505c4fa8a7cb7) ([video](https://www.youtube.com/watch?v=pI2GX073SGM))
 - [ConFusion: Sensor Fusion for Complex Robotic Systems Using Nonlinear Optimization, Timothy Sandy, Simon Kerscher, Jonas Buchli, Published in IEEE Robotics and Automation Letters 2019, DOI:10.1109/LRA.2019.2894168](https://www.semanticscholar.org/paper/ConFusion%3A-Sensor-Fusion-for-Complex-Robotic-Using-Sandy-Kerscher/d203f3bbc2d0688167e8eaa7919b3f2663374b80) ([video](https://www.youtube.com/watch?v=J6up9Eq9Sxc), [code](https://bitbucket.org/tsandy/confusion))
 - [Closed-Loop Algorithms for Industrial Robots — Status and Recent Trends, H.-B.Kuntze, https://doi.org/10.1016/S1474-6670(17)60003-X](https://www.sciencedirect.com/science/article/pii/S147466701760003X)
@@ -411,9 +410,18 @@
 - [How to generate equidistributed points on the surface of a sphere, Markus Deserno](https://www.cmu.edu/biolphys/deserno/pdf/sphere_equi.pdf) ([gist code](https://gist.github.com/dinob0t/9597525))
 - [Toward fully autonomous mobile manipulation for industrial environments, Andreas Dömel, Simon Kriegel, Michael Kassecker, Manuel Brucker, Tim Bodenmüller, Michael Suppa, Published 2017, https://doi.org/10.1177/1729881417718588](https://www.semanticscholar.org/paper/Toward-fully-autonomous-mobile-manipulation-for-D%C3%B6mel-Kriegel/a07a0eb0b31abab1cc721dc1a06cb037d92289e7) ([SagePub](https://journals.sagepub.com/doi/full/10.1177/1729881417718588))
 - [Scaled unscented transform Gaussian sum filter: Theory and application, Xiaodong Luo, Irene M. Moroz, Ibrahim Hoteit, Published 2010, https://doi.org/10.1016/j.physd.2010.01.022](https://www.semanticscholar.org/paper/Scaled-unscented-transform-Gaussian-sum-filter%3A-and-Luo-Moroz/390640d2f52bf29cb13f41e361d41dcf9f0622a9)
+- [IEEE Robotics & Automation Magazine, Issue 3 • Sept.-2019](https://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=100)
 
 ## Thesis
 - [Implementation of a Visual Servo Control in a Bi-Manual Collaborative Robot, José Agustín Aguilar Plazaola](https://upcommons.upc.edu/handle/2117/98733) ([Semantic Scholar](https://www.semanticscholar.org/paper/Implementation-of-a-Visual-Servo-Control-in-a-Robot-Plazaola-Rosell/48b04531da2132d97e8d396531cad7fb9bdb5743))
+- [Modélisation, identification et commande dynamique d'un robot d'architecture parallèle, Philippe Lelias](https://dumas.ccsd.cnrs.fr/dumas-01154107)
+
+## Articles
+- [http://number-none.com/product/, Jonathan Blow](http://number-none.com/product/)
+- [Jonathan Blow's home page](http://number-none.com/blow/)
+- [Analytical Jacobian VS. Geometrical Jacobian](http://www.etedal.net/2014/12/analytical-jacobian-vs-geometrical.html)
+- [Geometric jacobian and analytical jacobian difference?](https://www.researchgate.net/post/Geometric_jacobian_and_analytical_jacobian_difference2)
+- [Analytical vs. Geometric Jacobians](http://zumguy.com/analytical-vs-geometric-jacobians/)
 
 ## Libraries / Code
 - [Rigid motions and robotics toolbox](https://www.mathworks.com/matlabcentral/fileexchange/56758-rigid-motions-and-robotics-toolbox)
@@ -440,6 +448,8 @@
 - [pytransform3d](https://github.com/rock-learning/pytransform3d) ([pytransform - Alexander Fabisch](https://alexanderfabisch.github.io/pytransform.html))
 - [MIRA - Middleware for Robotic Applications](http://www.mira-project.org/joomla-mira/)
 - [Kinematics Toolbox (Matlab)](https://www.mathworks.com/matlabcentral/fileexchange/24589-kinematics-toolbox)
+- [KUKA-UI](https://github.com/mahyaret/KUI)
+- [Compliant Joint Toolbox (CJT)](https://github.com/geez0x1/CompliantJointToolbox)
 
 ## Spatial Robotics
 - [Sourish Ghosh](https://sourishghosh.com/research/) ([My NASA-JPL Internship Story](https://sourishghosh.com/2017/my-nasa-jpl-internship-story/))
