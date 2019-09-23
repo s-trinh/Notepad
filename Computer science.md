@@ -21,12 +21,6 @@
 - [CSEP548: Computer Architecture by Prof. Luis Ceze with Liang Luo and Eddie Yan](https://courses.cs.washington.edu/courses/csep548/) ([CSE P 548: Computer Architecture - Autumn 2006](https://courses.cs.washington.edu/courses/csep548/06au/lectures.html))
 - [Advanced Computer Architectures - 088949, Prof. Cristina Silvano, Politecnico di Milano](http://home.deib.polimi.it/silvano/aca-milano.htm)
 
-### Code
-- [In which order should floats be added to get the most precise result?](https://stackoverflow.com/questions/6699066/in-which-order-should-floats-be-added-to-get-the-most-precise-result)
-- [Kahan summation algorithm](https://en.wikipedia.org/wiki/Kahan_summation_algorithm)
-- [avx2 convolution pipeline utilization #477](https://github.com/intel/mkl-dnn/issues/477#issuecomment-493591765):
-> In x86 CPUs a number of physical registers is more than architectural one. It means that during the execution of code above, the architectural register ymm15 will be mapped on different physical registers to resolve dependencies.
-
 ### High-Performance Computing
 - [Introduction to High-Performance Scientific Computing, Victor Eijkhout](http://pages.tacc.utexas.edu/~eijkhout/istc/html/)
 - [Performance speed limits](https://travisdowns.github.io/blog/2019/06/11/speed-limits.html)
@@ -40,3 +34,6 @@
 - [https://bisqwit.iki.fi/](https://bisqwit.iki.fi/)
 - [mimalloc](https://github.com/microsoft/mimalloc)
 - [Intel SPMD Program Compiler](https://ispc.github.io/)
+- [Matrix Algebra on GPU and Multicore Architectures](https://icl.cs.utk.edu/magma/) ([Accelerating Linear Algebra with MAGMA](http://icl.utk.edu/projectsfiles/magma/tutorial/ecp2018-magma-tutorial.pdf))
+- [Parallel kd-Tree Construction on the GPU](https://davidawehr.com/projects/kdtree_pub.html)
+- [Performance explained easy](https://easyperf.net/)
