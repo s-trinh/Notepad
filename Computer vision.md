@@ -515,3 +515,4 @@
 - [Virtual Reality, Steven M. LaValle](http://vr.cs.uiuc.edu/)
 - [Visual Analysis of Humans - Looking at People, Thomas B. Moeslund, A. Hilton, Volker Krüger, Leonid Sigal, Published 2011, https://doi.org/10.1007/978-0-85729-997-0](https://www.semanticscholar.org/paper/Visual-Analysis-of-Humans-Looking-at-People-Moeslund-Hilton/0c5f6a44458c8927efaf5a5e5b04eb8ec6c699e8) ([Springer](https://link.springer.com/book/10.1007/978-0-85729-997-0))
 - [Pattern Classification and Machine Learning, Matthias Seeger, Ecole Polytechnique F ́ed ́erale de Lausanne](https://mseeger.github.io/files/pcml_notes.pdf)
+- [Natural Image Statistics — A probabilistic approach to early computational vision, Aapo Hyvärinen, Jarmo Hurri, and Patrik O. Hoyer](http://www.naturalimagestatistics.net/) ([pdf](http://www.naturalimagestatistics.net/nis_preprintFeb2009.pdf))
