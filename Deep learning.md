@@ -142,6 +142,9 @@
 - [AutoAugment: Learning Augmentation Policies from Data, Ekin Dogus Cubuk, Barret Zoph, Dandelion Mané, Vijay Vasudevan, Quoc V. Le, Published in ArXiv 2018](https://www.semanticscholar.org/paper/AutoAugment%3A-Learning-Augmentation-Policies-from-Cubuk-Zoph/f723eb3e7159f07b97464c8d947d15e78612abe4)
 - [Depth from Videos in the Wild: Unsupervised Monocular Depth Learning from Unknown Cameras, Andrew Gordon, Hanhan Li, Rico Jonschkowski, Anelia Angelova, Published in ArXiv 2019](https://www.semanticscholar.org/paper/Depth-from-Videos-in-the-Wild%3A-Unsupervised-Depth-Gordon-Li/b51d23b2cd972a75c854ca7fe863122eeac895f6)
 
+## Resources
+- [Study E-Book (Computer Vision Deep Learning Machine Learning Math NLP Python Reinforcement Learning)](https://github.com/changwookjun/StudyBook)
+
 ## Presentations
 - [Tensor Comprehensions: Framework-Agnostic High-Performance Machine Learning Abstractions, Jiazheng Yuan](https://andreask.cs.illinois.edu/cs598apk-f18/talks/jyuan18.pdf) ([index of](https://andreask.cs.illinois.edu/cs598apk-f18/talks/))
 - [Fast R-CNN, Ross Girshick](http://www.robots.ox.ac.uk/~tvg/publications/talks/fast-rcnn-slides.pdf)
