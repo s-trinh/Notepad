@@ -3,6 +3,8 @@
 
 ## SIMD
 - [Marat Dukhan](https://www.cc.gatech.edu/grads/m/mdukhan3/)
+- [avx2 convolution pipeline utilization #477](https://github.com/intel/mkl-dnn/issues/477#issuecomment-493591765):
+> In x86 CPUs a number of physical registers is more than architectural one. It means that during the execution of code above, the architectural register ymm15 will be mapped on different physical registers to resolve dependencies.
 
 ## Libraries
 - [UME::SIMD A library for explicit simd vectorization](https://github.com/edanor/umesimd)
@@ -13,10 +15,6 @@
 
 ## GCC
 - [Auto-vectorization in GCC](https://www.gnu.org/software/gcc/projects/tree-ssa/vectorization.html)
-
-## HPC
-- [Matrix Algebra on GPU and Multicore Architectures](https://icl.cs.utk.edu/magma/) ([Accelerating Linear Algebra with MAGMA](http://icl.utk.edu/projectsfiles/magma/tutorial/ecp2018-magma-tutorial.pdf))
-- [Parallel kd-Tree Construction on the GPU](https://davidawehr.com/projects/kdtree_pub.html)
 
 ## Papers
 - [Loopy: Programmable and Formally Verified Loop Transformations, Kedar S. Namjoshi, Nimit Singhania, Published in SAS 2016, https://doi.org/10.1007/978-3-662-53413-7_19](https://www.semanticscholar.org/paper/Loopy%3A-Programmable-and-Formally-Verified-Loop-Namjoshi-Singhania/0993b6b0bf7256922439771fdad2b4c2c7256b19) ([pdf](https://www.seas.upenn.edu/~nimits/papers/sas16.pdf))
@@ -35,6 +33,7 @@
 ## Articles
 - [Adventures in JIT compilation: Part 2 - an x64 JIT, Eli Bendersky](https://eli.thegreenplace.net/2017/adventures-in-jit-compilation-part-2-an-x64-jit/)
 - [SIMD approaches in C++ – comparison](https://gain-performance.com/2017/10/22/simd-approaches-in-c-comparison/)
+- [https://attractivechaos.wordpress.com/](https://attractivechaos.wordpress.com/)
 
 ## Floating-point representation
 - [Sample single precision floating-point values for IEEE 754 arithmetic](http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.dui0475g/BABFGDBH.html)
@@ -42,6 +41,19 @@
 - [Convert Double to Hex String?](https://stackoverflow.com/questions/22668797/convert-double-to-hex-string)
 - [C/C++ Initialise double with hex](https://stackoverflow.com/questions/25923238/c-c-initialise-double-with-hex)
 - [Negative infinity](https://stackoverflow.com/questions/20016600/negative-infinity)
+- [In which order should floats be added to get the most precise result?](https://stackoverflow.com/questions/6699066/in-which-order-should-floats-be-added-to-get-the-most-precise-result)
+- [Kahan summation algorithm](https://en.wikipedia.org/wiki/Kahan_summation_algorithm)
+
+## Cache analysis
+- [C++ Performacne analysis of tiled matrix multiplication with valgrind](https://stackoverflow.com/questions/26892504/c-performacne-analysis-of-tiled-matrix-multiplication-with-valgrind)
+
+## Matrix transpose
+- [An Efficient Matrix Transpose in CUDA C/C++](https://devblogs.nvidia.com/efficient-matrix-transpose-cuda-cc/)
+- [Why is transposing a matrix of 512x512 much slower than transposing a matrix of 513x513?](https://stackoverflow.com/questions/11413855/why-is-transposing-a-matrix-of-512x512-much-slower-than-transposing-a-matrix-of)
+- [What is the fastest way to transpose a matrix in C++?](https://stackoverflow.com/questions/16737298/what-is-the-fastest-way-to-transpose-a-matrix-in-c)
+- [Cache Oblivious Matrix Transposition Implementation in C++](https://stackoverflow.com/questions/47554044/cache-oblivious-matrix-transposition-implementation-in-c)
+- [A Cache Efficient Matrix Transpose Program?](https://stackoverflow.com/questions/5200338/a-cache-efficient-matrix-transpose-program)
+
 
 ## Docs
 - [MATLAB array manipulation tips and tricks](https://www.ee.columbia.edu/~marios/matlab/mtt.pdf)
