@@ -128,3 +128,42 @@ dpkg --print-architecture
 uname -r
 sudo apt-get install --install-recommends linux-generic-hwe-16.04 xserver-xorg-hwe-16.04 
 ```
+
+### Remove WPS PDF mimetype for pdf extension
+- display file extension <--> mimetype correspondence
+```
+grep pdf /etc/mime.types
+#
+application/pdf					pdf
+```
+- remove WPS pdf override:
+```
+gksudo gedit /usr/share/mime/packages/wps-office-pdf.xml
+# remove pdf mentions
+```
+- display WPS pdf icon paths:
+```
+locate wps-office-pdf
+#
+/usr/share/applications/wps-office-pdf.desktop
+/usr/share/icons/hicolor/128x128/mimetypes/wps-office-pdf.png
+/usr/share/icons/hicolor/16x16/mimetypes/wps-office-pdf.png
+/usr/share/icons/hicolor/24x24/mimetypes/wps-office-pdf.png
+/usr/share/icons/hicolor/256x256/mimetypes/wps-office-pdf.png
+/usr/share/icons/hicolor/32x32/mimetypes/wps-office-pdf.png
+/usr/share/icons/hicolor/48x48/mimetypes/wps-office-pdf.png
+/usr/share/icons/hicolor/512x512/mimetypes/wps-office-pdf.png
+/usr/share/icons/hicolor/64x64/mimetypes/wps-office-pdf.png
+/usr/share/icons/hicolor/96x96/mimetypes/wps-office-pdf.png
+/usr/share/mime/packages/wps-office-pdf.xml
+```
+- update mimetype database:
+```
+sudo update-mime-database /usr/share/mime
+```
+- new files should be created:
+> `/usr/share/mime/application/wps-office.nowps.xml`
+- some references:
+  - [Update mime type from ~/.mime.types?](https://askubuntu.com/questions/662764/update-mime-type-from-mime-types)
+  - [how can I change file association globally?](https://askubuntu.com/questions/289337/how-can-i-change-file-association-globally) (`/usr/share/applications/defaults.list`)
+  - [How To Change File-Type (mimetype) Icons](https://ubuntuforums.org/showthread.php?t=916847)
