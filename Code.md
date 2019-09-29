@@ -54,6 +54,15 @@
 - [Cache Oblivious Matrix Transposition Implementation in C++](https://stackoverflow.com/questions/47554044/cache-oblivious-matrix-transposition-implementation-in-c)
 - [A Cache Efficient Matrix Transpose Program?](https://stackoverflow.com/questions/5200338/a-cache-efficient-matrix-transpose-program)
 
+## BLAS
+- [Examples - Compiling, linking, and running a simple matrix multiplication ATLAS program (IBM Knowledge Center)](https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.1.0/com.ibm.zos.v2r1.cbcpx01/atlasexample1.htm)
+- [Getting started with ATLAS, BLAS and LAPACK](https://michaellindon.github.io/lindonslog/programming/atlas-blas-lapack-linear-algebra-libraries/index.html)
+- [Using BLAS from C with row major data](https://www.christophlassner.de/using-blas-from-c-with-row-major-data.html)
+- [A collection of math tutorials in C](https://github.com/Foadsf/Cmathtuts)
+
+## Online tools
+- [Quick C++ Benchmark](http://quick-bench.com/)
+- [Compiler Explorer](https://godbolt.org/)
 
 ## Docs
 - [MATLAB array manipulation tips and tricks](https://www.ee.columbia.edu/~marios/matlab/mtt.pdf)
