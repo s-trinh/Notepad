@@ -12,3 +12,9 @@ set_target_properties(myTarget PROPERTIES
     CXX_EXTENSIONS NO
 )
 ```
+
+### CTest
+- [cTest: run a single test in a multi-test directory?](https://cmake.org/pipermail/cmake/2013-July/055225.html):
+```
+ctest -R pdf5
+```
