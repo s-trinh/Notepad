@@ -5,6 +5,14 @@
 - [Marat Dukhan](https://www.cc.gatech.edu/grads/m/mdukhan3/)
 - [avx2 convolution pipeline utilization #477](https://github.com/intel/mkl-dnn/issues/477#issuecomment-493591765):
 > In x86 CPUs a number of physical registers is more than architectural one. It means that during the execution of code above, the architectural register ymm15 will be mapped on different physical registers to resolve dependencies.
+- [SSE and AVX intrinsics mixture](https://stackoverflow.com/questions/18319488/sse-and-avx-intrinsics-mixture)
+- [Using AVX CPU instructions: Poor performance without “/arch:AVX”](https://stackoverflow.com/questions/7839925/using-avx-cpu-instructions-poor-performance-without-archavx)
+- [VEX prefixes encoding and SSE/AVX MOVUP(D/S) instructions](https://stackoverflow.com/questions/51773399/vex-prefixes-encoding-and-sse-avx-movupd-s-instructions)
+- [What is the penalty of mixing EVEX and VEX encoded scheme?](https://stackoverflow.com/questions/46080327/what-is-the-penalty-of-mixing-evex-and-vex-encoded-scheme)
+- [Does compiler use SSE instructions for a regular C code?](https://stackoverflow.com/questions/50786263/does-compiler-use-sse-instructions-for-a-regular-c-code)
+- [https://godbolt.org/z/ALvKsT](https://godbolt.org/z/ALvKsT)
+- [SSE & AVX usage](https://www.codingame.com/playgrounds/283/sse-avx-vectorization/sse-and-avx-usage)
+- [The significance of SIMD, SSE and AVX - Stephen Blair-Chappell - Intel Compiler Lab](https://www.polyhedron.com/web_images/intel/productbriefs/3a_SIMD.pdf)
 
 ## Libraries
 - [UME::SIMD A library for explicit simd vectorization](https://github.com/edanor/umesimd)
@@ -53,12 +61,20 @@
 - [What is the fastest way to transpose a matrix in C++?](https://stackoverflow.com/questions/16737298/what-is-the-fastest-way-to-transpose-a-matrix-in-c)
 - [Cache Oblivious Matrix Transposition Implementation in C++](https://stackoverflow.com/questions/47554044/cache-oblivious-matrix-transposition-implementation-in-c)
 - [A Cache Efficient Matrix Transpose Program?](https://stackoverflow.com/questions/5200338/a-cache-efficient-matrix-transpose-program)
+- [A better 8x8 bytes matrix transpose with SSE?](https://stackoverflow.com/questions/42162270/a-better-8x8-bytes-matrix-transpose-with-sse)
+- [How to transpose a 16x16 matrix using SIMD instructions?](https://stackoverflow.com/questions/29519222/how-to-transpose-a-16x16-matrix-using-simd-instructions)
+- [How to transpose a 16×16 byte matrix using SSE](https://pzemtsov.github.io/2014/10/01/how-to-transpose-a-16x16-matrix.html)
+- [Bug story 2: Unrolling the 16×16 matrix transposition, or be careful with macros](https://pzemtsov.github.io/2014/10/21/bug-story-2-unrolling-16x16-transposition.html)
 
 ## BLAS
 - [Examples - Compiling, linking, and running a simple matrix multiplication ATLAS program (IBM Knowledge Center)](https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.1.0/com.ibm.zos.v2r1.cbcpx01/atlasexample1.htm)
 - [Getting started with ATLAS, BLAS and LAPACK](https://michaellindon.github.io/lindonslog/programming/atlas-blas-lapack-linear-algebra-libraries/index.html)
 - [Using BLAS from C with row major data](https://www.christophlassner.de/using-blas-from-c-with-row-major-data.html)
 - [A collection of math tutorials in C](https://github.com/Foadsf/Cmathtuts)
+- [Performance experiments with matrix multiplication](https://vorner.github.io/2018/05/12/Mat-perf.html) ([fastmatmult](https://github.com/vorner/fastmatmult))
+
+## Benchmarks
+- [CppPerformanceBenchmarks](https://gitlab.com/chriscox/CppPerformanceBenchmarks)
 
 ## Online tools
 - [Quick C++ Benchmark](http://quick-bench.com/)
