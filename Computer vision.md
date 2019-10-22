@@ -458,8 +458,16 @@
 - [Homography Estimation, Elan Dubrofsky (Master Thesis)](https://www.cs.ubc.ca/grads/resources/thesis/May09/Dubrofsky_Elan.pdf)
 
 ## Halide
-- [An introductionto Halide](https://halide-lang.org/assets/lectures/Halide_CVPR_intro.pdf)
+- [An introduction to Halide](https://halide-lang.org/assets/lectures/Halide_CVPR_intro.pdf)
 - [Recursive filtering in Halide](https://halide-lang.org/assets/lectures/CVPR_Halide_RecursiveFiltering.pdf)
+
+## Image Entropy
+- [Entropy of an image](https://stats.stackexchange.com/questions/235270/entropy-of-an-image)
+- [Reflections on Shannon Information: In search of a natural information-entropy for images, Kieran G. Larkin, Published in ArXiv 2016](https://www.semanticscholar.org/paper/Reflections-on-Shannon-Information%3A-In-search-of-a-Larkin/15bba9eeb69d0bda6a9dbb3f27b01fc1dd9c443b) ([Selected Publications of Kieran Larkin](https://nontrivialzeros.net/KGL_misc_papers.html))
+- [Mutual-information-based registration of medical images: a survey, Josien P. W. Pluim, J. B. Antoine Maintz, Max A. Viergever, Published in IEEE Transactions on Medical Imaging 2003, https://doi.org/10.1109/tmi.2003.815867](https://www.semanticscholar.org/paper/Mutual-information-based-registration-of-medical-a-Pluim-Maintz/5d69c8a4e8d18528904a65d0f48758e31519abbf)
+- [Entropy of grayscale image (Matlab)](https://www.mathworks.com/help/images/ref/entropy.html) ([Entropy of an image](https://www.mathworks.com/matlabcentral/answers/236032-entropy-of-an-image), [code](https://www.mathworks.com/matlabcentral/fileexchange/35628-image-entropy), [graycomatrix](https://www.mathworks.com/help/images/ref/graycomatrix.html))
+- [Measuring entropy/ information/ patterns of a 2d binary matrix](https://stats.stackexchange.com/questions/17109/measuring-entropy-information-patterns-of-a-2d-binary-matrix)
+- [Gradient Intensity: A New Mutual Information-Based Registration Method, Ramtin Shams, Parastoo Sadeghi, Rodney A. Kennedy, Published in IEEE Conference on Computer Vision and Pattern Recognition 2007, https://doi.org/10.1109/cvpr.2007.383425](https://www.semanticscholar.org/paper/Gradient-Intensity%3A-A-New-Mutual-Information-Based-Shams-Sadeghi/8de7ee223d38953be95d1a8e7a600e18f45757c8)
 
 ## Matlab
 - [Digital Image Processing Using MATLAB®, Rafael C. Gonzalez, Richard E. Woods, Steven L. Eddins](https://www.academia.edu/18324189/Digital_image_processing_using_matlab_gonzalez_)
