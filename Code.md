@@ -76,6 +76,22 @@
 ## Benchmarks
 - [CppPerformanceBenchmarks](https://gitlab.com/chriscox/CppPerformanceBenchmarks)
 
+## PRNG
+- [https://www.random.org/analysis/](https://www.random.org/analysis/)
+- [Generating random numbers in C++](https://diego.assencio.com/?index=6890b8c50169ef45b74db135063c227c)
+- [Random number generators for C++ performance tested](http://thompsonsed.co.uk/random-number-generators-for-c-performance-tested)
+- [xoshiro / xoroshiro generators and the PRNG shootout](http://prng.di.unimi.it/)
+- [Xorshift1024*, Xorshift1024+, Xorshift128+ and Xoroshiro128+ Fail Statistical Tests for Linearity](https://lemire.me/en/publication/arxiv1810.05313/)
+- [PCG, A Family of Better Random Number Generators](http://www.pcg-random.org/)
+- [Visualizing the Heart of Some PRNGs](http://www.pcg-random.org/posts/visualizing-the-heart-of-some-prngs.html)
+- [Fast Random Number Generator on the Intel® Pentium® 4 Processor](https://software.intel.com/en-us/articles/fast-random-number-generator-on-the-intel-pentiumr-4-processor)
+- [Pseudo-Random vs. True Random](https://boallen.com/random-numbers.html)
+- [PHP rand(0,1) on Windows < OpenSSL rand() on Debian](http://cod.ifies.com/2008/05/php-rand01-on-windows-openssl-rand-on.html)
+- [Randomness Test](https://www.shadertoy.com/view/wljXDz)
+- [C++ super fast thread-safe rand function](https://stackoverflow.com/questions/8285067/c-super-fast-thread-safe-rand-function)
+- [Python: Calculating pi using random numbers](http://www.stealthcopter.com/blog/2009/09/python-calculating-pi-using-random-numbers/)
+- [Entropy and Random Number Generators - a study of RNG and a custom RNG solution](https://calomel.org/entropy_random_number_generators.html)
+
 ## Online tools
 - [Quick C++ Benchmark](http://quick-bench.com/)
 - [Compiler Explorer](https://godbolt.org/)
