@@ -41,10 +41,16 @@
 - [Initialization in C++ is bonkers](https://blog.tartanllama.xyz/initialization-is-bonkers/)
 - [You may use braced initializer lists](https://www.jarchitect.com/QACenter/index.php?qa=77&qa_1=you-may-use-braced-initializer-lists)
 
-## Articles
+## Articles / Blogs
 - [Adventures in JIT compilation: Part 2 - an x64 JIT, Eli Bendersky](https://eli.thegreenplace.net/2017/adventures-in-jit-compilation-part-2-an-x64-jit/)
 - [SIMD approaches in C++ – comparison](https://gain-performance.com/2017/10/22/simd-approaches-in-c-comparison/)
 - [https://attractivechaos.wordpress.com/](https://attractivechaos.wordpress.com/)
+- [Memory Dump In Cloud](http://oliveryang.net/)
+- [Performance explained easy](https://easyperf.net/)
+- [Daniel Lemire's blog](https://lemire.me/blog/)
+- [Performance Matters](https://travisdowns.github.io/)
+- [SHORTJUMP! Reversing engineering, programming and what not…](http://0xeb.net/)
+- [Inverting Binary Trees Considered Harmful](https://web.archive.org/web/20190220134908/http://www.jasq.org/just-another-scala-quant/inverting-binary-trees-considered-harmful)
 
 ## Floating-point representation
 - [Sample single precision floating-point values for IEEE 754 arithmetic](http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.dui0475g/BABFGDBH.html)
@@ -82,6 +88,7 @@
 
 ## Benchmarks
 - [CppPerformanceBenchmarks](https://gitlab.com/chriscox/CppPerformanceBenchmarks)
+- [Pitfalls of TSC usage](http://oliveryang.net/2015/09/pitfalls-of-TSC-usage/)
 
 ## PRNG
 - [https://www.random.org/analysis/](https://www.random.org/analysis/)
