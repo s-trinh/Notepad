@@ -111,6 +111,10 @@
 - [Hardware for Deep Learning. Part 2: CPU](https://blog.inten.to/cpu-hardware-for-deep-learning-b91f53cb18af)
 - [Hardware for Deep Learning. Part 3: GPU](https://blog.inten.to/hardware-for-deep-learning-part-3-gpu-8906c1644664)
 
+## Benchmark
+- [MLPerf](https://mlperf.org/)
+- [sotabench](https://sotabench.com/)
+
 ## Books
 - [Deep Learning book](http://www.deeplearningbook.org/)
 - [Reinforcement Learning: An Introduction, Richard S. Sutton and Andrew G. Barto, Second Edition, MIT Press, Cambridge, MA, 2018](http://incompleteideas.net/book/the-book-2nd.html) ([pdf](http://incompleteideas.net/book/RLbook2018.pdf), [Google Drive](https://drive.google.com/file/d/1opPSz5AZ_kVa1uWOdOiveNiBFiEOHjkG/view))
