@@ -24,6 +24,9 @@
 ## GCC
 - [Auto-vectorization in GCC](https://www.gnu.org/software/gcc/projects/tree-ssa/vectorization.html)
 
+## Compilers
+- [Calibrating your fear of big bad optimizing compilers](https://lwn.net/Articles/799218/)
+
 ## Papers
 - [Loopy: Programmable and Formally Verified Loop Transformations, Kedar S. Namjoshi, Nimit Singhania, Published in SAS 2016, https://doi.org/10.1007/978-3-662-53413-7_19](https://www.semanticscholar.org/paper/Loopy%3A-Programmable-and-Formally-Verified-Loop-Namjoshi-Singhania/0993b6b0bf7256922439771fdad2b4c2c7256b19) ([pdf](https://www.seas.upenn.edu/~nimits/papers/sas16.pdf))
 - [Parallelization and characterization of SIFT on multi-core systems, Hao Feng, Eric Q. Li, Yurong Chen, Yimin Zhang, IEEE International Symposium on Workload Characterization (2008), https://doi.org/10.1109/iiswc.2008.4636087](https://www.semanticscholar.org/paper/Parallelization-and-characterization-of-SIFT-on-Feng-Li/6d6befc93dca5d5b2b4b949990608a83d3296432)
@@ -52,8 +55,12 @@
 - [In which order should floats be added to get the most precise result?](https://stackoverflow.com/questions/6699066/in-which-order-should-floats-be-added-to-get-the-most-precise-result)
 - [Kahan summation algorithm](https://en.wikipedia.org/wiki/Kahan_summation_algorithm)
 
-## Cache analysis
+## Cache analysis / Memory Cache
 - [C++ Performacne analysis of tiled matrix multiplication with valgrind](https://stackoverflow.com/questions/26892504/c-performacne-analysis-of-tiled-matrix-multiplication-with-valgrind)
+- [What Every Programmer Should Know About Memory?](https://stackoverflow.com/questions/8126311/what-every-programmer-should-know-about-memory/47714514#47714514)
+- [How can cache be that fast?](https://electronics.stackexchange.com/questions/329789/how-can-cache-be-that-fast/329955#329955)
+- [Intel’s Sandy Bridge Microarchitecture - Memory Subsystem](https://www.realworldtech.com/sandy-bridge/7/)
+- [Analysis of Haswell’s Transactional Memory](https://www.realworldtech.com/haswell-tm/)
 
 ## Matrix transpose
 - [An Efficient Matrix Transpose in CUDA C/C++](https://devblogs.nvidia.com/efficient-matrix-transpose-cuda-cc/)
