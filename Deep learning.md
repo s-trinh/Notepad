@@ -120,6 +120,9 @@
 - [Benchmarking Edge Computing](https://medium.com/@aallan/benchmarking-edge-computing-ce3f13942245)
 - [Benchmarking the Intel Neural Compute Stick on the New Raspberry Pi 4, Model B](https://blog.hackster.io/benchmarking-the-intel-neural-compute-stick-on-the-new-raspberry-pi-4-model-b-e419393f2f97)
 - [A 2017 Guide to Semantic Segmentation with Deep Learning, Sasank Chilamkurthy, July 5, 2017](http://blog.qure.ai/notes/semantic-segmentation-deep-learning-review)
+- [Interviews with Machine Learning Heroes](https://hackernoon.com/interviews-with-machine-learning-heroes-504762ba5dd6)
+- [Anatomy of a High-Speed Convolution](https://sahnimanas.github.io/post/anatomy-of-a-high-performance-convolution/)
+- [Benchmarking Transformers: PyTorch and TensorFlow](https://medium.com/huggingface/benchmarking-transformers-pytorch-and-tensorflow-e2917fb891c2)
 
 ## Papers
 - [Deep Learning Resources (DL4J)](https://deeplearning4j.org/cn/deeplearningpapers)
@@ -141,6 +144,7 @@
 - [Evaluating the Search Phase of Neural Architecture Search, Christian Sciuto, Kaicheng Yu, Martin Jaggi, Claudiu Cristian Musat, Mathieu Salzmann, Published in ArXiv 2019](https://www.semanticscholar.org/paper/Evaluating-the-Search-Phase-of-Neural-Architecture-Sciuto-Yu/6eb3a62cd365e4f9792eedca43c90595e1a862ba)
 - [AutoAugment: Learning Augmentation Policies from Data, Ekin Dogus Cubuk, Barret Zoph, Dandelion Mané, Vijay Vasudevan, Quoc V. Le, Published in ArXiv 2018](https://www.semanticscholar.org/paper/AutoAugment%3A-Learning-Augmentation-Policies-from-Cubuk-Zoph/f723eb3e7159f07b97464c8d947d15e78612abe4)
 - [Depth from Videos in the Wild: Unsupervised Monocular Depth Learning from Unknown Cameras, Andrew Gordon, Hanhan Li, Rico Jonschkowski, Anelia Angelova, Published in ArXiv 2019](https://www.semanticscholar.org/paper/Depth-from-Videos-in-the-Wild%3A-Unsupervised-Depth-Gordon-Li/b51d23b2cd972a75c854ca7fe863122eeac895f6)
+- [Liquid Warping GAN: A Unified Framework for Human Motion Imitation, Appearance Transfer and Novel View Synthesis, Wen Liu, Zhixin Piao, Jie Min, Wenhan Luo, Lin Ma, Shenghua Gao, Published in ArXiv 2019](https://www.semanticscholar.org/paper/Liquid-Warping-GAN%3A-A-Unified-Framework-for-Human-Liu-Piao/f672ec28c095f3d3f44a71e55e951cd888bbbc2b) ([project page](https://svip-lab.github.io/project/impersonator), [Impersonator](https://github.com/svip-lab/impersonator))
 
 ## Resources
 - [Study E-Book (Computer Vision Deep Learning Machine Learning Math NLP Python Reinforcement Learning)](https://github.com/changwookjun/StudyBook)
