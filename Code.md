@@ -51,6 +51,7 @@
 - [Performance Matters](https://travisdowns.github.io/)
 - [SHORTJUMP! Reversing engineering, programming and what not…](http://0xeb.net/)
 - [Inverting Binary Trees Considered Harmful](https://web.archive.org/web/20190220134908/http://www.jasq.org/just-another-scala-quant/inverting-binary-trees-considered-harmful)
+- [Nicholas Frechette's Blog - Raw bits](https://nfrechette.github.io/)
 
 ## Floating-point representation
 - [Sample single precision floating-point values for IEEE 754 arithmetic](http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.dui0475g/BABFGDBH.html)
