@@ -455,6 +455,7 @@
 - [KUKA-UI](https://github.com/mahyaret/KUI)
 - [Compliant Joint Toolbox (CJT)](https://github.com/geez0x1/CompliantJointToolbox)
 - [Fetch & Freight Research Edition Documentation](https://github.com/fetchrobotics/docs) ([Fetch & Freight Manual](http://docs.fetchrobotics.com/))
+- [The dual quaternion robotics library](https://dqrobotics.github.io/)
 
 ## Spatial Robotics
 - [Sourish Ghosh](https://sourishghosh.com/research/) ([My NASA-JPL Internship Story](https://sourishghosh.com/2017/my-nasa-jpl-internship-story/))
