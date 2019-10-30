@@ -329,6 +329,7 @@
 - [Robust, Visual-Inertial State Estimation: from Frame-based to Event-based Cameras](https://www.youtube.com/watch?v=5-fqEGgt-b8)
 - [GSoC 2019: Integration of ArduPilot and VIO tracking camera for GPS-less localization and navigation](https://discuss.ardupilot.org/t/gsoc-2019-integration-of-ardupilot-and-vio-tracking-camera-for-gps-less-localization-and-navigation/42394)
 - [Performance evaluation of 1-point-RANSAC visual odometry, Davide Scaramuzza, Published in J. Field Robotics 2011, https://doi.org/10.1002/rob.20411](https://www.semanticscholar.org/paper/Performance-evaluation-of-1-point-RANSAC-visual-Scaramuzza/de6ce22f9a24f6d46217222336f362b21b484102)
+- [RESLAM: A real-time robust edge-based SLAM system, Fabian Schenk, Friedrich Fraundorfer, Published in International Conference on Robotics and Automation (ICRA) 2019, https://doi.org/10.1109/ICRA.2019.8794462](https://www.semanticscholar.org/paper/RESLAM%3A-A-real-time-robust-edge-based-SLAM-system-Schenk-Fraundorfer/74d2ad64395e8f7eb3fdd39ae537cb9097a62d96) ([code](https://github.com/fabianschenk/RESLAM))
 
 ## Visual Localization
 - [A survey on Visual-Based Localization: On the benefit of heterogeneous data, Nathan Piasco, Desire Sidibé, Cédric Demonceaux, Valérie Gouet-Brunet, Published in Pattern Recognition 2018, https://doi.org/10.1016/j.patcog.2017.09.013](https://www.semanticscholar.org/paper/A-survey-on-Visual-Based-Localization%3A-On-the-of-Piasco-Sidib%C3%A9/c48053ef7c811d1a0c62d259931f25daa97d8665) ([HAL](https://hal.archives-ouvertes.fr/hal-01744680))
