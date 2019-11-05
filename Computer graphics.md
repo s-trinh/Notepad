@@ -64,6 +64,7 @@
 - [Jonathan Blow's home page](http://number-none.com/blow/)
 - [Understanding Slerp, Then Not Using It, Jonathan Blow](http://number-none.com/product/Understanding%20Slerp,%20Then%20Not%20Using%20It/)
 - [How to find the inertia tensor (or other mass properties) of a 3D solid body represented by a triangle mesh, Jonathan Blow and Atman J Binstock](http://number-none.com/blow/inertia/)
+- [The Devil In The Details - A graphics programmer's blog](http://dev.theomader.com/)
 
 ### Papers
 - [awesome-collision-detection](https://github.com/jslee02/awesome-collision-detection):
