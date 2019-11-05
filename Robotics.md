@@ -366,6 +366,7 @@
 - [Locomotion control Tutorial: The Robot Position](http://doc.aldebaran.com/2-1/naoqi/motion/control-walk-tuto2.html)
 - [Path Planning and Trajectory Planning Algorithms: A General Overview](https://link.springer.com/chapter/10.1007/978-3-319-14705-5_1)
 - [Trajectory Planning, Quang-Cuong Pham, School of Mechanical and Aerospace Engineering, Nanyang Technological University, Singapore](http://www3.ntu.edu.sg/home/cuong/docs/trajectory-planning.pdf)
+- [Fiesta - Fast Incremental Euclidean Distance Fields for Online Motion Planning of Aerial Robots](https://github.com/HKUST-Aerial-Robotics/FIESTA)
 
 ## Visual Servoing
 - [Visual Servoing Control Based on EGM Interface of an ABB Robot, Yichao Mao, Qi Lu, Qing Xu, Published in Chinese Automation Congress (CAC) 2018, DOI:10.1109/cac.2018.8623638](https://www.semanticscholar.org/paper/Visual-Servoing-Control-Based-on-EGM-Interface-of-Mao-Lu/df493ca598cc709d1c2230b7b6ed9b98aa1d2ff5)
@@ -456,6 +457,7 @@
 - [Compliant Joint Toolbox (CJT)](https://github.com/geez0x1/CompliantJointToolbox)
 - [Fetch & Freight Research Edition Documentation](https://github.com/fetchrobotics/docs) ([Fetch & Freight Manual](http://docs.fetchrobotics.com/))
 - [The dual quaternion robotics library](https://dqrobotics.github.io/)
+- [Motoman Project](https://github.com/Nishida-Lab/motoman_project)([Nishida Takeshi Laboratory](http://lab.cntl.kyutech.ac.jp/~nishida/en/))
 
 ## Spatial Robotics
 - [Sourish Ghosh](https://sourishghosh.com/research/) ([My NASA-JPL Internship Story](https://sourishghosh.com/2017/my-nasa-jpl-internship-story/))
