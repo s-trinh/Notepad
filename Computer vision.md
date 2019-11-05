@@ -421,6 +421,13 @@
 - [Face tracking based on haar-like features and eigenfaces, Paulo Menezes, José Carlos Barreto, Jorge Dias](https://www.sciencedirect.com/science/article/pii/S1474667017319936)
 - [ufpa-face-detection (Face detection for Octave / Matlab)](https://github.com/aldebaro/ufpa-face-detection)
 
+## Face Detection
+- [Face Detection via AdaBoost](https://github.com/raoqiyu/FaceDetection)
+- [libfacedetection](https://github.com/ShiqiYu/libfacedetection)
+
+## Object Detection
+- [Aggregated Channel Feature object detection in C++ and OpenGL ES 2.0](https://github.com/elucideye/acf)
+
 ## Object Recognition
 - [CVPR 2014 - Tutorial on Large-Scale Visual Recognition](https://sites.google.com/site/lsvrtutorialcvpr14/) ([CVPR 2014 Accepted Tutorials](http://www.pamitc.org/cvpr14/tutorials.php))
 - [Bundle min-hashing for logo recognition, Stefan Romberg, Rainer Lienhart, Published in ICMR 2013, https://doi.org/10.1145/2461466.2461486](https://www.semanticscholar.org/paper/Bundle-min-hashing-for-logo-recognition-Romberg-Lienhart/10597d2fc51e848a6ef7785e2cd7ef389f72d44a) ([presentation](http://www.multimedia-computing.de/mediawiki/images/archive/9/93/20130905123049!BundleMinHashing_ICMR2013_web.pdf), [pdf](http://www.multimedia-computing.de/mediawiki/images/d/da/Bundle_Min-Hashing_for_Logo_Recognition_-_ICMR2013.pdf), [code](https://github.com/ankitnayan/bundle_min_hashing_source))
@@ -471,6 +478,22 @@
 - [Measuring entropy/ information/ patterns of a 2d binary matrix](https://stats.stackexchange.com/questions/17109/measuring-entropy-information-patterns-of-a-2d-binary-matrix)
 - [Gradient Intensity: A New Mutual Information-Based Registration Method, Ramtin Shams, Parastoo Sadeghi, Rodney A. Kennedy, Published in IEEE Conference on Computer Vision and Pattern Recognition 2007, https://doi.org/10.1109/cvpr.2007.383425](https://www.semanticscholar.org/paper/Gradient-Intensity%3A-A-New-Mutual-Information-Based-Shams-Sadeghi/8de7ee223d38953be95d1a8e7a600e18f45757c8)
 
+## Gaussian Blur
+- [Gaussian Kernel Calculator](http://dev.theomader.com/gaussian-kernel-calculator/)
+- [Box filter size in relation to Gaussian filter sigma](https://stackoverflow.com/questions/35340197/box-filter-size-in-relation-to-gaussian-filter-sigma)
+- [Fast Almost-Gaussian Filtering, Peter Kovesi, International Conference on Digital Image Computing: Techniques and Applications 2010, https://doi.org/10.1109/dicta.2010.30](https://www.semanticscholar.org/paper/Fast-Almost-Gaussian-Filtering-Kovesi/9029345df407362ee512801fc0dda9c6bf80684d) ([pdf](https://www.peterkovesi.com/papers/FastGaussianSmoothing.pdf))
+- [Gaussian Blur - Image processing for scientists and engineers, Part 4](https://patrickfuller.github.io/gaussian-blur-image-processing-for-scientists-and-engineers-part-4/)
+- [IIR Gaussian Blur Filter Implementation using Intel® Advanced Vector Extensions](https://software.intel.com/en-us/articles/iir-gaussian-blur-filter-implementation-using-intel-advanced-vector-extensions)
+- [ACM SIGGRAPH@UIUC - Fast Image Convolutions - by: Wojciech Jarosz](http://elynxsdk.free.fr/ext-docs/Blur/Fast_box_blur.pdf)
+
+## Gabor Filter
+- [Gabor Filter – Image processing for scientists and engineers, Part 6](https://patrickfuller.github.io/gabor-filter-image-processing-for-scientists-and-engineers-part-6/)
+
+## Canny
+- [Canny Edge Detection Step by Step in Python — Computer Vision](https://towardsdatascience.com/canny-edge-detection-step-by-step-in-python-computer-vision-b49c3a2d8123)
+- [Canny Edge Detection (Matlab)](https://www.mathworks.com/matlabcentral/fileexchange/46859-canny-edge-detection)
+- [Canny edge detector algorithm matlab codes](https://people.eecs.berkeley.edu/~sastry/ee20/cacode.html)
+
 ## Matlab
 - [Digital Image Processing Using MATLAB®, Rafael C. Gonzalez, Richard E. Woods, Steven L. Eddins](https://www.academia.edu/18324189/Digital_image_processing_using_matlab_gonzalez_)
 - [Digital Image Processing Using MATLAB®, Rafael C. Gonzalez, Richard E. Woods, Steven L. Eddins](http://web.ipac.caltech.edu/staff/fmasci/home/astro_refs/Digital_Image_Processing_2ndEd.pdf)
@@ -494,6 +517,7 @@
 - [A Short Tutorial on Three-Dimensional Cameras, Radu Horaud](http://perception.inrialpes.fr/~Horaud/Courses/pdf/Horaud_3Dcameras_tutorial.pdf)
 - [Kinect Range Sensing: Structured-Light versus Time-of-Flight Kinect, Hamed Sarbolandi, Damien Lefloch, Andreas Kolb, Published in Computer Vision and Image Understanding 2015, https://doi.org/10.1016/j.cviu.2015.05.006](https://www.semanticscholar.org/paper/Kinect-Range-Sensing%3A-Structured-Light-versus-Sarbolandi-Lefloch/fbbeb2b7b70ffa50a20c75e6f7c428925aa5fbd1)
 - [An overview of depth cameras and range scanners based on time-of-flight technologies, Radu Horaud, Miles E. Hansard, Georgios Dimitrios Evangelidis, Clément Ménier, Published in Machine Vision and Applications 2016, https://doi.org/10.1007/s00138-016-0784-4](https://www.semanticscholar.org/paper/An-overview-of-depth-cameras-and-range-scanners-on-Horaud-Hansard/a3b4fc4e18d3762f4ff7ff443442c4af5e01b6de) ([HAL](https://hal.inria.fr/hal-01325045))
+- [Introducing LeapUVC: A New API for Education, Robotics and More](http://blog.leapmotion.com/leapuvc/) ([ROS Leap Motion](https://github.com/ros-drivers/leap_motion), [3D Interaction using Hand Motion Tracking, Srinath Sridhar, AnttiOulasvirta, EIT ICT Labs Smart Spaces Summer School, 05-June-2013](http://handtracker.mpi-inf.mpg.de/events/ssss2013/2013-06-05_EIT_ICTLabs.pdf), [Analysis of the Accuracy and Robustness of the Leap Motion Controller, Frank Weichert, Daniel Bachmann, Bartholomäus Rudak, Denis Fisseler, Published in Sensors 2013, https://doi.org/10.3390/s130506380](https://www.semanticscholar.org/paper/Analysis-of-the-Accuracy-and-Robustness-of-the-Leap-Weichert-Bachmann/3e98e2cdba41c973bde0e95652bc796192c2215b), [MDPI](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3690061/))
 
 ## Papers
 - [Minimal Problems in Computer Vision](http://cmp.felk.cvut.cz/mini/):
@@ -517,6 +541,11 @@
 - [Image Component Library (ICL)](https://iclcv.github.io/)
 - [Page dewarping](https://mzucker.github.io/2016/08/15/page-dewarping.html) ([code](https://github.com/mzucker/page_dewarp))
 
+## Lib
+- [OpenVX](https://www.khronos.org/openvx/)
+- [OpenVX sample implementation](https://github.com/KhronosGroup/OpenVX-sample-impl)
+- [MATLAB and Octave Functions for Computer Vision and Image Processing](https://www.peterkovesi.com/matlabfns/)
+
 ## Books
 - [Computer Vision: A Modern Approach, David A. Forsyth, Jean Ponce](https://www.pearson.com/us/higher-education/program/Forsyth-Computer-Vision-A-Modern-Approach-2nd-Edition/PGM111082.html) ([link 1](http://cmuems.com/excap/readings/forsyth-ponce-computer-vision-a-modern-approach.pdf), [link 2](http://newton.uam.mx/xgeorge/uea/Proc_Dig_Im/Computer%20Vision%20A%20Modern%20Approach%20-%20Forsyth%20,%20Ponce.pdf))
 - [Principles of Digital Image Processing - Core Algorithms](https://www.springer.com/kr/book/9781848001947) ([link 1](http://newton.uam.mx/xgeorge/uea/Proc_Dig_Im/Burger%20W.,%20Burge%20M.J.%20Principles%20of%20digital%20image%20processing.%20Core%20algorithms%20(Springer,%202009)(ISBN%201848001940)(O)(341s)_CsIp_.pdf))
@@ -526,3 +555,4 @@
 - [Visual Analysis of Humans - Looking at People, Thomas B. Moeslund, A. Hilton, Volker Krüger, Leonid Sigal, Published 2011, https://doi.org/10.1007/978-0-85729-997-0](https://www.semanticscholar.org/paper/Visual-Analysis-of-Humans-Looking-at-People-Moeslund-Hilton/0c5f6a44458c8927efaf5a5e5b04eb8ec6c699e8) ([Springer](https://link.springer.com/book/10.1007/978-0-85729-997-0))
 - [Pattern Classification and Machine Learning, Matthias Seeger, Ecole Polytechnique F ́ed ́erale de Lausanne](https://mseeger.github.io/files/pcml_notes.pdf)
 - [Natural Image Statistics — A probabilistic approach to early computational vision, Aapo Hyvärinen, Jarmo Hurri, and Patrik O. Hoyer](http://www.naturalimagestatistics.net/) ([pdf](http://www.naturalimagestatistics.net/nis_preprintFeb2009.pdf))
+- [Algorithms for Image Processing and Computer Vision, 2nd Edition, J. R. Parker, ISBN: 978-1-118-02188-0](https://www.wiley.com/en-us/Algorithms+for+Image+Processing+and+Computer+Vision%2C+2nd+Edition-p-9781118021880)
