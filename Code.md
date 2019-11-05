@@ -52,6 +52,8 @@
 - [SHORTJUMP! Reversing engineering, programming and what not…](http://0xeb.net/)
 - [Inverting Binary Trees Considered Harmful](https://web.archive.org/web/20190220134908/http://www.jasq.org/just-another-scala-quant/inverting-binary-trees-considered-harmful)
 - [Nicholas Frechette's Blog - Raw bits](https://nfrechette.github.io/)
+- [Destroying x86_64 instruction decoders with differential fuzzing](https://blog.trailofbits.com/2019/10/31/destroying-x86_64-instruction-decoders-with-differential-fuzzing/)
+- [C++ links - A categorized list of C++ resources.](https://github.com/MattPD/cpplinks)
 
 ## Floating-point representation
 - [Sample single precision floating-point values for IEEE 754 arithmetic](http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.dui0475g/BABFGDBH.html)
