@@ -32,7 +32,7 @@
 - [fast.ai](https://www.fast.ai/) ([wiki](http://wiki.fast.ai/index.php/Main_Page))
 - [Computational Linear Algebra for Coders](https://github.com/fastai/numerical-linear-algebra)
 
-## Deep learning (object detection)
+## Object Detection
 - [Understanding SSD MultiBox — Real-Time Object Detection In Deep Learning](https://towardsdatascience.com/understanding-ssd-multibox-real-time-object-detection-in-deep-learning-495ef744fab)
 - [Understand Single Shot MultiBox Detector (SSD) and Implement It in Pytorch](https://medium.com/@smallfishbigsea/understand-ssd-and-implement-your-own-caa3232cd6ad)
 - [[SSD] Small object detection #3196](https://github.com/tensorflow/models/issues/3196)
@@ -66,6 +66,10 @@
 - [How to implement a YOLO (v3) object detector from scratch in PyTorch: Part 3](https://blog.paperspace.com/how-to-implement-a-yolo-v3-object-detector-from-scratch-in-pytorch-part-3/)
 - [How to implement a YOLO (v3) object detector from scratch in PyTorch: Part 4](https://blog.paperspace.com/how-to-implement-a-yolo-v3-object-detector-from-scratch-in-pytorch-part-4/)
 - [How to implement a YOLO (v3) object detector from scratch in PyTorch: Part 5](https://blog.paperspace.com/how-to-implement-a-yolo-v3-object-detector-from-scratch-in-pytorch-part-5/)
+
+## Object Tracking
+- [ATOM: Accurate Tracking by Overlap Maximization, Martin Danelljan, Goutam Bhat, Fahad Shahbaz Khan, Michael Felsberg, Published in CVPR 2018](https://www.semanticscholar.org/paper/ATOM%3A-Accurate-Tracking-by-Overlap-Maximization-Danelljan-Bhat/d74169a8fd2f90a06480d1d583d0ae5e980ea951)
+- [PyTracking](https://github.com/visionml/pytracking)
 
 ## Deep learning hardware accelerators
 - [A List of Chip/IP for Deep Learning](https://medium.com/@shan.tang.g/a-list-of-chip-ip-for-deep-learning-48d05f1759ae)
@@ -152,9 +156,14 @@
 - [MixConv: Mixed Depthwise Convolutional Kernels, Mingxing Tan, Quoc V. Le](https://www.semanticscholar.org/paper/MixConv%3A-Mixed-Depthwise-Convolutional-Kernels-Tan-Le/fb564bacfa790d44ab02a72256d55aa8b2209914) ([BMVC 2019](https://bmvc2019.org/wp-content/uploads/papers/0583-paper.pdf), [TF TPU](https://github.com/tensorflow/tpu/blob/master/models/official/mnasnet/mixnet/README.md))
 - [Gaussian YOLOv3: An Accurate and Fast Object Detector Using Localization Uncertainty for Autonomous Driving, Jiwoong Choi, Dayoung Chun, Hyun Kim, Hyuk-Jae Lee](https://www.semanticscholar.org/paper/Gaussian-YOLOv3%3A-An-Accurate-and-Fast-Object-Using-Choi-Chun/e263db19d0714803879727801f1a700d928f9233) ([ICCV 2019 code](https://github.com/jwchoi384/Gaussian_YOLOv3))
 - [Language Models are Unsupervised Multitask Learners, Alec Radford, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei, Ilya Sutskever](https://www.semanticscholar.org/paper/Language-Models-are-Unsupervised-Multitask-Learners-Radford-Wu/9405cc0d6169988371b2755e573cc28650d14dfe) ([paper](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf), [code](https://github.com/openai/gpt-2))
+- [Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning, Yarin Gal, Zoubin Ghahramani, Published in ICML 2015](https://www.semanticscholar.org/paper/Dropout-as-a-Bayesian-Approximation%3A-Representing-Gal-Ghahramani/f35de4f9b1a7c4d3fa96a0d2ab1bf8937671f6b6)
+- [MorphNet: Fast & Simple Resource-Constrained Structure Learning of Deep Networks, Published in IEEE/CVF Conference on Computer Vision and Pattern Recognition 2017, https://doi.org/10.1109/CVPR.2018.00171](https://www.semanticscholar.org/paper/MorphNet%3A-Fast-%26-Simple-Resource-Constrained-of/e60f693cb12132c7fffc34dc141bcc3c9dfd4961) ([MorphNet: Towards Faster and Smaller Neural Networks ](https://ai.googleblog.com/2019/04/morphnet-towards-faster-and-smaller.html))
 
 ## Resources
 - [Study E-Book (Computer Vision Deep Learning Machine Learning Math NLP Python Reinforcement Learning)](https://github.com/changwookjun/StudyBook)
+- [How three machine learning algorithms try to classify handwritten digits as they are being drawn](https://github.com/trevorData/MNIST)
+- [Neural Network Based Optimal Control: Resilience to Missed Thrust Events for Long Duration Transfers – ASC- 2019](https://gereshes.com/2019/09/09/neural-network-based-optimal-control-resilience-to-missed-thrust-events-for-long-duration-transfers-asc-2019/)
+- [Ari Rubinsztejn Research - Artificial Intelligence in Astrodynamics](https://gereshes.com/)
 
 ## Presentations
 - [Tensor Comprehensions: Framework-Agnostic High-Performance Machine Learning Abstractions, Jiazheng Yuan](https://andreask.cs.illinois.edu/cs598apk-f18/talks/jyuan18.pdf) ([index of](https://andreask.cs.illinois.edu/cs598apk-f18/talks/))
