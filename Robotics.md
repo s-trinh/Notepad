@@ -356,6 +356,10 @@
 - [Force and Visual Control forSafe Human−Robot Interaction, Bruno Siciliano](http://www.isir.upmc.fr/UserFiles/File/seminaire/Force_and_Visual_Control_for_Safe_Human%E2%88%92Robot_Interaction.pdf)
 - [Motion Control and Interaction Control inMedical Robotics, Philippe Poignet](https://www.lirmm.fr/uee09/doc/Lecturers/Poignet.pdf)
 - [Robot Control, Bruno Siciliano](https://project.inria.fr/roboticsprincipia/files/2019/01/Siciliano_Control.pdf)
+- [ros_control](http://wiki.ros.org/ros_control#Controllers)
+- [ros_controllers](https://github.com/ros-controls/ros_controllers)
+- [Control of Robot Manipulators in Joint Space, Rafael KellyVictor Santibáñez DavilaAntonio Loría](https://link.springer.com/book/10.1007%2Fb135572)
+- [Autonomous Robots - Modeling, Path Planning, and Control](https://www.springer.com/gp/book/9780387095370)
 
 ## Path Planning
 - [MoveIt](https://moveit.ros.org/documentation/concepts/)
