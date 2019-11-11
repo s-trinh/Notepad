@@ -20,6 +20,14 @@
 - [Using AVX CPU instructions: Poor performance without “/arch:AVX”](https://stackoverflow.com/questions/7839925/using-avx-cpu-instructions-poor-performance-without-archavx/28356924#28356924)
 - [VC++ /arch:AVX option – unsafe at any speed](https://randomascii.wordpress.com/2016/12/05/vc-archavx-option-unsafe-at-any-speed/)
 
+### SIMD Libraries / Wrappers
+- [UME::SIMD A library for explicit simd vectorization](https://github.com/edanor/umesimd)
+- [Vectorization EDSL library](https://github.com/edanor/umevector)
+- [MyIntrinsics++ (MIPP)](https://github.com/aff3ct/MIPP)
+- [VOLK - The Vector Optimized Library of Kernels](https://github.com/gnuradio/volk) ([http://libvolk.org/](http://libvolk.org/))
+- [tsimd - Fundamental C++ SIMD types for Intel CPUs (sse to avx512)](https://github.com/ospray/tsimd) ([OSPRay](http://www.ospray.org/))
+- [xsimd - C++ wrappers for SIMD intrinsics](https://github.com/xtensor-stack/xsimd)
+
 ### Visual Studio
 - [Predefined Macros](https://docs.microsoft.com/en-us/cpp/preprocessor/predefined-macros?view=vs-2017)
 
