@@ -20,7 +20,11 @@
 - [AsmJit - Complete x86/x64 JIT and Remote Assembler for C++](https://github.com/asmjit/asmjit)
 - [Asmf - just-in-time assembler](https://gitlab.com/asmf/asmf)
 - [JITCS - Just-In-Time-Compiler-System](https://repo.or.cz/jitcs.git)
-
+- [MyIntrinsics++ (MIPP)](https://github.com/aff3ct/MIPP)
+- [VOLK - The Vector Optimized Library of Kernels](https://github.com/gnuradio/volk) ([http://libvolk.org/](http://libvolk.org/))
+- [tsimd - Fundamental C++ SIMD types for Intel CPUs (sse to avx512)](https://github.com/ospray/tsimd) ([OSPRay](http://www.ospray.org/))
+- [xsimd - C++ wrappers for SIMD intrinsics](https://github.com/xtensor-stack/xsimd)
+ 
 ## GCC
 - [Auto-vectorization in GCC](https://www.gnu.org/software/gcc/projects/tree-ssa/vectorization.html)
 
