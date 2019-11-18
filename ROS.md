@@ -1,3 +1,11 @@
+## Tutorials
+- [Robot Operating System - Introduction - Olivier Stasse (rosintro.pdf)](http://homepages.laas.fr/ostasse/Teaching/ROS/rosintro.pdf)
+- [Robot Operating System - Introduction - Olivier Stasse (poly-rosintro.pdf)](http://homepages.laas.fr/ostasse/Teaching/ROS/poly-rosintro.pdf)
+- [ROS Industrial (Melodic) Training Exercises](https://industrial-training-master.readthedocs.io/en/melodic/)
+- [URDF and You - ROSCON 2012 - David Lu - Ph.D. Student Washington University In St. Louis - May 19, 2012](http://wustl.probablydavid.com/publications/URDFandYou.pdf)
+- [Quaternion Basics](http://wiki.ros.org/tf2/Tutorials/Quaternions)
+- [MoveIt Tutorials](https://ros-planning.github.io/moveit_tutorials/) ([tutorial code](https://github.com/ros-planning/moveit_tutorials))
+
 ## catkin_make
 - `catkin_make VERBOSE=1 -j4 --pkg my_package -DCMAKE_BUILD_TYPE=RelWithDebInfo --cmake-args -DVISP_DIR=path_to_visp`
 - [ref1](https://www.mankier.com/1/catkin_tools#Migrating_from_Catkin_make-1._Verify_that_your_packages_already_build_with_catkin_make), [ref2](https://answers.ros.org/question/303945/cannot-override-a-cmake-variable-via-catkin_make/?answer=303967#post-id-303967)
@@ -1006,6 +1014,32 @@ rosrun camera_calibration cameracalibrator.py --size 9x6 --square 0.02517 image:
 
 ## Fiducial markers
 - [ar_track_alvar](http://wiki.ros.org/ar_track_alvar)
+
+## URDF
+- [Robot Operating System - Introduction - Olivier Stasse (rosintro.pdf)](http://homepages.laas.fr/ostasse/Teaching/ROS/rosintro.pdf)
+- [Robot Operating System - Introduction - Olivier Stasse (poly-rosintro.pdf)](http://homepages.laas.fr/ostasse/Teaching/ROS/poly-rosintro.pdf)
+- [Tutorials](http://wiki.ros.org/urdf/Tutorials) ([tutorial code](https://github.com/ros/urdf_tutorial))
+- [urdf/XML/Transmission](http://wiki.ros.org/urdf/XML/Transmission)
+- [urdf/XML/joint](http://wiki.ros.org/urdf/XML/joint)
+- [urdf/XML/link](http://wiki.ros.org/urdf/XML/link)
+- [pr2_controller_manager/safety_limits](http://wiki.ros.org/pr2_controller_manager/safety_limits)
+- [2.2.3 Checking for Correctness](https://ocw.tudelft.nl/course-lectures/2-2-3-checking-for-correctness/):
+```
+rosrun xacro xacro --inorder /path/to/robot.xacro > robot.urdf
+check_urdf robot.urdf
+urdf_to_graphiz robot.urdf
+```
+- [SRDF](http://wiki.ros.org/srdf)
+- [Denavit Hartenberg table to Unified Robot Description Format](https://github.com/AdoHaha/DH2URDF) ([Denavit Hartenberg to URDF converter](https://adohaha.github.io/DH2URDF/))
+- [https://mymodelrobot.appspot.com](https://mymodelrobot.appspot.com)
+
+## ROS Controller
+- [controller_manager](http://wiki.ros.org/controller_manager)
+- [joint_trajectory_controller](http://wiki.ros.org/joint_trajectory_controller)
+
+## MoveIt
+- [MoveIt Tutorials](https://ros-planning.github.io/moveit_tutorials/) ([tutorial code](https://github.com/ros-planning/moveit_tutorials))
+- [Industrial MoveIt](https://github.com/ros-industrial/industrial_moveit)
 
 ## Misc
 - message generation issue with `Float64`:
