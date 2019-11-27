@@ -1,3 +1,6 @@
+## Books
+- [Robot Operating System (ROS) - The Complete Reference (Volume 3), Anis Koubaa](https://link.springer.com/book/10.1007/978-3-319-91590-6)
+
 ## Tutorials
 - [Robot Operating System - Introduction - Olivier Stasse (rosintro.pdf)](http://homepages.laas.fr/ostasse/Teaching/ROS/rosintro.pdf)
 - [Robot Operating System - Introduction - Olivier Stasse (poly-rosintro.pdf)](http://homepages.laas.fr/ostasse/Teaching/ROS/poly-rosintro.pdf)
@@ -1129,6 +1132,7 @@ urdf_to_graphiz robot.urdf
 - [SRDF](http://wiki.ros.org/srdf)
 - [Denavit Hartenberg table to Unified Robot Description Format](https://github.com/AdoHaha/DH2URDF) ([Denavit Hartenberg to URDF converter](https://adohaha.github.io/DH2URDF/))
 - [https://mymodelrobot.appspot.com](https://mymodelrobot.appspot.com)
+- [SolidWorks to URDF Exporter](https://wiki.ros.org/sw_urdf_exporter)
 
 ## ROS Controller
 - [controller_manager](http://wiki.ros.org/controller_manager)
@@ -1137,8 +1141,13 @@ urdf_to_graphiz robot.urdf
 - [joint_trajectory_controller](http://wiki.ros.org/joint_trajectory_controller)
 
 ## MoveIt
-- [MoveIt Tutorials](https://ros-planning.github.io/moveit_tutorials/) ([tutorial code](https://github.com/ros-planning/moveit_tutorials))
 - [Industrial MoveIt](https://github.com/ros-industrial/industrial_moveit)
+- [MoveIt](https://github.com/ros-planning/moveit)
+- [MoveIt Tutorials](https://ros-planning.github.io/moveit_tutorials/) ([tutorial code](https://github.com/ros-planning/moveit_tutorials))
+- [MoveIt! Tutorials (Kinetic)](http://docs.ros.org/kinetic/api/moveit_tutorials/html/index.html)
+- [MoveIt! Tutorials (Indigo)](http://docs.ros.org/indigo/api/moveit_tutorials/html/index.html) ([Kinematic Model Tutorial](http://docs.ros.org/indigo/api/moveit_tutorials/html/doc/pr2_tutorials/kinematics/src/doc/kinematic_model_tutorial.html))
+- [moveit_core Documentation (Kinetic)](http://docs.ros.org/kinetic/api/moveit_core/html/index.html)
+- [Moving the arm through a Cartesian pose trajectory using inverse kinematics and the joint trajectory action](http://wiki.ros.org/pr2_controllers/Tutorials/Moving%20the%20arm%20through%20a%20Cartesian%20pose%20trajectory)
 
 ## Misc
 - message generation issue with `Float64`:
