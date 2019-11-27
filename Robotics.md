@@ -463,6 +463,21 @@
 - [The dual quaternion robotics library](https://dqrobotics.github.io/)
 - [Motoman Project](https://github.com/Nishida-Lab/motoman_project)([Nishida Takeshi Laboratory](http://lab.cntl.kyutech.ac.jp/~nishida/en/))
 
+## KUKA
+- [Generic Robotics Library](https://github.com/ahundt/grl) ([doc](https://ahundt.github.io/grl/))
+- [The Fast Research Interface for the KUKA Lightweight Robot, Günter Schreiber, Andreas Stemmer, Rainer Bischoff](https://www.semanticscholar.org/paper/The-Fast-Research-Interface-for-the-KUKA-Robot-Schreiber-Stemmer/54e434dde5fefd1bf54c22574cac20469f48184b)
+- [The KUKA-DLR Lightweight Robot - an advanced tool for robotics research, manufacturing and new applications](http://www.echord.info/file/Documents/WP5-pr-dissemination/Presentations/IROS2011/2011_09_30d_KUKA_DLR.pdf)
+- [Fast Research Interface Library](https://cs.stanford.edu/people/tkr/fri/html/)
+- [KUKA Sunrise Toolbox for Matlab](https://github.com/Modi1987/KST-Kuka-Sunrise-Toolbox)
+- [drake-iiwa-driver](https://github.com/RobotLocomotion/drake-iiwa-driver)
+- [Toward controlling a KUKA LBR IIWA for interactive tracking, Vinay Chawda, Günter Niemeyer, IEEE International Conference on Robotics and Automation (ICRA) (2017), https://doi.org/10.1109/icra.2017.7989213](https://www.semanticscholar.org/paper/Toward-controlling-a-KUKA-LBR-IIWA-for-interactive-Chawda-Niemeyer/9d761a5aa08c02c9a2e8743a1d4cb95ee97453a2) ([pdf](https://s3-us-west-1.amazonaws.com/disneyresearch/wp-content/uploads/20170613133705/Toward-Controlling-a-KUKA-LBR-IIWA-for-Interactive-Tracking-Paper.pdf))
+- [Toward torque control of a KUKA LBR IIWA for physical human-robot interaction, Vinay Chawda, Günter Niemeyer, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) (2017), https://doi.org/10.1109/IROS.2017.8206543](https://www.semanticscholar.org/paper/Toward-torque-control-of-a-KUKA-LBR-IIWA-for-Chawda-Niemeyer/abd070e45b69079488da0096ee7e302797075be6)
+- [api-driver-fri - PID wrapper for the FRI library](https://gite.lirmm.fr/kuka-lwr/api-driver-fri)
+- [KUKA LWR 4+](https://github.com/CentroEPiaggio/kuka-lwr)
+
+## ABB
+- [abb_libegm](https://github.com/ros-industrial/abb_libegm)
+
 ## Spatial Robotics
 - [Sourish Ghosh](https://sourishghosh.com/research/) ([My NASA-JPL Internship Story](https://sourishghosh.com/2017/my-nasa-jpl-internship-story/))
 - [System of systems for space construction, Terrance L. Huntsberger, Ashley W. Stroupe, Brett Kennedy, IEEE International Conference on Systems, Man and Cybernetics (2005), https://doi.org/10.1109/icsmc.2005.1571634](https://www.semanticscholar.org/paper/System-of-systems-for-space-construction-Huntsberger-Stroupe/96244d0ea6cc266e2a5a5da04e21d1616fa4d3e6) ([pdf](https://www.researchgate.net/publication/4210689_System_of_systems_for_space_construction))
