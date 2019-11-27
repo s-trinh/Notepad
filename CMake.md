@@ -15,6 +15,7 @@ set_target_properties(myTarget PROPERTIES
 - [OS specific instructions in CMAKE: How to?](https://stackoverflow.com/questions/9160335/os-specific-instructions-in-cmake-how-to)
 - [Useful Variables](https://gitlab.kitware.com/cmake/community/wikis/doc/cmake/Useful-Variables)
 - [How To Write Platform Checks](https://gitlab.kitware.com/cmake/community/wikis/doc/tutorials/How-To-Write-Platform-Checks)
+- [Cross-Compiling](https://gitlab.kitware.com/cmake/community/wikis/doc/cmake/CrossCompiling)
 
 ### CTest
 - [cTest: run a single test in a multi-test directory?](https://cmake.org/pipermail/cmake/2013-July/055225.html):
