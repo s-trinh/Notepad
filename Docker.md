@@ -50,7 +50,7 @@ sudo rm -r /var/lib/docker
 
 ### Commands
 - `docker images` or `docker image ls`
-- `docker container ls` or `docker ps`?
+- `docker container ls` or `docker ps`
 - `docker ps -a` # Not only running containers
 - [tag an image](https://docs.docker.com/engine/reference/commandline/tag/): `docker tag image_id name`
 - [Remove Docker Images](https://tecadmin.net/remove-docker-images-and-containers/):
@@ -71,4 +71,13 @@ docker rm  <CONTAINER ID> # Remove docker container
 ```
 libGL error: No matching fbConfigs or visuals found
 libGL error: failed to load driver: swrast
+```
+- [What is the point of WORKDIR on Dockerfile?](https://stackoverflow.com/questions/51066146/what-is-the-point-of-workdir-on-dockerfile)
+- [Using the RUN instruction in a Dockerfile with 'source' does not work](https://stackoverflow.com/questions/20635472/using-the-run-instruction-in-a-dockerfile-with-source-does-not-work):
+```
+RUN /bin/bash -c "source /usr/local/bin/virtualenvwrapper.sh"
+```
+- [How to force Docker for a clean build of an image](https://stackoverflow.com/questions/35594987/how-to-force-docker-for-a-clean-build-of-an-image):
+```
+docker build --no-cache -t u12_core -f u12_core .
 ```
