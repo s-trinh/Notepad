@@ -474,6 +474,7 @@
 - [Toward torque control of a KUKA LBR IIWA for physical human-robot interaction, Vinay Chawda, Günter Niemeyer, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) (2017), https://doi.org/10.1109/IROS.2017.8206543](https://www.semanticscholar.org/paper/Toward-torque-control-of-a-KUKA-LBR-IIWA-for-Chawda-Niemeyer/abd070e45b69079488da0096ee7e302797075be6)
 - [api-driver-fri - PID wrapper for the FRI library](https://gite.lirmm.fr/kuka-lwr/api-driver-fri)
 - [KUKA LWR 4+](https://github.com/CentroEPiaggio/kuka-lwr)
+- [Limitations about ROS drivers for KUKA iiwa robot](https://github.com/jacknlliu/development-issues/issues/46)
 
 ## ABB
 - [abb_libegm](https://github.com/ros-industrial/abb_libegm)
