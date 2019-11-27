@@ -37,3 +37,6 @@
 - [Matrix Algebra on GPU and Multicore Architectures](https://icl.cs.utk.edu/magma/) ([Accelerating Linear Algebra with MAGMA](http://icl.utk.edu/projectsfiles/magma/tutorial/ecp2018-magma-tutorial.pdf))
 - [Parallel kd-Tree Construction on the GPU](https://davidawehr.com/projects/kdtree_pub.html)
 - [Performance explained easy](https://easyperf.net/)
+
+### Misc
+- [Computer Science Illustrated](http://csillustrated.berkeley.edu/)
