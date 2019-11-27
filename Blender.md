@@ -10,6 +10,9 @@
 - Center view to the cursor: `alt + home`
 - [Select linked](https://blender.stackexchange.com/questions/68393/how-can-i-select-part-of-a-mesh-and-make-it-seperate/68396#68396) ([or](https://docs.blender.org/manual/en/latest/modeling/curves/selecting.html)) for meshes: `l`, `ctrl + l`
 - [Splitting pieces of a mesh into a new object](https://blender.stackexchange.com/questions/6184/splitting-pieces-of-a-mesh-into-a-new-object/6185#6185): `p > Selection`
+- [Blender 3D: Noob to Pro/Navigation in 3D](https://en.wikibooks.org/wiki/Blender_3D:_Noob_to_Pro/Navigation_in_3D):
+  - Pan: `MMB`
+  - Move: `Shift + MMB`
 
 ### Tutorials
 - [https://docs.blender.org/manual/nb/dev/](https://docs.blender.org/manual/nb/dev/)
@@ -67,6 +70,11 @@
   - Press `P` > Selection to separate the selection into a new object
   - Pressing `L` with your mouse over geometry will select all geometry connected to the element below your cursor
   - Pressing `Ctrl + L` will select all geometry connected to any selected element(s)
+  
+### Merge Objects
+- [How to merge two objects in Blender](https://gamedev.stackexchange.com/questions/33843/how-to-merge-two-objects-in-blender/33859#33859):
+  - Select both objects in object mode
+  - Press `Ctrl + J`
  
 ### Make top bar menu come back
 - [Menu disappeared](https://blender.stackexchange.com/questions/92489/menu-disappeared/92490#92490)
