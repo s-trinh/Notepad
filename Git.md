@@ -37,6 +37,15 @@ git reset --hard origin/master
 git submodule update --init --recursive
 # To update submodules, we can use
 git pull origin master --recurse-submodules
+# If you want to clone and update the submodules to their latest revision
+git clone --recurse-submodules --remote-submodules
+# If you just want to clone them at their recorded SHA1
+git clone --recurse-submodules
+```
+- [How to change the remote repository for a git submodule?](https://stackoverflow.com/questions/913701/how-to-change-the-remote-repository-for-a-git-submodule/914090#914090):
+```
+# Edit .gitmodules file
+git submodule sync
 ```
 - [Git clone recursive over https](https://stackoverflow.com/questions/11410017/git-submodule-update-over-https/11410074#11410074):
 ```
