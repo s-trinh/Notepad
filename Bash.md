@@ -57,3 +57,9 @@ rsync -av /source/ /destination/
 # (after checking)
 rm -rf /source/
 ```
+- [Pipe diff file into patch?](https://unix.stackexchange.com/questions/16525/pipe-diff-file-into-patch):
+```
+diff -Nub . /current-files | patch -b
+#
+echo "blabla" | patch <the file>
+```
