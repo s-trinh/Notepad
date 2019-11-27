@@ -167,3 +167,12 @@ sudo update-mime-database /usr/share/mime
   - [Update mime type from ~/.mime.types?](https://askubuntu.com/questions/662764/update-mime-type-from-mime-types)
   - [how can I change file association globally?](https://askubuntu.com/questions/289337/how-can-i-change-file-association-globally) (`/usr/share/applications/defaults.list`)
   - [How To Change File-Type (mimetype) Icons](https://ubuntuforums.org/showthread.php?t=916847)
+  
+### Install from deb file
+- [How to install a deb file, by dpkg -i or by apt?](https://unix.stackexchange.com/questions/159094/how-to-install-a-deb-file-by-dpkg-i-or-by-apt/159114#159114):
+```
+sudo dpkg -i /path/to/deb/file
+sudo apt-get install -f
+# or
+sudo apt install /path/to/deb/file
+```
