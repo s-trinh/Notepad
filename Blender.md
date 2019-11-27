@@ -60,6 +60,13 @@
 ### Export multiple objects (meshes) to PLY:
 - [How can I make multiple meshes into a single hollow mesh?](https://blender.stackexchange.com/questions/39961/how-can-i-make-multiple-meshes-into-a-single-hollow-mesh/39963#39963):
 > For separate meshes, you should first of all join them in a single object (`Ctrl + J`)
+
+### Splitting pieces of a mesh into a new object
+- [Splitting pieces of a mesh into a new object](https://blender.stackexchange.com/questions/6184/splitting-pieces-of-a-mesh-into-a-new-object/6185#6185):
+  - Select the vertices
+  - Press `P` > Selection to separate the selection into a new object
+  - Pressing `L` with your mouse over geometry will select all geometry connected to the element below your cursor
+  - Pressing `Ctrl + L` will select all geometry connected to any selected element(s)
  
 ### Make top bar menu come back
 - [Menu disappeared](https://blender.stackexchange.com/questions/92489/menu-disappeared/92490#92490)
@@ -357,6 +364,25 @@ pointyobj.constraints.remove(ttc)
 - `shit + a > Empty > Plain Axes`
 - in `Pose mode`, add a `Bone Constraint` for the end-effector, choose the previous Empty frame as the target, set `Axis Ref` to `Target` and lock all position and rotation
 - now the IK solver should be able to make the TCP follow the Empty frame
+
+### File Hole
+- [How to fill a hole in face?](https://blender.stackexchange.com/questions/1754/how-to-fill-a-hole-in-face):
+  - Select edges
+  - Press `F`
+  
+### Dealing with Normals
+- [How to make all faces flip to the right/consistent direction?](https://blender.stackexchange.com/questions/12165/how-to-make-all-faces-flip-to-the-right-consistent-direction):
+```
+# Make normal consistent
+Ctrl + N
+```
+
+### Change Object Frame Origin
+- [Move cursor to center of some selected geometry/faces](https://blender.stackexchange.com/questions/60510/move-cursor-to-center-of-some-selected-geometry-faces):
+  - Move cursor to the desired position
+  - `Shift + S` > Cursor to selected
+  - Object mode (`Tab`)
+  - Object > Transform > Origin to 3D cursor (or `Ctrl + Shift + Alt + C`)
 
 ### Misc
 - [Display debug commands](https://blender.stackexchange.com/questions/36192/how-to-translate-a-bone-with-ik-in-pose-mode-using-the-python-api/36385#36385):
