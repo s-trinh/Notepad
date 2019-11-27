@@ -85,6 +85,11 @@
 - [CPU Caches and Why You Care, Scott Meyers](https://www.aristeia.com/TalkNotes/ACCU2011_CPUCaches.pdf)
 - [Relation between cache line and memory page](https://softwareengineering.stackexchange.com/questions/270192/relation-between-cache-line-and-memory-page)
 - [Cache Management](https://www.cs.umd.edu/users/meesh/411/website/projects/outer/hoc/manage.htm)
+- Courses:
+  - [CS 201 - Writing Cache-Friendly Code, Gerson Robboy - Portland State University](http://web.cecs.pdx.edu/~jrb/cs201/lectures/cache.friendly.code.pdf) ([lectures](http://web.cecs.pdx.edu/~jrb/cs201/lectures/))
+  - [Reducing Cache Miss Penalty - Multilevel caches, critical work first, reads priority over writes, merging write buffer](http://www.taoli.ece.ufl.edu/teaching/fall06/private/lectures/eel5764-lec05-part3.pdf)
+  - [COMP303 - ComputerArchitecture - Lecture15 - Calculating and Improving Cache Performance](http://home.ku.edu.tr/comp303/public_html/Lecture15.pdf)
+  - [Cache Associativity](http://csillustrated.berkeley.edu/PDFs/handouts/cache-3-associativity-handout.pdf)
 
 ## Matrix transpose
 - [An Efficient Matrix Transpose in CUDA C/C++](https://devblogs.nvidia.com/efficient-matrix-transpose-cuda-cc/)
