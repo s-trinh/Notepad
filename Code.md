@@ -24,6 +24,7 @@
 - [VOLK - The Vector Optimized Library of Kernels](https://github.com/gnuradio/volk) ([http://libvolk.org/](http://libvolk.org/))
 - [tsimd - Fundamental C++ SIMD types for Intel CPUs (sse to avx512)](https://github.com/ospray/tsimd) ([OSPRay](http://www.ospray.org/))
 - [xsimd - C++ wrappers for SIMD intrinsics](https://github.com/xtensor-stack/xsimd)
+- [VMMLib - A templatized C++ vector and matrix math library](https://github.com/Eyescale/vmmlib)
  
 ## GCC
 - [Auto-vectorization in GCC](https://www.gnu.org/software/gcc/projects/tree-ssa/vectorization.html)
@@ -58,6 +59,8 @@
 - [Nicholas Frechette's Blog - Raw bits](https://nfrechette.github.io/)
 - [Destroying x86_64 instruction decoders with differential fuzzing](https://blog.trailofbits.com/2019/10/31/destroying-x86_64-instruction-decoders-with-differential-fuzzing/)
 - [C++ links - A categorized list of C++ resources.](https://github.com/MattPD/cpplinks)
+- [Pavel Zemtsov - Experiments in program optimisation](https://pzemtsov.github.io/)
+- [Speeding-up algorithms with SSE](https://shybovycha.github.io/2017/02/21/speeding-up-algorithms-with-sse.html) ([https://shybovycha.github.io/](https://shybovycha.github.io/))
 
 ## Floating-point representation
 - [Sample single precision floating-point values for IEEE 754 arithmetic](http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.dui0475g/BABFGDBH.html)
@@ -74,6 +77,14 @@
 - [How can cache be that fast?](https://electronics.stackexchange.com/questions/329789/how-can-cache-be-that-fast/329955#329955)
 - [Intel’s Sandy Bridge Microarchitecture - Memory Subsystem](https://www.realworldtech.com/sandy-bridge/7/)
 - [Analysis of Haswell’s Transactional Memory](https://www.realworldtech.com/haswell-tm/)
+- [Effect of cache misses on time of matrix multiplication](https://stackoverflow.com/questions/41452781/effect-of-cache-misses-on-time-of-matrix-multiplication)
+- [Linux C++: how to profile time wasted due to cache misses?](https://stackoverflow.com/questions/2486840/linux-c-how-to-profile-time-wasted-due-to-cache-misses)
+- [Cache Oblivious Algorithms, Piyush Kumar](https://www.csd.uoc.gr/~hy460/pdf/AMH/9.pdf) ([Algorithms for Memory Hierarchies, Ulrich Meyer, Peter Sanders, Jop Sibeyn](https://link.springer.com/book/10.1007/3-540-36574-5))
+- [Memory, Cache, CPU optimization resources.md](https://gist.github.com/ocornut/cb980ea183e848685a36)
+- [Physics Optimization Strategies (Sergiy Migdalskiy, Valve, GDC 2015)](http://media.steampowered.com/apps/valve/2015/Migdalskiy_Sergiy_Physics_Optimization_Strategies.pdf)
+- [CPU Caches and Why You Care, Scott Meyers](https://www.aristeia.com/TalkNotes/ACCU2011_CPUCaches.pdf)
+- [Relation between cache line and memory page](https://softwareengineering.stackexchange.com/questions/270192/relation-between-cache-line-and-memory-page)
+- [Cache Management](https://www.cs.umd.edu/users/meesh/411/website/projects/outer/hoc/manage.htm)
 
 ## Matrix transpose
 - [An Efficient Matrix Transpose in CUDA C/C++](https://devblogs.nvidia.com/efficient-matrix-transpose-cuda-cc/)
