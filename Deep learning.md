@@ -122,6 +122,7 @@
 ## Books
 - [Deep Learning book](http://www.deeplearningbook.org/)
 - [Reinforcement Learning: An Introduction, Richard S. Sutton and Andrew G. Barto, Second Edition, MIT Press, Cambridge, MA, 2018](http://incompleteideas.net/book/the-book-2nd.html) ([pdf](http://incompleteideas.net/book/RLbook2018.pdf), [Google Drive](https://drive.google.com/file/d/1opPSz5AZ_kVa1uWOdOiveNiBFiEOHjkG/view))
+- [Dive into Deep Learning, Aston Zhang, Zachary C. Lipton, Mu Li, and Alexander J. Smola](https://d2l.ai/) ([pdf](https://en.d2l.ai/d2l-en.pdf))
 
 ## Articles
 - [Benchmarking Machine Learning on the New Raspberry Pi 4, Model B](https://blog.hackster.io/benchmarking-machine-learning-on-the-new-raspberry-pi-4-model-b-88db9304ce4)
