@@ -1129,6 +1129,10 @@ rosrun xacro xacro --inorder /path/to/robot.xacro > robot.urdf
 check_urdf robot.urdf
 urdf_to_graphiz robot.urdf
 ```
+- [how to convert xacro file to urdf file?](https://answers.ros.org/question/10401/how-to-convert-xacro-file-to-urdf-file/):
+```
+rosrun xacro xacro --inorder model.urdf.xacro > model.urdf
+```
 - [SRDF](http://wiki.ros.org/srdf)
 - [Denavit Hartenberg table to Unified Robot Description Format](https://github.com/AdoHaha/DH2URDF) ([Denavit Hartenberg to URDF converter](https://adohaha.github.io/DH2URDF/))
 - [https://mymodelrobot.appspot.com](https://mymodelrobot.appspot.com)
@@ -1141,6 +1145,7 @@ urdf_to_graphiz robot.urdf
 - [joint_trajectory_controller](http://wiki.ros.org/joint_trajectory_controller)
 
 ## MoveIt
+- [industrial_robot_simulator](http://wiki.ros.org/industrial_robot_simulator)
 - [robot_state_publisher](http://wiki.ros.org/robot_state_publisher)
 - [open_manipulator_controller](http://wiki.ros.org/open_manipulator_controller)
 - [Descartes](http://wiki.ros.org/descartes)
@@ -1178,6 +1183,12 @@ $ sudo apt-get install ros-kinetic-joint-state-controller
 $ sudo apt-get install ros-kinetic-effort-controllers
 $ sudo apt-get install ros-kinetic-position-controllers
 ```
+
+## tf
+- [Coodinate Frames, Transforms, and TF](http://wiki.ros.org/tf/Overview/Transformations)
+- [tf Documentation](http://docs.ros.org/melodic/api/tf/html/c++/index.html)
+- [tf2 Documentation](http://docs.ros.org/melodic/api/tf2/html/)
+- [Rotations in ROS](http://wiki.ros.org/geometry2/RotationMethods)
 
 ## Misc
 - message generation issue with `Float64`:
