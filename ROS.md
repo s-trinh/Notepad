@@ -1141,13 +1141,43 @@ urdf_to_graphiz robot.urdf
 - [joint_trajectory_controller](http://wiki.ros.org/joint_trajectory_controller)
 
 ## MoveIt
+- [robot_state_publisher](http://wiki.ros.org/robot_state_publisher)
+- [open_manipulator_controller](http://wiki.ros.org/open_manipulator_controller)
+- [Descartes](http://wiki.ros.org/descartes)
+- [moveit_msgs](http://wiki.ros.org/moveit_msgs)
+- [MoveIt Concepts](https://moveit.ros.org/documentation/concepts/)
+- [Robot Motion Planning - Introduction to MoveIt! - Guillaume Walck, January, 2015](https://ni.www.techfak.uni-bielefeld.de/files/ROS:MoveIt.pdf)
 - [Industrial MoveIt](https://github.com/ros-industrial/industrial_moveit)
+- [ROS Industrial (Melodic) Training Exercises - Motion Planning using C++](https://industrial-training-master.readthedocs.io/en/melodic/_source/session4/Motion-Planning-CPP.html) ([pdf](https://buildmedia.readthedocs.org/media/pdf/industrial-training/latest/industrial-training.pdf))
 - [MoveIt](https://github.com/ros-planning/moveit)
 - [MoveIt Tutorials](https://ros-planning.github.io/moveit_tutorials/) ([tutorial code](https://github.com/ros-planning/moveit_tutorials))
 - [MoveIt! Tutorials (Kinetic)](http://docs.ros.org/kinetic/api/moveit_tutorials/html/index.html)
 - [MoveIt! Tutorials (Indigo)](http://docs.ros.org/indigo/api/moveit_tutorials/html/index.html) ([Kinematic Model Tutorial](http://docs.ros.org/indigo/api/moveit_tutorials/html/doc/pr2_tutorials/kinematics/src/doc/kinematic_model_tutorial.html))
 - [moveit_core Documentation (Kinetic)](http://docs.ros.org/kinetic/api/moveit_core/html/index.html)
+- [MoveIt! Python Bindings](http://docs.ros.org/kinetic/api/moveit_python/html/)
 - [Moving the arm through a Cartesian pose trajectory using inverse kinematics and the joint trajectory action](http://wiki.ros.org/pr2_controllers/Tutorials/Moving%20the%20arm%20through%20a%20Cartesian%20pose%20trajectory)
+- [[MoveIt!] Plan to a goal without specifying all axes](https://answers.ros.org/question/248854/moveit-plan-to-a-goal-without-specifying-all-axes/)
+- [Gazebo and MoveIt! MoveitSimpleControllerManager and sending joint trajectory messages](https://answers.ros.org/question/71824/gazebo-and-moveit-moveitsimplecontrollermanager-and-sending-joint-trajectory-messages/)
+- [robotican/Tutorials/Arm manipulation](http://wiki.ros.org/robotican/Tutorials/Arm%20manipulation)
+- [Using Moveit! to actually control a robot](https://answers.ros.org/question/84806/using-moveit-to-actually-control-a-robot/)
+- [moveit tutorials Release Indigo (pdf)](https://buildmedia.readthedocs.org/media/pdf/moveit/latest/moveit.pdf)
+- [how can we execute a plan via motion planning interface in moveit?](https://answers.ros.org/question/310827/how-can-we-execute-a-plan-via-motion-planning-interface-in-moveit/)
+- [UR5 velocity control and trajectory recording/replaying](https://answers.ros.org/question/204042/ur5-velocity-control-and-trajectory-recordingreplaying/)
+- [Cartesian controller for ROS](https://answers.ros.org/question/74776/cartesian-controller-for-ros/)
+- [Planning complex plans using multiple waypoints with MoveIt](https://answers.ros.org/question/261368/planning-complex-plans-using-multiple-waypoints-with-moveit/)
+- [moveit visual servoing](https://answers.ros.org/question/265794/moveit-visual-servoing/)
+- [Implement MoveIt! on Real Robot](https://answers.ros.org/question/192739/implement-moveit-on-real-robot/)
+- examples:
+  - [tue_manipulation](https://github.com/tue-robotics/tue_manipulation)
+  - [Kiova j2n6s300 moveit pick_place source code parsing](https://programmer.help/blogs/kiova-j2n6s300-moveit-pick_place-source-code-parsing.html)
+  - [visual_servoing_server.py](https://github.com/yop0/baxter_insaros/blob/master/scripts/visual_servoing_server.py)
+- Tuto issues:
+  - [Controller Spawner couldn't find the expected controller_manager ROS interface.](https://github.com/ros-simulation/gazebo_ros_demos/issues/30):
+```
+$ sudo apt-get install ros-kinetic-joint-state-controller
+$ sudo apt-get install ros-kinetic-effort-controllers
+$ sudo apt-get install ros-kinetic-position-controllers
+```
 
 ## Misc
 - message generation issue with `Float64`:
