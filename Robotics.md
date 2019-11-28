@@ -464,11 +464,13 @@
 - [Motoman Project](https://github.com/Nishida-Lab/motoman_project)([Nishida Takeshi Laboratory](http://lab.cntl.kyutech.ac.jp/~nishida/en/))
 
 ## KUKA
+- [IIWA STACK](https://github.com/IFL-CAMP/iiwa_stack)
 - [Generic Robotics Library](https://github.com/ahundt/grl) ([doc](https://ahundt.github.io/grl/))
 - [The Fast Research Interface for the KUKA Lightweight Robot, Günter Schreiber, Andreas Stemmer, Rainer Bischoff](https://www.semanticscholar.org/paper/The-Fast-Research-Interface-for-the-KUKA-Robot-Schreiber-Stemmer/54e434dde5fefd1bf54c22574cac20469f48184b)
 - [The KUKA-DLR Lightweight Robot - an advanced tool for robotics research, manufacturing and new applications](http://www.echord.info/file/Documents/WP5-pr-dissemination/Presentations/IROS2011/2011_09_30d_KUKA_DLR.pdf)
 - [Fast Research Interface Library](https://cs.stanford.edu/people/tkr/fri/html/)
 - [KUKA Sunrise Toolbox for Matlab](https://github.com/Modi1987/KST-Kuka-Sunrise-Toolbox)
+- [Urdf & Gazebo files for a KUKA LBR iiwa R820 with electrical media flange](https://github.com/rtkg/lbr_iiwa)
 - [drake-iiwa-driver](https://github.com/RobotLocomotion/drake-iiwa-driver)
 - [Toward controlling a KUKA LBR IIWA for interactive tracking, Vinay Chawda, Günter Niemeyer, IEEE International Conference on Robotics and Automation (ICRA) (2017), https://doi.org/10.1109/icra.2017.7989213](https://www.semanticscholar.org/paper/Toward-controlling-a-KUKA-LBR-IIWA-for-interactive-Chawda-Niemeyer/9d761a5aa08c02c9a2e8743a1d4cb95ee97453a2) ([pdf](https://s3-us-west-1.amazonaws.com/disneyresearch/wp-content/uploads/20170613133705/Toward-Controlling-a-KUKA-LBR-IIWA-for-Interactive-Tracking-Paper.pdf))
 - [Toward torque control of a KUKA LBR IIWA for physical human-robot interaction, Vinay Chawda, Günter Niemeyer, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) (2017), https://doi.org/10.1109/IROS.2017.8206543](https://www.semanticscholar.org/paper/Toward-torque-control-of-a-KUKA-LBR-IIWA-for-Chawda-Niemeyer/abd070e45b69079488da0096ee7e302797075be6)
