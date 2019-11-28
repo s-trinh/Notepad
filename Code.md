@@ -85,6 +85,7 @@
 - [CPU Caches and Why You Care, Scott Meyers](https://www.aristeia.com/TalkNotes/ACCU2011_CPUCaches.pdf)
 - [Relation between cache line and memory page](https://softwareengineering.stackexchange.com/questions/270192/relation-between-cache-line-and-memory-page)
 - [Cache Management](https://www.cs.umd.edu/users/meesh/411/website/projects/outer/hoc/manage.htm)
+- [How to get the size of CPU Cache in Linux](https://stackoverflow.com/questions/30207256/how-to-get-the-size-of-cpu-cache-in-linux)
 - Courses:
   - [CS 201 - Writing Cache-Friendly Code, Gerson Robboy - Portland State University](http://web.cecs.pdx.edu/~jrb/cs201/lectures/cache.friendly.code.pdf) ([lectures](http://web.cecs.pdx.edu/~jrb/cs201/lectures/))
   - [Reducing Cache Miss Penalty - Multilevel caches, critical work first, reads priority over writes, merging write buffer](http://www.taoli.ece.ufl.edu/teaching/fall06/private/lectures/eel5764-lec05-part3.pdf)
@@ -132,6 +133,11 @@
 ## Online tools
 - [Quick C++ Benchmark](http://quick-bench.com/)
 - [Compiler Explorer](https://godbolt.org/)
+
+## Sanitizers
+- [Finding races and memory errors with LLVM instrumentation - AddressSanitizer, ThreadSanitizer](http://llvm.org/devmtg/2011-11/Serebryany_FindingRacesMemoryErrors.pdf)
+- [Sanitize, Fuzz, and Harden Your C++ Code, Kostya Serebryany](https://www.usenix.org/sites/default/files/conference/protected-files/enigma_slides_serebryany.pdf)
+- [Integrating sanitizer tools to CMake builds](http://www.stablecoder.ca/2018/02/01/analyzer-build-types.html)
 
 ## Docs
 - [MATLAB array manipulation tips and tricks](https://www.ee.columbia.edu/~marios/matlab/mtt.pdf)
