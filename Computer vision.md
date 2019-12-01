@@ -540,6 +540,7 @@
 - [https://www.geometrictools.com/](https://www.geometrictools.com/)
 - [Image Component Library (ICL)](https://iclcv.github.io/)
 - [Page dewarping](https://mzucker.github.io/2016/08/15/page-dewarping.html) ([code](https://github.com/mzucker/page_dewarp))
+- [agimus-vision](https://github.com/agimus/agimus-vision)
 
 ## Lib
 - [OpenVX](https://www.khronos.org/openvx/)
