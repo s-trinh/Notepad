@@ -144,3 +144,6 @@
 - [MATLAB array manipulation tips and tricks](https://www.ee.columbia.edu/~marios/matlab/mtt.pdf)
 - [NumPy for MATLAB users](http://mathesaurus.sourceforge.net/matlab-numpy.html)
 - [Machine Learning Cheatsheet](https://ml-cheatsheet.readthedocs.io/en/latest/)
+
+## Misc
+- [ScalFMM: Fast Multipole Method](https://gitlab.inria.fr/solverstack/ScalFMM)
