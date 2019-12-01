@@ -109,6 +109,7 @@
 - [Using BLAS from C with row major data](https://www.christophlassner.de/using-blas-from-c-with-row-major-data.html)
 - [A collection of math tutorials in C](https://github.com/Foadsf/Cmathtuts)
 - [Performance experiments with matrix multiplication](https://vorner.github.io/2018/05/12/Mat-perf.html) ([fastmatmult](https://github.com/vorner/fastmatmult))
+- [BLISlab: A Sandbox for Optimizing GEMM, Jianyu Huang, Robert A. van de Geijn, Published in ArXiv 2016](https://www.semanticscholar.org/paper/BLISlab%3A-A-Sandbox-for-Optimizing-GEMM-Huang-Geijn/f99b3e370136f13a9e2138db31bebc8b3b69883d)
 
 ## Benchmarks
 - [CppPerformanceBenchmarks](https://gitlab.com/chriscox/CppPerformanceBenchmarks)
