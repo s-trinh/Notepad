@@ -160,7 +160,7 @@
 - [Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning, Yarin Gal, Zoubin Ghahramani, Published in ICML 2015](https://www.semanticscholar.org/paper/Dropout-as-a-Bayesian-Approximation%3A-Representing-Gal-Ghahramani/f35de4f9b1a7c4d3fa96a0d2ab1bf8937671f6b6)
 - [MorphNet: Fast & Simple Resource-Constrained Structure Learning of Deep Networks, Published in IEEE/CVF Conference on Computer Vision and Pattern Recognition 2017, https://doi.org/10.1109/CVPR.2018.00171](https://www.semanticscholar.org/paper/MorphNet%3A-Fast-%26-Simple-Resource-Constrained-of/e60f693cb12132c7fffc34dc141bcc3c9dfd4961) ([MorphNet: Towards Faster and Smaller Neural Networks ](https://ai.googleblog.com/2019/04/morphnet-towards-faster-and-smaller.html))
 - [Mastering the game of Go with deep neural networks and tree search](https://www.nature.com/articles/nature16961)
-- [Accelerating Self-Play Learning in Go](https://www.semanticscholar.org/paper/Accelerating-Self-Play-Learning-in-Go-Wu/f244ffb549a61806d00f614e70fa1c3fbe5fffc6)
+- [Accelerating Self-Play Learning in Go](https://www.semanticscholar.org/paper/Accelerating-Self-Play-Learning-in-Go-Wu/f244ffb549a61806d00f614e70fa1c3fbe5fffc6) ([leela-zero](https://github.com/leela-zero/leela-zero))
 
 ## Resources
 - [Study E-Book (Computer Vision Deep Learning Machine Learning Math NLP Python Reinforcement Learning)](https://github.com/changwookjun/StudyBook)
