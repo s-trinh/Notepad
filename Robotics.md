@@ -347,6 +347,8 @@
 - [KUKA robots](https://robodk.com/doc/en/Robots-KUKA.html)
 - [Simple kinematics for mobile robot](https://husarion.com/tutorials/ros-tutorials/3-simple-kinematics-for-mobile-robot/)
 - [New Strategy to Approach the Inverse Kinematics Model for Manipulators with Rotational Joints, José-Emilio Vargas-Soto, Efren Gorrostieta-Hurtado, Saúl Tovar-Arriaga, Jesus Carlos Pedraza-Ortega, Juan-Manuel Ramos-Arreguin, Published 2016, https://doi.org/10.5772/63541](https://www.semanticscholar.org/paper/New-Strategy-to-Approach-the-Inverse-Kinematics-for-Vargas-Soto-Gorrostieta-Hurtado/0b29433226a62c061f88bf8259f7578337868efa) ([book chapter](https://www.intechopen.com/books/automation-and-control-trends/new-strategy-to-approach-the-inverse-kinematics-model-for-manipulators-with-rotational-joints))
+- [Kinematics and dynamics solvers and controllers](https://github.com/roboticslab-uc3m/kinematics-dynamics)
+- [Tasks - The Tasks library is designed to make real-time control for kinematics tree and list of kinematics tree](https://github.com/jrl-umi3218/Tasks)
 
 ## Control
 - [Six-DOF impedance control based on angle/axis representations, Fabrizio Caccavale, Ciro Natale, Bruno Siciliano, Luigi Villani, Published in IEEE Trans. Robotics and Automation 1999, https://doi.org/10.1109/70.760350](https://www.semanticscholar.org/paper/Six-DOF-impedance-control-based-on-angle%2Faxis-Caccavale-Natale/02d3ebdc572a74d5a5094ca0e462543b214ad9b7)
