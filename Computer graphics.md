@@ -92,3 +92,7 @@
 
 ### Shaders
 - [https://www.shadertoy.com/](https://www.shadertoy.com/)
+
+### Misc
+- [Voxelium](https://voxelium.wordpress.com/)
+- [https://jessekaukonen.net/](https://jessekaukonen.net/)
