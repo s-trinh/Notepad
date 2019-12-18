@@ -45,6 +45,10 @@
 - [Global optimal searching for textureless 3D object tracking, Guofeng Wang, Bin Wang, Fan Zhong, Xueying Qin, Baoquan Chen, Published in The Visual Computer 2015, https://doi.org/10.1007/s00371-015-1098-7](https://www.semanticscholar.org/paper/Global-optimal-searching-for-textureless-3D-object-Wang-Wang/b078d466fd9e6d02e0709291adcdd5ad16433f24)
 - [Pose optimization in edge distance field for textureless 3D object tracking, Bin Wang, Fan Zhong, Xueying Qin, Published in CGI 2017, https://doi.org/10.1145/3095140.3095172](https://www.semanticscholar.org/paper/Pose-optimization-in-edge-distance-field-for-3D-Wang-Zhong/61736617ae1eb5483a3b8b182815ab6c59bf4939)
 
+### Trash
+- [Robust Model Based Tracking Through Fusion of Optical Flow and Eege Tracking Techniques, Dario Mora, G Prisco, M Avilés, P Colmenarejo](https://www.researchgate.net/publication/320281164_ROBUST_MODEL_BASED_TRACKING_THROUGH_FUSION_OF_OPTICAL_FLOW_AND_EDGE_TRACKING_TECHNIQUES)
+- [Robust Model-Based Tracking for Active Debris Removal and Autonomous RendezVous, Dario Mora and Marcos Avilés](https://robotics.estec.esa.int/i-SAIRAS/isairas2018/Papers/Session%208b/1_iSairasRobust-43-69-Avil%C3%A9s-Marcos.pdf)
+
 ### Report
 - [Model Based Tracking for Augmented Realityon Mobile Devices, Michael Lowney, Abhilash Sunder Raj](https://web.stanford.edu/class/ee368/Project_Autumn_1617/Reports/report_lowney_raj.pdf)
 
