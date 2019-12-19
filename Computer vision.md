@@ -187,6 +187,7 @@
 - [Direct pose estimation for planar objects, Po-Chen Wu, Hung-Yu Tseng, Ming-Hsuan Yang, Shao-Yi Chien, Published in Computer Vision and Image Understanding 2018, https://doi.org/10.1016/j.cviu.2018.03.006](https://www.semanticscholar.org/paper/Direct-pose-estimation-for-planar-objects-Wu-Tseng/665acd12a050821b5d629df94f7d28216ebeacc3) ([code](https://github.com/pcwu0329/DPE), [project](http://media.ee.ntu.edu.tw/research/DPE/), [pdf](http://media.ee.ntu.edu.tw/personal/pcwu/research/cviu2018_dpe/cviu2018_dpe.pdf))
 - [Object Pose Estimation in Robotics Using a Low-Cost RGB-D Camera, Alexander Ganslandt & Andreas Svensson](http://fileadmin.cs.lth.se/cs/Education/edan70/AIProjects/2017/slides/GranslandtSvensson.pdf)
 - [A Benchmark Dataset for 6DoF Object Pose Tracking, Po-Chen Wu, Yueh-Ying Lee, Hung-Yu Tseng, Hsuan-I Ho, Ming-Hsuan Yang, Shao-Yi Chien, IEEE International Symposium on Mixed and Augmented Reality (ISMAR-Adjunct) (2017), https://doi.org/10.1109/ismar-adjunct.2017.62](https://www.semanticscholar.org/paper/%5BPOSTER%5D-A-Benchmark-Dataset-for-6DoF-Object-Pose-Wu-Lee/26a5b03b8584541776e129a48770b76bfc9a92a8)
+- [CorNet: Generic 3D Corners for 6D Pose Estimation of New Objects without Retraining, Giorgia Pitteri, S. Ilic, Vincent Lepetit](https://www.semanticscholar.org/paper/CorNet%3A-Generic-3D-Corners-for-6D-Pose-Estimation-Pitteri-Ilic/734af7724f76a9a46472f39908685bac02fa8e73)
 
 ## Rendezvous / Docking
 - [Monocular Pose and Shape Estimation of Moving Targets, for Autonomous Rendezvous and Docking, Sean Augenstein (PhD Thesis)](https://web.stanford.edu/group/arl/publications/monocular-pose-and-shape-estimation-moving-targets-autonomous-rendezvous-and-docking) ([pdf](https://web.stanford.edu/group/arl/cgi-bin/drupal/sites/default/files/public/publications/Augenstein%202011.pdf))
@@ -360,6 +361,9 @@
 - [A New Formulation for Non-Linear Camera Calibration Using Virtual Visual Servoing, Eric A. Marchand, François Chaumette, Published 2001](https://www.semanticscholar.org/paper/A-New-Formulation-for-Non-Linear-Camera-Calibration-Marchand-Chaumette/ede2076d09cdd94adfc554261c511fc5ae85fffb) ([HAL](https://hal.inria.fr/inria-00072535))
 - [MixCam (Inria)](http://perception.inrialpes.fr/MixCam/)
 - [Calibration between depth and color sensors for commodity depth cameras, Cha Zhang, Zhengyou Zhang, IEEE International Conference on Multimedia and Expo (2011), https://doi.org/10.1109/icme.2011.6012191](https://www.semanticscholar.org/paper/Calibration-between-depth-and-color-sensors-for-Zhang-Zhang/5a74ac9c79a60265cc67bc354ef7b08a4a3eca35) ([pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.221.5181&rep=rep1&type=pdf))
+- [Calibration Wizard: A Guidance System for Camera Calibration, Songyou Peng, Peter Sturm, Published in ICCV 2018](https://www.semanticscholar.org/paper/Calibration-Wizard%3A-A-Guidance-System-for-Camera-Peng-Sturm/4fa39fe6ee89967992f28c699ca9b20fef95848b) ([code](https://github.com/pengsongyou/CalibrationWizard))
+- [Efficient Pose Selection for Interactive Camera Calibration, Pavel Rojtberg, Arjan Kuijper](https://arxiv.org/abs/1907.04096)
+- [Informed Data Selection ForDynamic Multi-Camera Clusters, Arun Das](https://uwspace.uwaterloo.ca/bitstream/handle/10012/13575/Das_Arun.pdf)
 
 ## Stereo Matching / Stereo Vision
 - [Segment-based Disparity Refinement with Occlusion Handling for Stereo Matching](https://github.com/TingmanYan/SDR) ([IEEE Xplore](https://ieeexplore.ieee.org/document/8661596))
