@@ -109,6 +109,7 @@
   - [Course Notes on IMUs](https://stanford.edu/class/ee267/notes/ee267_notes_imu.pdf)
   - [Course Notes on Tracking](https://stanford.edu/class/ee267/notes/ee267_notes_tracking.pdf)
 - [CS231B: The Cutting Edge of Computer Vision - Spring 2015 (Stanford University)](http://vision.stanford.edu/teaching/cs231b_spring1415/)
+- [UNIK4690 – Maskinsyn (Vår 2017)](https://www.uio.no/studier/emner/matnat/its/nedlagte-emner/UNIK4690/v17/forelesninger/)
 
 ## Workshop
 - [Bay Area Vision Meeting 2014 - Hosted by Computational Vision and Geometry Lab](http://cvgl.stanford.edu/BAVM14/) ([Index Of](http://cvgl.stanford.edu/BAVM14/slides/))
@@ -380,6 +381,11 @@
 - [Single View Stereo](http://www.bauva.com/blog/Single-View-Stereo/)
 - [Stereo Camera](https://walchko.github.io/blog/Vision/stereo-vision/stereo.html)
 - [3D Scene Reconstruction with Multi-layer Depth and Epipolar Transformers, Daeyun Shin, Zhile Ren, Erik Sudderth, Charless Fowlkes, University of California, Irvine, In ICCV, 2019](https://research.dshin.org/iccv19/multi-layer-depth/)
+
+## Triangulation
+- [Triangulation., Hartley, R.I., Sturm, P., Computer Vision and Image Understanding 68(2), 146–157 (1997)](http://users.cecs.anu.edu.au/~hartley/Papers/triangulation/triangulation.pdf) ([pdf version 2](https://perception.inrialpes.fr/Publications/1997/HS97/HartleySturm-cviu97.pdf))
+- [Efficient Three-view Triangulation Based on 3D Optimization, Klas Nordberg, Published in BMVC 2008, https://doi.org/10.5244/C.22.19](https://www.semanticscholar.org/paper/Efficient-Three-view-Triangulation-Based-on-3D-Nordberg/86843f30beb95f2c96259f0c4641086bdc2807d9) ([pdf](http://www.bmva.org/bmvc/2008/papers/57.pdf))
+- [Lecture 7.2 Triangulation, Thomas Opsahl, UNIK](https://www.uio.no/studier/emner/matnat/its/nedlagte-emner/UNIK4690/v16/forelesninger/lecture_7_2-triangulation.pdf)
 
 ## Underwater
 - [Fast Underwater Image Enhancement for Improved Visual Perception, Md Jahidul Islam, Youya Xia, Junaed Sattar, Published in ArXiv 2019](https://www.semanticscholar.org/paper/Fast-Underwater-Image-Enhancement-for-Improved-Islam-Xia/66fe41a19f8c46fe06864a4427e176a78450d6af)
