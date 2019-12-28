@@ -149,3 +149,4 @@ __attribute__((optimize("O0")))
 ### C++
 - [Lazy Initialisation in C++](https://www.bfilipek.com/2019/10/lazyinit.html)
 - [Bartek's coding blog - C++ and native programming stories.](https://www.bfilipek.com/)
+- [C++ Tips of the Week](https://abseil.io/tips/)
