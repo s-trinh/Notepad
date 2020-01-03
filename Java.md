@@ -1,6 +1,9 @@
 ### Java JNI (ViSP Java binding)
 - documentation:
+  - [Java Native Methods, Alligator Descartes](http://www-igm.univ-mlv.fr/~dr/XPOSE2001/JNI/ressources/JNM_full.pdf)
   - [Java Native Interface, Ken Slonneger](http://homepage.divms.uiowa.edu/~slonnegr/wpj/JNI.pdf)
+  - [The Java™ Native Interface - Programmer’s Guide and Specification](https://www.fer.unizg.hr/_download/repository/jni.pdf)
+  - [Java Native Interface (JNI)](https://www3.ntu.edu.sg/home/ehchua/programming/java/JavaNativeInterface.html)
 - some possible interesting docs:
   - [JNI – C++ integration made easy, Evgeniy Gabrilovich, Lev Finkelstein](http://gabrilovich.com/publications/papers/cppr_jni.pdf)
   - [How to return a vector<Point> from a jni C++ function?](https://stackoverflow.com/questions/54398778/how-to-return-a-vectorpoint-from-a-jni-c-function/54399400#54399400)
