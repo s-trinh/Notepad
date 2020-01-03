@@ -150,3 +150,7 @@ __attribute__((optimize("O0")))
 - [Lazy Initialisation in C++](https://www.bfilipek.com/2019/10/lazyinit.html)
 - [Bartek's coding blog - C++ and native programming stories.](https://www.bfilipek.com/)
 - [C++ Tips of the Week](https://abseil.io/tips/)
+
+### PugiXML
+- [Warning: Number conversion functions depend on current C locale as set with setlocale, so may return unexpected results if the locale is different from "C".](https://pugixml.org/docs/manual.html#access.attrdata)
+- [`std::setlocale`](https://en.cppreference.com/w/cpp/locale/setlocale)
