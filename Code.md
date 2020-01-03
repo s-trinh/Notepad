@@ -140,6 +140,9 @@
 - [Sanitize, Fuzz, and Harden Your C++ Code, Kostya Serebryany](https://www.usenix.org/sites/default/files/conference/protected-files/enigma_slides_serebryany.pdf)
 - [Integrating sanitizer tools to CMake builds](http://www.stablecoder.ca/2018/02/01/analyzer-build-types.html)
 
+## Assembly
+- [Learning to Read x86 Assembly Language](https://dzone.com/articles/learning-to-read-x86-assembly-language)
+
 ## Docs
 - [MATLAB array manipulation tips and tricks](https://www.ee.columbia.edu/~marios/matlab/mtt.pdf)
 - [NumPy for MATLAB users](http://mathesaurus.sourceforge.net/matlab-numpy.html)
