@@ -1,4 +1,6 @@
 ### Java JNI (ViSP Java binding)
+- documentation:
+  - [Java Native Interface, Ken Slonneger](http://homepage.divms.uiowa.edu/~slonnegr/wpj/JNI.pdf)
 - some possible interesting docs:
   - [JNI – C++ integration made easy, Evgeniy Gabrilovich, Lev Finkelstein](http://gabrilovich.com/publications/papers/cppr_jni.pdf)
   - [How to return a vector<Point> from a jni C++ function?](https://stackoverflow.com/questions/54398778/how-to-return-a-vectorpoint-from-a-jni-c-function/54399400#54399400)
@@ -80,4 +82,3 @@
 
   </p>
   </details>
-  
