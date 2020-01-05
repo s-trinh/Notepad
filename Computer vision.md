@@ -470,6 +470,7 @@
 ## Tracking / 2D registration / 2D alignment
 - [Dense Subpixel Alignment of Binary Descriptors](https://www.cs.cmu.edu/~halismai/bitplanes/) ([BitPlanes](https://github.com/halismai/bitplanes))
 - [Bit-Planes: Dense Subpixel Alignment of Binary Descriptors, Hatem Alismail, Brett Browning, Simon Lucey, Published in ArXiv 2016](https://www.semanticscholar.org/paper/Bit-Planes%3A-Dense-Subpixel-Alignment-of-Binary-Alismail-Browning/99ec2aa72e29f50d7d0b7236ed6bec657d8e0983)
+- [Incremental Image Alignment Library](https://github.com/jmbuena/img_align_lib) ([uzhny007/img_align_lib](https://github.com/Nuzhny007/img_align_lib))
 
 ## Homography
 - [The Homography model](http://homepages.laas.fr/bvandepo/wiki/doku.php?id=homography)
