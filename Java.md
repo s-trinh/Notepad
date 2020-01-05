@@ -1,5 +1,7 @@
 ### Java JNI (ViSP Java binding)
 - documentation:
+  - [Chapter 3: JNI Types and Data Structures](https://docs.oracle.com/javase/8/docs/technotes/guides/jni/spec/types.html)
+  - [Chapter 4: JNI Functions](https://docs.oracle.com/javase/8/docs/technotes/guides/jni/spec/functions.html)
   - [Java Native Methods, Alligator Descartes](http://www-igm.univ-mlv.fr/~dr/XPOSE2001/JNI/ressources/JNM_full.pdf)
   - [Java Native Interface, Ken Slonneger](http://homepage.divms.uiowa.edu/~slonnegr/wpj/JNI.pdf)
   - [The Java™ Native Interface - Programmer’s Guide and Specification](https://www.fer.unizg.hr/_download/repository/jni.pdf)
@@ -9,8 +11,6 @@
   - [How to return a vector<Point> from a jni C++ function?](https://stackoverflow.com/questions/54398778/how-to-return-a-vectorpoint-from-a-jni-c-function/54399400#54399400)
   - [Wrapping a C++ library with JNI, part 4](https://thebreakfastpost.com/2012/03/06/wrapping-a-c-library-with-jni-part-4/)
   - [JNI (Java Native Interface)](https://www.jmdoudoux.fr/java/dej/chap-jni.htm)
-  - [JNI Functions](https://docs.oracle.com/javase/7/docs/technotes/guides/jni/spec/functions.html)
-  - [Java Programming Tutorial - Java Native Interface (JNI)](https://www3.ntu.edu.sg/home/ehchua/programming/java/JavaNativeInterface.html)
 - used references:
   - [[JNI] Retourner un tableau de String via JNI](https://www.developpez.net/forums/d183675/java/general-java/apis/jni-retourner-tableau-string-via-jni/#post1182317)
   <details><summary>code</summary>
