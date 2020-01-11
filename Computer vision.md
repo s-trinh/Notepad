@@ -110,6 +110,7 @@
   - [Course Notes on Tracking](https://stanford.edu/class/ee267/notes/ee267_notes_tracking.pdf)
 - [CS231B: The Cutting Edge of Computer Vision - Spring 2015 (Stanford University)](http://vision.stanford.edu/teaching/cs231b_spring1415/)
 - [UNIK4690 – Maskinsyn (Vår 2017)](https://www.uio.no/studier/emner/matnat/its/nedlagte-emner/UNIK4690/v17/forelesninger/)
+- [TI: Traitement d'images, Master IVI : Image-Vision-Interaction, Université de Lille](http://master-ivi.univ-lille1.fr/Cours/TI)
 
 ## Workshop
 - [Bay Area Vision Meeting 2014 - Hosted by Computational Vision and Geometry Lab](http://cvgl.stanford.edu/BAVM14/) ([Index Of](http://cvgl.stanford.edu/BAVM14/slides/))
