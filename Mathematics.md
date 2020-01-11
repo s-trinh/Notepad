@@ -9,3 +9,13 @@
 - [Condition Number](https://en.wikipedia.org/wiki/Condition_number)
 - [Low-Rank Approximation - Algorithms, Implementation, Applications, Ivan Markovsky, January 19, 2018](http://homepages.vub.ac.be/~imarkovs/book/book2e-2x1.pdf)
 - [Exact and Approximate Modeling of Linear Systems: A Behavioral Approach, Ivan Markovsky, Jan C. Willems, Sabine Van Huffel, Bart De Moor](http://homepages.vub.ac.be/~imarkovs/siam-book.pdf)
+
+### Linear Algebra
+- [Making sense of principal component analysis, eigenvectors & eigenvalues](https://stats.stackexchange.com/questions/2691/making-sense-of-principal-component-analysis-eigenvectors-eigenvalues)
+- [Lecture 13: Complex Eigenvalues & Factorization, Chao Cheng Huang](http://www.wright.edu/~chaocheng.huang/lecture/mth255/mth255lect13.pdf)
+- [Finding complex eigenvalues and its corresponding eigenvectors](https://math.stackexchange.com/questions/1879368/finding-complex-eigenvalues-and-its-corresponding-eigenvectors)
+- [The space where the kernel of a real square matrix is defined](https://math.stackexchange.com/questions/3133043/the-space-where-the-kernel-of-a-real-square-matrix-is-defined)
+- [Complex eigenvalues, eigenvectors - exam3anewsol.pdf](http://pi.math.cornell.edu/~web2310/exam3anewsol.pdf)
+
+### Linear Algebra (Course)
+- [Math 2310, Linear Algebra with Applications, Spring 2016, Cornell](http://pi.math.cornell.edu/~web2310/)
