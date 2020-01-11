@@ -135,6 +135,8 @@
 - [16-311 Introduction to Robotics (CMU)](https://www.cs.cmu.edu/afs/cs.cmu.edu/academic/class/16311/www/s16/)
 - [C4B - Mobile Robotics, Paul Michael Newman, October 2003, Version 1.00](http://www.isir.upmc.fr/UserFiles/File/clady_homepage/M2/C4BMobileRobots.pdf)
 - [ECE 5463 Introduction to Robotics, Wei Zhang (The Ohio State University)](http://www2.ece.ohio-state.edu/~zhang/RoboticsClass/)
+- [CS 3630: Introduction to Robotics and Perception, Gatech, Seth Hutchinson](https://www.cc.gatech.edu/~seth/Teaching/cs3630/index2018.php)
+  - [Visual Servoing - CS 3630 Introduction to Robotics and Perception, Frank Dellaert](https://piazza.com/class_profile/get_resource/hpa4u5hmxk59)
 
 ## Rotation interpolation and smoothing
 - [Interpolation schemes for rigid body motions, Milos Zefran and Vijay Kumar](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.25.1776&rep=rep1&type=pdf)
