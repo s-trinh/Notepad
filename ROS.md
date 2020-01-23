@@ -873,6 +873,14 @@ xmlrpcpp /opt/ros/kinetic/share/xmlrpcpp
 - Rename `~/catkin_ws/src/CMakeLists.txt` to `~/catkin_ws/src/CMakeLists.txt.symlink`
 - Copy the content of the file (`/opt/ros/kinetic/share/catkin/cmake/toplevel.cmake`) pointed in `~/catkin_ws/src/CMakeLists.txt.symlink` into a new `~/catkin_ws/src/CMakeLists.txt`
 - In a bash terminal with `source devel/setup.bash` set, launch QtCreator `~/Qt/Tools/QtCreator/bin/qtcreator &`
+- If issue to setup Qt Creator with `ROS catkin_make`:
+  - do not forget to start Qt Creator from the terminal
+  - try setting all the `package_DIR` in `.bashrc`
+  - try delete `build` and `devel` folders
+  - try move all src packages in a temporary folder
+  - then, try `catkin_make` from a "fraish" folder
+  - Qt Creator should be able to load the ROS `project`
+  - then, move back the src packages and `catkin_make`
   
 ## Docker
 - [How to use Docker (with ROS)](https://github.com/alecGraves/wiki/wiki/How-to-use-Docker-(with-ROS))
