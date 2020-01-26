@@ -506,6 +506,12 @@
 - [Canny Edge Detection (Matlab)](https://www.mathworks.com/matlabcentral/fileexchange/46859-canny-edge-detection)
 - [Canny edge detector algorithm matlab codes](https://people.eecs.berkeley.edu/~sastry/ee20/cacode.html)
 
+## Image Illumination Correction
+- [A variational-based fusion model for non-uniform illumination image enhancement via contrast optimization and color correction, Qi-Chong Tian, Laurent D. Cohen, Published in Signal Processing 2018, https://doi.org/10.1016/j.sigpro.2018.07.022](https://www.semanticscholar.org/paper/A-variational-based-fusion-model-for-non-uniform-Tian-Cohen/94e4b190bf539f5c6334a03cd53bf9d0f34685f9) ([pdf](https://www.ceremade.dauphine.fr/~cohen/mypapers/QiChongTianSignal%20Processing_2018December.pdf), [project page](https://www.ceremade.dauphine.fr/~tian/non-uniform-illumination-image-enhancement.html))
+- [Color Correction and Contrast Enhancement for Natural Images and Videos, Qi-Chong Tian, Thesis 2018](https://hal.inria.fr/tel-01923658v1) ([pdf](https://tel.archives-ouvertes.fr/tel-01923658/document))
+- [A New Image Contrast Enhancement Algorithm Using Exposure Fusion Framework, Zhenqiang Ying, Ge Li, Yurui Ren, Ronggang Wang, Wenmin Wang, Published in CAIP 2017, https://doi.org/10.1007/978-3-319-64698-5_4](https://www.semanticscholar.org/paper/A-New-Image-Contrast-Enhancement-Algorithm-Using-Ying-Li/4cafb8d2b09661bc629b98d94126f03787c31f3b) ([project page](https://baidut.github.io/OpenCE/caip2017.html), [code](https://github.com/baidut/OpenCE), [code 2](https://github.com/AndyHuang1995/Image-Contrast-Enhancement), [pdf](https://www.researchgate.net/publication/318730125_A_New_Image_Contrast_Enhancement_Algorithm_Using_Exposure_Fusion_Framework))
+- [Attention-guided Low-light Image Enhancement, Feifan Lv, Feng Lu, Published in ArXiv 2019](https://www.semanticscholar.org/paper/Attention-guided-Low-light-Image-Enhancement-Lv-Lu/3151ee4de6bf67ccba9b29565053720113ffaa85) ([ArXiv](https://arxiv.org/abs/1908.00682))
+
 ## Matlab
 - [Digital Image Processing Using MATLAB®, Rafael C. Gonzalez, Richard E. Woods, Steven L. Eddins](https://www.academia.edu/18324189/Digital_image_processing_using_matlab_gonzalez_)
 - [Digital Image Processing Using MATLAB®, Rafael C. Gonzalez, Richard E. Woods, Steven L. Eddins](http://web.ipac.caltech.edu/staff/fmasci/home/astro_refs/Digital_Image_Processing_2ndEd.pdf)
