@@ -151,6 +151,14 @@ __attribute__((optimize("O0")))
 - [Bartek's coding blog - C++ and native programming stories.](https://www.bfilipek.com/)
 - [C++ Tips of the Week](https://abseil.io/tips/)
 
-### PugiXML
+### PugiXML - C / C++ locale
 - [Warning: Number conversion functions depend on current C locale as set with setlocale, so may return unexpected results if the locale is different from "C".](https://pugixml.org/docs/manual.html#access.attrdata)
 - [`std::setlocale`](https://en.cppreference.com/w/cpp/locale/setlocale)
+- [`setlocale`](http://www.cplusplus.com/reference/clocale/setlocale/)
+- [how do I set the proper initial locale for a C++ program on Windows?](https://stackoverflow.com/questions/571359/how-do-i-set-the-proper-initial-locale-for-a-c-program-on-windows)
+- [How to get current locale of my environment?](https://stackoverflow.com/questions/12170488/how-to-get-current-locale-of-my-environment)
+- [getlocale() function in C](https://stackoverflow.com/questions/34345622/getlocale-function-in-c)
+- [C++ Set Locale across the entire program](https://stackoverflow.com/questions/25696396/c-set-locale-across-the-entire-program)
+- [24.3 Differences between the C Locale and the C++ Locales](https://stdcxx.apache.org/doc/stdlibug/24-3.html)
+- [recent change setlocale in baseapi.c causes Python loaded tesseract library to fail #1670](https://github.com/tesseract-ocr/tesseract/issues/1670)
+- [tess4j is not work on tesseract 4.0.0-beta.3-199-gba757 #10](https://github.com/nguyenq/tess4j/issues/106#issuecomment-437361950)
