@@ -25,3 +25,10 @@ Edge case but should not be an issue since the input points come from a RANSAC l
     pt.set_y(-0.032900930237001365);
     points.push_back(pt);
 ```
+
+## Misc
+- [Debian Bug report logs: Bugs in source package visp](https://bugs.debian.org/cgi-bin/pkgreport.cgi?src=visp)
+- [visp](https://tracker.debian.org/pkg/visp)
+- [Buildd status for visp (sid)](https://buildd.debian.org/status/package.php?p=visp)
+- [CDash](https://cdash-ci.inria.fr/index.php?project=ViSP)
+- [sonarqube](https://sonarqube.inria.fr/sonarqube/dashboard?id=rainbow%3Avisp%3Amaster)
