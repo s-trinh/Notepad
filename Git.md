@@ -47,6 +47,10 @@ git clone --recurse-submodules
 # Edit .gitmodules file
 git submodule sync
 ```
+- [Restore git submodules from .gitmodules](https://stackoverflow.com/questions/11258737/restore-git-submodules-from-gitmodules/11258810#11258810):
+```
+git submodule add <url> <path>
+```
 - [Git clone recursive over https](https://stackoverflow.com/questions/11410017/git-submodule-update-over-https/11410074#11410074):
 ```
 Edit your `.gitmodule` file
