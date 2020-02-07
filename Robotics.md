@@ -277,6 +277,11 @@
 - [Rotation Quaternions, and How to Use Them](http://danceswithcode.net/engineeringnotes/quaternions/quaternions.html)
 - [the exponential map in the quaternion #19](https://github.com/KieranWynn/pyquaternion/issues/19)
 
+## Rotation (Mathematics Stack Exchange)
+- [Rotation distance](https://math.stackexchange.com/questions/3028462/rotation-distance/3055419#3055419)
+- [jacobian involving SO(3) exponential map: log(𝑅exp(𝑚))](https://math.stackexchange.com/questions/301533/jacobian-involving-so3-exponential-map-logr-expm/2221516#2221516)
+- [Derivative of quaternions](https://math.stackexchange.com/questions/1870305/derivative-of-quaternions/3055371#3055371)
+
 ## IMU
 - [Non-linear Complementary Filters on the Special Orthogonal Group, Robert E. Mahony, Tarek Hamel, Jean Michel Pflimlin, Published in IEEE Transactions on Automatic Control 2008, https://doi.org/10.1109/tac.2008.923738](https://www.semanticscholar.org/paper/Nonlinear-Complementary-Filters-on-the-Special-Mahony-Hamel/b26c3142bc296b7642a5e5300cd53b5adf000f84) ([HAL](https://hal.archives-ouvertes.fr/hal-00488376))
 - [An efficient orientation filter for inertial and inertial / magnetic sensor arrays, Sebastian O. H. Madgwick, Published 2010](https://www.semanticscholar.org/paper/An-efficient-orientation-filter-for-inertial-and-%2F-Madgwick/bfb456caf5e71d426bd3e2fd529ee833a6c3b7e7) ([pdf](http://x-io.co.uk/res/doc/madgwick_internal_report.pdf))
