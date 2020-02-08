@@ -30,5 +30,7 @@ Edge case but should not be an issue since the input points come from a RANSAC l
 - [Debian Bug report logs: Bugs in source package visp](https://bugs.debian.org/cgi-bin/pkgreport.cgi?src=visp)
 - [visp](https://tracker.debian.org/pkg/visp)
 - [Buildd status for visp (sid)](https://buildd.debian.org/status/package.php?p=visp)
+- [https://launchpad.net/visp](https://launchpad.net/visp)
+- [https://launchpad.net/ubuntu/+source/visp](https://launchpad.net/ubuntu/+source/visp)
 - [CDash](https://cdash-ci.inria.fr/index.php?project=ViSP)
 - [sonarqube](https://sonarqube.inria.fr/sonarqube/dashboard?id=rainbow%3Avisp%3Amaster)
