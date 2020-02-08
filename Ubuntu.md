@@ -176,3 +176,10 @@ sudo apt-get install -f
 # or
 sudo apt install /path/to/deb/file
 ```
+
+### Packaging System
+- [Where can I find the configure options used to build a package?](https://askubuntu.com/questions/48499/where-can-i-find-the-configure-options-used-to-build-a-package)
+- [Where are the compiler switches used for gcc documented?](https://askubuntu.com/questions/1024677/where-are-the-compiler-switches-used-for-gcc-documented)
+- [DistCompilerFlags](https://wiki.ubuntu.com/DistCompilerFlags)
+- [openblas package in Ubuntu](https://launchpad.net/ubuntu/+source/openblas)
+- [Build logs for openblas (Debian Package Auto-Building)](https://buildd.debian.org/status/logs.php?pkg=openblas)
