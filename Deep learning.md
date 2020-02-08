@@ -119,6 +119,9 @@
 - [MLPerf](https://mlperf.org/)
 - [sotabench](https://sotabench.com/)
 
+## Company
+- [Myrtle.ai](https://myrtle.ai/)
+
 ## Books
 - [Deep Learning book](http://www.deeplearningbook.org/)
 - [Reinforcement Learning: An Introduction, Richard S. Sutton and Andrew G. Barto, Second Edition, MIT Press, Cambridge, MA, 2018](http://incompleteideas.net/book/the-book-2nd.html) ([pdf](http://incompleteideas.net/book/RLbook2018.pdf), [Google Drive](https://drive.google.com/file/d/1opPSz5AZ_kVa1uWOdOiveNiBFiEOHjkG/view))
@@ -132,6 +135,15 @@
 - [Interviews with Machine Learning Heroes](https://hackernoon.com/interviews-with-machine-learning-heroes-504762ba5dd6)
 - [Anatomy of a High-Speed Convolution](https://sahnimanas.github.io/post/anatomy-of-a-high-performance-convolution/)
 - [Benchmarking Transformers: PyTorch and TensorFlow](https://medium.com/huggingface/benchmarking-transformers-pytorch-and-tensorflow-e2917fb891c2)
+- [https://twitter.com/ID_AA_Carmack/status/1211307201324826630](https://twitter.com/ID_AA_Carmack/status/1211307201324826630):
+  - [How to Train Your ResNet 1: Baseline](https://myrtle.ai/how-to-train-your-resnet-1-baseline/)
+  - [How to Train Your ResNet 2: Mini-batches](https://myrtle.ai/how-to-train-your-resnet-2-mini-batches/)
+  - [How to Train Your ResNet 3: Regularisation](https://myrtle.ai/how-to-train-your-resnet-3-regularisation/)
+  - [How to Train Your ResNet 4: Architecture](https://myrtle.ai/how-to-train-your-resnet-4-architecture/)
+  - [How to Train Your ResNet 5: Hyperparameters](https://myrtle.ai/how-to-train-your-resnet-5-hyperparameters/)
+  - [How to Train Your ResNet 6: Weight Decay](https://myrtle.ai/how-to-train-your-resnet-6-weight-decay/)
+  - [How to Train Your ResNet 7: Batch Norm](https://myrtle.ai/how-to-train-your-resnet-7-batch-norm/)
+  - [My home-made CUDA kernel for convolutions (Rémi Coulom - Kayufu)](https://www.game-ai-forum.org/viewtopic.php?f=21&t=694)
 
 ## Papers
 - [Deep Learning Resources (DL4J)](https://deeplearning4j.org/cn/deeplearningpapers)
