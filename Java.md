@@ -85,3 +85,84 @@
 
   </p>
   </details>
+  
+#### Code
+- [Returning String array from C program to Java(JNI) ](https://coderanch.com/t/326467/java/Returning-String-array-program-Java):
+  <details><summary>code</summary>
+  <p>
+
+  ```
+    #include <jni.h>
+    #include "ArrayHandler.h"
+
+    JNIEXPORT jobjectArray JNICALL Java_ArrayHandler_returnArray(JNIEnv *env, jobject jobj) {    
+      char *message[5]= {"first", 
+                         "second", 
+                         "third", 
+                         "fourth", 
+                         "fifth"};
+
+      jobjectArray ret = (jobjectArray)env->NewObjectArray(5,
+                          env->FindClass("java/lang/String"),
+                          env->NewStringUTF(""));
+
+      for(int i = 0; i < 5; i++) {
+          env->SetObjectArrayElement(ret,i,env->NewStringUTF(message[i]));
+      }
+      return(ret);
+    }
+  ```
+
+  </p>
+  </details>
+
+- [Return a String array on a JNI method](https://stackoverflow.com/questions/6047166/return-a-string-array-on-a-jni-method)
+- [How to return string array to java JNI](https://stackoverflow.com/questions/52554379/how-to-return-string-array-to-java-jni)
+- [jstring return in JNI program](https://stackoverflow.com/questions/13796786/jstring-return-in-jni-program)
+  <details><summary>code</summary>
+  <p>
+
+  ```
+  JNIEXPORT jstring JNICALL Java_Sample1_stringMethod
+     (JNIEnv *env, jobject obj, jstring string) {
+
+   const char *name = (*env).GetStringUTFChars(env,string, NULL);
+   char msg[60] = "Hello ";
+   jstring result;
+
+   strcat(msg, name);  
+   (*env).ReleaseStringUTFChars(env,string, name);   
+   puts(msg);            
+   result = (*env).NewStringUTF(env,msg); 
+   return result;        
+   } 
+  ```
+
+  </p>
+  </details>
+
+### JNI
+- [Eliminating JNI overhead: tricks and trade-offs](https://web.archive.org/web/20190409013449/https://thinkingandcomputing.com/posts/eliminating-jni-overhead.html)
+- [passing primitives array from Java to C and back](http://jnicookbook.owsiak.org/recipe-No-013/)
+- [What makes JNI calls slow?](https://stackoverflow.com/questions/7699020/what-makes-jni-calls-slow)
+- [Is the native method expensive? JNI Secret Extension](https://sudonull.com/post/111632-Is-the-native-method-expensive-JNI-Secret-Extension)
+- [JNI Performance - Welcome to the dark side](http://normanmaurer.me/blog/2014/01/07/JNI-Performance-Welcome-to-the-dark-side/)
+- [JNI is (Not) Your Friend](https://nachtimwald.com/2017/07/09/jni-is-not-your-friend/)
+- [Java app calls C++ DLL via JNI; how best to allocate memory?](https://stackoverflow.com/questions/7700446/java-app-calls-c-dll-via-jni-how-best-to-allocate-memory)
+- [Efficient JNI programming, part I](https://rkennke.wordpress.com/2007/07/20/efficient-jni-programming-part-i/)
+
+### JNI and array
+- [JNI array access benchmark](https://gist.github.com/apangin/af70e39b25e578d13484e937c66c7985)
+- [JNI accessing array of array](https://stackoverflow.com/questions/50864027/jni-accessing-array-of-array)
+- [JNI DeleteLocalRef Clarification](https://stackoverflow.com/questions/24289724/jni-deletelocalref-clarification)
+- [What's the trade-off between using GetPrimitiveArrayCritical and Get<PrimitiveType>ArrayRegion?](https://stackoverflow.com/questions/23258357/whats-the-trade-off-between-using-getprimitivearraycritical-and-getprimitivety)
+- [jni - Slow processing in native](https://stackoverflow.com/questions/35529437/jni-slow-processing-in-native)
+- [JNI- unpinned primitve array error](https://stackoverflow.com/questions/35186512/jni-unpinned-primitve-array-error/35529203#35529203)
+- [JVM Anatomy Quark #9: JNI Critical and GC Locker](https://shipilev.net/jvm/anatomy-quarks/9-jni-critical-gclocker/)
+
+### Tutorials / Courses
+- [JNI – Java Native Interface](https://electrofriends.com/category/articles/jni/)
+- [Java Native Interface (JNI) - Essential Books](https://www.programming-books.io/essential/java/java-native-interface-jni-e4ecbdd24cc14fe5bfa8fd658d08f5c9)
+- [Lecture 5: Introduction to JNI](http://statweb.stanford.edu/~naras/java/course/lec5/lec5.html)
+- [The Java Native Interface (JNI) - IBM](https://www.ibm.com/support/knowledgecenter/SSB23S_1.1.0.2019/com.ibm.java.vm.80.doc/docs/jni.html)
+- [JNI tips](https://developer.android.com/training/articles/perf-jni)
