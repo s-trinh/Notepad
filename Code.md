@@ -91,6 +91,14 @@
   - [Reducing Cache Miss Penalty - Multilevel caches, critical work first, reads priority over writes, merging write buffer](http://www.taoli.ece.ufl.edu/teaching/fall06/private/lectures/eel5764-lec05-part3.pdf)
   - [COMP303 - ComputerArchitecture - Lecture15 - Calculating and Improving Cache Performance](http://home.ku.edu.tr/comp303/public_html/Lecture15.pdf)
   - [Cache Associativity](http://csillustrated.berkeley.edu/PDFs/handouts/cache-3-associativity-handout.pdf)
+- [Prefetching Techniques](http://home.eng.iastate.edu/~zzhang/cpre581/lectures/Lecture17-1p.pdf)
+  
+## Profiling
+- [Profiling CPU and memory on Linux,with opensource graphical tools, Embedded Linux Conference and Open Source Summit, Lyon, October 29, 2019, Presented by David Faure](https://elinux.org/images/3/30/Tooling.pdf)
+- [heaptrack - a heap memory profiler for Linux](https://github.com/KDE/heaptrack)
+- [Hotspot - the Linux perf GUI for performance analysis](https://github.com/KDAB/hotspot)
+- [Profiling CPU and Memory on Linux, with Opensource Graphical Tools - David Faure, KDAB](https://www.youtube.com/watch?v=HOR4LiS4uMI&list=PLbzoR-pLrL6pamOj4UifcMJf560Ph6mJp&index=41)
+- [A Programmer’s Guide to Performance Analysis & Tuning on Modern CPUs](https://www.bfilipek.com/2019/11/perfguidecpu.html)
 
 ## Matrix transpose
 - [An Efficient Matrix Transpose in CUDA C/C++](https://devblogs.nvidia.com/efficient-matrix-transpose-cuda-cc/)
@@ -114,6 +122,7 @@
 ## Benchmarks
 - [CppPerformanceBenchmarks](https://gitlab.com/chriscox/CppPerformanceBenchmarks)
 - [Pitfalls of TSC usage](http://oliveryang.net/2015/09/pitfalls-of-TSC-usage/)
+- [Comparing parallel Rust and C++](https://parallel-rust-cpp.github.io/)
 
 ## PRNG
 - [https://www.random.org/analysis/](https://www.random.org/analysis/)
