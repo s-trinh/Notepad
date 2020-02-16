@@ -20,6 +20,7 @@
 - [ACMS 40390: Fall 2016 - Numerical Analysis, Zhiliang Xu (University of Notre Dame)](https://www3.nd.edu/~zxu2/ACMS40390-F16.html)
 - [CSEP548: Computer Architecture by Prof. Luis Ceze with Liang Luo and Eddie Yan](https://courses.cs.washington.edu/courses/csep548/) ([CSE P 548: Computer Architecture - Autumn 2006](https://courses.cs.washington.edu/courses/csep548/06au/lectures.html))
 - [Advanced Computer Architectures - 088949, Prof. Cristina Silvano, Politecnico di Milano](http://home.deib.polimi.it/silvano/aca-milano.htm)
+- [CPRE 581: Computer Systems Architecture - Fall 2005, Zhao Zhang (Iowa State University)](http://home.eng.iastate.edu/~zzhang/cpre581/) ([Index of](http://home.eng.iastate.edu/~zzhang/cpre581/lectures/))
 
 ### High-Performance Computing
 - [Introduction to High-Performance Scientific Computing, Victor Eijkhout](http://pages.tacc.utexas.edu/~eijkhout/istc/html/)
