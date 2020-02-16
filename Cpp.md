@@ -162,3 +162,20 @@ __attribute__((optimize("O0")))
 - [24.3 Differences between the C Locale and the C++ Locales](https://stdcxx.apache.org/doc/stdlibug/24-3.html)
 - [recent change setlocale in baseapi.c causes Python loaded tesseract library to fail #1670](https://github.com/tesseract-ocr/tesseract/issues/1670)
 - [tess4j is not work on tesseract 4.0.0-beta.3-199-gba757 #10](https://github.com/nguyenq/tess4j/issues/106#issuecomment-437361950)
+
+### Runtime Compiled C++
+- [Runtime Compiled C++ sample code](https://github.com/RuntimeCompiledCPlusPlus/RuntimeCompiledCPlusPlus)
+- [RuntimeCompiledCPlusPlus Dear ImGui and DirectX11 Tutorial](https://github.com/dougbinks/RCCpp_DX11_Example)
+- [Runtime Compiled C++ Dear ImGui and DirectX11 Tutorial](https://www.enkisoftware.com/devlogpost-20200202-1-Runtime-Compiled-C++-Dear-ImGui-and-DirectX11-Tutorial)
+- [blink](https://github.com/crosire/blink)
+  
+## Profiling
+- [Profiling CPU and memory on Linux,with opensource graphical tools, Embedded Linux Conference and Open Source Summit, Lyon, October 29, 2019, Presented by David Faure](https://elinux.org/images/3/30/Tooling.pdf)
+- [heaptrack - a heap memory profiler for Linux](https://github.com/KDE/heaptrack)
+- [Hotspot - the Linux perf GUI for performance analysis](https://github.com/KDAB/hotspot)
+- [Profiling CPU and Memory on Linux, with Opensource Graphical Tools - David Faure, KDAB](https://www.youtube.com/watch?v=HOR4LiS4uMI&list=PLbzoR-pLrL6pamOj4UifcMJf560Ph6mJp&index=41)
+- [A Programmer’s Guide to Performance Analysis & Tuning on Modern CPUs](https://www.bfilipek.com/2019/11/perfguidecpu.html)
+
+## Conferences
+- [Open Source Summit & Embedded Linux Conference EU 2019 - Lyon](https://www.youtube.com/playlist?list=PLbzoR-pLrL6pamOj4UifcMJf560Ph6mJp)
+- [Learning the Linux Kernel Configuration Space: Results and Challenges - Mathieu Acher](https://www.youtube.com/watch?v=UBghs-cwQX4&list=PLbzoR-pLrL6pamOj4UifcMJf560Ph6mJp&index=84&t=0s)
