@@ -478,6 +478,9 @@
 - [Preconditioning a (DLT) Direct Linear Transform problem](https://math.stackexchange.com/questions/2343490/preconditioning-a-dlt-direct-linear-transform-problem)
 - [Homography Estimation, Elan Dubrofsky (Master Thesis)](https://www.cs.ubc.ca/grads/resources/thesis/May09/Dubrofsky_Elan.pdf)
 
+### Fundamental matrix
+- [Fundamental matrix estimation: A study of error criteria, Mohammed E. Fathy, Ashraf Saad Hussein, Mohamed F. Tolba, Published in Pattern Recognition Letters 2011, https://doi.org/10.1016/j.patrec.2010.09.019](https://www.semanticscholar.org/paper/Fundamental-matrix-estimation%3A-A-study-of-error-Fathy-Hussein/fe7ae3c4fba4ab3a0cb0a9181a16c5a0af106c41) ([arXiv](https://arxiv.org/abs/1706.07886))
+
 ## Halide
 - [An introduction to Halide](https://halide-lang.org/assets/lectures/Halide_CVPR_intro.pdf)
 - [Recursive filtering in Halide](https://halide-lang.org/assets/lectures/CVPR_Halide_RecursiveFiltering.pdf)
