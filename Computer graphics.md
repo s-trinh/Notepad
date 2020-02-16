@@ -89,6 +89,7 @@
 - [glMatrix - Javascript Matrix and Vector library for High Performance WebGL apps](https://github.com/toji/gl-matrix)
 - [Boost.Compute](https://github.com/boostorg/compute)
 - [Box2D - A 2D Physics Engine for Games](http://box2d.org/) ([Box2D](https://github.com/erincatto/Box2D))
+- [small3d - Tiny 3D Game Framework (C++)](https://www.gamedev.net/projects/515-small3d/) ([small3d](https://github.com/dimi309/small3d))
 
 ### Shaders
 - [https://www.shadertoy.com/](https://www.shadertoy.com/)
