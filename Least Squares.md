@@ -21,6 +21,8 @@
 ### Pose covariance
 - [How to Project 3D Covariance Matrix to a given Image Plan (Pose)](https://stackoverflow.com/questions/49239473/how-to-project-3d-covariance-matrix-to-a-given-image-plan-pose/49614280#49614280)
 - [Uncertainty on pose estimate when minimizing measurement errors](https://stackoverflow.com/questions/36618269/uncertainty-on-pose-estimate-when-minimizing-measurement-errors/36637529#36637529)
+- [solvePnP returns wrong result](https://stackoverflow.com/questions/14559382/solvepnp-returns-wrong-result/20911906#20911906)
+- [OpenCV projectPoints(): inconsistent covariance/standard deviation of estimated poses](https://stackoverflow.com/questions/48711052/opencv-projectpoints-inconsistent-covariance-standard-deviation-of-estimated)
 - [Transform SE3 pose covariance](https://math.stackexchange.com/questions/1996586/transform-se3-pose-covariance)
 - [Jacobian matrix of the Rodrigues' formula (exponential map)](https://math.stackexchange.com/questions/64253/jacobian-matrix-of-the-rodrigues-formula-exponential-map)
 - [Minimization on the Lie Group SO(3)](https://math.stackexchange.com/questions/180736/minimization-on-the-lie-group-so3)
